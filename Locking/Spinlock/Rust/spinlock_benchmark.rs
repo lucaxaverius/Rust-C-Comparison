@@ -20,6 +20,9 @@ module! {
     license: "GPL",
 }
 
+const NUM_WORK_ITEMS: u32 = 3;
+const NUM_ITERATIONS: u32 = 1000;
+
 struct SharedData {
     value: u32,
 }
@@ -56,9 +59,9 @@ impl LockTestModule {
         let spinlock = self.spinlock.clone();
 
         // Create spinlock work items
-        for i in 0..3 {
+        for i in 0..NUM_WORK_ITEMS {
             let work_item = SpinLockWork::new(spinlock.clone(), i)?;
-            let _ = workqueue::system_unbound().enqueue(work_item);
+            let _ = workqueue::system_long().enqueue(work_item);
         }
 
         Ok(())
@@ -85,6 +88,8 @@ struct SpinLockWork {
     #[pin]
     work: Work<SpinLockWork>,
     spinlock: Arc<Pin<Box<SpinLock<SharedData>>>>,
+    start: Ktime,
+    end: Ktime,
 }
 
 impl_has_work! {
@@ -111,22 +116,32 @@ impl WorkItem for SpinLockWork {
     type Pointer = Arc<Self>;
 
     fn run(this: Arc<Self>) {
-        pr_info!(
-            "Thread {} attempting to acquire spinlock\n",
-            this.thread_id
-        );
-        let mut guard = this.spinlock.lock();
-        pr_info!("Thread {} acquired spinlock\n", this.thread_id);
+        this.start = Ktime::ktime_get();
+
         // Simulate some operation
-        guard.value += 1;
-        pr_info!(
-            "Thread {} incremented value to: {}\n",
-            this.thread_id,
-            guard.value
-        );
-        // Simulate delay
-        simulate_delay(250);
-        pr_info!("Thread {} releasing spinlock\n", this.thread_id);
-        // Guard is dropped here
+        if this.thread_id == 0 {
+            guard.value += 1;
+        } else if this.thread_id == 1 {
+            guard.value += 2;
+        } else {
+            guard.value += 3;
+        
+        }
+
+        for _ in  0..NUM_ITERATIONS{
+
+            let mut guard = this.spinlock.lock();
+            
+            pr_info!("Work item {} acquired spinlock\n", this.thread_id);
+            
+            the_value = guard.value;
+            pr_info!("Work item {} incremented value to: {}\n", this.thread_id, the_value,);
+
+            pr_info!("Work item {} releasing spinlock\n", this.thread_id);
+            // Guard is dropped here
+        }
+        this.end = Ktime::ktime_get();
+        pr_info!("Work item {} completed \n. Execution time: {} ms", this.thread_id, ktime_ms_delta(this.end,this.start));
+
     }
 }
