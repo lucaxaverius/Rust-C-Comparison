@@ -1,11 +1,11 @@
-// linked_list_test.rs
-
 // SPDX-License-Identifier: GPL-2.0
 
 //! Linked List Test Module
 
 use kernel::prelude::*;
-use kernel::list::{List,ListArc};
+use kernel::list::*;
+use kernel::time::{Ktime, ktime_ms_delta};
+use kernel::{impl_has_list_links,impl_list_item,impl_list_arc_safe, pin_init};
 
 module! {
     type: ListBenchmarkModule,
@@ -18,29 +18,42 @@ module! {
 struct MyData {
     value: u32,
     links: ListLinks<0>,
+    tracker: AtomicTracker<0>, // Tracking mechanism for `ListArc`
 }
 
 impl MyData {
-    fn new(value: u32) -> Self {
-        Self {
+    // Pin initialization for `MyData`.
+    fn pin_init(value: u32) -> impl PinInit<Self> {
+        pin_init!(Self {
             value,
             links: ListLinks::new(),
-        }
+            tracker: AtomicTracker::new(),
+        })
     }
 }
 
-// Safety: Implement `ListItem` for `MyData`, enabling its use in a `List`.
-unsafe impl ListItem<0> for MyData {
-    fn links(&self) -> &ListLinks<0> {
-        &self.links
+// Declare that `MyData` has a `ListLinks` field.
+impl_has_list_links! {
+    impl HasListLinks<0> for MyData { self.links }
+}
+
+// Declare that `MyData` supports `ListArc`.
+impl_list_arc_safe! {
+    impl ListArcSafe<0> for MyData {
+        tracked_by tracker: AtomicTracker<0>;
     }
 }
+
+impl_list_item! {
+    impl ListItem<0> for MyData { using ListLinks; }
+}
+
 
 pub struct ListBenchmarkModule {
     list: List<MyData, 0>,
 }
 
-impl KernelModule for ListBenchmarkModule {
+impl kernel::Module for ListBenchmarkModule {
     fn init(_module: &'static ThisModule) -> Result<Self> {
         pr_info!("Initializing Rust linked list benchmark module...\n");
 
@@ -53,12 +66,14 @@ impl KernelModule for ListBenchmarkModule {
         const SEED: u32 = 12345;
         let mut seed = SEED;
 
-        let random_numbers: Vec<u32> = (0..NUM_ELEMENTS)
-            .map(|_| {
-                seed = next_pseudo_random32(seed);
-                seed
-            })
-            .collect();
+        let mut random_numbers = Vec::<u32, kernel::alloc::allocator::Kmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
+        .expect("Failed to allocate vector");
+    
+        for _ in 0..NUM_ELEMENTS {
+            seed = next_pseudo_random32(seed);
+            random_numbers.push(seed, GFP_KERNEL).expect("Failed to push to vector");
+        }
+        
 
         // Insert elements at the front of the list
         let start = Ktime::ktime_get();
@@ -98,16 +113,16 @@ impl KernelModule for ListBenchmarkModule {
     }
 }
 
-impl Drop for MyRustModule {
+impl Drop for ListBenchmarkModule {
     fn drop(&mut self) {
         pr_info!("Exiting Rust linked list benchmark module.\n");
     }
 }
 
-impl MyRustModule {
+impl ListBenchmarkModule {
     fn insert_front(&mut self, data: &[u32]) {
         for &value in data {
-            if let Ok(arc) = ListArc::new(MyData::new(value), Flags::ZERO) {
+            if let Ok(arc) = ListArc::pin_init(MyData::pin_init(value), GFP_KERNEL) {
                 self.list.push_front(arc);
             } else {
                 pr_err!("Failed to allocate ListArc for value: {}\n", value);
@@ -117,7 +132,7 @@ impl MyRustModule {
 
     fn insert_back(&mut self, data: &[u32]) {
         for &value in data {
-            if let Ok(arc) = ListArc::new(MyData::new(value), Flags::ZERO) {
+            if let Ok(arc) = ListArc::pin_init(MyData::pin_init(value), GFP_KERNEL) {
                 self.list.push_back(arc);
             } else {
                 pr_err!("Failed to allocate ListArc for value: {}\n", value);
@@ -126,8 +141,8 @@ impl MyRustModule {
     }
 
     fn remove_all(&mut self) {
-        while let Some(_) = self.list.pop_front() {
-            // Automatically drops the item when popped.
+        while let Some(item) = self.list.pop_front() {
+            drop(item); // Ensure the ListArc is properly released.
         }
     }
 }
