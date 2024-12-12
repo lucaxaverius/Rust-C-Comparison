@@ -1,18 +1,18 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
-#include <linux/mutex.h>
+#include <linux/spinlock.h>
 #include <linux/ktime.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Luca Saverio Esposito");
-MODULE_DESCRIPTION("Mutex Lock/Unlock Performance Test");
+MODULE_DESCRIPTION("SpinLock Lock/Unlock Performance Test");
 
 #define NUM_ITERATIONS 100000
 
-static struct mutex test_mutex;
+static spinlock_t test_spinlock;
 
-static int __init mutex_test_init(void)
+static int __init spinlock_test_init(void)
 {
     ktime_t start, end, lock_start, lock_end;
     s64 total_time_ns = 0, lock_time_ns = 0;
@@ -20,10 +20,10 @@ static int __init mutex_test_init(void)
     s64 elapsed_ns;
     int i;
 
-    pr_info("Initializing Mutex Lock/Unlock Performance Test...\n");
+    pr_info("Initializing spinlock Lock/Unlock Performance Test...\n");
 
-    // Initialize the mutex
-    mutex_init(&test_mutex);
+    // Initialize the spinlock
+    spinlock_init(&test_spinlock);
 
     // Record start time
     start = ktime_get();
@@ -31,8 +31,8 @@ static int __init mutex_test_init(void)
     for (i = 0; i < NUM_ITERATIONS; i++) {
         // Measure the time for lock/unlock cycle
         lock_start = ktime_get();
-        mutex_lock(&test_mutex);
-        mutex_unlock(&test_mutex);
+        spinlock_lock(&test_spinlock);
+        spinlock_unlock(&test_spinlock);
         lock_end = ktime_get();
 
         elapsed_ns = ktime_to_ns(ktime_sub(lock_end, lock_start));
@@ -50,7 +50,7 @@ static int __init mutex_test_init(void)
     total_time_ns = ktime_to_ns(ktime_sub(end, start));
 
     // Log results
-    pr_info("Mutex Test Completed\n");
+    pr_info("spinlock Test Completed\n");
     pr_info("Total time: %lld ns\n", total_time_ns);
     pr_info("Total lock/unlock time: %lld ns\n", lock_time_ns);
     pr_info("Average time per lock/unlock: %lld ns\n", lock_time_ns / NUM_ITERATIONS);
@@ -60,10 +60,10 @@ static int __init mutex_test_init(void)
     return 0;
 }
 
-static void __exit mutex_test_exit(void)
+static void __exit spinlock_test_exit(void)
 {
-    pr_info("Exiting Mutex Lock/Unlock Performance Test.\n");
+    pr_info("Exiting spinlock Lock/Unlock Performance Test.\n");
 }
 
-module_init(mutex_test_init);
-module_exit(mutex_test_exit);
+module_init(spinlock_test_init);
+module_exit(spinlock_test_exit);

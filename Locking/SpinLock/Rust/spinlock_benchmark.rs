@@ -3,24 +3,24 @@
 //! Test module for Mutex.
 
 use kernel::prelude::*;
-use kernel::sync::{Mutex, new_mutex};
+use kernel::sync::{Spinlock, new_spinlock};
 use kernel::time::{Ktime, ktime_to_ns};
 
 module! {
-    type: MutexTestModule,
-    name: "mutex_lock_test",
+    type: SpinlockTestModule,
+    name: "spinlock_lock_test",
     author: "Luca Saverio Esposito",
-    description: "Mutex Lock/Unlock Performance Test",
+    description: "Spinlock Lock/Unlock Performance Test",
     license: "GPL",
 }
 
-struct MutexTestModule;
+struct SpinlockTestModule;
 
-impl kernel::Module for MutexTestModule {
+impl kernel::Module for SpinlockTestModule {
     fn init(_module: &'static ThisModule) -> Result<Self> {
-        pr_info!("Initializing Mutex Lock/Unlock Performance Test...\n");
+        pr_info!("Initializing Spinlock Lock/Unlock Performance Test...\n");
 
-        let mutex = new_mutex!((), GFP_KERNEL);
+        let spinlock = new_spinlock!((), GFP_KERNEL);
         let num_iterations = 100_000;
         let mut total_lock_time = 0i64;
         let mut min_time = i64::MAX;
@@ -31,7 +31,7 @@ impl kernel::Module for MutexTestModule {
             let lock_start = Ktime::ktime_get();
 
             {
-                let _guard = mutex.lock(); // Lock and unlock the mutex
+                let _guard = spinlock.lock(); // Lock and unlock the spinlock
             }
 
             let lock_end = Ktime::ktime_get();
@@ -48,7 +48,7 @@ impl kernel::Module for MutexTestModule {
         let end = Ktime::ktime_get();
         let total_time = ktime_to_ns(end - start);
 
-        pr_info!("Mutex Test Completed\n");
+        pr_info!("Spinlock Test Completed\n");
         pr_info!("Total time: {} ns\n", total_time);
         pr_info!("Total lock/unlock time: {} ns\n", total_lock_time);
         pr_info!(
@@ -62,9 +62,9 @@ impl kernel::Module for MutexTestModule {
     }
 }
 
-impl Drop for MutexTestModule {
+impl Drop for SpinlockTestModule {
     fn drop(&mut self) {
-        pr_info!("Exiting Mutex Lock/Unlock Performance Test.\n");
+        pr_info!("Exiting Spinlock Lock/Unlock Performance Test.\n");
     }
 }
 
