@@ -5,7 +5,8 @@
 use kernel::prelude::*;
 use kernel::list::*;
 use kernel::time::{Ktime, ktime_ms_delta};
-use kernel::{impl_has_list_links,impl_list_item,impl_list_arc_safe, pin_init};
+use kernel::{impl_has_list_links, impl_list_item, impl_list_arc_safe};
+use kernel::macros::pin_data;
 
 module! {
     type: ListBenchmarkModule,
@@ -15,24 +16,29 @@ module! {
     license: "GPL",
 }
 
+/// Struct representing an item in the list.
+#[pin_data]
 struct MyData {
     value: u32,
-    links: ListLinks<0>,
-    tracker: AtomicTracker<0>, // Tracking mechanism for `ListArc`
+    #[pin] // Marking the field for pinning.
+    links: ListLinks<0>, // Links for list traversal.
+    #[pin] // Marking the field for pinning.
+    tracker: AtomicTracker<0>, // Tracking mechanism for `ListArc`.
 }
 
 impl MyData {
-    // Pin initialization for `MyData`.
-    fn pin_init(value: u32) -> impl PinInit<Self> {
-        pin_init!(Self {
+    /// Pin-initialization for `MyData`.
+    fn pin_init(value: u32) -> impl PinInit<Self, kernel::error::Error> {
+        try_pin_init!(Self {
             value,
-            links: ListLinks::new(),
-            tracker: AtomicTracker::new(),
+            links <- ListLinks::new(), // Use `<-` for in-place initialization.
+            tracker <- AtomicTracker::new(), // Use `<-` for in-place initialization.
         })
     }
 }
 
-// Declare that `MyData` has a `ListLinks` field.
+
+// Declare that `MyData` has `ListLinks`.
 impl_has_list_links! {
     impl HasListLinks<0> for MyData { self.links }
 }
@@ -44,13 +50,14 @@ impl_list_arc_safe! {
     }
 }
 
+// Declare that `MyData` is a valid `ListItem`.
 impl_list_item! {
     impl ListItem<0> for MyData { using ListLinks; }
 }
 
-
+/// Benchmark module for linked list operations.
 pub struct ListBenchmarkModule {
-    list: List<MyData, 0>,
+    list: List<MyData, 0>, // Linked list of `MyData`.
 }
 
 impl kernel::Module for ListBenchmarkModule {
@@ -61,21 +68,21 @@ impl kernel::Module for ListBenchmarkModule {
             list: List::new(),
         };
 
-        // Generate random numbers
-        const NUM_ELEMENTS: usize = 1000000;
+        // Generate random numbers.
+        const NUM_ELEMENTS: usize = 1_000_000;
         const SEED: u32 = 12345;
         let mut seed = SEED;
 
         let mut random_numbers = Vec::<u32, kernel::alloc::allocator::Kmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
-        .expect("Failed to allocate vector");
-    
+            .expect("Failed to allocate vector");
+
         for _ in 0..NUM_ELEMENTS {
             seed = next_pseudo_random32(seed);
             random_numbers.push(seed, GFP_KERNEL).expect("Failed to push to vector");
         }
-        
-
-        // Insert elements at the front of the list
+        // Print first 5 numbers.
+        ListBenchmarkModule::print_first_n(&random_numbers, 5);
+        // Insert elements at the front of the list.
         let start = Ktime::ktime_get();
         benchmark.insert_front(&random_numbers);
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
@@ -85,13 +92,13 @@ impl kernel::Module for ListBenchmarkModule {
             elapsed
         );
 
-        // Remove all elements
+        // Remove all elements.
         let start = Ktime::ktime_get();
         benchmark.remove_all();
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
         pr_info!("Time to remove all elements: {} ms\n", elapsed);
 
-        // Insert elements at the back of the list
+        // Insert elements at the back of the list.
         let start = Ktime::ktime_get();
         benchmark.insert_back(&random_numbers);
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
@@ -101,7 +108,7 @@ impl kernel::Module for ListBenchmarkModule {
             elapsed
         );
 
-        // Remove all elements
+        // Remove all elements.
         let start = Ktime::ktime_get();
         benchmark.remove_all();
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
@@ -120,6 +127,15 @@ impl Drop for ListBenchmarkModule {
 }
 
 impl ListBenchmarkModule {
+    /// Print first n data generated
+    fn print_first_n(data: &[u32], n: i32){
+        for i in 0..n {
+            let value = data.get(i as usize).expect("Value not found");
+            pr_info!("The {}-th element is: {}",i+1, value);
+        }
+    }
+
+    /// Insert elements at the front of the list.
     fn insert_front(&mut self, data: &[u32]) {
         for &value in data {
             if let Ok(arc) = ListArc::pin_init(MyData::pin_init(value), GFP_KERNEL) {
@@ -130,6 +146,7 @@ impl ListBenchmarkModule {
         }
     }
 
+    /// Insert elements at the back of the list.
     fn insert_back(&mut self, data: &[u32]) {
         for &value in data {
             if let Ok(arc) = ListArc::pin_init(MyData::pin_init(value), GFP_KERNEL) {
@@ -140,6 +157,7 @@ impl ListBenchmarkModule {
         }
     }
 
+    /// Remove all elements from the list.
     fn remove_all(&mut self) {
         while let Some(item) = self.list.pop_front() {
             drop(item); // Ensure the ListArc is properly released.

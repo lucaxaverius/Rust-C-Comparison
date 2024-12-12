@@ -89,3 +89,12 @@ fn generate_random_numbers(num_elements: usize, seed: u32) -> Result<Vec<u32>> {
 fn next_pseudo_random32(seed: u32) -> u32 {
     seed.wrapping_mul(1664525).wrapping_add(1013904223)
 }
+
+
+/// Function to print the first n generated number
+fn print_first_n(data: &[u32], n: i32){
+    for i in 0..n {
+        let value = data.get(i as usize).expect("Value not found");
+        pr_info!("The {}-th element is: {}",i+1, value);
+    }
+}

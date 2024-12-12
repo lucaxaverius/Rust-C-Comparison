@@ -34,6 +34,12 @@ static void generate_random_numbers(u32 *array, size_t size, u32 seed)
     }
 }
 
+// Just for debugging, print the first n elements generated
+static void print_first_n(u32 *array, int n){
+    for (int i =0; i < n; i++){
+        pr_info("C-List-Benchmark: The %d-th element is: %u", i+1, array[i]);
+    }
+}
 
 static void insert_front(int *data, size_t size)
 {
@@ -42,7 +48,7 @@ static void insert_front(int *data, size_t size)
     for (i = 0; i < size; i++) {
         item = kmalloc(sizeof(*item), GFP_KERNEL);
         if (!item) {
-            pr_err("Failed to allocate memory for list item\n");
+            pr_err("C-List-Benchmark: Failed to allocate memory for list item\n");
             return;
         }
         item->data = data[i];
@@ -57,7 +63,7 @@ static void insert_back(int *data, size_t size)
     for (i = 0; i < size; i++) {
         item = kmalloc(sizeof(*item), GFP_KERNEL);
         if (!item) {
-            pr_err("Failed to allocate memory for list item\n");
+            pr_err("C-List-Benchmark: Failed to allocate memory for list item\n");
             return;
         }
         item->data = data[i];
@@ -80,56 +86,59 @@ static int __init list_benchmark_init(void)
     ktime_t start, end;
     s64 elapsed_ns;
 
-    pr_info("Starting list_head benchmark module...\n");
+    pr_info("C-List-Benchmark: Starting list_head benchmark module...\n");
 
     /* Allocate memory for random numbers */
     random_numbers = kmalloc_array(NUM_ELEMENTS, sizeof(int), GFP_KERNEL);
     if (!random_numbers) {
-        pr_err("Failed to allocate memory for random numbers\n");
+        pr_err("C-List-Benchmark: Failed to allocate memory for random numbers\n");
         return -ENOMEM;
     }
 
     /* Generate random numbers */
     generate_random_numbers(random_numbers, NUM_ELEMENTS, SEED);
 
+    /* Print first 5 element in the list: */
+    print_first_n(random_numbers, 5);
+
     /* Insert at front */
     start = ktime_get();
     insert_front(random_numbers, NUM_ELEMENTS);
     end = ktime_get();
-    elapsed_ns = ktime_to_ns(ktime_sub(end, start));
-    pr_info("Time to insert %d elements at front: %lld ns\n", NUM_ELEMENTS, elapsed_ns);
+    elapsed_ns = ktime_to_ms(ktime_sub(end, start));
+    pr_info("C-List-Benchmark: Time to insert %d elements at front: %lld ms\n", NUM_ELEMENTS, elapsed_ns);
 
     /* Remove all elements */
     start = ktime_get();
     remove_all();
     end = ktime_get();
-    elapsed_ns = ktime_to_ns(ktime_sub(end, start));
-    pr_info("Time to remove all elements: %lld ns\n", elapsed_ns);
+    elapsed_ns = ktime_to_ms(ktime_sub(end, start));
+    pr_info("C-List-Benchmark: Time to remove all elements: %lld ms\n", elapsed_ns);
 
     /* Insert at back */
     start = ktime_get();
     insert_back(random_numbers, NUM_ELEMENTS);
     end = ktime_get();
-    elapsed_ns = ktime_to_ns(ktime_sub(end, start));
-    pr_info("Time to insert %d elements at back: %lld ns\n", NUM_ELEMENTS, elapsed_ns);
+    elapsed_ns = ktime_to_ms(ktime_sub(end, start));
+    pr_info("C-List-Benchmark: Time to insert %d elements at back: %lld ms\n", NUM_ELEMENTS, elapsed_ns);
 
     /* Remove all elements */
     start = ktime_get();
     remove_all();
     end = ktime_get();
-    elapsed_ns = ktime_to_ns(ktime_sub(end, start));
-    pr_info("Time to remove all elements: %lld ns\n", elapsed_ns);
+    elapsed_ns = ktime_to_ms(ktime_sub(end, start));
+    pr_info("C-List-Benchmark: Time to remove all elements: %lld ms\n", elapsed_ns);
 
     /* Free random numbers */
     kfree(random_numbers);
 
-    pr_info("Benchmark completed.\n");
+    pr_info("C-List-Benchmark: Benchmark completed.\n");
     return 0;
 }
 
 static void __exit list_benchmark_exit(void)
 {
-    pr_info("Exiting list_head benchmark module.\n");
+    pr_info("C-List-Benchmark: Exiting list_head benchmark module.\n");
 }
 
 module_init(list_benchmark_init);

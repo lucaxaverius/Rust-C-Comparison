@@ -34,6 +34,13 @@ static void generate_random_numbers(u32 *array, size_t size, u32 seed)
     }
 }
 
+// Just for debugging, print the first n elements generated
+static void print_first_n(u32 *array, int n){
+    for (int i =0; i < n; i++){
+        pr_info("C-RBTree-Benchmark: The %d-th element is: %u", i+1, array[i]);
+    }
+}
+
 /* Comparison function for rb_find */
 static int rb_key_cmp(const void *key, const struct rb_node *node)
 {
@@ -117,7 +124,7 @@ static int __init rbtree_benchmark_init(void)
     s64 elapsed_ns;
     size_t i;
 
-    pr_info("RBTree Benchmark Module init\n");
+    pr_info("C-RBTree-Benchmark: RBTree Benchmark Module init\n");
 
     /* Allocate memory for random keys */
     keys = kmalloc_array(NUM_ELEMENTS, sizeof(u32), GFP_KERNEL);
@@ -131,35 +138,35 @@ static int __init rbtree_benchmark_init(void)
     start = ktime_get();
     for (i = 0; i < NUM_ELEMENTS; i++) {
         if (!rbtree_insert(&tree_root, keys[i], keys[i])) {
-            pr_err("Failed to insert key %u\n", keys[i]);
+            pr_err("C-RBTree-Benchmark: Failed to insert key %u\n", keys[i]);
             kfree(keys);
             return -ENOMEM;
         }
     }
     end = ktime_get();
     elapsed_ns = ktime_to_ns(ktime_sub(end, start));
-    pr_info("Time to insert %lu elements: %lld ns\n", NUM_ELEMENTS, elapsed_ns);
+    pr_info("C-RBTree-Benchmark: Time to insert %lu elements: %lld ns\n", NUM_ELEMENTS, elapsed_ns);
 
     /* Benchmark search */
     start = ktime_get();
     for (i = 0; i < NUM_ELEMENTS; i++) {
         struct rbtest_node *node = rbtree_search(&tree_root, keys[i]);
         if (!node || node->key != keys[i]) {
-            pr_err("Key %u not found\n", keys[i]);
+            pr_err("C-RBTree-Benchmark: Key %u not found\n", keys[i]);
             kfree(keys);
             return -ENOENT;
         }
     }
     end = ktime_get();
     elapsed_ns = ktime_to_ns(ktime_sub(end, start));
-    pr_info("Average time to find an element: %lld ns\n", elapsed_ns / NUM_ELEMENTS);
+    pr_info("C-RBTree-Benchmark: Average time to find an element: %lld ns\n", elapsed_ns / NUM_ELEMENTS);
 
     /* Benchmark deletion */
     start = ktime_get();
     rbtree_clear(&tree_root);
     end = ktime_get();
     elapsed_ns = ktime_to_ns(ktime_sub(end, start));
-    pr_info("Time to delete all elements: %lld ns\n", elapsed_ns);
+    pr_info("C-RBTree-Benchmark: Time to delete all elements: %lld ns\n", elapsed_ns);
 
     /* Free the key array */
     kfree(keys);
@@ -170,7 +177,7 @@ static int __init rbtree_benchmark_init(void)
 static void __exit rbtree_benchmark_exit(void)
 {
     rbtree_clear(&tree_root);
-    pr_info("RBTree Benchmark Module exit\n");
+    pr_info("C-RBTree-Benchmark: RBTree Benchmark Module exit\n");
 }
 
 module_init(rbtree_benchmark_init);
