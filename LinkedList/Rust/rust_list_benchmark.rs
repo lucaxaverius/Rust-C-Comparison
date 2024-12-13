@@ -10,7 +10,7 @@ use kernel::macros::pin_data;
 
 module! {
     type: ListBenchmarkModule,
-    name: "rust_list_benchmark",
+    name: "Rust_List_Benchmark",
     author: "Luca Saverio Esposito",
     description: "Benchmark module for linked list operations in Rust",
     license: "GPL",

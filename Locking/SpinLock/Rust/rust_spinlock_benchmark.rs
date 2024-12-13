@@ -3,15 +3,29 @@
 //! Test module for Mutex.
 
 use kernel::prelude::*;
-use kernel::sync::{Spinlock, new_spinlock};
-use kernel::time::{Ktime, ktime_to_ns};
+use kernel::sync::{SpinLock, new_spinlock};
+use kernel::time::{Ktime, ktime_ms_delta};
 
 module! {
     type: SpinlockTestModule,
-    name: "spinlock_lock_test",
+    name: "Rust_SpinLock_Benchmark",
     author: "Luca Saverio Esposito",
     description: "Spinlock Lock/Unlock Performance Test",
     license: "GPL",
+}
+
+#[pin_data]
+struct Example {
+    #[pin]
+    s: SpinLock<()>,
+}
+
+impl Example {
+    fn new() -> impl PinInit<Self> {
+        pin_init!(Self {
+            s <- new_spinlock!(()),
+        })
+    }
 }
 
 struct SpinlockTestModule;
@@ -20,8 +34,9 @@ impl kernel::Module for SpinlockTestModule {
     fn init(_module: &'static ThisModule) -> Result<Self> {
         pr_info!("Initializing Spinlock Lock/Unlock Performance Test...\n");
 
-        let spinlock = new_spinlock!((), GFP_KERNEL);
-        let num_iterations = 100_000;
+        let spinlock = KBox::pin_init(Example::new(), GFP_KERNEL).expect("Failed during spinlock initialization");
+
+        let num_iterations = 1_000_000;
         let mut total_lock_time = 0i64;
         let mut min_time = i64::MAX;
         let mut max_time = i64::MIN;
@@ -31,11 +46,11 @@ impl kernel::Module for SpinlockTestModule {
             let lock_start = Ktime::ktime_get();
 
             {
-                let _guard = spinlock.lock(); // Lock and unlock the spinlock
+                let _guard = spinlock.s.lock(); // Lock and unlock the spinlock
             }
 
             let lock_end = Ktime::ktime_get();
-            let elapsed = ktime_to_ns(lock_end - lock_start);
+            let elapsed = ktime_ns_delta(lock_end, lock_start);
 
             total_lock_time += elapsed;
             if elapsed < min_time {
@@ -46,11 +61,11 @@ impl kernel::Module for SpinlockTestModule {
             }
         }
         let end = Ktime::ktime_get();
-        let total_time = ktime_to_ns(end - start);
+        let total_time_ms = ktime_ms_delta(end, start);
 
         pr_info!("Spinlock Test Completed\n");
-        pr_info!("Total time: {} ns\n", total_time);
-        pr_info!("Total lock/unlock time: {} ns\n", total_lock_time);
+        pr_info!("Total time: {} ms\n", total_time_ms);
+        pr_info!("Total lock/unlock time: {} ms\n", Ktime::from_raw(total_lock_time).to_ms());
         pr_info!(
             "Average time per lock/unlock: {} ns\n",
             total_lock_time / num_iterations as i64
@@ -68,3 +83,7 @@ impl Drop for SpinlockTestModule {
     }
 }
 
+/// Returns the difference between two ktimes in MS
+fn ktime_ns_delta(later: Ktime, earlier: Ktime)-> i64{
+    (later-earlier).to_ns()
+}

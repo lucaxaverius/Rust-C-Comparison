@@ -41,71 +41,86 @@ static void print_first_n(u32 *array, int n){
     }
 }
 
-/* Comparison function for rb_find */
-static int rb_key_cmp(const void *key, const struct rb_node *node)
-{
-    struct rbtest_node *rb_node = container_of(node, struct rbtest_node, node);
-    u32 node_key = rb_node->key;
 
-    if (*(u32 *)key < node_key)
+/* Comparison function for rb_find_add */
+static int rb_find_add_cmp(struct rb_node *new, const struct rb_node *node)
+{
+    struct rbtest_node *new_node = container_of(new, struct rbtest_node, node);
+    struct rbtest_node *existing_node = container_of(node, struct rbtest_node, node);
+
+    if (new_node->key < existing_node->key)
         return -1;
-    else if (*(u32 *)key > node_key)
+    else if (new_node->key > existing_node->key)
         return 1;
     else
         return 0;
 }
 
+
 /* Insert a node into the RBTree */
-static struct rbtest_node *rbtree_insert(struct rb_root *root, u32 key, u32 value)
+static int rbtree_insert(struct rb_root *root, u32 key, u32 value)
 {
-    struct rb_node **new = &(root->rb_node), *parent = NULL;
+    struct rbtest_node *new_node = kmalloc(sizeof(*new_node), GFP_KERNEL);
+    if (!new_node)
+        return -ENOMEM;
 
-    /* Traverse the tree to find the insertion point or existing node */
-    while (*new) {
-        struct rbtest_node *this = container_of(*new, struct rbtest_node, node);
-        parent = *new;
+    new_node->key = key;
+    new_node->value = value;
 
-        if (key < this->key)
-            new = &((*new)->rb_left);
-        else if (key > this->key)
-            new = &((*new)->rb_right);
-        else {
-            /* If a node with the same key exists, replace it and return the previous one*/
-            struct rbtest_node *previous = kmalloc(sizeof(*node), GFP_KERNEL);
-            if (!previous)
-                return NULL;
+    /* Try to find and add the node */
+    struct rb_node *found_node = rb_find_add(&new_node->node, root, rb_find_add_cmp);
 
-            /* Copy the node data*/
-            previous->key = this->key;
-            previous->value = this->value;
+    if (found_node) {
+        /* A node with the same key already exists */
+        struct rbtest_node *existing_node = container_of(found_node, struct rbtest_node, node);
 
-            /* Updating the node value*/
-            this->value = value;
-            return previous;
+        /* Create a copy of the existing node */
+        struct rbtest_node *previous_node = kmalloc(sizeof(*previous_node), GFP_KERNEL);
+        if (!previous_node) {
+            kfree(new_node); /* Free the newly allocated node */
+            return -ENOMEM;
         }
+
+        /* Copy the existing node's data */
+        *previous_node = *existing_node;
+
+        /* Update the existing node's value */
+        existing_node->value = value;
+
+        /* Free the newly allocated node (not needed anymore) */
+        kfree(new_node);
+
+        /* Indicate successful replacement */
+        return 1;
     }
 
-    /* Allocate and initialize a new node */
-    struct rbtest_node *node = kmalloc(sizeof(*node), GFP_KERNEL);
-    if (!node)
-        return NULL;
-
-    node->key = key;
-    node->value = value;
-
-    /* Link the new node and rebalance the tree */
-    rb_link_node(&node->node, parent, new);
-    rb_insert_color(&node->node, root);
-
-    return NULL;
+    /* Node was successfully added, return 0 */
+    return 0;
 }
+
+
+/* Comparison function for rb_find */
+static int rb_find_cmp(const void *key, const struct rb_node *node)
+{
+    struct rbtest_node *existing_node = container_of(node, struct rbtest_node, node);
+    u32 search_key = *(const u32 *)key;
+
+    if (search_key < existing_node->key)
+        return -1;
+    else if (search_key > existing_node->key)
+        return 1;
+    else
+        return 0;
+}
+
 
 /* Search for a node in the RBTree */
 static struct rbtest_node *rbtree_search(struct rb_root *root, u32 key)
 {
-    struct rb_node *found_node = rb_find(&key, root, rb_key_cmp);
+    struct rb_node *found_node = rb_find(&key, root, rb_find_cmp);
     return found_node ? container_of(found_node, struct rbtest_node, node) : NULL;
 }
+
 
 /* Remove all nodes from the RBTree */
 static void rbtree_clear(struct rb_root *root)
@@ -122,6 +137,7 @@ static int __init rbtree_benchmark_init(void)
     u32 *keys;
     ktime_t start, end;
     s64 elapsed_ns;
+    s64 elapsed_ms;
     size_t i;
 
     pr_info("C-RBTree-Benchmark: RBTree Benchmark Module init\n");
@@ -134,27 +150,34 @@ static int __init rbtree_benchmark_init(void)
     /* Generate random keys */
     generate_random_numbers(keys, NUM_ELEMENTS, SEED);
 
+    /* Print first 5 number for debugging*/
+    print_first_n(keys, 5);
+    
     /* Benchmark insertion */
     start = ktime_get();
     for (i = 0; i < NUM_ELEMENTS; i++) {
-        if (!rbtree_insert(&tree_root, keys[i], keys[i])) {
-            pr_err("C-RBTree-Benchmark: Failed to insert key %u\n", keys[i]);
+        int ret = rbtree_insert(&tree_root, keys[i], keys[i]);
+        if (ret < 0) {  // Check for errors only
+            pr_err("C-RBTree-Benchmark: Failed to insert key %u (error: %d)\n", keys[i], ret);
             kfree(keys);
-            return -ENOMEM;
+            return ret;
+        }
+        if (ret == 1) {
+            pr_info("C-RBTree-Benchmark: Replaced existing node with key %u\n", keys[i]);
         }
     }
     end = ktime_get();
-    elapsed_ns = ktime_to_ns(ktime_sub(end, start));
-    pr_info("C-RBTree-Benchmark: Time to insert %lu elements: %lld ns\n", NUM_ELEMENTS, elapsed_ns);
+    elapsed_ms = ktime_to_ms(ktime_sub(end, start));
+    pr_info("C-RBTree-Benchmark: Time to insert %lu elements: %lld ms\n", NUM_ELEMENTS, elapsed_ms);
 
     /* Benchmark search */
     start = ktime_get();
     for (i = 0; i < NUM_ELEMENTS; i++) {
         struct rbtest_node *node = rbtree_search(&tree_root, keys[i]);
-        if (!node || node->key != keys[i]) {
-            pr_err("C-RBTree-Benchmark: Key %u not found\n", keys[i]);
-            kfree(keys);
-            return -ENOENT;
+        if (!node) {
+            pr_err("C-RBTree-Benchmark: Search failed for key %u\n", keys[i]);
+        } else if (node->key != keys[i]) {
+            pr_err("C-RBTree-Benchmark: Key mismatch! Expected: %u, Found: %u\n", keys[i], node->key);
         }
     }
     end = ktime_get();
