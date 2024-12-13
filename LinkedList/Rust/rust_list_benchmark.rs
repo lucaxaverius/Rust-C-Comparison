@@ -80,6 +80,7 @@ impl kernel::Module for ListBenchmarkModule {
             seed = next_pseudo_random32(seed);
             random_numbers.push(seed, GFP_KERNEL).expect("Failed to push to vector");
         }
+        
         // Print first 5 numbers.
         ListBenchmarkModule::print_first_n(&random_numbers, 5);
         // Insert elements at the front of the list.

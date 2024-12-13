@@ -4,14 +4,14 @@
 
 use kernel::{
     prelude::*,
-    rbtree::{RBTree, RBTreeNode},
+    rbtree::{RBTree},
     time::Ktime,
-    alloc::{boxed::Box, flags},
+    alloc::flags,
 };
 
 module! {
     type: RBTreeBenchmarkModule,
-    name: "rb_tree_benchmark",
+    name: "Rust_RBTree_Benchmark",
     author: "Luca Saverio Esposito",
     description: "Benchmark for RBTree operations",
     license: "GPL",
@@ -26,21 +26,31 @@ impl kernel::Module for RBTreeBenchmarkModule {
         // Number of elements for the benchmark
         const NUM_ELEMENTS: usize = 1000000;
         const SEED: u32 = 12345;
+        let mut seed = SEED;
 
+    
         // Generate random numbers
-        let mut keys = generate_random_numbers(NUM_ELEMENTS, SEED)?;
+        let mut keys = Vec::<u32, kernel::alloc::allocator::Kmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
+            .expect("Failed to allocate vector");
 
+        for _ in 0..NUM_ELEMENTS {
+            seed = next_pseudo_random32(seed);
+            keys.push(seed, GFP_KERNEL).expect("Failed to push to vector");
+        }
+        
         // Initialize an RBTree
         let mut tree = RBTree::new();
+        
+        print_first_n(&keys,5);
 
         // Measure time to insert all elements
         let start = Ktime::ktime_get();
         for &key in keys.iter() {
-            tree.try_create_and_insert(key, key, flags::GFP_KERNEL)?;
+            tree.try_create_and_insert(key, key, flags::GFP_KERNEL).expect("Failed during node allocation");
         }
         let end = Ktime::ktime_get();
-        let insert_time = (end - start).to_ns();
-        pr_info!("Time to insert {} elements: {} ns\n", NUM_ELEMENTS, insert_time);
+        let insert_time_ms = (end - start).to_ms();
+        pr_info!("Time to insert {} elements: {} ms\n", NUM_ELEMENTS, insert_time_ms);
 
         // Measure time to find all elements and calculate average
         let mut total_find_time = 0;
@@ -59,8 +69,8 @@ impl kernel::Module for RBTreeBenchmarkModule {
             tree.remove(&key);
         }
         let end = Ktime::ktime_get();
-        let remove_time = (end - start).to_ns();
-        pr_info!("Time to remove all elements: {} ns\n", remove_time);
+        let remove_time_ms = (end - start).to_ms();
+        pr_info!("Time to remove all elements: {} ms\n", remove_time_ms);
 
         Ok(Self)
     }
@@ -72,18 +82,6 @@ impl Drop for RBTreeBenchmarkModule {
     }
 }
 
-/// Generates random numbers using a simple LCG.
-fn generate_random_numbers(num_elements: usize, seed: u32) -> Result<Vec<u32>> {
-    let mut numbers = Vec::with_capacity(num_elements);
-    let mut current = seed;
-
-    for _ in 0..num_elements {
-        current = next_pseudo_random32(current);
-        numbers.push(current);
-    }
-
-    Ok(numbers)
-}
 
 /// Pseudo-random number generator using a linear congruential generator.
 fn next_pseudo_random32(seed: u32) -> u32 {

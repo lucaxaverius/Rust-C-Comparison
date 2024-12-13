@@ -188,8 +188,8 @@ static int __init rbtree_benchmark_init(void)
     start = ktime_get();
     rbtree_clear(&tree_root);
     end = ktime_get();
-    elapsed_ns = ktime_to_ns(ktime_sub(end, start));
-    pr_info("C-RBTree-Benchmark: Time to delete all elements: %lld ns\n", elapsed_ns);
+    elapsed_ms = ktime_to_ms(ktime_sub(end, start));
+    pr_info("C-RBTree-Benchmark: Time to delete all the elements: %lld ns\n", elapsed_ms);
 
     /* Free the key array */
     kfree(keys);
