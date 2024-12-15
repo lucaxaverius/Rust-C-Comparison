@@ -8,22 +8,38 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Luca Saverio Esposito");
 MODULE_DESCRIPTION("Mutex Lock/Unlock Performance Test");
 
-#define NUM_ITERATIONS 1000000
+#define NUM_ITERATIONS 15000000
+#define NUM_EXECUTION 30
+
+
+int mutex_benchmark_test(int count);
+EXPORT_SYMBOL(mutex_benchmark_test);
 
 static struct mutex test_mutex;
 
 static int __init mutex_test_init(void)
 {
+    int ret;
+
+    pr_info("C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...\n");
+
+    pr_info("C-Mutex-Benchmark: Number of iterations: %d\n", NUM_ITERATIONS);
+    
+    // Initialize the mutex
+    mutex_init(&test_mutex);
+
+    for (int i = 0; i< NUM_EXECUTION; i++){
+        ret = mutex_benchmark_test(i);
+    }
+    return ret;
+}
+
+int mutex_benchmark_test(int count){
     ktime_t start, end, lock_start, lock_end;
     s64 total_time_ms = 0, lock_time_ns = 0;
     s64 min_time_ns = LLONG_MAX, max_time_ns = 0;
     s64 elapsed_ns;
     int i;
-
-    pr_info("C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...\n");
-
-    // Initialize the mutex
-    mutex_init(&test_mutex);
 
     // Record start time
     start = ktime_get();
@@ -50,7 +66,7 @@ static int __init mutex_test_init(void)
     total_time_ms = ktime_to_ms(ktime_sub(end, start));
 
     // Log results
-    pr_info("C-Mutex-Benchmark: Mutex Test Completed\n");
+    pr_info("C-Mutex-Benchmark: Mutex Test %d Completed\n", count+1);
     pr_info("C-Mutex-Benchmark: Total time: %lld ms\n", total_time_ms);
     pr_info("C-Mutex-Benchmark: Total lock/unlock time: %lld ms\n", ktime_to_ms(lock_time_ns));
     pr_info("C-Mutex-Benchmark: Average time per lock/unlock: %lld ns\n", lock_time_ns / NUM_ITERATIONS);

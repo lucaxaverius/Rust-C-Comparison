@@ -63,7 +63,7 @@ def plot_statistics(insert_front, insert_back, remove):
     # Customization
     plt.xlabel("Operation")
     plt.ylabel("Time (ms)")
-    plt.title("C Linked List | 10'000'000 elements")
+    plt.title("Rust Linked List | 10'000'000 elements")
     plt.xticks(x, labels, rotation=45)
     plt.legend()
     plt.tight_layout()
