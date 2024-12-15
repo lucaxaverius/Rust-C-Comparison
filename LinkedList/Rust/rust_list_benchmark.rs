@@ -60,63 +60,21 @@ pub struct ListBenchmarkModule {
     list: List<MyData, 0>, // Linked list of `MyData`.
 }
 
-impl kernel::Module for ListBenchmarkModule {
-    fn init(_module: &'static ThisModule) -> Result<Self> {
-        pr_info!("Initializing Rust linked list benchmark module...\n");
+const NUM_ELEMENTS: usize = 10_000_000;
+const NUM_EXECUTION: usize = 30;
 
+impl kernel::Module for ListBenchmarkModule {
+    #[no_mangle]
+    fn init(_module: &'static ThisModule) -> Result<Self> {
+        let mut seed = 12345;
         let mut benchmark = Self {
             list: List::new(),
         };
-
-        // Generate random numbers.
-        const NUM_ELEMENTS: usize = 1_000_000;
-        const SEED: u32 = 12345;
-        let mut seed = SEED;
-
-        let mut random_numbers = Vec::<u32, kernel::alloc::allocator::KVmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
-            .expect("Failed to allocate vector");
-
-        for _ in 0..NUM_ELEMENTS {
-            seed = next_pseudo_random32(seed);
-            random_numbers.push(seed, GFP_KERNEL).expect("Failed to push to vector");
+        pr_info!("Initializing Rust linked list benchmark module...\n");
+        for i in 0..NUM_EXECUTION{
+            benchmark = ListBenchmarkModule::rust_list_benchmark_test(seed, i as i32).expect("Test failed");
+            seed = seed +1;
         }
-        
-        // Print first 5 numbers.
-        ListBenchmarkModule::print_first_n(&random_numbers, 5);
-        // Insert elements at the front of the list.
-        let start = Ktime::ktime_get();
-        benchmark.insert_front(&random_numbers);
-        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
-        pr_info!(
-            "Time to insert {} elements at front: {} ms\n",
-            NUM_ELEMENTS,
-            elapsed
-        );
-
-        // Remove all elements.
-        let start = Ktime::ktime_get();
-        benchmark.remove_all();
-        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
-        pr_info!("Time to remove all elements: {} ms\n", elapsed);
-
-        // Insert elements at the back of the list.
-        let start = Ktime::ktime_get();
-        benchmark.insert_back(&random_numbers);
-        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
-        pr_info!(
-            "Time to insert {} elements at back: {} ms\n",
-            NUM_ELEMENTS,
-            elapsed
-        );
-
-        // Remove all elements.
-        let start = Ktime::ktime_get();
-        benchmark.remove_all();
-        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
-        pr_info!("Time to remove all elements: {} ms\n", elapsed);
-
-        pr_info!("Benchmark completed.\n");
-
         Ok(benchmark)
     }
 }
@@ -163,6 +121,64 @@ impl ListBenchmarkModule {
         while let Some(item) = self.list.pop_front() {
             drop(item); // Ensure the ListArc is properly released.
         }
+    }
+    #[no_mangle]
+    fn rust_list_benchmark_test(seed: u32, count: i32)->Result<Self>{
+        pr_info!("Starting {}-th list_head benchmark module...",count+1);
+
+        let mut benchmark = Self {
+            list: List::new(),
+        };
+        let mut seed_in = seed;
+
+        // Generate random numbers.
+        let mut random_numbers = Vec::<u32, kernel::alloc::allocator::KVmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
+            .expect("Failed to allocate vector");
+
+        for _ in 0..NUM_ELEMENTS {
+            seed_in = next_pseudo_random32(seed_in);
+            random_numbers.push(seed, GFP_KERNEL).expect("Failed to push to vector");
+        }
+        
+        // Print first 5 numbers.
+        //ListBenchmarkModule::print_first_n(&random_numbers, 5);
+        
+        // Insert elements at the front of the list.
+        let start = Ktime::ktime_get();
+        benchmark.insert_front(&random_numbers);
+        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
+        pr_info!(
+            "Time to insert {} elements at front: {} ms\n",
+            NUM_ELEMENTS,
+            elapsed
+        );
+
+        // Remove all elements.
+        let start = Ktime::ktime_get();
+        benchmark.remove_all();
+        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
+        pr_info!("Time to remove all elements: {} ms\n", elapsed);
+
+        // Insert elements at the back of the list.
+        let start = Ktime::ktime_get();
+        benchmark.insert_back(&random_numbers);
+        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
+        pr_info!(
+            "Time to insert {} elements at back: {} ms\n",
+            NUM_ELEMENTS,
+            elapsed
+        );
+
+        // Remove all elements.
+        let start = Ktime::ktime_get();
+        benchmark.remove_all();
+        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
+        pr_info!("Time to remove all elements: {} ms\n", elapsed);
+
+        pr_info!("Benchmark {}-th completed.\n",count+1);
+
+        Ok(benchmark)
+
     }
 }
 

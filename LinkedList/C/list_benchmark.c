@@ -20,7 +20,7 @@ EXPORT_SYMBOL(list_benchmark_init);
 
 
 struct list_item {
-    int data;
+    u32 data;
     struct list_head list;
 };
 

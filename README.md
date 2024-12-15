@@ -2,7 +2,7 @@
 
 ## 1) **Launch the recording** 
 ```bash
-sudo perf record -e cycles,instructions,cache-misses -g -a
+sudo perf record -e cycles,instructions,cache-misses,page-faults,branch-misses,context-switches,cache-references,cpu-clock,branches -g -a
 ```
 ## 2) **Insert the test module**
 ```bash
