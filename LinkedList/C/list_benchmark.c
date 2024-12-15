@@ -9,8 +9,15 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Luca Saverio Esposito");
 MODULE_DESCRIPTION("ListHead Benchmark Module");
 
-#define NUM_ELEMENTS 1000000
-#define SEED 12345
+#define NUM_ELEMENTS 10000000
+#define NUM_EXECUTION 30
+
+int list_benchmark_test(int seed, int count);
+int list_benchmark_init(void);
+
+EXPORT_SYMBOL(list_benchmark_test);
+EXPORT_SYMBOL(list_benchmark_init);
+
 
 struct list_item {
     int data;
@@ -80,26 +87,26 @@ static void remove_all(void)
     }
 }
 
-static int __init list_benchmark_init(void)
+int list_benchmark_test(int seed, int count)
 {
     int *random_numbers;
     ktime_t start, end;
     s64 elapsed_ns;
 
-    pr_info("C-List-Benchmark: Starting list_head benchmark module...\n");
+    pr_info("C-List-Benchmark: Starting %d-th list_head benchmark module...\n", count+1);
 
     /* Allocate memory for random numbers */
-    random_numbers = kmalloc_array(NUM_ELEMENTS, sizeof(int), GFP_KERNEL);
+    random_numbers = kvmalloc_array(NUM_ELEMENTS, sizeof(int), GFP_KERNEL);
     if (!random_numbers) {
         pr_err("C-List-Benchmark: Failed to allocate memory for random numbers\n");
         return -ENOMEM;
     }
 
     /* Generate random numbers */
-    generate_random_numbers(random_numbers, NUM_ELEMENTS, SEED);
+    generate_random_numbers(random_numbers, NUM_ELEMENTS, seed);
 
     /* Print first 5 element in the list: */
-    print_first_n(random_numbers, 5);
+    print_first_n(random_numbers, 1);
 
     /* Insert at front */
     start = ktime_get();
@@ -130,11 +137,25 @@ static int __init list_benchmark_init(void)
     pr_info("C-List-Benchmark: Time to remove all elements: %lld ms\n", elapsed_ns);
 
     /* Free random numbers */
-    kfree(random_numbers);
+    kvfree(random_numbers);
 
-    pr_info("C-List-Benchmark: Benchmark completed.\n");
+    pr_info("C-List-Benchmark: Benchmark %d-th completed.\n", count + 1);
     return 0;
 }
+
+int list_benchmark_init(void){
+    int ret;
+    int seed = 12345;
+    for (int i=0; i<NUM_EXECUTION; i++){
+	    ret = list_benchmark_test(seed, i);
+        if (ret != 0)
+            return ret;
+
+        seed ++;
+    }
+   return ret;
+}
+
 
 static void __exit list_benchmark_exit(void)
 {

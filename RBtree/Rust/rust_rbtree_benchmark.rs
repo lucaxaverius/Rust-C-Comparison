@@ -30,7 +30,7 @@ impl kernel::Module for RBTreeBenchmarkModule {
 
     
         // Generate random numbers
-        let mut keys = Vec::<u32, kernel::alloc::allocator::Kmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
+        let mut keys = Vec::<u32, kernel::alloc::allocator::KVmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
             .expect("Failed to allocate vector");
 
         for _ in 0..NUM_ELEMENTS {

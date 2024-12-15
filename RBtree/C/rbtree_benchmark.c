@@ -143,7 +143,7 @@ static int __init rbtree_benchmark_init(void)
     pr_info("C-RBTree-Benchmark: RBTree Benchmark Module init\n");
 
     /* Allocate memory for random keys */
-    keys = kmalloc_array(NUM_ELEMENTS, sizeof(u32), GFP_KERNEL);
+    keys = kvmalloc_array(NUM_ELEMENTS, sizeof(u32), GFP_KERNEL);
     if (!keys)
         return -ENOMEM;
 
@@ -159,7 +159,7 @@ static int __init rbtree_benchmark_init(void)
         int ret = rbtree_insert(&tree_root, keys[i], keys[i]);
         if (ret < 0) {  // Check for errors only
             pr_err("C-RBTree-Benchmark: Failed to insert key %u (error: %d)\n", keys[i], ret);
-            kfree(keys);
+            kvfree(keys);
             return ret;
         }
         if (ret == 1) {
@@ -192,7 +192,7 @@ static int __init rbtree_benchmark_init(void)
     pr_info("C-RBTree-Benchmark: Time to delete all the elements: %lld ns\n", elapsed_ms);
 
     /* Free the key array */
-    kfree(keys);
+    kvfree(keys);
 
     return 0;
 }

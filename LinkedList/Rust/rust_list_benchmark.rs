@@ -73,7 +73,7 @@ impl kernel::Module for ListBenchmarkModule {
         const SEED: u32 = 12345;
         let mut seed = SEED;
 
-        let mut random_numbers = Vec::<u32, kernel::alloc::allocator::Kmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
+        let mut random_numbers = Vec::<u32, kernel::alloc::allocator::KVmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
             .expect("Failed to allocate vector");
 
         for _ in 0..NUM_ELEMENTS {
