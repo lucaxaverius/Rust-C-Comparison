@@ -10,7 +10,7 @@ MODULE_AUTHOR("Luca Saverio Esposito");
 MODULE_DESCRIPTION("RBTree Benchmark Module");
 
 #define NUM_ELEMENTS 1000000
-#define SEED 12345
+#define NUM_EXECUTION 10
 
 struct rbtest_node {
     struct rb_node node;
@@ -28,6 +28,7 @@ static inline u32 next_pseudo_random32(u32 seed)
 static void generate_random_numbers(u32 *array, size_t size, u32 seed)
 {
     size_t i;
+
     for (i = 0; i < size; i++) {
         seed = next_pseudo_random32(seed);
         array[i] = seed;
@@ -41,6 +42,8 @@ static void print_first_n(u32 *array, int n){
     }
 }
 
+int rbtree_benchmark_test(int seed, int count);
+EXPORT_SYMBOL(rbtree_benchmark_test);
 
 /* Comparison function for rb_find_add */
 static int rb_find_add_cmp(struct rb_node *new, const struct rb_node *node)
@@ -58,7 +61,7 @@ static int rb_find_add_cmp(struct rb_node *new, const struct rb_node *node)
 
 
 /* Insert a node into the RBTree */
-static int rbtree_insert(struct rb_root *root, u32 key, u32 value)
+static int rbtree_insert(struct rb_root *root, u32 key, u32 value, struct rbtest_node *previous)
 {
     struct rbtest_node *new_node = kmalloc(sizeof(*new_node), GFP_KERNEL);
     if (!new_node)
@@ -74,15 +77,11 @@ static int rbtree_insert(struct rb_root *root, u32 key, u32 value)
         /* A node with the same key already exists */
         struct rbtest_node *existing_node = container_of(found_node, struct rbtest_node, node);
 
-        /* Create a copy of the existing node */
-        struct rbtest_node *previous_node = kmalloc(sizeof(*previous_node), GFP_KERNEL);
-        if (!previous_node) {
-            kfree(new_node); /* Free the newly allocated node */
-            return -ENOMEM;
+        /* Save the existing node's key and value in 'previous' */
+        if (previous) {
+            previous->key = existing_node->key;
+            previous->value = existing_node->value;
         }
-
-        /* Copy the existing node's data */
-        *previous_node = *existing_node;
 
         /* Update the existing node's value */
         existing_node->value = value;
@@ -97,6 +96,7 @@ static int rbtree_insert(struct rb_root *root, u32 key, u32 value)
     /* Node was successfully added, return 0 */
     return 0;
 }
+
 
 
 /* Comparison function for rb_find */
@@ -132,15 +132,45 @@ static void rbtree_clear(struct rb_root *root)
     }
 }
 
-static int __init rbtree_benchmark_init(void)
-{
+static void rbtree_increment_values(struct rb_root *root) {
+    struct rb_node *node;
+
+    // Start from the first (smallest) node
+    for (node = rb_first(root); node; node = rb_next(node)) {
+        struct rbtest_node *rbtest_node = rb_entry(node, struct rbtest_node, node);
+        
+        // Increment the value
+        rbtest_node->value += 1;
+
+        //pr_info("C-RBTree-Benchmark: Incremented value to %u\n", rbtest_node->value);
+    }
+}
+
+
+int rbtree_benchmark_test(int seed, int count){
     u32 *keys;
     ktime_t start, end;
     s64 elapsed_ns;
     s64 elapsed_ms;
     size_t i;
 
-    pr_info("C-RBTree-Benchmark: RBTree Benchmark Module init\n");
+    // Pointer for storing the previous node info, used during insert function
+    struct rbtest_node *previous = NULL; 
+
+    pr_info("C-RBTree-Benchmark: Starting %d-th rbtree test \n",count+1);
+
+
+    // Allocate memory for the previous node
+    previous = kmalloc(sizeof(*previous), GFP_KERNEL);
+    if (!previous) {
+        pr_err("Failed to allocate memory for previous node.\n");
+        return -ENOMEM;
+    }
+
+    // Initialize the previous node to ensure no garbage values
+    previous->key = 0;
+    previous->value = 0;
+
 
     /* Allocate memory for random keys */
     keys = kvmalloc_array(NUM_ELEMENTS, sizeof(u32), GFP_KERNEL);
@@ -148,15 +178,15 @@ static int __init rbtree_benchmark_init(void)
         return -ENOMEM;
 
     /* Generate random keys */
-    generate_random_numbers(keys, NUM_ELEMENTS, SEED);
+    generate_random_numbers(keys, NUM_ELEMENTS, seed);
 
     /* Print first 5 number for debugging*/
-    print_first_n(keys, 5);
+    //print_first_n(keys, 5);
     
     /* Benchmark insertion */
     start = ktime_get();
     for (i = 0; i < NUM_ELEMENTS; i++) {
-        int ret = rbtree_insert(&tree_root, keys[i], keys[i]);
+        int ret = rbtree_insert(&tree_root, keys[i], keys[i], previous);
         if (ret < 0) {  // Check for errors only
             pr_err("C-RBTree-Benchmark: Failed to insert key %u (error: %d)\n", keys[i], ret);
             kvfree(keys);
@@ -170,7 +200,8 @@ static int __init rbtree_benchmark_init(void)
     elapsed_ms = ktime_to_ms(ktime_sub(end, start));
     pr_info("C-RBTree-Benchmark: Time to insert %lu elements: %lld ms\n", NUM_ELEMENTS, elapsed_ms);
 
-    /* Benchmark search */
+    /*
+    // Benchmark search 
     start = ktime_get();
     for (i = 0; i < NUM_ELEMENTS; i++) {
         struct rbtest_node *node = rbtree_search(&tree_root, keys[i]);
@@ -183,18 +214,46 @@ static int __init rbtree_benchmark_init(void)
     end = ktime_get();
     elapsed_ns = ktime_to_ns(ktime_sub(end, start));
     pr_info("C-RBTree-Benchmark: Average time to find an element: %lld ns\n", elapsed_ns / NUM_ELEMENTS);
+    pr_info("C-RBTree-Benchmark: Time to lookup all the elements: %lld ms\n", ktime_to_ms(elapsed_ns) );
+    */
+    
+    /* Increment values in the RBTree */
+    start = ktime_get();
+    rbtree_increment_values(&tree_root);
+    end = ktime_get();
+    elapsed_ms = ktime_to_ms(ktime_sub(end, start));
+    pr_info("C-RBTree-Benchmark: Time to increment all values: %lld ms\n", elapsed_ms);
+
 
     /* Benchmark deletion */
     start = ktime_get();
     rbtree_clear(&tree_root);
     end = ktime_get();
     elapsed_ms = ktime_to_ms(ktime_sub(end, start));
-    pr_info("C-RBTree-Benchmark: Time to delete all the elements: %lld ns\n", elapsed_ms);
+    pr_info("C-RBTree-Benchmark: Time to delete all the elements: %lld ms\n", elapsed_ms);
 
     /* Free the key array */
     kvfree(keys);
+    pr_info("C-RBTree-Benchmark: RBTree Benchmark %d completed\n",count+1);
 
     return 0;
+}
+
+
+static int rbtree_benchmark_init(void)
+{
+    int ret;
+    int seed = 12345;
+    pr_info("C-RBTree-Benchmark: RBTree Benchmark Module init\n");
+
+    for (int i=0; i<NUM_EXECUTION; i++){
+        ret = rbtree_benchmark_test(seed,i);
+        if (ret != 0)
+            return ret;
+        seed++;
+    }
+
+    return ret;
 }
 
 static void __exit rbtree_benchmark_exit(void)

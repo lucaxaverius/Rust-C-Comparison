@@ -19,59 +19,21 @@ module! {
 
 struct RBTreeBenchmarkModule;
 
+const NUM_ELEMENTS: usize = 1_000_000;
+const NUM_EXECUTION: usize = 10;
+
 impl kernel::Module for RBTreeBenchmarkModule {
+    #[no_mangle]
     fn init(_module: &'static ThisModule) -> Result<Self> {
+        // Number of elements for the benchmark
+        let mut seed = 12345;
+
         pr_info!("RBTree Benchmark Module init\n");
 
-        // Number of elements for the benchmark
-        const NUM_ELEMENTS: usize = 1000000;
-        const SEED: u32 = 12345;
-        let mut seed = SEED;
-
-    
-        // Generate random numbers
-        let mut keys = Vec::<u32, kernel::alloc::allocator::KVmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
-            .expect("Failed to allocate vector");
-
-        for _ in 0..NUM_ELEMENTS {
-            seed = next_pseudo_random32(seed);
-            keys.push(seed, GFP_KERNEL).expect("Failed to push to vector");
+        for i in 0..NUM_EXECUTION{
+            RBTreeBenchmarkModule::rust_rbtree_test(seed,i as i32);
+            seed = seed +1; 
         }
-        
-        // Initialize an RBTree
-        let mut tree = RBTree::new();
-        
-        print_first_n(&keys,5);
-
-        // Measure time to insert all elements
-        let start = Ktime::ktime_get();
-        for &key in keys.iter() {
-            tree.try_create_and_insert(key, key, flags::GFP_KERNEL).expect("Failed during node allocation");
-        }
-        let end = Ktime::ktime_get();
-        let insert_time_ms = (end - start).to_ms();
-        pr_info!("Time to insert {} elements: {} ms\n", NUM_ELEMENTS, insert_time_ms);
-
-        // Measure time to find all elements and calculate average
-        let mut total_find_time = 0;
-        for &key in keys.iter() {
-            let find_start = Ktime::ktime_get();
-            tree.get(&key).expect("Key not found");
-            let find_end = Ktime::ktime_get();
-            total_find_time += (find_end - find_start).to_ns();
-        }
-        let avg_find_time = total_find_time / NUM_ELEMENTS as i64;
-        pr_info!("Average time to find an element: {} ns\n", avg_find_time);
-
-        // Measure time to remove all elements
-        let start = Ktime::ktime_get();
-        for &key in keys.iter() {
-            tree.remove(&key);
-        }
-        let end = Ktime::ktime_get();
-        let remove_time_ms = (end - start).to_ms();
-        pr_info!("Time to remove all elements: {} ms\n", remove_time_ms);
-
         Ok(Self)
     }
 }
@@ -82,6 +44,77 @@ impl Drop for RBTreeBenchmarkModule {
     }
 }
 
+impl RBTreeBenchmarkModule{
+    #[no_mangle]
+    fn rust_rbtree_test(seed: u32, count: i32){
+
+        let mut seed_in = seed;
+
+        // Generate random numbers
+        let mut keys = Vec::<u32, kernel::alloc::allocator::KVmalloc>::with_capacity(NUM_ELEMENTS, GFP_KERNEL)
+            .expect("Failed to allocate vector");
+
+        for _ in 0..NUM_ELEMENTS {
+            seed_in = next_pseudo_random32(seed_in);
+            keys.push(seed_in, GFP_KERNEL).expect("Failed to push to vector");
+        }
+        pr_info!("Starting {}-th rbtree test \n",count+1);
+
+        // Initialize an RBTree
+        let mut tree = RBTree::new();
+        
+        //print_first_n(&keys,5);
+
+        // Measure time to insert all elements
+        let start = Ktime::ktime_get();
+        for &key in keys.iter() {
+            tree.try_create_and_insert(key, key, flags::GFP_KERNEL).expect("Failed during node allocation");
+        }
+        let end = Ktime::ktime_get();
+        let insert_time_ms = (end - start).to_ms();
+        pr_info!("Time to insert {} elements: {} ms\n", NUM_ELEMENTS, insert_time_ms);
+
+        // Increment values of all nodes
+        let start = Ktime::ktime_get();
+        RBTreeBenchmarkModule::increment_tree_values(&mut tree);
+        let end = Ktime::ktime_get();
+        let increment_time_ms = (end - start).to_ms();
+        pr_info!("Time to increment all values: {} ms\n", increment_time_ms);
+
+        /*
+        // Measure time to find all elements and calculate average
+        let mut total_find_time = 0;
+        for &key in keys.iter() {
+            let find_start = Ktime::ktime_get();
+            tree.get(&key).expect("Key not found");
+            let find_end = Ktime::ktime_get();
+            total_find_time += (find_end - find_start).to_ns();
+        }
+        let avg_find_time = total_find_time / NUM_ELEMENTS as i64;
+        pr_info!("Average time to find an element: {} ns\n", avg_find_time);
+        pr_info!("Time to lookup all the elements: {} ms\n", Ktime::from_raw(total_find_time).to_ms() );
+        */ 
+
+        // Measure time to remove all elements
+        let start = Ktime::ktime_get();
+        for &key in keys.iter() {
+            tree.remove(&key);
+        }
+        let end = Ktime::ktime_get();
+        let remove_time_ms = (end - start).to_ms();
+        pr_info!("Time to remove all elements: {} ms\n", remove_time_ms);
+
+
+    }
+    /// Function to increment values of all nodes in the RBTree
+    fn increment_tree_values(tree: &mut RBTree<u32, u32>) {
+        for (_, value) in tree.iter_mut() {
+            *value += 1; // Increment the value by 1
+        }
+        pr_info!("incremented all the node values.\n");
+    }
+
+}
 
 /// Pseudo-random number generator using a linear congruential generator.
 fn next_pseudo_random32(seed: u32) -> u32 {

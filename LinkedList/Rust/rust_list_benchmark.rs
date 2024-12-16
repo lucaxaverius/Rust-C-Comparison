@@ -137,7 +137,7 @@ impl ListBenchmarkModule {
 
         for _ in 0..NUM_ELEMENTS {
             seed_in = next_pseudo_random32(seed_in);
-            random_numbers.push(seed, GFP_KERNEL).expect("Failed to push to vector");
+            random_numbers.push(seed_in, GFP_KERNEL).expect("Failed to push to vector");
         }
         
         // Print first 5 numbers.
