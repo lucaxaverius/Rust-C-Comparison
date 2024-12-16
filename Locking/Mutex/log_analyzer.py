@@ -27,13 +27,9 @@ def plot_statistics(total_times, min_time, max_time, avg_time):
     plt.axhline(y=max_time, color="r", linestyle="--", label=f"Max: {max_time} ms")
     plt.axhline(y=avg_time, color="b", linestyle="--", label=f"Avg: {avg_time:.2f} ms")
 
-    # Annotate points with values
-    for i, time in enumerate(total_times):
-        plt.annotate(f"{time}ms", (entries[i], time), textcoords="offset points", xytext=(0, 10), ha="center")
-
-    plt.xlabel("Test Entry")
-    plt.ylabel("Total Lock/Unlock Time (ms)")
-    plt.title("Mutex Lock/Unlock Total Time")
+    plt.xlabel("Test Number")
+    plt.ylabel("Time (ms)")
+    plt.title("C Mutex- lock/unlock 15000000 time")
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
