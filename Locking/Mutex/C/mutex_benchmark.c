@@ -17,7 +17,7 @@ EXPORT_SYMBOL(mutex_benchmark_test);
 
 static struct mutex test_mutex;
 
-static int __init mutex_test_init(void)
+static int mutex_test_init(void)
 {
     int ret;
 
