@@ -6,75 +6,82 @@ matplotlib.use("Agg")  # Non-interactive backend
 import matplotlib.pyplot as plt
 
 def process_log(log_data):
-    # Regex patterns for extracting times for C and Rust
-    c_insert_pattern = r"C-RBTree-Benchmark: Time to insert \d+ elements: (\d+) ms"
-    c_delete_pattern = r"C-RBTree-Benchmark: Time to delete all the elements: (\d+) ms"
-    rust_insert_pattern = r"Rust_RBTree_Benchmark: Time to insert \d+ elements: (\d+) ms"
-    rust_delete_pattern = r"Rust_RBTree_Benchmark: Time to remove all elements: (\d+) ms"
+    # Regex patterns for extracting times
+    insert_pattern_c = r"C-RBTree-Benchmark: Time to insert \d+ elements: (\d+) ms"
+    remove_pattern_c = r"C-RBTree-Benchmark: Time to delete all the elements: (\d+) ms"
+    iterate_pattern_c = r"C-RBTree-Benchmark: Time to iterate over the rbtree: (\d+) ms"
+
+    insert_pattern_rust = r"Rust_RBTree_Benchmark: Time to insert \d+ elements: (\d+) ms"
+    remove_pattern_rust = r"Rust_RBTree_Benchmark: Time to remove all elements: (\d+) ms"
+    iterate_pattern_rust = r"Rust_RBTree_Benchmark: Time to iterate over the rbtree: (\d+) ms"
 
     # Extract times using regex
-    c_insert_times = [int(m.group(1)) for m in re.finditer(c_insert_pattern, log_data)]
-    c_delete_times = [int(m.group(1)) for m in re.finditer(c_delete_pattern, log_data)]
-    rust_insert_times = [int(m.group(1)) for m in re.finditer(rust_insert_pattern, log_data)]
-    rust_delete_times = [int(m.group(1)) for m in re.finditer(rust_delete_pattern, log_data)]
+    insert_times_c = [int(m.group(1)) for m in re.finditer(insert_pattern_c, log_data)]
+    remove_times_c = [int(m.group(1)) for m in re.finditer(remove_pattern_c, log_data)]
+    iterate_times_c = [int(m.group(1)) for m in re.finditer(iterate_pattern_c, log_data)]
 
-    return c_insert_times, c_delete_times, rust_insert_times, rust_delete_times
+    insert_times_rust = [int(m.group(1)) for m in re.finditer(insert_pattern_rust, log_data)]
+    remove_times_rust = [int(m.group(1)) for m in re.finditer(remove_pattern_rust, log_data)]
+    iterate_times_rust = [int(m.group(1)) for m in re.finditer(iterate_pattern_rust, log_data)]
 
-def calculate_statistics(data):
-    return np.mean(data), np.min(data), np.max(data)
+    return insert_times_c, remove_times_c, iterate_times_c, insert_times_rust, remove_times_rust, iterate_times_rust
 
-def plot_histogram(c_stats, rust_stats, title, filename):
-    labels = ["Min", "Avg", "Max"]
-    c_values = [c_stats[1], c_stats[0], c_stats[2]]  # Min, Avg, Max
-    rust_values = [rust_stats[1], rust_stats[0], rust_stats[2]]  # Min, Avg, Max
+def plot_statistics(insert_c, remove_c, iterate_c, insert_rust, remove_rust, iterate_rust):
+    # Calculate statistics
+    datasets = {
+        "C Insert": insert_c,
+        "C Remove": remove_c,
+        "C Iterate": iterate_c,
+        "Rust Insert": insert_rust,
+        "Rust Remove": remove_rust,
+        "Rust Iterate": iterate_rust,
+    }
 
-    x = np.arange(len(labels))
-    width = 0.3
+    stats = {name: (np.mean(data), np.min(data), np.max(data)) for name, data in datasets.items()}
 
-    plt.figure(figsize=(10, 6))
-    plt.bar(x - width / 2, c_values, width, label="C", color="skyblue")
-    plt.bar(x + width / 2, rust_values, width, label="Rust", color="orange")
+    # Print statistics
+    for name, (mean, min_val, max_val) in stats.items():
+        print(f"\n{name} Statistics:")
+        print(f"Mean: {mean:.2f} ms, Min: {min_val} ms, Max: {max_val} ms")
 
-    # Annotate the bars with values
-    for i, v in enumerate(c_values):
-        plt.text(i - width / 2, v + 10, f"{v:.1f}", ha="center", va="bottom")
-    for i, v in enumerate(rust_values):
-        plt.text(i + width / 2, v + 10, f"{v:.1f}", ha="center", va="bottom")
+    # Plot histograms for Insert, Remove, and Iterate separately
+    def plot_individual_metric(metric_name, c_data, rust_data, file_name):
+        labels = ['C', 'Rust']
+        mean_vals = [np.mean(c_data), np.mean(rust_data)]
+        min_vals = [np.min(c_data), np.min(rust_data)]
+        max_vals = [np.max(c_data), np.max(rust_data)]
 
-    # Customization
-    plt.xlabel("Metric")
-    plt.ylabel("Time (ms)")
-    plt.title(title)
-    plt.xticks(x, labels)
-    plt.legend()
-    plt.tight_layout()
+        x = np.arange(len(labels))
+        width = 0.25
 
-    # Save the plot
-    plt.savefig(filename)
-    print(f"Plot saved as '{filename}'")
+        plt.figure(figsize=(10, 6))
+        bars_min = plt.bar(x - width, min_vals, width, label='Min', color='skyblue')
+        bars_mean = plt.bar(x, mean_vals, width, label='Mean', color='limegreen')
+        bars_max = plt.bar(x + width, max_vals, width, label='Max', color='orange')
+
+        # Add labels to bars
+        for bars, values in zip([bars_min, bars_mean, bars_max], [min_vals, mean_vals, max_vals]):
+            for bar, value in zip(bars, values):
+                plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 1, f"{value:.2f}",
+                         ha='center', va='bottom', fontsize=10)
+
+        plt.title(f"{metric_name} Time Comparison: C vs Rust")
+        plt.ylabel("Time (ms)")
+        plt.xticks(x, labels)
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(file_name)
+        print(f"Plot saved as '{file_name}'")
+
+    # Generate plots for Insert, Remove, and Iterate
+    plot_individual_metric("Insert", insert_c, insert_rust, "rbtree_insert_comparison.png")
+    plot_individual_metric("Remove", remove_c, remove_rust, "rbtree_remove_comparison.png")
+    plot_individual_metric("Iterate", iterate_c, iterate_rust, "rbtree_iterate_comparison.png")
 
 # Main function
 if __name__ == "__main__":
-    # Read the log file
-    log_file_path = "log.txt"  # Replace with the actual path
-    with open(log_file_path, "r") as file:
-        log_data = file.read()
+    with open("log.txt", "r") as f:
+        log_data = f.read()
 
-    # Process the log data
-    c_insert_times, c_delete_times, rust_insert_times, rust_delete_times = process_log(log_data)
-
-    # Calculate statistics
-    c_insert_stats = calculate_statistics(c_insert_times)
-    c_delete_stats = calculate_statistics(c_delete_times)
-    rust_insert_stats = calculate_statistics(rust_insert_times)
-    rust_delete_stats = calculate_statistics(rust_delete_times)
-
-    # Print statistics
-    print("\nC Insert Statistics (Avg, Min, Max):", c_insert_stats)
-    print("Rust Insert Statistics (Avg, Min, Max):", rust_insert_stats)
-    print("\nC Delete Statistics (Avg, Min, Max):", c_delete_stats)
-    print("Rust Delete Statistics (Avg, Min, Max):", rust_delete_stats)
-
-    # Generate plots
-    plot_histogram(c_insert_stats, rust_insert_stats, "RBTree Insertion Times", "rbtree_insertion.png")
-    plot_histogram(c_delete_stats, rust_delete_stats, "RBTree Deletion Times", "rbtree_deletion.png")
+    insert_c, remove_c, iterate_c, insert_rust, remove_rust, iterate_rust = process_log(log_data)
+    plot_statistics(insert_c, remove_c, iterate_c, insert_rust, remove_rust, iterate_rust)

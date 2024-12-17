@@ -20,7 +20,10 @@ module! {
 struct RBTreeBenchmarkModule;
 
 const NUM_ELEMENTS: usize = 1_000_000;
-const NUM_EXECUTION: usize = 10;
+const NUM_EXECUTION: usize = 50;
+
+//const NUM_ELEMENTS: usize = 10;
+//const NUM_EXECUTION: usize = 2;
 
 impl kernel::Module for RBTreeBenchmarkModule {
     #[no_mangle]
@@ -46,6 +49,8 @@ impl Drop for RBTreeBenchmarkModule {
 
 impl RBTreeBenchmarkModule{
     #[no_mangle]
+    #[inline(never)]
+    /// Test function executed
     fn rust_rbtree_test(seed: u32, count: i32){
 
         let mut seed_in = seed;
@@ -65,21 +70,12 @@ impl RBTreeBenchmarkModule{
         
         //print_first_n(&keys,5);
 
-        // Measure time to insert all elements
-        let start = Ktime::ktime_get();
-        for &key in keys.iter() {
-            tree.try_create_and_insert(key, key, flags::GFP_KERNEL).expect("Failed during node allocation");
-        }
-        let end = Ktime::ktime_get();
-        let insert_time_ms = (end - start).to_ms();
-        pr_info!("Time to insert {} elements: {} ms\n", NUM_ELEMENTS, insert_time_ms);
+        // insert all the values
+        Self::insert_values(&mut tree, &keys);
 
         // Increment values of all nodes
-        let start = Ktime::ktime_get();
-        RBTreeBenchmarkModule::increment_tree_values(&mut tree);
-        let end = Ktime::ktime_get();
-        let increment_time_ms = (end - start).to_ms();
-        pr_info!("Time to increment all values: {} ms\n", increment_time_ms);
+        Self::iterate_all(&mut tree);
+
 
         /*
         // Measure time to find all elements and calculate average
@@ -95,6 +91,44 @@ impl RBTreeBenchmarkModule{
         pr_info!("Time to lookup all the elements: {} ms\n", Ktime::from_raw(total_find_time).to_ms() );
         */ 
 
+        // remove all the nodes
+        Self::remove_all(&mut tree, &keys);
+
+    }
+    #[no_mangle]
+    #[inline(never)]
+    /// Function to increment values of all nodes in the RBTree
+    fn iterate_all(tree: &mut RBTree<u32, u32>) {
+        let start = Ktime::ktime_get();
+
+        for (_, value) in tree.iter_mut() {
+            //pr_info!("Value before: {}", value);
+            *value += 1; // Increment the value by 1
+            //pr_info!("Value after: {}", value);
+        }
+        let end = Ktime::ktime_get();
+        let increment_time_ms = (end - start).to_ms();
+        pr_info!("Time to iterate over the rbtree: {} ms\n", increment_time_ms);
+    }
+
+    #[no_mangle]
+    #[inline(never)]
+    /// Insert into the tree the passed values
+    fn insert_values(tree: &mut RBTree<u32, u32>, keys: &Vec::<u32, kernel::alloc::allocator::KVmalloc>){
+        // Measure time to insert all elements
+        let start = Ktime::ktime_get();
+        for &key in keys.iter() {
+            tree.try_create_and_insert(key, key, flags::GFP_KERNEL).expect("Failed during node allocation");
+        }
+        let end = Ktime::ktime_get();
+        let insert_time_ms = (end - start).to_ms();
+        pr_info!("Time to insert {} elements: {} ms\n", NUM_ELEMENTS, insert_time_ms);
+    }
+
+    #[no_mangle]
+    #[inline(never)]
+    /// Remove from the tree al the values
+    fn remove_all(tree: &mut RBTree<u32, u32>, keys: &Vec::<u32, kernel::alloc::allocator::KVmalloc>){
         // Measure time to remove all elements
         let start = Ktime::ktime_get();
         for &key in keys.iter() {
@@ -103,17 +137,7 @@ impl RBTreeBenchmarkModule{
         let end = Ktime::ktime_get();
         let remove_time_ms = (end - start).to_ms();
         pr_info!("Time to remove all elements: {} ms\n", remove_time_ms);
-
-
     }
-    /// Function to increment values of all nodes in the RBTree
-    fn increment_tree_values(tree: &mut RBTree<u32, u32>) {
-        for (_, value) in tree.iter_mut() {
-            *value += 1; // Increment the value by 1
-        }
-        pr_info!("incremented all the node values.\n");
-    }
-
 }
 
 /// Pseudo-random number generator using a linear congruential generator.
@@ -129,3 +153,4 @@ fn print_first_n(data: &[u32], n: i32){
         pr_info!("The {}-th element is: {}",i+1, value);
     }
 }
+
