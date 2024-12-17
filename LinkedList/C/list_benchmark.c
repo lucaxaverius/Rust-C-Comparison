@@ -14,9 +14,18 @@ MODULE_DESCRIPTION("ListHead Benchmark Module");
 
 int list_benchmark_test(int seed, int count);
 int list_benchmark_init(void);
+void insert_front(int *data, size_t size);
+void insert_back(int *data, size_t size);
+void remove_all(void);
+void iterate_all(void);
 
 EXPORT_SYMBOL(list_benchmark_test);
 EXPORT_SYMBOL(list_benchmark_init);
+EXPORT_SYMBOL(insert_front);
+EXPORT_SYMBOL(insert_back);
+EXPORT_SYMBOL(remove_all);
+EXPORT_SYMBOL(iterate_all);
+
 
 
 struct list_item {
@@ -48,7 +57,7 @@ static void print_first_n(u32 *array, int n){
     }
 }
 
-static void insert_front(int *data, size_t size)
+void insert_front(int *data, size_t size)
 {
     size_t i;
     struct list_item *item;
@@ -63,7 +72,7 @@ static void insert_front(int *data, size_t size)
     }
 }
 
-static void insert_back(int *data, size_t size)
+void insert_back(int *data, size_t size)
 {
     size_t i;
     struct list_item *item;
@@ -78,12 +87,22 @@ static void insert_back(int *data, size_t size)
     }
 }
 
-static void remove_all(void)
+void remove_all(void)
 {
     struct list_item *item, *tmp;
     list_for_each_entry_safe(item, tmp, &my_list, list) {
         list_del(&item->list);
         kfree(item);
+    }
+}
+
+void iterate_all(void)
+{
+    struct list_item *item;
+    u32 dummy;
+    list_for_each_entry(item, &my_list, list) {
+        item->data+=1;    
+        dummy = item->data;
     }
 }
 
@@ -115,6 +134,13 @@ int list_benchmark_test(int seed, int count)
     elapsed_ns = ktime_to_ms(ktime_sub(end, start));
     pr_info("C-List-Benchmark: Time to insert %d elements at front: %lld ms\n", NUM_ELEMENTS, elapsed_ns);
 
+    /* Iterate all*/
+    start = ktime_get();
+    iterate_all();
+    end = ktime_get();
+    elapsed_ns = ktime_to_ms(ktime_sub(end, start));
+    pr_info("C-List-Benchmark: Time to iterate %d elements: %lld ms\n", NUM_ELEMENTS, elapsed_ns);
+
     /* Remove all elements */
     start = ktime_get();
     remove_all();
@@ -128,6 +154,13 @@ int list_benchmark_test(int seed, int count)
     end = ktime_get();
     elapsed_ns = ktime_to_ms(ktime_sub(end, start));
     pr_info("C-List-Benchmark: Time to insert %d elements at back: %lld ms\n", NUM_ELEMENTS, elapsed_ns);
+
+    /* Iterate all*/
+    start = ktime_get();
+    iterate_all();
+    end = ktime_get();
+    elapsed_ns = ktime_to_ms(ktime_sub(end, start));
+    pr_info("C-List-Benchmark: Time to iterate %d elements: %lld ms\n", NUM_ELEMENTS, elapsed_ns);
 
     /* Remove all elements */
     start = ktime_get();

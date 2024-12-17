@@ -2,80 +2,84 @@ import re
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")  # Non-interactive backend
-
 import matplotlib.pyplot as plt
 
 def process_log(log_data):
-    # Regex patterns for extracting times
-    insert_front_pattern = r"Time to insert \d+ elements at front: (\d+) ms"
-    insert_back_pattern = r"Time to insert \d+ elements at back: (\d+) ms"
-    remove_pattern = r"Time to remove all elements: (\d+) ms"
-
-    # Extract times using regex
-    insert_front_times = [int(m.group(1)) for m in re.finditer(insert_front_pattern, log_data)]
-    insert_back_times = [int(m.group(1)) for m in re.finditer(insert_back_pattern, log_data)]
-    remove_times = [int(m.group(1)) for m in re.finditer(remove_pattern, log_data)]
-
-    # Print extracted data
-    print("\nInsert Front Array:", insert_front_times)
-    print("\nInsert Back Array:", insert_back_times)
-    print("\nRemove Array:", remove_times)
-
-    return insert_front_times, insert_back_times, remove_times
-
-def plot_statistics(insert_front, insert_back, remove):
-    # Calculate statistics
-    datasets = {
-        "Insert Front": insert_front,
-        "Insert Back": insert_back,
-        "Remove": remove,
+    # Patterns for extracting C and Rust metrics
+    patterns = {
+        "c_insert_front": r"C-List-Benchmark: Time to insert \d+ elements at front: (\d+) ms",
+        "c_insert_back": r"C-List-Benchmark: Time to insert \d+ elements at back: (\d+) ms",
+        "c_iterate": r"C-List-Benchmark: Time to iterate \d+ elements: (\d+) ms",
+        "c_remove": r"C-List-Benchmark: Time to remove all elements: (\d+) ms",
+        
+        "rust_insert_front": r"Rust_List_Benchmark: Time to insert \d+ elements at front: (\d+) ms",
+        "rust_insert_back": r"Rust_List_Benchmark: Time to insert \d+ elements at back: (\d+) ms",
+        "rust_iterate": r"Rust_List_Benchmark: Time to iterate \d+ elements: (\d+) ms",
+        "rust_remove": r"Rust_List_Benchmark: Time to remove all elements: (\d+) ms",
     }
     
-    stats = {name: (np.mean(data), np.min(data), np.max(data), np.std(data)) for name, data in datasets.items()}
+    # Extract data
+    data = {key: [int(m.group(1)) for m in re.finditer(pattern, log_data)] for key, pattern in patterns.items()}
 
-    # Print statistics
-    for name, (mean, min_val, max_val, std) in stats.items():
-        print(f"\n{name} Statistics:")
-        print(f"Mean: {mean:.2f} ms, Min: {min_val} ms, Max: {max_val} ms, Std Dev: {std:.2f} ms")
+    # Print extracted data for debugging
+    for key, values in data.items():
+        print(f"{key} Data: {values}")
 
-    # Plot graphs
-    plt.figure(figsize=(12, 6))
+    return data
 
-    # Bar plot for means, mins, and maxs
-    labels = list(stats.keys())
-    means = [stats[name][0] for name in labels]
-    mins = [stats[name][1] for name in labels]
-    maxs = [stats[name][2] for name in labels]
+def plot_comparison(data, metric_name, c_key, rust_key, filename):
+    # Extract values
+    c_values = data[c_key]
+    rust_values = data[rust_key]
+    
+    # Calculate statistics
+    c_stats = {"Min": np.min(c_values), "Avg": np.mean(c_values), "Max": np.max(c_values)}
+    rust_stats = {"Min": np.min(rust_values), "Avg": np.mean(rust_values), "Max": np.max(rust_values)}
+    
+    # Print statistics for debugging
+    print(f"\n{metric_name} Statistics:")
+    print(f"C: Min={c_stats['Min']}, Avg={c_stats['Avg']:.2f}, Max={c_stats['Max']}")
+    print(f"Rust: Min={rust_stats['Min']}, Avg={rust_stats['Avg']:.2f}, Max={rust_stats['Max']}")
+    
+    # Create bar plot
+    labels = ["Min", "Avg", "Max"]
+    c_values = [c_stats[label] for label in labels]
+    rust_values = [rust_stats[label] for label in labels]
 
     x = np.arange(len(labels))
-    width = 0.3
+    width = 0.35
 
-    bars_min = plt.bar(x - width, mins, width, label='Min', color='skyblue')
-    bars_mean = plt.bar(x, means, width, label='Mean', color='limegreen')
-    bars_max = plt.bar(x + width, maxs, width, label='Max', color='orange')
+    plt.figure(figsize=(10, 6))
+    bars_c = plt.bar(x - width/2, c_values, width, label="C", color="skyblue")
+    bars_rust = plt.bar(x + width/2, rust_values, width, label="Rust", color="orange")
 
-    # Annotate the bars with values
-    for bars, stat_values in zip([bars_min, bars_mean, bars_max], [mins, means, maxs]):
-        for bar, value in zip(bars, stat_values):
+    # Annotate values on bars
+    for bars, values in zip([bars_c, bars_rust], [c_values, rust_values]):
+        for bar, value in zip(bars, values):
             plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 1, f"{value:.2f}",
                      ha='center', va='bottom', fontsize=10)
 
-    # Customization
-    plt.xlabel("Operation")
+    # Customize plot
+    plt.title(f"{metric_name} Comparison: C vs Rust")
     plt.ylabel("Time (ms)")
-    plt.title("Rust Linked List | 10'000'000 elements")
-    plt.xticks(x, labels, rotation=45)
+    plt.xticks(x, labels)
     plt.legend()
     plt.tight_layout()
 
     # Save the plot
-    plt.savefig("output_plot.png")
-    print("Plot saved as 'output_plot_combined.png'")
+    plt.savefig(filename)
+    print(f"Plot saved as '{filename}'")
 
-# Example usage
 if __name__ == "__main__":
-    with open("log.txt", "r") as f:
-        log_data = f.read()
+    # Read log file
+    with open("log.txt", "r") as file:
+        log_data = file.read()
 
-    insert_front, insert_back, remove = process_log(log_data)
-    plot_statistics(insert_front, insert_back, remove)
+    # Process the log file
+    data = process_log(log_data)
+
+    # Generate comparison plots
+    plot_comparison(data, "Insert Front", "c_insert_front", "rust_insert_front", "insert_front_comparison.png")
+    plot_comparison(data, "Insert Back", "c_insert_back", "rust_insert_back", "insert_back_comparison.png")
+    plot_comparison(data, "Iteration", "c_iterate", "rust_iterate", "iteration_comparison.png")
+    plot_comparison(data, "Remove", "c_remove", "rust_remove", "remove_comparison.png")

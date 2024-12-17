@@ -93,7 +93,8 @@ impl ListBenchmarkModule {
             pr_info!("The {}-th element is: {}",i+1, value);
         }
     }
-
+    #[no_mangle]
+    #[inline(never)]
     /// Insert elements at the front of the list.
     fn insert_front(&mut self, data: &[u32]) {
         for &value in data {
@@ -104,7 +105,8 @@ impl ListBenchmarkModule {
             }
         }
     }
-
+    #[no_mangle]
+    #[inline(never)]
     /// Insert elements at the back of the list.
     fn insert_back(&mut self, data: &[u32]) {
         for &value in data {
@@ -115,13 +117,25 @@ impl ListBenchmarkModule {
             }
         }
     }
-
+    #[no_mangle]
+    #[inline(never)]
     /// Remove all elements from the list.
     fn remove_all(&mut self) {
         while let Some(item) = self.list.pop_front() {
             drop(item); // Ensure the ListArc is properly released.
         }
     }
+
+    #[no_mangle]
+    #[inline(never)]
+    /// Iterates over all elements in the list and increments their value by one.
+    pub fn iter_all(&mut self) {
+        for item in self.list.iter() {
+            // Copy the value from the list element and incremnt it
+            let mut value = item.value +1;
+        }
+    }
+
     #[no_mangle]
     fn rust_list_benchmark_test(seed: u32, count: i32)->Result<Self>{
         pr_info!("Starting {}-th list_head benchmark module...",count+1);
@@ -153,6 +167,13 @@ impl ListBenchmarkModule {
             elapsed
         );
 
+        //Iter over the list
+        let start = Ktime::ktime_get();
+        benchmark.iter_all();
+        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
+        pr_info!("Time to iterate {} elements: {} ms\n", NUM_ELEMENTS, elapsed);
+
+
         // Remove all elements.
         let start = Ktime::ktime_get();
         benchmark.remove_all();
@@ -169,6 +190,12 @@ impl ListBenchmarkModule {
             elapsed
         );
 
+        //Iter over the list
+        let start = Ktime::ktime_get();
+        benchmark.iter_all();
+        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
+        pr_info!("Time to iterate {} elements: {} ms\n", NUM_ELEMENTS, elapsed);
+        
         // Remove all elements.
         let start = Ktime::ktime_get();
         benchmark.remove_all();
