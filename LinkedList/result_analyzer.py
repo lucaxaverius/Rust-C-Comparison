@@ -27,43 +27,56 @@ def process_log(log_data):
 
     return data
 
+def calculate_statistics(values):
+    return {
+        "Min": np.min(values),
+        "Avg": np.mean(values),
+        "Max": np.max(values),
+        "Var": np.var(values),
+        "Median": np.median(values),
+    }
+
 def plot_comparison(data, metric_name, c_key, rust_key, filename):
     # Extract values
     c_values = data[c_key]
     rust_values = data[rust_key]
     
     # Calculate statistics
-    c_stats = {"Min": np.min(c_values), "Avg": np.mean(c_values), "Max": np.max(c_values)}
-    rust_stats = {"Min": np.min(rust_values), "Avg": np.mean(rust_values), "Max": np.max(rust_values)}
+    c_stats = calculate_statistics(c_values)
+    rust_stats = calculate_statistics(rust_values)
     
     # Print statistics for debugging
     print(f"\n{metric_name} Statistics:")
-    print(f"C: Min={c_stats['Min']}, Avg={c_stats['Avg']:.2f}, Max={c_stats['Max']}")
-    print(f"Rust: Min={rust_stats['Min']}, Avg={rust_stats['Avg']:.2f}, Max={rust_stats['Max']}")
+    print(f"C: {c_stats}")
+    print(f"Rust: {rust_stats}")
     
     # Create bar plot
-    labels = ["Min", "Avg", "Max"]
-    c_values = [c_stats[label] for label in labels]
-    rust_values = [rust_stats[label] for label in labels]
+    labels = ["Min", "Avg", "Max", "Median"]
+    c_plot_values = [c_stats[label] for label in labels]
+    rust_plot_values = [rust_stats[label] for label in labels]
 
     x = np.arange(len(labels))
     width = 0.35
 
-    plt.figure(figsize=(10, 6))
-    bars_c = plt.bar(x - width/2, c_values, width, label="C", color="skyblue")
-    bars_rust = plt.bar(x + width/2, rust_values, width, label="Rust", color="orange")
+    plt.figure(figsize=(12, 8))
+    bars_c = plt.bar(x - width / 2, c_plot_values, width, label="C", color="skyblue")
+    bars_rust = plt.bar(x + width / 2, rust_plot_values, width, label="Rust", color="orange")
 
     # Annotate values on bars
-    for bars, values in zip([bars_c, bars_rust], [c_values, rust_values]):
+    for bars, values in zip([bars_c, bars_rust], [c_plot_values, rust_plot_values]):
         for bar, value in zip(bars, values):
             plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 1, f"{value:.2f}",
                      ha='center', va='bottom', fontsize=10)
 
+    # Add variance to the legend
+    variance_c = f"(C) | Variance: {c_stats['Var']:.2f} ms²"
+    variance_rust = f"(Rust) | Variance : {rust_stats['Var']:.2f} ms²"
+    plt.legend([variance_c, variance_rust, "C", "Rust"], loc="upper right", fontsize=10)
+
     # Customize plot
     plt.title(f"{metric_name} Comparison: C vs Rust")
     plt.ylabel("Time (ms)")
-    plt.xticks(x, labels)
-    plt.legend()
+    plt.xticks(x, labels, rotation=45)
     plt.tight_layout()
 
     # Save the plot

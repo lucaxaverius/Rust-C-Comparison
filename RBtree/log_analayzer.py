@@ -31,16 +31,28 @@ def plot_comparison(data, metric_name, c_key, rust_key, filename):
     rust_values = data[rust_key]
 
     # Calculate statistics
-    c_stats = {"Min": np.min(c_values), "Avg": np.mean(c_values), "Max": np.max(c_values)}
-    rust_stats = {"Min": np.min(rust_values), "Avg": np.mean(rust_values), "Max": np.max(rust_values)}
+    c_stats = {
+        "Min": np.min(c_values),
+        "Avg": np.mean(c_values),
+        "Max": np.max(c_values),
+        "Median": np.median(c_values),
+        "Var": np.var(c_values)
+    }
+    rust_stats = {
+        "Min": np.min(rust_values),
+        "Avg": np.mean(rust_values),
+        "Max": np.max(rust_values),
+        "Median": np.median(rust_values),
+        "Var": np.var(rust_values)
+    }
 
     # Print statistics for debugging
     print(f"\n{metric_name} Statistics:")
-    print(f"C: Min={c_stats['Min']}, Avg={c_stats['Avg']:.2f}, Max={c_stats['Max']}")
-    print(f"Rust: Min={rust_stats['Min']}, Avg={rust_stats['Avg']:.2f}, Max={rust_stats['Max']}")
+    print(f"C: {c_stats}")
+    print(f"Rust: {rust_stats}")
 
     # Create bar plot
-    labels = ["Min", "Avg", "Max"]
+    labels = ["Min", "Avg", "Max", "Median"]
     c_values_plot = [c_stats[label] for label in labels]
     rust_values_plot = [rust_stats[label] for label in labels]
 
@@ -57,11 +69,15 @@ def plot_comparison(data, metric_name, c_key, rust_key, filename):
             plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 1, f"{value:.2f}",
                      ha='center', va='bottom', fontsize=10)
 
+    # Add variance to the legend
+    variance_c = f"(C) | Variance  {c_stats['Var']:.2f} ms²"
+    variance_rust = f"(Rust) | Variance  {rust_stats['Var']:.2f} ms²"
+    plt.legend([variance_c, variance_rust, "C", "Rust"], loc="upper right", fontsize=10)
+
     # Customize plot
     plt.title(f"{metric_name} Time Comparison: C vs Rust")
     plt.ylabel("Time (ms)")
     plt.xticks(x, labels)
-    plt.legend()
     plt.tight_layout()
 
     # Save the plot

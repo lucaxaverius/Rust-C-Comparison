@@ -1,0 +1,181 @@
+[ 5612.474234] Rust_SpinLock_Benchmark: Initializing Spinlock Lock/Unlock Performance Test...
+[ 5613.329153] Rust_SpinLock_Benchmark: Spinlock Test 1 Completed
+[ 5613.329158] Rust_SpinLock_Benchmark: Total time: 854 ms
+[ 5613.329159] Rust_SpinLock_Benchmark: Total lock/unlock time: 555 ms
+[ 5613.329160] Rust_SpinLock_Benchmark: Average time per lock/unlock: 37 ns
+[ 5613.329160] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5613.329161] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 80683 ns
+[ 5614.152124] Rust_SpinLock_Benchmark: Spinlock Test 2 Completed
+[ 5614.152128] Rust_SpinLock_Benchmark: Total time: 822 ms
+[ 5614.152129] Rust_SpinLock_Benchmark: Total lock/unlock time: 534 ms
+[ 5614.152130] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5614.152130] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5614.152131] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 52950 ns
+[ 5614.984399] Rust_SpinLock_Benchmark: Spinlock Test 3 Completed
+[ 5614.984403] Rust_SpinLock_Benchmark: Total time: 832 ms
+[ 5614.984404] Rust_SpinLock_Benchmark: Total lock/unlock time: 539 ms
+[ 5614.984405] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5614.984406] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5614.984413] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 84418 ns
+[ 5615.808158] Rust_SpinLock_Benchmark: Spinlock Test 4 Completed
+[ 5615.808162] Rust_SpinLock_Benchmark: Total time: 823 ms
+[ 5615.808163] Rust_SpinLock_Benchmark: Total lock/unlock time: 534 ms
+[ 5615.808164] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5615.808165] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5615.808165] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 47769 ns
+[ 5616.630212] Rust_SpinLock_Benchmark: Spinlock Test 5 Completed
+[ 5616.630216] Rust_SpinLock_Benchmark: Total time: 822 ms
+[ 5616.630224] Rust_SpinLock_Benchmark: Total lock/unlock time: 533 ms
+[ 5616.630224] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5616.630225] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5616.630226] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 78464 ns
+[ 5617.460412] Rust_SpinLock_Benchmark: Spinlock Test 6 Completed
+[ 5617.460416] Rust_SpinLock_Benchmark: Total time: 830 ms
+[ 5617.460417] Rust_SpinLock_Benchmark: Total lock/unlock time: 539 ms
+[ 5617.460418] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5617.460418] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5617.460419] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 79919 ns
+[ 5618.283182] Rust_SpinLock_Benchmark: Spinlock Test 7 Completed
+[ 5618.283186] Rust_SpinLock_Benchmark: Total time: 822 ms
+[ 5618.283186] Rust_SpinLock_Benchmark: Total lock/unlock time: 534 ms
+[ 5618.283187] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5618.283188] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5618.283188] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 118200 ns
+[ 5619.108294] Rust_SpinLock_Benchmark: Spinlock Test 8 Completed
+[ 5619.108299] Rust_SpinLock_Benchmark: Total time: 825 ms
+[ 5619.108300] Rust_SpinLock_Benchmark: Total lock/unlock time: 535 ms
+[ 5619.108301] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5619.108308] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5619.108308] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 65997 ns
+[ 5619.933015] Rust_SpinLock_Benchmark: Spinlock Test 9 Completed
+[ 5619.933019] Rust_SpinLock_Benchmark: Total time: 824 ms
+[ 5619.933020] Rust_SpinLock_Benchmark: Total lock/unlock time: 535 ms
+[ 5619.933020] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5619.933021] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5619.933022] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 75556 ns
+[ 5620.756405] Rust_SpinLock_Benchmark: Spinlock Test 10 Completed
+[ 5620.756409] Rust_SpinLock_Benchmark: Total time: 823 ms
+[ 5620.756410] Rust_SpinLock_Benchmark: Total lock/unlock time: 534 ms
+[ 5620.756411] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5620.756411] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5620.756412] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 113755 ns
+[ 5621.577963] Rust_SpinLock_Benchmark: Spinlock Test 11 Completed
+[ 5621.577968] Rust_SpinLock_Benchmark: Total time: 821 ms
+[ 5621.577969] Rust_SpinLock_Benchmark: Total lock/unlock time: 533 ms
+[ 5621.577969] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5621.577976] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5621.577977] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 45427 ns
+[ 5622.399386] Rust_SpinLock_Benchmark: Spinlock Test 12 Completed
+[ 5622.399390] Rust_SpinLock_Benchmark: Total time: 821 ms
+[ 5622.399391] Rust_SpinLock_Benchmark: Total lock/unlock time: 532 ms
+[ 5622.399392] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5622.399393] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5622.399393] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 108106 ns
+[ 5623.218623] Rust_SpinLock_Benchmark: Spinlock Test 13 Completed
+[ 5623.218627] Rust_SpinLock_Benchmark: Total time: 819 ms
+[ 5623.218628] Rust_SpinLock_Benchmark: Total lock/unlock time: 531 ms
+[ 5623.218629] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5623.218630] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5623.218630] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 84575 ns
+[ 5624.043586] Rust_SpinLock_Benchmark: Spinlock Test 14 Completed
+[ 5624.043590] Rust_SpinLock_Benchmark: Total time: 824 ms
+[ 5624.043591] Rust_SpinLock_Benchmark: Total lock/unlock time: 535 ms
+[ 5624.043592] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5624.043592] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5624.043593] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 60634 ns
+[ 5624.861657] Rust_SpinLock_Benchmark: Spinlock Test 15 Completed
+[ 5624.861662] Rust_SpinLock_Benchmark: Total time: 818 ms
+[ 5624.861663] Rust_SpinLock_Benchmark: Total lock/unlock time: 531 ms
+[ 5624.861663] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5624.861664] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5624.861665] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 49423 ns
+[ 5625.683718] Rust_SpinLock_Benchmark: Spinlock Test 16 Completed
+[ 5625.683723] Rust_SpinLock_Benchmark: Total time: 822 ms
+[ 5625.683724] Rust_SpinLock_Benchmark: Total lock/unlock time: 533 ms
+[ 5625.683724] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5625.683725] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5625.683726] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 50277 ns
+[ 5626.505656] Rust_SpinLock_Benchmark: Spinlock Test 17 Completed
+[ 5626.505660] Rust_SpinLock_Benchmark: Total time: 821 ms
+[ 5626.505661] Rust_SpinLock_Benchmark: Total lock/unlock time: 533 ms
+[ 5626.505661] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5626.505662] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5626.505663] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 47789 ns
+[ 5627.321875] Rust_SpinLock_Benchmark: Spinlock Test 18 Completed
+[ 5627.321879] Rust_SpinLock_Benchmark: Total time: 816 ms
+[ 5627.321880] Rust_SpinLock_Benchmark: Total lock/unlock time: 530 ms
+[ 5627.321887] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5627.321888] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5627.321889] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 74287 ns
+[ 5628.141999] Rust_SpinLock_Benchmark: Spinlock Test 19 Completed
+[ 5628.142004] Rust_SpinLock_Benchmark: Total time: 820 ms
+[ 5628.142011] Rust_SpinLock_Benchmark: Total lock/unlock time: 532 ms
+[ 5628.142012] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5628.142012] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5628.142013] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 49024 ns
+[ 5628.960016] Rust_SpinLock_Benchmark: Spinlock Test 20 Completed
+[ 5628.960020] Rust_SpinLock_Benchmark: Total time: 818 ms
+[ 5628.960021] Rust_SpinLock_Benchmark: Total lock/unlock time: 531 ms
+[ 5628.960022] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5628.960023] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5628.960023] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 48793 ns
+[ 5629.779812] Rust_SpinLock_Benchmark: Spinlock Test 21 Completed
+[ 5629.779816] Rust_SpinLock_Benchmark: Total time: 819 ms
+[ 5629.779817] Rust_SpinLock_Benchmark: Total lock/unlock time: 532 ms
+[ 5629.779818] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5629.779818] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5629.779819] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 63740 ns
+[ 5630.600581] Rust_SpinLock_Benchmark: Spinlock Test 22 Completed
+[ 5630.600585] Rust_SpinLock_Benchmark: Total time: 820 ms
+[ 5630.600586] Rust_SpinLock_Benchmark: Total lock/unlock time: 533 ms
+[ 5630.600587] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5630.600588] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5630.600588] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 168748 ns
+[ 5631.417453] Rust_SpinLock_Benchmark: Spinlock Test 23 Completed
+[ 5631.417457] Rust_SpinLock_Benchmark: Total time: 816 ms
+[ 5631.417458] Rust_SpinLock_Benchmark: Total lock/unlock time: 530 ms
+[ 5631.417458] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5631.417459] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5631.417459] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 28329 ns
+[ 5632.236022] Rust_SpinLock_Benchmark: Spinlock Test 24 Completed
+[ 5632.236026] Rust_SpinLock_Benchmark: Total time: 818 ms
+[ 5632.236027] Rust_SpinLock_Benchmark: Total lock/unlock time: 531 ms
+[ 5632.236027] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5632.236028] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5632.236029] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 196200 ns
+[ 5633.062753] Rust_SpinLock_Benchmark: Spinlock Test 25 Completed
+[ 5633.062758] Rust_SpinLock_Benchmark: Total time: 826 ms
+[ 5633.062759] Rust_SpinLock_Benchmark: Total lock/unlock time: 536 ms
+[ 5633.062759] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5633.062760] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5633.062761] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 98268 ns
+[ 5633.886155] Rust_SpinLock_Benchmark: Spinlock Test 26 Completed
+[ 5633.886159] Rust_SpinLock_Benchmark: Total time: 823 ms
+[ 5633.886160] Rust_SpinLock_Benchmark: Total lock/unlock time: 534 ms
+[ 5633.886161] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5633.886162] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5633.886162] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 53919 ns
+[ 5634.708177] Rust_SpinLock_Benchmark: Spinlock Test 27 Completed
+[ 5634.708188] Rust_SpinLock_Benchmark: Total time: 822 ms
+[ 5634.708189] Rust_SpinLock_Benchmark: Total lock/unlock time: 533 ms
+[ 5634.708189] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5634.708190] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5634.708191] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 63571 ns
+[ 5635.533743] Rust_SpinLock_Benchmark: Spinlock Test 28 Completed
+[ 5635.533747] Rust_SpinLock_Benchmark: Total time: 825 ms
+[ 5635.533748] Rust_SpinLock_Benchmark: Total lock/unlock time: 535 ms
+[ 5635.533755] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5635.533755] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5635.533756] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 60135 ns
+[ 5636.356458] Rust_SpinLock_Benchmark: Spinlock Test 29 Completed
+[ 5636.356462] Rust_SpinLock_Benchmark: Total time: 822 ms
+[ 5636.356463] Rust_SpinLock_Benchmark: Total lock/unlock time: 534 ms
+[ 5636.356463] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5636.356464] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5636.356465] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 44035 ns
+[ 5637.179846] Rust_SpinLock_Benchmark: Spinlock Test 30 Completed
+[ 5637.179851] Rust_SpinLock_Benchmark: Total time: 823 ms
+[ 5637.179852] Rust_SpinLock_Benchmark: Total lock/unlock time: 534 ms
+[ 5637.179853] Rust_SpinLock_Benchmark: Average time per lock/unlock: 35 ns
+[ 5637.179853] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 32 ns
+[ 5637.179854] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 113486 ns
