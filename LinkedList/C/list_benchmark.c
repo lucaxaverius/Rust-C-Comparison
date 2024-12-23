@@ -11,6 +11,8 @@ MODULE_DESCRIPTION("ListHead Benchmark Module");
 
 #define NUM_ELEMENTS 10000000
 #define NUM_EXECUTION 30
+#define SEED 12346
+#define I 2
 
 int list_benchmark_test(int seed, int count);
 int list_benchmark_init(void);
@@ -112,7 +114,7 @@ int list_benchmark_test(int seed, int count)
     ktime_t start, end;
     s64 elapsed_ns;
 
-    pr_info("C-List-Benchmark: Starting %d-th list_head benchmark module...\n", count+1);
+    pr_info("C-List-Benchmark: Starting %d-th list_head benchmark module...\n", count);
 
     /* Allocate memory for random numbers */
     random_numbers = kvmalloc_array(NUM_ELEMENTS, sizeof(int), GFP_KERNEL);
@@ -178,15 +180,10 @@ int list_benchmark_test(int seed, int count)
 
 int list_benchmark_init(void){
     int ret;
-    int seed = 12345;
-    for (int i=0; i<NUM_EXECUTION; i++){
-	    ret = list_benchmark_test(seed, i);
-        if (ret != 0)
-            return ret;
+    ret = list_benchmark_test(SEED, I);
+    pr_info("C-List-Benchmark: Module initialization complete.\n");
 
-        seed ++;
-    }
-   return ret;
+    return ret;
 }
 
 
