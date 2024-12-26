@@ -11,7 +11,7 @@ LOG_FILE="$LOG_DIR/module_logs.txt"
 PERF_EVENTS="cycles,instructions,cache-misses,page-faults,branch-misses,cpu-clock,branches"
 SEED=12345  # Initial SEED value
 I=1         # Initial I value
-N_RUNS=2  # Number of iterations
+N_RUNS=1000  # Number of iterations 
 
 # Ensure directories exist
 mkdir -p "$LOG_DIR"
@@ -93,6 +93,7 @@ for ((run=1; run<=N_RUNS; run++)); do
     echo "Finished test iteration $iter \n"
 done
 
+python3 perf_analyzer.py $N_RUNS
 # Clean up build artifacts
 echo "Cleaning up build artifacts...\n"
 make  clean

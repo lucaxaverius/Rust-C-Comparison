@@ -9,7 +9,7 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Luca Saverio Esposito");
 MODULE_DESCRIPTION("ListHead Benchmark Module");
 
-#define NUM_ELEMENTS 10000000
+#define NUM_ELEMENTS 15000000
 #define NUM_EXECUTION 30
 #define SEED 12346
 #define I 2
@@ -137,19 +137,22 @@ int list_benchmark_test(int seed, int count)
     pr_info("C-List-Benchmark: Time to insert %d elements at front: %lld ms\n", NUM_ELEMENTS, elapsed_ns);
 
     /* Iterate all*/
-    start = ktime_get();
+    /*start = ktime_get();
     iterate_all();
     end = ktime_get();
     elapsed_ns = ktime_to_ms(ktime_sub(end, start));
     pr_info("C-List-Benchmark: Time to iterate %d elements: %lld ms\n", NUM_ELEMENTS, elapsed_ns);
+    */
 
     /* Remove all elements */
+    /*
     start = ktime_get();
     remove_all();
     end = ktime_get();
     elapsed_ns = ktime_to_ms(ktime_sub(end, start));
     pr_info("C-List-Benchmark: Time to remove all elements: %lld ms\n", elapsed_ns);
-
+    */
+    
     /* Insert at back */
     start = ktime_get();
     insert_back(random_numbers, NUM_ELEMENTS);
