@@ -1,1 +1,0 @@
-savedcmd_rust_list_benchmark.ko := ld.lld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T /home/rustxave/Scrivania/6.13/linux/scripts/module.lds -o rust_list_benchmark.ko rust_list_benchmark.o rust_list_benchmark.mod.o .module-common.o

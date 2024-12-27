@@ -9,7 +9,7 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Luca Saverio Esposito");
 MODULE_DESCRIPTION("ListHead Benchmark Module");
 
-#define NUM_ELEMENTS 15000000
+#define NUM_ELEMENTS 10000000
 #define NUM_EXECUTION 30
 #define SEED 12347
 #define I 3

@@ -103,7 +103,7 @@ def process_perf_data(data_file, csv_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python3 extract_metrics.py <path_to_perf_data_file>")
+        print("Usage: python3 extract_metrics.py <path_to_perf_data_file> <csv_file_name>")
         sys.exit(1)
 
     data_file = sys.argv[1]

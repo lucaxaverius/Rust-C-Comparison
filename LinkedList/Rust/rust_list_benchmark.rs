@@ -57,19 +57,21 @@ impl_list_item! {
 
 /// Benchmark module for linked list operations.
 pub struct ListBenchmarkModule {
-    list: List<MyData, 0>, // Linked list of `MyData`.
 }
 
-const NUM_ELEMENTS: usize = 10_000_000;
+const NUM_ELEMENTS: usize = 1_000_000;
 //const NUM_EXECUTION: usize = 30;
-const SEED: u32 = 12345;
-const ITERATION: i32 = 1;
+const SEED: u32 = 12346;
+const ITERATION: i32 = 2;
 
 
 impl kernel::Module for ListBenchmarkModule {
     #[no_mangle]
     fn init(_module: &'static ThisModule) -> Result<Self> {
-        let benchmark = ListBenchmarkModule::rust_list_benchmark_test(SEED, ITERATION).expect("Test failed");
+
+        let benchmark = Self {
+        };
+        ListBenchmarkModule::rust_list_benchmark_test(SEED, ITERATION);
         pr_info!("Module initialization complete");
         Ok(benchmark)
     }
@@ -83,19 +85,19 @@ impl Drop for ListBenchmarkModule {
 
 impl ListBenchmarkModule {
     /// Print first n data generated
-    fn print_first_n(data: &[u32], n: i32){
+    /*fn print_first_n(data: &[u32], n: i32){
         for i in 0..n {
             let value = data.get(i as usize).expect("Value not found");
             pr_info!("The {}-th element is: {}",i+1, value);
         }
-    }
+    }*/
     #[no_mangle]
     #[inline(never)]
     /// Insert elements at the front of the list.
-    fn insert_front(&mut self, data: &[u32]) {
+    fn insert_front(list: &mut List<MyData, 0>, data: &[u32]) {
         for &value in data {
             if let Ok(arc) = ListArc::pin_init(MyData::pin_init(value), GFP_KERNEL) {
-                self.list.push_front(arc);
+                list.push_front(arc);
             } else {
                 pr_err!("Failed to allocate ListArc for value: {}\n", value);
             }
@@ -104,10 +106,10 @@ impl ListBenchmarkModule {
     #[no_mangle]
     #[inline(never)]
     /// Insert elements at the back of the list.
-    fn insert_back(&mut self, data: &[u32]) {
+    fn insert_back(list: &mut List<MyData, 0>, data: &[u32]) {
         for &value in data {
             if let Ok(arc) = ListArc::pin_init(MyData::pin_init(value), GFP_KERNEL) {
-                self.list.push_back(arc);
+                list.push_back(arc);
             } else {
                 pr_err!("Failed to allocate ListArc for value: {}\n", value);
             }
@@ -116,8 +118,8 @@ impl ListBenchmarkModule {
     #[no_mangle]
     #[inline(never)]
     /// Remove all elements from the list.
-    fn remove_all(&mut self) {
-        while let Some(item) = self.list.pop_front() {
+    fn remove_all(list: &mut List<MyData, 0>) {
+        while let Some(item) = list.pop_front() {
             drop(item); // Ensure the ListArc is properly released.
         }
     }
@@ -125,20 +127,24 @@ impl ListBenchmarkModule {
     #[no_mangle]
     #[inline(never)]
     /// Iterates over all elements in the list and increments their value by one.
-    pub fn iter_all(&mut self) {
-        for item in self.list.iter() {
-            // Copy the value from the list element and incremnt it
-            let mut value = item.value +1;
+    fn iter_all(list: &mut List<MyData, 0>)->u32 {
+        let mut value = 0;
+
+        for item in list.iter() {
+            // Copy the value from the list element and increment it
+            value = item.value +1;
         }
+        value
+
     }
 
     #[no_mangle]
-    fn rust_list_benchmark_test(seed: u32, count: i32)->Result<Self>{
+    #[inline(never)]
+    fn rust_list_benchmark_test(seed: u32, count: i32){
         pr_info!("Starting {}-th list_head benchmark module...",count);
 
-        let mut benchmark = Self {
-            list: List::new(),
-        };
+        let mut list: List<MyData, 0> = List::new();
+
         let mut seed_in = seed;
 
         // Generate random numbers.
@@ -155,7 +161,7 @@ impl ListBenchmarkModule {
         
         // Insert elements at the front of the list.
         let start = Ktime::ktime_get();
-        benchmark.insert_front(&random_numbers);
+        Self::insert_front(&mut list, &random_numbers);
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
         pr_info!(
             "Time to insert {} elements at front: {} ms\n",
@@ -163,24 +169,9 @@ impl ListBenchmarkModule {
             elapsed
         );
 
-        /*
-        //Iter over the list
-        let start = Ktime::ktime_get();
-        benchmark.iter_all();
-        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
-        pr_info!("Time to iterate {} elements: {} ms\n", NUM_ELEMENTS, elapsed);
-
-
-        // Remove all elements.
-        let start = Ktime::ktime_get();
-        benchmark.remove_all();
-        let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
-        pr_info!("Time to remove all elements: {} ms\n", elapsed);
-        */
-
         // Insert elements at the back of the list.
         let start = Ktime::ktime_get();
-        benchmark.insert_back(&random_numbers);
+        Self::insert_back(&mut list, &random_numbers);
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
         pr_info!(
             "Time to insert {} elements at back: {} ms\n",
@@ -190,19 +181,17 @@ impl ListBenchmarkModule {
 
         //Iter over the list
         let start = Ktime::ktime_get();
-        benchmark.iter_all();
+        _ = Self::iter_all(&mut list);
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
         pr_info!("Time to iterate {} elements: {} ms\n", NUM_ELEMENTS, elapsed);
         
         // Remove all elements.
         let start = Ktime::ktime_get();
-        benchmark.remove_all();
+        Self::remove_all(&mut list);
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
         pr_info!("Time to remove all elements: {} ms\n", elapsed);
 
         pr_info!("Benchmark {}-th completed.\n",count);
-
-        Ok(benchmark)
 
     }
 }
