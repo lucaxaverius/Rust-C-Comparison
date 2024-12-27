@@ -61,20 +61,16 @@ pub struct ListBenchmarkModule {
 }
 
 const NUM_ELEMENTS: usize = 10_000_000;
-const NUM_EXECUTION: usize = 30;
+//const NUM_EXECUTION: usize = 30;
+const SEED: u32 = 12345;
+const ITERATION: i32 = 1;
+
 
 impl kernel::Module for ListBenchmarkModule {
     #[no_mangle]
     fn init(_module: &'static ThisModule) -> Result<Self> {
-        let mut seed = 12345;
-        let mut benchmark = Self {
-            list: List::new(),
-        };
-        pr_info!("Initializing Rust linked list benchmark module...\n");
-        for i in 0..NUM_EXECUTION{
-            benchmark = ListBenchmarkModule::rust_list_benchmark_test(seed, i as i32).expect("Test failed");
-            seed = seed +1;
-        }
+        let benchmark = ListBenchmarkModule::rust_list_benchmark_test(SEED, ITERATION).expect("Test failed");
+        pr_info!("Module initialization complete");
         Ok(benchmark)
     }
 }
@@ -138,7 +134,7 @@ impl ListBenchmarkModule {
 
     #[no_mangle]
     fn rust_list_benchmark_test(seed: u32, count: i32)->Result<Self>{
-        pr_info!("Starting {}-th list_head benchmark module...",count+1);
+        pr_info!("Starting {}-th list_head benchmark module...",count);
 
         let mut benchmark = Self {
             list: List::new(),
@@ -167,6 +163,7 @@ impl ListBenchmarkModule {
             elapsed
         );
 
+        /*
         //Iter over the list
         let start = Ktime::ktime_get();
         benchmark.iter_all();
@@ -179,6 +176,7 @@ impl ListBenchmarkModule {
         benchmark.remove_all();
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
         pr_info!("Time to remove all elements: {} ms\n", elapsed);
+        */
 
         // Insert elements at the back of the list.
         let start = Ktime::ktime_get();
@@ -202,7 +200,7 @@ impl ListBenchmarkModule {
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
         pr_info!("Time to remove all elements: {} ms\n", elapsed);
 
-        pr_info!("Benchmark {}-th completed.\n",count+1);
+        pr_info!("Benchmark {}-th completed.\n",count);
 
         Ok(benchmark)
 
