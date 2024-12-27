@@ -101,6 +101,9 @@ def process_perf_files(num_files):
         for func, events in metrics.items():
             for event, values in events.items():
                 aggregated_metrics[func][event].extend(values)
+        
+        if os.path.exists(data_file)
+            os.remove(data_file)
 
     # print(f"Aggregated metrics: {aggregated_metrics}")  # Debug
 

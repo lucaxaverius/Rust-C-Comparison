@@ -11,7 +11,7 @@ EXTRA_CFLAGS := -pg -fno-inline
 all:
 	$(MAKE) LLVM=1 -C $(KDIR) M=$(PWD) modules
 perf:
-	$(MAKE) LLVM=1 -C $(KDIR) M=$(PWD) EXTRA_CFLAGS="$(EXTRA_CFLAGS)" modules
+	$(MAKE) -s LLVM=1 -C $(KDIR) M=$(PWD) EXTRA_CFLAGS="$(EXTRA_CFLAGS)" modules
 
 clean:
 	$(MAKE) -C $(KDIR) M=$(PWD) clean
