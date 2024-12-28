@@ -127,7 +127,7 @@ int list_benchmark_test(int seed, int count)
     generate_random_numbers(random_numbers, NUM_ELEMENTS, seed);
 
     /* Print first 5 element in the list: */
-    print_first_n(random_numbers, 1);
+    //print_first_n(random_numbers, 1);
 
     /* Insert at front */
     start = ktime_get();

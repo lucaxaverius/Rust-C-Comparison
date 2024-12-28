@@ -1,0 +1,76 @@
+Function: mutex_lock
+  Event: cycles
+    Avg: 7.20
+    Min: 5.28
+    Max: 9.94
+    Median: 6.39
+    Std Dev: 2.43
+  Event: instructions
+    Avg: 19.24
+    Min: 14.98
+    Max: 26.14
+    Median: 16.60
+    Std Dev: 6.03
+  Event: cache-misses
+    Avg: 0.27
+    Min: 0.17
+    Max: 0.39
+    Median: 0.24
+    Std Dev: 0.11
+  Event: branch-misses
+    Avg: 0.64
+    Min: 0.27
+    Max: 1.34
+    Median: 0.32
+    Std Dev: 0.60
+  Event: cpu-clock
+    Avg: 5.90
+    Min: 4.64
+    Max: 8.25
+    Median: 4.81
+    Std Dev: 2.04
+  Event: branches
+    Avg: 22.99
+    Min: 21.15
+    Max: 25.92
+    Median: 21.89
+    Std Dev: 2.57
+
+Function: mutex_unlock
+  Event: cycles
+    Avg: 6.87
+    Min: 4.73
+    Max: 8.98
+    Median: 6.91
+    Std Dev: 2.13
+  Event: instructions
+    Avg: 5.13
+    Min: 3.84
+    Max: 7.40
+    Median: 4.15
+    Std Dev: 1.97
+  Event: cache-misses
+    Avg: 0.19
+    Min: 0.04
+    Max: 0.40
+    Median: 0.13
+    Std Dev: 0.19
+  Event: branch-misses
+    Avg: 0.29
+    Min: 0.12
+    Max: 0.56
+    Median: 0.20
+    Std Dev: 0.23
+  Event: cpu-clock
+    Avg: 5.38
+    Min: 4.15
+    Max: 7.11
+    Median: 4.89
+    Std Dev: 1.54
+  Event: branches
+    Avg: 9.76
+    Min: 8.52
+    Max: 10.58
+    Median: 10.18
+    Std Dev: 1.09
+

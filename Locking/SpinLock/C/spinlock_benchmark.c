@@ -9,7 +9,8 @@ MODULE_AUTHOR("Luca Saverio Esposito");
 MODULE_DESCRIPTION("SpinLock Lock/Unlock Performance Test");
 
 #define NUM_ITERATIONS 15000000
-#define NUM_EXECUTION 30
+//#define NUM_EXECUTION 30
+#define COUNT 3
 
 int spinlock_benchmark_test(int count);
 EXPORT_SYMBOL(spinlock_benchmark_test);
@@ -26,15 +27,16 @@ static int spinlock_test_init(void)
     // Initialize the spinlock
     spin_lock_init(&test_spinlock);
 
-    for (int i = 0; i< NUM_EXECUTION; i++){
-        ret = spinlock_benchmark_test(i);
-    }
+    ret = spinlock_benchmark_test(COUNT);
+    
+    pr_info("C-SpinLock-Benchmark: Iteration %d-th ended\n", COUNT);
+    pr_info("C-SpinLock-Benchmark: Test module completed.\n");
 
     return ret;
 }
 
 int spinlock_benchmark_test(int count){
-     ktime_t start, end, lock_start, lock_end;
+    ktime_t start, end, lock_start, lock_end;
     s64 total_time_ms = 0, lock_time_ns = 0;
     s64 min_time_ns = LLONG_MAX, max_time_ns = 0;
     s64 elapsed_ns;
@@ -67,7 +69,7 @@ int spinlock_benchmark_test(int count){
     total_time_ms = ktime_to_ms(ktime_sub(end, start));
 
     // Log results
-    pr_info("C-SpinLock-Benchmark: spinlock %d Test Completed\n",count+1);
+    pr_info("C-SpinLock-Benchmark: spinlock %d Test Completed\n",count);
     pr_info("C-SpinLock-Benchmark: Total time: %lld ms\n", total_time_ms);
     pr_info("C-SpinLock-Benchmark: Total lock/unlock time: %lld ms\n", ktime_to_ms(lock_time_ns));
     pr_info("C-SpinLock-Benchmark: Average time per lock/unlock: %lld ns\n", lock_time_ns / NUM_ITERATIONS);

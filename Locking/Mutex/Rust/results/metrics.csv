@@ -1,0 +1,13 @@
+function,event,num_values,values
+mutex_lock,cycles,3,10.06,4.93,7.77
+mutex_lock,instructions,3,21.99,11.96,16.71
+mutex_lock,cache-misses,3,0.33,0.15,0.1
+mutex_lock,branch-misses,3,0.42,0.23,0.46
+mutex_lock,cpu-clock,3,6.73,3.75,5.4
+mutex_lock,branches,3,20.14,14.13,19.45
+mutex_unlock,cycles,3,7.92,3.97,6.32
+mutex_unlock,instructions,3,5.9,3.32,6.96
+mutex_unlock,cache-misses,3,0.09,0.08,0.09
+mutex_unlock,branch-misses,3,0.28,0.17,0.19
+mutex_unlock,cpu-clock,3,5.78,3.85,4.96
+mutex_unlock,branches,3,10.54,7.62,8.49

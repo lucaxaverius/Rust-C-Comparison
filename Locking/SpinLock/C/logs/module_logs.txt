@@ -1,0 +1,33 @@
+Logs for iteration 1
+[ 7516.927232] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
+[ 7516.927237] C-SpinLock-Benchmark: Number of iterations: 15000000
+[ 7517.950699] C-SpinLock-Benchmark: spinlock 1 Test Completed
+[ 7517.950758] C-SpinLock-Benchmark: Total time: 1023 ms
+[ 7517.950803] C-SpinLock-Benchmark: Total lock/unlock time: 643 ms
+[ 7517.950804] C-SpinLock-Benchmark: Average time per lock/unlock: 42 ns
+[ 7517.950805] C-SpinLock-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 7517.950806] C-SpinLock-Benchmark: Maximum time per lock/unlock: 719457 ns
+[ 7517.950848] C-SpinLock-Benchmark: Iteration 1-th ended
+[ 7517.950861] C-SpinLock-Benchmark: Test module completed.
+Logs for iteration 2
+[ 7521.919339] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
+[ 7521.919342] C-SpinLock-Benchmark: Number of iterations: 15000000
+[ 7522.918965] C-SpinLock-Benchmark: spinlock 2 Test Completed
+[ 7522.919236] C-SpinLock-Benchmark: Total time: 999 ms
+[ 7522.919297] C-SpinLock-Benchmark: Total lock/unlock time: 631 ms
+[ 7522.919298] C-SpinLock-Benchmark: Average time per lock/unlock: 42 ns
+[ 7522.919299] C-SpinLock-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 7522.919300] C-SpinLock-Benchmark: Maximum time per lock/unlock: 282658 ns
+[ 7522.919301] C-SpinLock-Benchmark: Iteration 2-th ended
+[ 7522.919302] C-SpinLock-Benchmark: Test module completed.
+Logs for iteration 3
+[ 7527.698346] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
+[ 7527.698351] C-SpinLock-Benchmark: Number of iterations: 15000000
+[ 7528.667452] C-SpinLock-Benchmark: spinlock 3 Test Completed
+[ 7528.667654] C-SpinLock-Benchmark: Total time: 969 ms
+[ 7528.667772] C-SpinLock-Benchmark: Total lock/unlock time: 612 ms
+[ 7528.667773] C-SpinLock-Benchmark: Average time per lock/unlock: 40 ns
+[ 7528.667773] C-SpinLock-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 7528.667774] C-SpinLock-Benchmark: Maximum time per lock/unlock: 274452 ns
+[ 7528.667775] C-SpinLock-Benchmark: Iteration 3-th ended
+[ 7528.667775] C-SpinLock-Benchmark: Test module completed.

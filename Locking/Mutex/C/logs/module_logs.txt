@@ -1,0 +1,33 @@
+Logs for iteration 1
+[11893.476594] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[11893.476602] C-Mutex-Benchmark: Number of iterations: 1
+[11894.449326] C-Mutex-Benchmark: Mutex Test 1 Completed
+[11894.449480] C-Mutex-Benchmark: Total time: 972 ms
+[11894.449512] C-Mutex-Benchmark: Total lock/unlock time: 611 ms
+[11894.449544] C-Mutex-Benchmark: Average time per lock/unlock: 40 ns
+[11894.449545] C-Mutex-Benchmark: Minimum time per lock/unlock: 28 ns
+[11894.449546] C-Mutex-Benchmark: Maximum time per lock/unlock: 4716406 ns
+[11894.449546] C-Mutex-Benchmark: Iteration 1-th ended
+[11894.449547] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 2
+[11897.953712] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[11897.953727] C-Mutex-Benchmark: Number of iterations: 2
+[11898.997037] C-Mutex-Benchmark: Mutex Test 2 Completed
+[11898.997182] C-Mutex-Benchmark: Total time: 1043 ms
+[11898.997184] C-Mutex-Benchmark: Total lock/unlock time: 659 ms
+[11898.997193] C-Mutex-Benchmark: Average time per lock/unlock: 43 ns
+[11898.997194] C-Mutex-Benchmark: Minimum time per lock/unlock: 28 ns
+[11898.997278] C-Mutex-Benchmark: Maximum time per lock/unlock: 4255873 ns
+[11898.997345] C-Mutex-Benchmark: Iteration 2-th ended
+[11898.997346] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 3
+[11902.518076] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[11902.518080] C-Mutex-Benchmark: Number of iterations: 3
+[11903.664327] C-Mutex-Benchmark: Mutex Test 3 Completed
+[11903.664345] C-Mutex-Benchmark: Total time: 1146 ms
+[11903.664346] C-Mutex-Benchmark: Total lock/unlock time: 750 ms
+[11903.664347] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[11903.664348] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[11903.664349] C-Mutex-Benchmark: Maximum time per lock/unlock: 10403939 ns
+[11903.664350] C-Mutex-Benchmark: Iteration 3-th ended
+[11903.664350] C-Mutex-Benchmark: Test module completed.

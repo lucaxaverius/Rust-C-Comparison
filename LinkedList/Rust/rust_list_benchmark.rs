@@ -59,10 +59,10 @@ impl_list_item! {
 pub struct ListBenchmarkModule {
 }
 
-const NUM_ELEMENTS: usize = 1_000_000;
+const NUM_ELEMENTS: usize = 10_000_000;
 //const NUM_EXECUTION: usize = 30;
-const SEED: u32 = 12346;
-const ITERATION: i32 = 2;
+const SEED: u32 = 12347;
+const ITERATION: i32 = 3;
 
 
 impl kernel::Module for ListBenchmarkModule {
@@ -72,7 +72,7 @@ impl kernel::Module for ListBenchmarkModule {
         let benchmark = Self {
         };
         ListBenchmarkModule::rust_list_benchmark_test(SEED, ITERATION);
-        pr_info!("Module initialization complete");
+        pr_info!("Module initialization complete\n");
         Ok(benchmark)
     }
 }
@@ -119,22 +119,22 @@ impl ListBenchmarkModule {
     #[inline(never)]
     /// Remove all elements from the list.
     fn remove_all(list: &mut List<MyData, 0>) {
-        while let Some(item) = list.pop_front() {
-            drop(item); // Ensure the ListArc is properly released.
+        while let Some(_item) = list.pop_front() {
+            // No manual drop needed; the value will drop automatically
         }
     }
 
     #[no_mangle]
     #[inline(never)]
     /// Iterates over all elements in the list and increments their value by one.
-    fn iter_all(list: &mut List<MyData, 0>)->u32 {
+    fn iterate_all(list: &mut List<MyData, 0>)->u32 {
         let mut value = 0;
 
         for item in list.iter() {
             // Copy the value from the list element and increment it
             value = item.value +1;
         }
-        value
+        value 
 
     }
 
@@ -181,7 +181,7 @@ impl ListBenchmarkModule {
 
         //Iter over the list
         let start = Ktime::ktime_get();
-        _ = Self::iter_all(&mut list);
+        _ = Self::iterate_all(&mut list);
         let elapsed = ktime_ms_delta(Ktime::ktime_get(), start);
         pr_info!("Time to iterate {} elements: {} ms\n", NUM_ELEMENTS, elapsed);
         
@@ -192,6 +192,7 @@ impl ListBenchmarkModule {
         pr_info!("Time to remove all elements: {} ms\n", elapsed);
 
         pr_info!("Benchmark {}-th completed.\n",count);
+        
 
     }
 }
