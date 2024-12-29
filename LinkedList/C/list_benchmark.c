@@ -9,7 +9,7 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Luca Saverio Esposito");
 MODULE_DESCRIPTION("ListHead Benchmark Module");
 
-#define NUM_ELEMENTS 10000000
+#define NUM_ELEMENTS 15000000
 #define NUM_EXECUTION 30
 #define SEED 12347
 #define I 3
@@ -52,13 +52,14 @@ static void generate_random_numbers(u32 *array, size_t size, u32 seed)
     }
 }
 
+/*
 // Just for debugging, print the first n elements generated
 static void print_first_n(u32 *array, int n){
     for (int i =0; i < n; i++){
         pr_info("C-List-Benchmark: The %d-th element is: %u", i+1, array[i]);
     }
 }
-
+*/
 void insert_front(int *data, size_t size)
 {
     size_t i;
@@ -177,7 +178,7 @@ int list_benchmark_test(int seed, int count)
     /* Free random numbers */
     kvfree(random_numbers);
 
-    pr_info("C-List-Benchmark: Benchmark %d-th completed.\n", count + 1);
+    pr_info("C-List-Benchmark: Benchmark %d-th completed.\n", count );
     return 0;
 }
 

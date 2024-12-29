@@ -1,152 +1,152 @@
 Function: remove_all
   Event: cycles
-    Avg: 37.46
-    Min: 29.51
-    Max: 43.31
-    Median: 39.55
-    Std Dev: 7.13
+    Avg: 38.85
+    Min: 23.97
+    Max: 47.08
+    Median: 45.50
+    Std Dev: 12.91
   Event: instructions
-    Avg: 47.31
-    Min: 41.69
-    Max: 51.60
-    Median: 48.65
-    Std Dev: 5.09
+    Avg: 46.57
+    Min: 33.79
+    Max: 53.48
+    Median: 52.43
+    Std Dev: 11.08
   Event: cache-misses
-    Avg: 24.68
-    Min: 16.57
-    Max: 30.69
-    Median: 26.78
-    Std Dev: 7.29
+    Avg: 27.36
+    Min: 15.50
+    Max: 35.09
+    Median: 31.50
+    Std Dev: 10.43
   Event: branch-misses
-    Avg: 14.88
-    Min: 8.62
-    Max: 18.83
-    Median: 17.18
-    Std Dev: 5.48
+    Avg: 21.40
+    Min: 7.91
+    Max: 32.34
+    Median: 23.94
+    Std Dev: 12.41
   Event: cpu-clock
-    Avg: 29.98
-    Min: 23.78
-    Max: 34.86
-    Median: 31.29
-    Std Dev: 5.66
+    Avg: 26.74
+    Min: 17.38
+    Max: 32.15
+    Median: 30.70
+    Std Dev: 8.14
   Event: branches
-    Avg: 46.34
-    Min: 42.18
-    Max: 49.18
-    Median: 47.65
-    Std Dev: 3.68
+    Avg: 47.40
+    Min: 39.70
+    Max: 51.32
+    Median: 51.18
+    Std Dev: 6.67
 
 Function: insert_back
   Event: cycles
-    Avg: 17.54
-    Min: 14.18
-    Max: 20.22
-    Median: 18.22
-    Std Dev: 3.08
+    Avg: 17.59
+    Min: 10.23
+    Max: 21.64
+    Median: 20.89
+    Std Dev: 6.38
   Event: instructions
-    Avg: 26.23
-    Min: 23.15
-    Max: 28.62
-    Median: 26.92
-    Std Dev: 2.80
+    Avg: 25.66
+    Min: 18.87
+    Max: 29.10
+    Median: 29.00
+    Std Dev: 5.88
   Event: cache-misses
-    Avg: 9.95
-    Min: 7.06
-    Max: 12.07
-    Median: 10.73
-    Std Dev: 2.59
+    Avg: 10.62
+    Min: 5.98
+    Max: 13.48
+    Median: 12.39
+    Std Dev: 4.05
   Event: branch-misses
-    Avg: 7.59
-    Min: 4.59
-    Max: 9.23
-    Median: 8.96
-    Std Dev: 2.60
+    Avg: 9.83
+    Min: 3.61
+    Max: 13.60
+    Median: 12.29
+    Std Dev: 5.43
   Event: cpu-clock
-    Avg: 15.18
-    Min: 13.27
-    Max: 16.90
-    Median: 15.38
-    Std Dev: 1.82
+    Avg: 12.53
+    Min: 6.87
+    Max: 15.62
+    Median: 15.11
+    Std Dev: 4.91
   Event: branches
-    Avg: 28.55
-    Min: 26.07
-    Max: 30.47
-    Median: 29.12
-    Std Dev: 2.25
+    Avg: 28.96
+    Min: 24.42
+    Max: 31.32
+    Median: 31.13
+    Std Dev: 3.93
 
 Function: iterate_all
   Event: cycles
-    Avg: 13.32
-    Min: 10.47
-    Max: 15.59
-    Median: 13.91
-    Std Dev: 2.61
+    Avg: 12.39
+    Min: 8.89
+    Max: 14.47
+    Median: 13.81
+    Std Dev: 3.05
   Event: instructions
-    Avg: 3.47
-    Min: 3.04
-    Max: 3.78
-    Median: 3.59
-    Std Dev: 0.38
+    Avg: 3.22
+    Min: 2.37
+    Max: 3.67
+    Median: 3.61
+    Std Dev: 0.73
   Event: cache-misses
-    Avg: 20.02
-    Min: 13.49
-    Max: 24.70
-    Median: 21.87
-    Std Dev: 5.83
+    Avg: 22.21
+    Min: 12.25
+    Max: 28.60
+    Median: 25.79
+    Std Dev: 8.74
   Event: branch-misses
-    Avg: 2.53
-    Min: 1.39
-    Max: 3.22
-    Median: 2.97
-    Std Dev: 0.99
+    Avg: 1.41
+    Min: 0.64
+    Max: 1.97
+    Median: 1.61
+    Std Dev: 0.69
   Event: cpu-clock
-    Avg: 13.44
-    Min: 10.32
-    Max: 15.97
-    Median: 14.04
-    Std Dev: 2.87
+    Avg: 15.94
+    Min: 9.89
+    Max: 19.55
+    Median: 18.39
+    Std Dev: 5.27
   Event: branches
-    Avg: 5.18
-    Min: 4.69
-    Max: 5.49
-    Median: 5.36
-    Std Dev: 0.43
+    Avg: 5.08
+    Min: 4.22
+    Max: 5.58
+    Median: 5.43
+    Std Dev: 0.75
 
 Function: insert_front
   Event: cycles
-    Avg: 3.04
-    Min: 1.96
-    Max: 4.26
-    Median: 2.91
-    Std Dev: 1.16
+    Avg: 3.94
+    Min: 3.49
+    Max: 4.74
+    Median: 3.60
+    Std Dev: 0.69
   Event: instructions
-    Avg: 4.66
-    Min: 3.31
-    Max: 6.40
-    Median: 4.28
-    Std Dev: 1.58
+    Avg: 5.72
+    Min: 4.58
+    Max: 6.46
+    Median: 6.12
+    Std Dev: 1.00
   Event: cache-misses
-    Avg: 1.78
-    Min: 1.01
-    Max: 2.53
-    Median: 1.79
-    Std Dev: 0.76
+    Avg: 2.39
+    Min: 2.05
+    Max: 3.02
+    Median: 2.11
+    Std Dev: 0.54
   Event: branch-misses
-    Avg: 1.44
-    Min: 0.68
-    Max: 2.14
-    Median: 1.49
-    Std Dev: 0.73
+    Avg: 2.15
+    Min: 1.30
+    Max: 3.08
+    Median: 2.08
+    Std Dev: 0.89
   Event: cpu-clock
-    Avg: 2.69
-    Min: 1.90
-    Max: 3.67
-    Median: 2.50
-    Std Dev: 0.90
+    Avg: 2.96
+    Min: 2.56
+    Max: 3.25
+    Median: 3.08
+    Std Dev: 0.36
   Event: branches
-    Avg: 4.99
-    Min: 3.72
-    Max: 6.65
-    Median: 4.59
-    Std Dev: 1.50
+    Avg: 6.50
+    Min: 4.89
+    Max: 8.09
+    Median: 6.52
+    Std Dev: 1.60
 

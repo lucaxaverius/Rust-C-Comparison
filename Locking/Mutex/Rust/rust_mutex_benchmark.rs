@@ -31,7 +31,7 @@ impl Example {
 
 struct MutexTestModule;
 
-const NUM_ITERATIONS: usize = 15_000_000;
+const NUM_ITERATIONS: usize = 20_000_000;
 //const NUM_EXECUTION: usize = 30;
 const ITERATION: i32 = 3;
 

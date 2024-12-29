@@ -1,30 +1,30 @@
 Logs for iteration 1
-[ 6439.755979] Rust_Mutex_Benchmark: Initializing Mutex Lock/Unlock Performance Test...
-[ 6440.656546] Rust_Mutex_Benchmark: Mutex Test 1 Completed
-[ 6440.656550] Rust_Mutex_Benchmark: Total time: 900 ms
-[ 6440.656551] Rust_Mutex_Benchmark: Total lock/unlock time: 576 ms
-[ 6440.656552] Rust_Mutex_Benchmark: Average time per lock/unlock: 38 ns
-[ 6440.656553] Rust_Mutex_Benchmark: Minimum time per lock/unlock: 29 ns
-[ 6440.656553] Rust_Mutex_Benchmark: Maximum time per lock/unlock: 4924236 ns
-[ 6440.656554] Rust_Mutex_Benchmark: Iteration 1 ended.
-[ 6440.656555] Rust_Mutex_Benchmark: Test module completed.
+[24813.420093] Rust_Mutex_Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[24814.298922] Rust_Mutex_Benchmark: Mutex Test 1 Completed
+[24814.298985] Rust_Mutex_Benchmark: Total time: 878 ms
+[24814.298986] Rust_Mutex_Benchmark: Total lock/unlock time: 552 ms
+[24814.298987] Rust_Mutex_Benchmark: Average time per lock/unlock: 36 ns
+[24814.298987] Rust_Mutex_Benchmark: Minimum time per lock/unlock: 29 ns
+[24814.298988] Rust_Mutex_Benchmark: Maximum time per lock/unlock: 619155 ns
+[24814.298989] Rust_Mutex_Benchmark: Iteration 1 ended.
+[24814.298990] Rust_Mutex_Benchmark: Test module completed.
 Logs for iteration 2
-[ 6443.952119] Rust_Mutex_Benchmark: Initializing Mutex Lock/Unlock Performance Test...
-[ 6445.126708] Rust_Mutex_Benchmark: Mutex Test 2 Completed
-[ 6445.126889] Rust_Mutex_Benchmark: Total time: 1174 ms
-[ 6445.126934] Rust_Mutex_Benchmark: Total lock/unlock time: 769 ms
-[ 6445.126936] Rust_Mutex_Benchmark: Average time per lock/unlock: 51 ns
-[ 6445.126936] Rust_Mutex_Benchmark: Minimum time per lock/unlock: 30 ns
-[ 6445.126937] Rust_Mutex_Benchmark: Maximum time per lock/unlock: 5891471 ns
-[ 6445.126938] Rust_Mutex_Benchmark: Iteration 2 ended.
-[ 6445.126939] Rust_Mutex_Benchmark: Test module completed.
+[24816.748410] Rust_Mutex_Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[24817.610982] Rust_Mutex_Benchmark: Mutex Test 2 Completed
+[24817.610987] Rust_Mutex_Benchmark: Total time: 862 ms
+[24817.610988] Rust_Mutex_Benchmark: Total lock/unlock time: 545 ms
+[24817.610988] Rust_Mutex_Benchmark: Average time per lock/unlock: 36 ns
+[24817.610989] Rust_Mutex_Benchmark: Minimum time per lock/unlock: 29 ns
+[24817.610995] Rust_Mutex_Benchmark: Maximum time per lock/unlock: 741492 ns
+[24817.610996] Rust_Mutex_Benchmark: Iteration 2 ended.
+[24817.610997] Rust_Mutex_Benchmark: Test module completed.
 Logs for iteration 3
-[ 6449.193840] Rust_Mutex_Benchmark: Initializing Mutex Lock/Unlock Performance Test...
-[ 6450.098212] Rust_Mutex_Benchmark: Mutex Test 3 Completed
-[ 6450.098244] Rust_Mutex_Benchmark: Total time: 904 ms
-[ 6450.098315] Rust_Mutex_Benchmark: Total lock/unlock time: 568 ms
-[ 6450.098316] Rust_Mutex_Benchmark: Average time per lock/unlock: 37 ns
-[ 6450.098317] Rust_Mutex_Benchmark: Minimum time per lock/unlock: 29 ns
-[ 6450.098318] Rust_Mutex_Benchmark: Maximum time per lock/unlock: 731834 ns
-[ 6450.098318] Rust_Mutex_Benchmark: Iteration 3 ended.
-[ 6450.098319] Rust_Mutex_Benchmark: Test module completed.
+[24820.037500] Rust_Mutex_Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[24820.934396] Rust_Mutex_Benchmark: Mutex Test 3 Completed
+[24820.934411] Rust_Mutex_Benchmark: Total time: 896 ms
+[24820.934444] Rust_Mutex_Benchmark: Total lock/unlock time: 566 ms
+[24820.934445] Rust_Mutex_Benchmark: Average time per lock/unlock: 37 ns
+[24820.934452] Rust_Mutex_Benchmark: Minimum time per lock/unlock: 29 ns
+[24820.934453] Rust_Mutex_Benchmark: Maximum time per lock/unlock: 976987 ns
+[24820.934454] Rust_Mutex_Benchmark: Iteration 3 ended.
+[24820.934455] Rust_Mutex_Benchmark: Test module completed.

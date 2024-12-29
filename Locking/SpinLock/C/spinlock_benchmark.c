@@ -3,21 +3,29 @@
 #include <linux/kernel.h>
 #include <linux/spinlock.h>
 #include <linux/ktime.h>
+#include <linux/delay.h>  // For udelay or mdelay
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Luca Saverio Esposito");
 MODULE_DESCRIPTION("SpinLock Lock/Unlock Performance Test");
 
 #define NUM_ITERATIONS 15000000
+
 //#define NUM_EXECUTION 30
 #define COUNT 3
 
 int spinlock_benchmark_test(int count);
 EXPORT_SYMBOL(spinlock_benchmark_test);
+int spinlock_test_init(void);
+EXPORT_SYMBOL(spinlock_test_init);
+
+void lock_unlock_spin(int * count);
+EXPORT_SYMBOL(lock_unlock_spin);
+
 
 static spinlock_t test_spinlock;
 
-static int spinlock_test_init(void)
+int spinlock_test_init(void)
 {
     int ret;
     pr_info("C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...\n");
@@ -35,13 +43,21 @@ static int spinlock_test_init(void)
     return ret;
 }
 
+void lock_unlock_spin(int* value){
+    unsigned long flags;
+    spin_lock_irqsave(&test_spinlock, flags);
+    (*value)++;
+    spin_unlock_irqrestore(&test_spinlock, flags);
+}
+
+
 int spinlock_benchmark_test(int count){
     ktime_t start, end, lock_start, lock_end;
     s64 total_time_ms = 0, lock_time_ns = 0;
     s64 min_time_ns = LLONG_MAX, max_time_ns = 0;
     s64 elapsed_ns;
     int i;
-
+    int j=0;
 
 
     // Record start time
@@ -49,9 +65,9 @@ int spinlock_benchmark_test(int count){
 
     for (i = 0; i < NUM_ITERATIONS; i++) {
         // Measure the time for lock/unlock cycle
+
         lock_start = ktime_get();
-        spin_lock(&test_spinlock);
-        spin_unlock(&test_spinlock);
+        lock_unlock_spin(&j);
         lock_end = ktime_get();
 
         elapsed_ns = ktime_to_ns(ktime_sub(lock_end, lock_start));

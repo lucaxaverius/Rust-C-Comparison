@@ -1,0 +1,8 @@
+Function: mutex_unlock
+  Event: cache-misses
+    Avg: 0.31
+    Min: 0.31
+    Max: 0.31
+    Median: 0.31
+    Std Dev: 0.00
+

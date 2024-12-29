@@ -10,7 +10,7 @@ LOG_FILE="$LOG_DIR/module_logs.txt"
 
 PERF_EVENTS="cycles,instructions,cache-misses,page-faults,branch-misses,cpu-clock,branches"
 I=1         # Initial I value
-N_RUNS=3  # Number of iterations 
+N_RUNS=1000  # Number of iterations 
 
 SUMMARY_FILE="./results/summary.txt"
 CSV_FILE="./results/metrics.csv"
@@ -63,7 +63,7 @@ for ((run=1; run<=N_RUNS; run++)); do
     ((I++))
 
     # Rebuild the module
-    make || { echo "Build failed!\n"; exit 1; }
+    make perf || { echo "Build failed!\n"; exit 1; }
 
     # Start perf recording
     PERF_OUTPUT="$PERF_OUTPUT_DIR/c-perf-mutex-$run.data"

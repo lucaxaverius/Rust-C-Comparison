@@ -32,7 +32,8 @@ impl Example {
 struct SpinlockTestModule;
 
 const NUM_ITERATIONS: usize = 15_000_000;
-const NUM_EXECUTION: usize = 30;
+//const NUM_EXECUTION: usize = 30;
+const ITERATION: i32 = 3;
 
 impl kernel::Module for SpinlockTestModule {
     fn init(_module: &'static ThisModule) -> Result<Self> {
@@ -40,10 +41,9 @@ impl kernel::Module for SpinlockTestModule {
 
         let spinlock = KBox::pin_init(Example::new(), GFP_KERNEL).expect("Failed during spinlock initialization");
         
-        for i in 0..NUM_EXECUTION{
-            SpinlockTestModule::rust_spinlock_test(&spinlock,i as i32);
-        }
-        
+        SpinlockTestModule::rust_spinlock_test(&spinlock,ITERATION);
+        pr_info!("Iteration {} ended.\n", ITERATION);
+        pr_info!("Test module completed.\n");
         Ok(Self)
     }
 }
@@ -83,7 +83,7 @@ impl SpinlockTestModule{
         let end = Ktime::ktime_get();
         let total_time_ms = ktime_ms_delta(end, start);
 
-        pr_info!("Spinlock Test {} Completed\n",count+1);
+        pr_info!("Spinlock Test {} Completed\n",count);
         pr_info!("Total time: {} ms\n", total_time_ms);
         pr_info!("Total lock/unlock time: {} ms\n", Ktime::from_raw(total_lock_time).to_ms());
         pr_info!(

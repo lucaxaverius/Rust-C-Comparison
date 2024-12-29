@@ -63,7 +63,7 @@ for ((run=1; run<=N_RUNS; run++)); do
     ((I++))
 
     # Rebuild the module
-    make || { echo "Build failed!\n"; exit 1; }
+    make perf || { echo "Build failed!\n"; exit 1; }
 
     # Start perf recording
     PERF_OUTPUT="$PERF_OUTPUT_DIR/c-perf-spinlock-$run.data"
@@ -91,7 +91,7 @@ for ((run=1; run<=N_RUNS; run++)); do
     # Remove the module unless it's the last iteration
     sudo rmmod "$MODULE_FILE_NAME"
 
-    rm "$PERF_OUTPUT"
+    #rm "$PERF_OUTPUT"
     
     # Clear dmesg to avoid mixing logs between iterations
     dmesg -C

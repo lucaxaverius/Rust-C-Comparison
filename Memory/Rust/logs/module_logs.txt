@@ -1,0 +1,21 @@
+Logs for iteration 1
+[24846.579115] Rust_Page_Benchmark: Starting single-page benchmark module...
+[24850.137588] Rust_Page_Benchmark: Total time to allocate: 801 ms
+[24850.137594] Rust_Page_Benchmark: Total time to write: 1077 ms
+[24850.137595] Rust_Page_Benchmark: Total time to read: 1076 ms
+[24850.137596] Rust_Page_Benchmark: Iteration 1 ended.
+[24850.137597] Rust_Page_Benchmark: Module initialization complete.
+Logs for iteration 2
+[24853.670429] Rust_Page_Benchmark: Starting single-page benchmark module...
+[24857.147477] Rust_Page_Benchmark: Total time to allocate: 780 ms
+[24857.147507] Rust_Page_Benchmark: Total time to write: 1042 ms
+[24857.147508] Rust_Page_Benchmark: Total time to read: 1050 ms
+[24857.147510] Rust_Page_Benchmark: Iteration 2 ended.
+[24857.147512] Rust_Page_Benchmark: Module initialization complete.
+Logs for iteration 3
+[24860.861553] Rust_Page_Benchmark: Starting single-page benchmark module...
+[24864.324633] Rust_Page_Benchmark: Total time to allocate: 772 ms
+[24864.324729] Rust_Page_Benchmark: Total time to write: 1048 ms
+[24864.324730] Rust_Page_Benchmark: Total time to read: 1050 ms
+[24864.324731] Rust_Page_Benchmark: Iteration 3 ended.
+[24864.324732] Rust_Page_Benchmark: Module initialization complete.

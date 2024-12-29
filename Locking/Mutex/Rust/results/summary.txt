@@ -1,76 +1,76 @@
 Function: mutex_lock
   Event: cycles
-    Avg: 7.59
-    Min: 4.93
-    Max: 10.06
-    Median: 7.77
-    Std Dev: 2.57
+    Avg: 12.90
+    Min: 12.16
+    Max: 14.13
+    Median: 12.40
+    Std Dev: 1.07
   Event: instructions
-    Avg: 16.89
-    Min: 11.96
-    Max: 21.99
-    Median: 16.71
-    Std Dev: 5.02
+    Avg: 26.72
+    Min: 23.95
+    Max: 30.57
+    Median: 25.63
+    Std Dev: 3.44
   Event: cache-misses
-    Avg: 0.19
-    Min: 0.10
-    Max: 0.33
-    Median: 0.15
-    Std Dev: 0.12
+    Avg: 1.46
+    Min: 0.89
+    Max: 2.18
+    Median: 1.32
+    Std Dev: 0.66
   Event: branch-misses
-    Avg: 0.37
-    Min: 0.23
-    Max: 0.46
-    Median: 0.42
-    Std Dev: 0.12
+    Avg: 4.43
+    Min: 3.44
+    Max: 5.32
+    Median: 4.54
+    Std Dev: 0.94
   Event: cpu-clock
-    Avg: 5.29
-    Min: 3.75
-    Max: 6.73
-    Median: 5.40
-    Std Dev: 1.49
+    Avg: 11.63
+    Min: 11.01
+    Max: 12.74
+    Median: 11.13
+    Std Dev: 0.97
   Event: branches
-    Avg: 17.91
-    Min: 14.13
-    Max: 20.14
-    Median: 19.45
-    Std Dev: 3.29
+    Avg: 23.71
+    Min: 21.37
+    Max: 25.24
+    Median: 24.53
+    Std Dev: 2.06
 
 Function: mutex_unlock
   Event: cycles
-    Avg: 6.07
-    Min: 3.97
-    Max: 7.92
-    Median: 6.32
-    Std Dev: 1.99
+    Avg: 12.02
+    Min: 11.13
+    Max: 13.10
+    Median: 11.84
+    Std Dev: 1.00
   Event: instructions
-    Avg: 5.39
-    Min: 3.32
-    Max: 6.96
-    Median: 5.90
-    Std Dev: 1.87
+    Avg: 8.15
+    Min: 7.66
+    Max: 9.02
+    Median: 7.78
+    Std Dev: 0.75
   Event: cache-misses
-    Avg: 0.09
-    Min: 0.08
-    Max: 0.09
-    Median: 0.09
-    Std Dev: 0.01
+    Avg: 0.87
+    Min: 0.29
+    Max: 1.93
+    Median: 0.38
+    Std Dev: 0.92
   Event: branch-misses
-    Avg: 0.21
-    Min: 0.17
-    Max: 0.28
-    Median: 0.19
-    Std Dev: 0.06
+    Avg: 1.65
+    Min: 0.82
+    Max: 2.33
+    Median: 1.81
+    Std Dev: 0.77
   Event: cpu-clock
-    Avg: 4.86
-    Min: 3.85
-    Max: 5.78
-    Median: 4.96
-    Std Dev: 0.97
+    Avg: 8.92
+    Min: 7.93
+    Max: 9.47
+    Median: 9.35
+    Std Dev: 0.86
   Event: branches
-    Avg: 8.88
-    Min: 7.62
-    Max: 10.54
-    Median: 8.49
-    Std Dev: 1.50
+    Avg: 12.87
+    Min: 11.86
+    Max: 13.93
+    Median: 12.82
+    Std Dev: 1.04
 

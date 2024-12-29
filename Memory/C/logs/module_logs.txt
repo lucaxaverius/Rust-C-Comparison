@@ -1,0 +1,24 @@
+Logs for iteration 1
+[25199.666155] C-Page-Benchmark: Starting single-page benchmark module...
+[25199.666161] C-Page-Benchmark: Iteration number 1 
+[25206.584986] C-Page-Benchmark: Total time to allocate: 1581 ms
+[25206.584990] C-Page-Benchmark: Total time to write: 1916 ms
+[25206.584990] C-Page-Benchmark: Total time to read: 2179 ms
+[25206.584991] C-Page-Benchmark: Iteration number 1 ended 
+[25206.584992] C-Page-Benchmark: Module initialization complete
+Logs for iteration 2
+[25212.047896] C-Page-Benchmark: Starting single-page benchmark module...
+[25212.047900] C-Page-Benchmark: Iteration number 2 
+[25219.338278] C-Page-Benchmark: Total time to allocate: 1650 ms
+[25219.338311] C-Page-Benchmark: Total time to write: 2008 ms
+[25219.338312] C-Page-Benchmark: Total time to read: 2302 ms
+[25219.338312] C-Page-Benchmark: Iteration number 2 ended 
+[25219.338313] C-Page-Benchmark: Module initialization complete
+Logs for iteration 3
+[25226.254918] C-Page-Benchmark: Starting single-page benchmark module...
+[25226.254925] C-Page-Benchmark: Iteration number 3 
+[25233.788774] C-Page-Benchmark: Total time to allocate: 1842 ms
+[25233.788874] C-Page-Benchmark: Total time to write: 2024 ms
+[25233.788876] C-Page-Benchmark: Total time to read: 2333 ms
+[25233.788876] C-Page-Benchmark: Iteration number 3 ended 
+[25233.788877] C-Page-Benchmark: Module initialization complete

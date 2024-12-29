@@ -1,0 +1,21 @@
+Logs for iteration 1
+[23156.632973] Rust_RBTree_Benchmark: RBTree Benchmark Module init
+[23156.634301] Rust_RBTree_Benchmark: Starting 2-th rbtree test 
+[23157.482732] Rust_RBTree_Benchmark: Time to insert 1000000 elements: 848 ms
+[23157.649008] Rust_RBTree_Benchmark: Time to iterate over the rbtree: 166 ms
+[23158.779586] Rust_RBTree_Benchmark: Time to remove all elements: 1130 ms
+[23158.779602] Rust_RBTree_Benchmark: Module initialization complete
+Logs for iteration 2
+[23162.194062] Rust_RBTree_Benchmark: RBTree Benchmark Module init
+[23162.195355] Rust_RBTree_Benchmark: Starting 3-th rbtree test 
+[23163.080931] Rust_RBTree_Benchmark: Time to insert 1000000 elements: 885 ms
+[23163.245790] Rust_RBTree_Benchmark: Time to iterate over the rbtree: 164 ms
+[23164.234190] Rust_RBTree_Benchmark: Time to remove all elements: 988 ms
+[23164.234297] Rust_RBTree_Benchmark: Module initialization complete
+Logs for iteration 3
+[23166.709212] Rust_RBTree_Benchmark: RBTree Benchmark Module init
+[23166.711026] Rust_RBTree_Benchmark: Starting 4-th rbtree test 
+[23167.610647] Rust_RBTree_Benchmark: Time to insert 1000000 elements: 899 ms
+[23167.781941] Rust_RBTree_Benchmark: Time to iterate over the rbtree: 171 ms
+[23168.986584] Rust_RBTree_Benchmark: Time to remove all elements: 1204 ms
+[23168.986602] Rust_RBTree_Benchmark: Module initialization complete

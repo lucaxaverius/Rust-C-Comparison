@@ -1,98 +1,241 @@
+import os
 import re
-import numpy as np
-import matplotlib
-matplotlib.use("Agg")  # Non-interactive backend
 import matplotlib.pyplot as plt
+import numpy as np
+from collections import defaultdict
 
-def process_log(log_data):
-    # Patterns for extracting C and Rust metrics
-    patterns = {
-        "c_insert_front": r"C-List-Benchmark: Time to insert \d+ elements at front: (\d+) ms",
-        "c_insert_back": r"C-List-Benchmark: Time to insert \d+ elements at back: (\d+) ms",
-        "c_iterate": r"C-List-Benchmark: Time to iterate \d+ elements: (\d+) ms",
-        "c_remove": r"C-List-Benchmark: Time to remove all elements: (\d+) ms",
+# Paths to log and summary files (set these before running the script)
+C_LOG_FILE = "./C/logs/module_logs.txt"
+RUST_LOG_FILE = "./Rust/logs/module_logs.txt"
+C_PERF_FILE = "./C/results/summary.txt"
+RUST_PERF_FILE = "./Rust/results/summary.txt"
+
+# Functions for the four operations
+OPERATIONS = ["insert_front", "insert_back", "iterate_all", "remove_all"]
+
+# Patterns for extracting C and Rust metrics
+patterns = {
+    "c_insert_front": r"C-List-Benchmark: Time to insert \d+ elements at front: (\d+) ms",
+    "c_insert_back": r"C-List-Benchmark: Time to insert \d+ elements at back: (\d+) ms",
+    "c_iterate": r"C-List-Benchmark: Time to iterate \d+ elements: (\d+) ms",
+    "c_remove": r"C-List-Benchmark: Time to remove all elements: (\d+) ms",
+    
+    "rust_insert_front": r"Rust_List_Benchmark: Time to insert \d+ elements at front: (\d+) ms",
+    "rust_insert_back": r"Rust_List_Benchmark: Time to insert \d+ elements at back: (\d+) ms",
+    "rust_iterate": r"Rust_List_Benchmark: Time to iterate \d+ elements: (\d+) ms",
+    "rust_remove": r"Rust_List_Benchmark: Time to remove all elements: (\d+) ms",
+}
+
+# Extract metrics from logs
+def extract_execution_times(log_file, patterns):
+    results = {key: [] for key in patterns.keys()}
+    with open(log_file, "r") as f:
+        for line in f:
+            for key, pattern in patterns.items():
+                match = re.search(pattern, line)
+                if match:
+                    results[key].append(int(match.group(1)))
+    return results
+
+# Plot execution time box plots with mean and median
+def plot_execution_time(results, output_dir):
+    operations = ["insert_front", "insert_back", "iterate", "remove"]
+    for operation in operations:
+        c_key = f"c_{operation}"
+        rust_key = f"rust_{operation}"
         
-        "rust_insert_front": r"Rust_List_Benchmark: Time to insert \d+ elements at front: (\d+) ms",
-        "rust_insert_back": r"Rust_List_Benchmark: Time to insert \d+ elements at back: (\d+) ms",
-        "rust_iterate": r"Rust_List_Benchmark: Time to iterate \d+ elements: (\d+) ms",
-        "rust_remove": r"Rust_List_Benchmark: Time to remove all elements: (\d+) ms",
-    }
-    
-    # Extract data
-    data = {key: [int(m.group(1)) for m in re.finditer(pattern, log_data)] for key, pattern in patterns.items()}
+        plt.figure(figsize=(8, 6))  # Increased figure size for better readability
+        data = [results[c_key], results[rust_key]]
+        box = plt.boxplot(data, patch_artist=True, tick_labels=["C", "Rust"], showmeans=True, meanline=True)
+        
+        # Customize box plot colors
+        for patch in box['boxes']:
+            patch.set(facecolor="lightgrey")
+        for median_line in box['medians']:
+            median_line.set(color="black", linewidth=2)  # Median line black
+        for mean_line in box['means']:
+            mean_line.set(color="black", linestyle="--", linewidth=1.5)  # Mean line black dashed
 
-    # Print extracted data for debugging
-    for key, values in data.items():
-        print(f"{key} Data: {values}")
+        # Add labels and title
+        plt.title(f"Execution Time Comparison: {operation.replace('_', ' ').title()}")
+        plt.ylabel("Time (ms)")
+        plt.xlabel("Implementation")
+        plt.grid(axis="y", linestyle="--", alpha=0.7)
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, f"{operation}_execution_time.png"))
+        plt.close()
 
-    return data
+# Generate an example box plot with annotations
+def plot_example_boxplot(output_dir):
+    data = [3, 4, 4, 5, 6, 8, 9]
+    plt.figure(figsize=(6, 6))  # Maintain smaller size for the example plot
+    box = plt.boxplot([data], patch_artist=True, showmeans=True, meanline=True)
 
-def calculate_statistics(values):
-    return {
-        "Min": np.min(values),
-        "Avg": np.mean(values),
-        "Max": np.max(values),
-        "Var": np.var(values),
-        "Median": np.median(values),
-    }
+    # Customize box plot colors
+    for patch in box['boxes']:
+        patch.set(facecolor="lightgrey")
+    for median_line in box['medians']:
+        median_line.set(color="black", linewidth=2)  # Median line black
+    for mean_line in box['means']:
+        mean_line.set(color="black", linestyle="--", linewidth=1.5)  # Mean line black dashed
 
-def plot_comparison(data, metric_name, c_key, rust_key, filename):
-    # Extract values
-    c_values = data[c_key]
-    rust_values = data[rust_key]
-    
-    # Calculate statistics
-    c_stats = calculate_statistics(c_values)
-    rust_stats = calculate_statistics(rust_values)
-    
-    # Print statistics for debugging
-    print(f"\n{metric_name} Statistics:")
-    print(f"C: {c_stats}")
-    print(f"Rust: {rust_stats}")
-    
-    # Create bar plot
-    labels = ["Min", "Avg", "Max", "Median"]
-    c_plot_values = [c_stats[label] for label in labels]
-    rust_plot_values = [rust_stats[label] for label in labels]
+    # Extract statistics for annotation
+    q1 = np.percentile(data, 25)
+    q3 = np.percentile(data, 75)
+    median = np.median(data)
+    mean = np.mean(data)
+    min_val = np.min(data)
+    max_val = np.max(data)
 
-    x = np.arange(len(labels))
-    width = 0.35
+    # Add annotations
+    plt.text(1.15, q1, "Q1", va='center', ha='left', fontsize=9, color='black')
+    plt.text(1.15, q3, "Q3", va='center', ha='left', fontsize=9, color='black')
+    plt.text(1.15, median, "Median", va='center', ha='left', fontsize=9, color='black')
+    plt.text(1.15, mean, "Mean", va='center', ha='left', fontsize=9, color='black')
+    plt.text(1.15, min_val, "Min", va='center', ha='left', fontsize=9, color='black')
+    plt.text(1.15, max_val, "Max", va='center', ha='left', fontsize=9, color='black')
 
-    plt.figure(figsize=(12, 8))
-    bars_c = plt.bar(x - width / 2, c_plot_values, width, label="C", color="skyblue")
-    bars_rust = plt.bar(x + width / 2, rust_plot_values, width, label="Rust", color="orange")
-
-    # Annotate values on bars
-    for bars, values in zip([bars_c, bars_rust], [c_plot_values, rust_plot_values]):
-        for bar, value in zip(bars, values):
-            plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 1, f"{value:.2f}",
-                     ha='center', va='bottom', fontsize=10)
-
-    # Add variance to the legend
-    variance_c = f"(C) | Variance: {c_stats['Var']:.2f} ms²"
-    variance_rust = f"(Rust) | Variance : {rust_stats['Var']:.2f} ms²"
-    plt.legend([variance_c, variance_rust, "C", "Rust"], loc="upper right", fontsize=10)
-
-    # Customize plot
-    plt.title(f"{metric_name} Comparison: C vs Rust")
-    plt.ylabel("Time (ms)")
-    plt.xticks(x, labels, rotation=45)
+    # Add labels
+    plt.title("Example Box Plot with Annotations")
+    plt.ylabel("Values")
+    plt.xlabel("Example Data")
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
     plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, "example_boxplot.png"))
+    plt.close()
 
-    # Save the plot
-    plt.savefig(filename)
-    print(f"Plot saved as '{filename}'")
+# Parse perf summary files
+def parse_perf_summary(summary_file):
+    metrics = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
+    with open(summary_file, "r") as f:
+        current_function = None
+        current_event = None
+        for line in f:
+            if line.startswith("Function:"):
+                current_function = line.split(":")[1].strip()
+            elif line.startswith("  Event:"):
+                current_event = line.split(":")[1].strip()
+            elif current_function and current_event:
+                match = re.search(r"(\w+): ([\d.]+)", line)
+                if match:
+                    stat, value = match.groups()
+                    metrics[current_function][current_event][stat] = float(value)
+    return metrics
+
+# Plot perf metrics box plots for C and Rust separately
+def plot_perf_metrics(c_metrics, rust_metrics, output_dir):
+    c_output_dir = os.path.join(output_dir, "c_metrics")
+    rust_output_dir = os.path.join(output_dir, "rust_metrics")
+    os.makedirs(c_output_dir, exist_ok=True)
+    os.makedirs(rust_output_dir, exist_ok=True)
+
+    # Get all unique events
+    all_events = set()
+    for func_metrics in c_metrics.values():
+        all_events.update(func_metrics.keys())
+    for func_metrics in rust_metrics.values():
+        all_events.update(func_metrics.keys())
+
+    # Generate plots for C metrics
+    for event in sorted(all_events):
+        plt.figure(figsize=(10, 6))
+        
+        data = []
+        labels = []
+
+        for func in OPERATIONS:
+            if func in c_metrics and event in c_metrics[func]:
+                stats = c_metrics[func][event]
+                data.append([stats["Min"], stats["Max"], stats["Median"], stats["Avg"], stats["Std Dev"]])
+                labels.append(func)
+
+        # Create boxplot for C
+        box = plt.boxplot(
+            data,
+            patch_artist=True,
+            showmeans=True,
+            meanline=True,
+            tick_labels=labels
+        )
+
+        # Customize colors
+        for patch in box['boxes']:
+            patch.set(facecolor="lightgrey")
+        for median_line in box['medians']:
+            median_line.set(color="black", linewidth=2)  # Median line black
+        for mean_line in box['means']:
+            mean_line.set(color="black", linestyle="--", linewidth=1.5)  # Mean line black dashed
+
+        # Add labels and title
+        plt.title(f"C Implementation - Perf Metrics for {event}")
+        plt.ylabel("Values (%)")
+        plt.xlabel("Functions")
+        plt.grid(axis="y", linestyle="--", alpha=0.7)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig(os.path.join(c_output_dir, f"{event}_c_metrics.png"))
+        plt.close()
+
+    # Generate plots for Rust metrics
+    for event in sorted(all_events):
+        plt.figure(figsize=(10, 6))
+        
+        data = []
+        labels = []
+
+        for func in OPERATIONS:
+            if func in rust_metrics and event in rust_metrics[func]:
+                stats = rust_metrics[func][event]
+                data.append([stats["Min"], stats["Max"], stats["Median"], stats["Avg"], stats["Std Dev"]])
+                labels.append(func)
+
+        # Create boxplot for Rust
+        box = plt.boxplot(
+            data,
+            patch_artist=True,
+            showmeans=True,
+            meanline=True,
+            tick_labels=labels
+        )
+
+        # Customize colors
+        for patch in box['boxes']:
+            patch.set(facecolor="lightblue")
+        for median_line in box['medians']:
+            median_line.set(color="black", linewidth=2)  # Median line black
+        for mean_line in box['means']:
+            mean_line.set(color="black", linestyle="--", linewidth=1.5)  # Mean line black dashed
+
+        # Add labels and title
+        plt.title(f"Rust Implementation - Perf Metrics for {event}")
+        plt.ylabel("Values (%)")
+        plt.xlabel("Functions")
+        plt.grid(axis="y", linestyle="--", alpha=0.7)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig(os.path.join(rust_output_dir, f"{event}_rust_metrics.png"))
+        plt.close()
+
 
 if __name__ == "__main__":
-    # Read log file
-    with open("log.txt", "r") as file:
-        log_data = file.read()
+    # Create output directories
+    os.makedirs("./execution_time_plots", exist_ok=True)
+    os.makedirs("./perf_metrics_plots", exist_ok=True)
 
-    # Process the log file
-    data = process_log(log_data)
+    # Extract execution times
+    c_results = extract_execution_times(C_LOG_FILE, {k: v for k, v in patterns.items() if k.startswith("c_")})
+    rust_results = extract_execution_times(RUST_LOG_FILE, {k: v for k, v in patterns.items() if k.startswith("rust_")})
 
-    # Generate comparison plots
-    plot_comparison(data, "Insert Front", "c_insert_front", "rust_insert_front", "insert_front_comparison.png")
-    plot_comparison(data, "Insert Back", "c_insert_back", "rust_insert_back", "insert_back_comparison.png")
-    plot_comparison(data, "Iteration", "c_iterate", "rust_iterate", "iteration_comparison.png")
-    plot_comparison(data, "Remove", "c_remove", "rust_remove", "remove_comparison.png")
+
+    # Combine results
+    combined_results = {**c_results, **rust_results}
+
+    # Plot execution time box plots
+    plot_execution_time(combined_results, "./execution_time_plots")
+    plot_example_boxplot("./execution_time_plots")
+    # Parse perf summary files
+    c_metrics = parse_perf_summary(C_PERF_FILE)
+    rust_metrics = parse_perf_summary(RUST_PERF_FILE)
+
+    # Plot perf metrics box plots
+    plot_perf_metrics(c_metrics, rust_metrics, "./perf_metrics_plots")

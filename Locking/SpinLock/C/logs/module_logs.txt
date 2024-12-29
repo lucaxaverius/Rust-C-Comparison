@@ -1,33 +1,55 @@
 Logs for iteration 1
-[ 7516.927232] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
-[ 7516.927237] C-SpinLock-Benchmark: Number of iterations: 15000000
-[ 7517.950699] C-SpinLock-Benchmark: spinlock 1 Test Completed
-[ 7517.950758] C-SpinLock-Benchmark: Total time: 1023 ms
-[ 7517.950803] C-SpinLock-Benchmark: Total lock/unlock time: 643 ms
-[ 7517.950804] C-SpinLock-Benchmark: Average time per lock/unlock: 42 ns
-[ 7517.950805] C-SpinLock-Benchmark: Minimum time per lock/unlock: 30 ns
-[ 7517.950806] C-SpinLock-Benchmark: Maximum time per lock/unlock: 719457 ns
-[ 7517.950848] C-SpinLock-Benchmark: Iteration 1-th ended
-[ 7517.950861] C-SpinLock-Benchmark: Test module completed.
+[  305.960704] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
+[  305.960706] C-SpinLock-Benchmark: Number of iterations: 15000
+[  305.961966] C-SpinLock-Benchmark: spinlock 1 Test Completed
+[  305.961968] C-SpinLock-Benchmark: Total time: 1 ms
+[  305.961969] C-SpinLock-Benchmark: Total lock/unlock time: 0 ms
+[  305.961970] C-SpinLock-Benchmark: Average time per lock/unlock: 52 ns
+[  305.961971] C-SpinLock-Benchmark: Minimum time per lock/unlock: 50 ns
+[  305.961972] C-SpinLock-Benchmark: Maximum time per lock/unlock: 238 ns
+[  305.961973] C-SpinLock-Benchmark: Iteration 1-th ended
+[  305.961974] C-SpinLock-Benchmark: Test module completed.
+[  425.409495] C-SpinLock-Benchmark: Exiting spinlock Lock/Unlock Performance Test.
+[  426.727631] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
+[  426.727635] C-SpinLock-Benchmark: Number of iterations: 15000000
+[  427.558419] C-SpinLock-Benchmark: spinlock 1 Test Completed
+[  427.558423] C-SpinLock-Benchmark: Total time: 830 ms
+[  427.558424] C-SpinLock-Benchmark: Total lock/unlock time: 532 ms
+[  427.558425] C-SpinLock-Benchmark: Average time per lock/unlock: 35 ns
+[  427.558425] C-SpinLock-Benchmark: Minimum time per lock/unlock: 31 ns
+[  427.558426] C-SpinLock-Benchmark: Maximum time per lock/unlock: 271353 ns
+[  427.558427] C-SpinLock-Benchmark: Iteration 1-th ended
+[  427.558427] C-SpinLock-Benchmark: Test module completed.
+[  605.051264] C-SpinLock-Benchmark: Exiting spinlock Lock/Unlock Performance Test.
+[  608.411615] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
+[  608.411623] C-SpinLock-Benchmark: Number of iterations: 15000000
+[  609.343144] C-SpinLock-Benchmark: spinlock 1 Test Completed
+[  609.343148] C-SpinLock-Benchmark: Total time: 931 ms
+[  609.343157] C-SpinLock-Benchmark: Total lock/unlock time: 617 ms
+[  609.343157] C-SpinLock-Benchmark: Average time per lock/unlock: 41 ns
+[  609.343158] C-SpinLock-Benchmark: Minimum time per lock/unlock: 35 ns
+[  609.343159] C-SpinLock-Benchmark: Maximum time per lock/unlock: 62747 ns
+[  609.343159] C-SpinLock-Benchmark: Iteration 1-th ended
+[  609.343160] C-SpinLock-Benchmark: Test module completed.
 Logs for iteration 2
-[ 7521.919339] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
-[ 7521.919342] C-SpinLock-Benchmark: Number of iterations: 15000000
-[ 7522.918965] C-SpinLock-Benchmark: spinlock 2 Test Completed
-[ 7522.919236] C-SpinLock-Benchmark: Total time: 999 ms
-[ 7522.919297] C-SpinLock-Benchmark: Total lock/unlock time: 631 ms
-[ 7522.919298] C-SpinLock-Benchmark: Average time per lock/unlock: 42 ns
-[ 7522.919299] C-SpinLock-Benchmark: Minimum time per lock/unlock: 30 ns
-[ 7522.919300] C-SpinLock-Benchmark: Maximum time per lock/unlock: 282658 ns
-[ 7522.919301] C-SpinLock-Benchmark: Iteration 2-th ended
-[ 7522.919302] C-SpinLock-Benchmark: Test module completed.
+[  613.166733] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
+[  613.166738] C-SpinLock-Benchmark: Number of iterations: 15000000
+[  614.075614] C-SpinLock-Benchmark: spinlock 2 Test Completed
+[  614.075617] C-SpinLock-Benchmark: Total time: 909 ms
+[  614.075618] C-SpinLock-Benchmark: Total lock/unlock time: 603 ms
+[  614.075619] C-SpinLock-Benchmark: Average time per lock/unlock: 40 ns
+[  614.075620] C-SpinLock-Benchmark: Minimum time per lock/unlock: 34 ns
+[  614.075620] C-SpinLock-Benchmark: Maximum time per lock/unlock: 50224 ns
+[  614.075621] C-SpinLock-Benchmark: Iteration 2-th ended
+[  614.075622] C-SpinLock-Benchmark: Test module completed.
 Logs for iteration 3
-[ 7527.698346] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
-[ 7527.698351] C-SpinLock-Benchmark: Number of iterations: 15000000
-[ 7528.667452] C-SpinLock-Benchmark: spinlock 3 Test Completed
-[ 7528.667654] C-SpinLock-Benchmark: Total time: 969 ms
-[ 7528.667772] C-SpinLock-Benchmark: Total lock/unlock time: 612 ms
-[ 7528.667773] C-SpinLock-Benchmark: Average time per lock/unlock: 40 ns
-[ 7528.667773] C-SpinLock-Benchmark: Minimum time per lock/unlock: 30 ns
-[ 7528.667774] C-SpinLock-Benchmark: Maximum time per lock/unlock: 274452 ns
-[ 7528.667775] C-SpinLock-Benchmark: Iteration 3-th ended
-[ 7528.667775] C-SpinLock-Benchmark: Test module completed.
+[  617.816189] C-SpinLock-Benchmark: Initializing spinlock Lock/Unlock Performance Test...
+[  617.816192] C-SpinLock-Benchmark: Number of iterations: 15000000
+[  618.726781] C-SpinLock-Benchmark: spinlock 3 Test Completed
+[  618.726785] C-SpinLock-Benchmark: Total time: 910 ms
+[  618.726786] C-SpinLock-Benchmark: Total lock/unlock time: 604 ms
+[  618.726786] C-SpinLock-Benchmark: Average time per lock/unlock: 40 ns
+[  618.726787] C-SpinLock-Benchmark: Minimum time per lock/unlock: 34 ns
+[  618.726788] C-SpinLock-Benchmark: Maximum time per lock/unlock: 102816 ns
+[  618.726788] C-SpinLock-Benchmark: Iteration 3-th ended
+[  618.726789] C-SpinLock-Benchmark: Test module completed.

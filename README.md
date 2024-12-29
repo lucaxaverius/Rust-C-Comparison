@@ -1,25 +1,9 @@
 # Perf Analysis
+Questo repository contiene dei moduli di test realizzati per misurare le performance di alcune astrazioni del kernel in Rust con le corrispettive implementazioni in C. <br />
 
-## 0) **Initialize the module**
-Compile the kernel module, then copy it with:
-```bash
-sudo cp test_module.ko /lib/modules/$(uname -r)/extra/
+È sufficiente eseguire lo script bash all'interno di una delle directory dei test per ottenere i risultati.
 ```
-
-Then update the dependency:
-```bash
-sudo depmod -a
+sudo -E ./<module>-test.sh
+python3 result-analyzer.py
 ```
 
-## 1) **Launch the recording** 
-```bash
-sudo perf record -e cycles,instructions,cache-misses,page-faults,branch-misses,context-switches,cache-references,cpu-clock,branches -g -a
-```
-## 2) **Insert the test module**
-```bash
-sudo modprobe test_module 
-```
-## 3) **Stop the recording with CTRL+C and produce the report**
-```bash
-sudo perf report --kallsyms=/proc/kallsyms
-```

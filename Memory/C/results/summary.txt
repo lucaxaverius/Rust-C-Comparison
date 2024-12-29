@@ -1,0 +1,114 @@
+Function: allocate_page
+  Event: cycles
+    Avg: 13.18
+    Min: 10.71
+    Max: 15.00
+    Median: 13.82
+    Std Dev: 2.22
+  Event: instructions
+    Avg: 14.31
+    Min: 13.56
+    Max: 15.74
+    Median: 13.63
+    Std Dev: 1.24
+  Event: cache-misses
+    Avg: 0.54
+    Min: 0.38
+    Max: 0.64
+    Median: 0.59
+    Std Dev: 0.14
+  Event: branch-misses
+    Avg: 0.60
+    Min: 0.36
+    Max: 0.75
+    Median: 0.68
+    Std Dev: 0.21
+  Event: cpu-clock
+    Avg: 9.81
+    Min: 8.61
+    Max: 10.59
+    Median: 10.22
+    Std Dev: 1.05
+  Event: branches
+    Avg: 18.29
+    Min: 16.92
+    Max: 19.99
+    Median: 17.97
+    Std Dev: 1.56
+
+Function: read_page
+  Event: cycles
+    Avg: 16.69
+    Min: 14.51
+    Max: 19.64
+    Median: 15.92
+    Std Dev: 2.65
+  Event: instructions
+    Avg: 31.38
+    Min: 28.70
+    Max: 34.31
+    Median: 31.13
+    Std Dev: 2.81
+  Event: cache-misses
+    Avg: 0.46
+    Min: 0.40
+    Max: 0.54
+    Median: 0.44
+    Std Dev: 0.07
+  Event: branch-misses
+    Avg: 3.34
+    Min: 2.33
+    Max: 4.12
+    Median: 3.58
+    Std Dev: 0.92
+  Event: cpu-clock
+    Avg: 12.79
+    Min: 12.12
+    Max: 14.00
+    Median: 12.25
+    Std Dev: 1.05
+  Event: branches
+    Avg: 23.97
+    Min: 22.09
+    Max: 25.37
+    Median: 24.44
+    Std Dev: 1.69
+
+Function: write_page
+  Event: cycles
+    Avg: 16.53
+    Min: 13.94
+    Max: 20.20
+    Median: 15.44
+    Std Dev: 3.27
+  Event: instructions
+    Avg: 15.16
+    Min: 13.87
+    Max: 16.44
+    Median: 15.17
+    Std Dev: 1.29
+  Event: cache-misses
+    Avg: 0.31
+    Min: 0.22
+    Max: 0.43
+    Median: 0.27
+    Std Dev: 0.11
+  Event: branch-misses
+    Avg: 0.62
+    Min: 0.40
+    Max: 0.80
+    Median: 0.66
+    Std Dev: 0.20
+  Event: cpu-clock
+    Avg: 11.82
+    Min: 10.52
+    Max: 13.58
+    Median: 11.37
+    Std Dev: 1.58
+  Event: branches
+    Avg: 14.22
+    Min: 13.42
+    Max: 15.20
+    Median: 14.05
+    Std Dev: 0.90
+

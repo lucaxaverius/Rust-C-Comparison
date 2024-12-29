@@ -1,0 +1,40 @@
+Logs for iteration 1
+[ 5101.962905] Rust_SpinLock_Benchmark: Initializing Spinlock Lock/Unlock Performance Test...
+[ 5102.998571] Rust_SpinLock_Benchmark: Spinlock Test 1 Completed
+[ 5102.998576] Rust_SpinLock_Benchmark: Total time: 1035 ms
+[ 5102.998577] Rust_SpinLock_Benchmark: Total lock/unlock time: 651 ms
+[ 5102.998578] Rust_SpinLock_Benchmark: Average time per lock/unlock: 43 ns
+[ 5102.998579] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 0 ns
+[ 5102.998586] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 68800 ns
+[ 5102.998587] Rust_SpinLock_Benchmark: Iteration 1 ended.
+[ 5102.998587] Rust_SpinLock_Benchmark: Test module completed.
+[ 5132.576089] Rust_SpinLock_Benchmark: Exiting Spinlock Lock/Unlock Performance Test.
+[ 5133.695417] Rust_SpinLock_Benchmark: Initializing Spinlock Lock/Unlock Performance Test...
+[ 5134.795587] Rust_SpinLock_Benchmark: Spinlock Test 1 Completed
+[ 5134.795594] Rust_SpinLock_Benchmark: Total time: 1100 ms
+[ 5134.795595] Rust_SpinLock_Benchmark: Total lock/unlock time: 689 ms
+[ 5134.795596] Rust_SpinLock_Benchmark: Average time per lock/unlock: 45 ns
+[ 5134.795596] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 0 ns
+[ 5134.795597] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 225371 ns
+[ 5134.795598] Rust_SpinLock_Benchmark: Iteration 1 ended.
+[ 5134.795598] Rust_SpinLock_Benchmark: Test module completed.
+Logs for iteration 2
+[ 5137.171994] Rust_SpinLock_Benchmark: Initializing Spinlock Lock/Unlock Performance Test...
+[ 5138.248896] Rust_SpinLock_Benchmark: Spinlock Test 2 Completed
+[ 5138.248901] Rust_SpinLock_Benchmark: Total time: 1076 ms
+[ 5138.248902] Rust_SpinLock_Benchmark: Total lock/unlock time: 675 ms
+[ 5138.248903] Rust_SpinLock_Benchmark: Average time per lock/unlock: 45 ns
+[ 5138.248903] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 0 ns
+[ 5138.248904] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 381721 ns
+[ 5138.248905] Rust_SpinLock_Benchmark: Iteration 2 ended.
+[ 5138.248905] Rust_SpinLock_Benchmark: Test module completed.
+Logs for iteration 3
+[ 5140.838615] Rust_SpinLock_Benchmark: Initializing Spinlock Lock/Unlock Performance Test...
+[ 5141.882359] Rust_SpinLock_Benchmark: Spinlock Test 3 Completed
+[ 5141.882364] Rust_SpinLock_Benchmark: Total time: 1043 ms
+[ 5141.882365] Rust_SpinLock_Benchmark: Total lock/unlock time: 656 ms
+[ 5141.882366] Rust_SpinLock_Benchmark: Average time per lock/unlock: 43 ns
+[ 5141.882367] Rust_SpinLock_Benchmark: Minimum time per lock/unlock: 0 ns
+[ 5141.882367] Rust_SpinLock_Benchmark: Maximum time per lock/unlock: 61702 ns
+[ 5141.882368] Rust_SpinLock_Benchmark: Iteration 3 ended.
+[ 5141.882369] Rust_SpinLock_Benchmark: Test module completed.

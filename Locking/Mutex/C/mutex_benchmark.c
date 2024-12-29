@@ -8,9 +8,9 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Luca Saverio Esposito");
 MODULE_DESCRIPTION("Mutex Lock/Unlock Performance Test");
 
-#define NUM_ITERATIONS 15000000
+#define NUM_ITERATIONS 20000000
 #define NUM_EXECUTION 30
-#define COUNT 3
+#define COUNT 5
 
 int mutex_benchmark_test(int count);
 EXPORT_SYMBOL(mutex_benchmark_test);

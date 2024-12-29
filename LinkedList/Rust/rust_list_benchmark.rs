@@ -59,7 +59,7 @@ impl_list_item! {
 pub struct ListBenchmarkModule {
 }
 
-const NUM_ELEMENTS: usize = 10_000_000;
+const NUM_ELEMENTS: usize = 15_000_000;
 //const NUM_EXECUTION: usize = 30;
 const SEED: u32 = 12347;
 const ITERATION: i32 = 3;

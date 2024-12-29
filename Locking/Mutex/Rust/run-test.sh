@@ -10,7 +10,7 @@ LOG_FILE="$LOG_DIR/module_logs.txt"
 
 PERF_EVENTS="cycles,instructions,cache-misses,page-faults,branch-misses,cpu-clock,branches"
 I=1         # Initial I value
-N_RUNS=3  # Number of iterations 
+N_RUNS=1000  # Number of iterations 
 
 SUMMARY_FILE="./results/summary.txt"
 CSV_FILE="./results/metrics.csv"
@@ -67,7 +67,7 @@ for ((run=1; run<=N_RUNS; run++)); do
 
     # Start perf recording
     PERF_OUTPUT="$PERF_OUTPUT_DIR/rust-perf-mutex-$run.data"
-    /usr/bin/perf record -e "$PERF_EVENTS" -g -a --freq=1000 --kernel-callchains -o "$PERF_OUTPUT" &
+    /usr/bin/perf record -e "$PERF_EVENTS" -g -a --kernel-callchains -o "$PERF_OUTPUT" &
 
     PERF_PID=$!
 

@@ -5,7 +5,7 @@ obj-m += rust_mutex_benchmark.o
 
 # Build everything (both C and Rust code)
 all:
-	$(MAKE) LLVM=1 -C $(KDIR) M=$(PWD) EXTRA_CFLAGS=-g modules
+	$(MAKE) -s LLVM=1 -C $(KDIR) M=$(PWD) EXTRA_CFLAGS=-g modules
 
 clean:
 	$(MAKE) -C $(KDIR) M=$(PWD) clean

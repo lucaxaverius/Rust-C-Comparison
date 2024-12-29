@@ -20,23 +20,19 @@ module! {
 struct RBTreeBenchmarkModule;
 
 const NUM_ELEMENTS: usize = 1_000_000;
-const NUM_EXECUTION: usize = 50;
+//const NUM_EXECUTION: usize = 50;
 
-//const NUM_ELEMENTS: usize = 10;
-//const NUM_EXECUTION: usize = 2;
+const SEED: u32 = 12347;
+const ITERATION: i32 = 3;
 
 impl kernel::Module for RBTreeBenchmarkModule {
     #[no_mangle]
     fn init(_module: &'static ThisModule) -> Result<Self> {
         // Number of elements for the benchmark
-        let mut seed = 12345;
 
         pr_info!("RBTree Benchmark Module init\n");
-
-        for i in 0..NUM_EXECUTION{
-            RBTreeBenchmarkModule::rust_rbtree_test(seed,i as i32);
-            seed = seed +1; 
-        }
+        RBTreeBenchmarkModule::rust_rbtree_test(SEED,ITERATION);
+        pr_info!("Module initialization complete\n");
         Ok(Self)
     }
 }
@@ -145,7 +141,7 @@ fn next_pseudo_random32(seed: u32) -> u32 {
     seed.wrapping_mul(1664525).wrapping_add(1013904223)
 }
 
-
+/*
 /// Function to print the first n generated number
 fn print_first_n(data: &[u32], n: i32){
     for i in 0..n {
@@ -154,3 +150,4 @@ fn print_first_n(data: &[u32], n: i32){
     }
 }
 
+*/
