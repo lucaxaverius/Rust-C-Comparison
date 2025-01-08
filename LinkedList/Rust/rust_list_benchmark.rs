@@ -61,8 +61,8 @@ pub struct ListBenchmarkModule {
 
 const NUM_ELEMENTS: usize = 15_000_000;
 //const NUM_EXECUTION: usize = 30;
-const SEED: u32 = 12347;
-const ITERATION: i32 = 3;
+const SEED: u32 = 12402;
+const ITERATION: i32 = 58;
 
 
 impl kernel::Module for ListBenchmarkModule {

@@ -1,0 +1,44 @@
+Operation Statistics:
+--------------------------------------------------
+Operation: c_allocate
+  Mean: 685.95 ms
+  Min: 669 ms
+  Max: 929 ms
+  Median: 682.0 ms
+  Std Dev: 18.61 ms
+--------------------------------------------------
+Operation: c_write
+  Mean: 858.99 ms
+  Min: 845 ms
+  Max: 1110 ms
+  Median: 856.0 ms
+  Std Dev: 14.37 ms
+--------------------------------------------------
+Operation: c_read
+  Mean: 941.59 ms
+  Min: 895 ms
+  Max: 1253 ms
+  Median: 938.0 ms
+  Std Dev: 23.15 ms
+--------------------------------------------------
+Operation: rust_allocate
+  Mean: 759.55 ms
+  Min: 682 ms
+  Max: 897 ms
+  Median: 758.0 ms
+  Std Dev: 35.17 ms
+--------------------------------------------------
+Operation: rust_write
+  Mean: 1027.97 ms
+  Min: 929 ms
+  Max: 1199 ms
+  Median: 1029.0 ms
+  Std Dev: 45.18 ms
+--------------------------------------------------
+Operation: rust_read
+  Mean: 1029.92 ms
+  Min: 931 ms
+  Max: 1188 ms
+  Median: 1030.0 ms
+  Std Dev: 45.88 ms
+--------------------------------------------------

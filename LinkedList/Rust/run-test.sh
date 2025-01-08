@@ -96,8 +96,12 @@ for ((run=1; run<=N_RUNS; run++)); do
     # Remove the module unless it's the last iteration
     sudo rmmod "$MODULE_FILE_NAME"
 
+    # Remove perf output
     rm "$PERF_OUTPUT"
     
+    # Remove debug information
+    rm -rf /home/rustxave/.debug
+
     # Clear dmesg to avoid mixing logs between iterations
     dmesg -C
     

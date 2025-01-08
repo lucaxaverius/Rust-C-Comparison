@@ -1,76 +1,114 @@
+Function: take_and_release
+  Event: cycles
+    Avg: 10.49
+    Min: 10.49
+    Max: 10.49
+    Median: 10.49
+    Std Dev: 0.00
+  Event: instructions
+    Avg: 21.85
+    Min: 21.85
+    Max: 21.85
+    Median: 21.85
+    Std Dev: 0.00
+  Event: cache-misses
+    Avg: 0.50
+    Min: 0.50
+    Max: 0.50
+    Median: 0.50
+    Std Dev: 0.00
+  Event: branch-misses
+    Avg: 0.85
+    Min: 0.85
+    Max: 0.85
+    Median: 0.85
+    Std Dev: 0.00
+  Event: cpu-clock
+    Avg: 6.82
+    Min: 6.82
+    Max: 6.82
+    Median: 6.82
+    Std Dev: 0.00
+  Event: branches
+    Avg: 26.01
+    Min: 26.01
+    Max: 26.01
+    Median: 26.01
+    Std Dev: 0.00
+
 Function: mutex_lock
   Event: cycles
-    Avg: 15.63
-    Min: 14.07
-    Max: 16.72
-    Median: 16.09
-    Std Dev: 1.38
+    Avg: 5.66
+    Min: 5.66
+    Max: 5.66
+    Median: 5.66
+    Std Dev: 0.00
   Event: instructions
-    Avg: 25.91
-    Min: 25.18
-    Max: 26.74
-    Median: 25.80
-    Std Dev: 0.79
+    Avg: 16.70
+    Min: 16.70
+    Max: 16.70
+    Median: 16.70
+    Std Dev: 0.00
   Event: cache-misses
-    Avg: 2.91
-    Min: 2.07
-    Max: 3.87
-    Median: 2.78
-    Std Dev: 0.91
+    Avg: 0.33
+    Min: 0.33
+    Max: 0.33
+    Median: 0.33
+    Std Dev: 0.00
   Event: branch-misses
-    Avg: 4.48
-    Min: 3.59
-    Max: 5.36
-    Median: 4.49
-    Std Dev: 0.89
+    Avg: 0.50
+    Min: 0.50
+    Max: 0.50
+    Median: 0.50
+    Std Dev: 0.00
   Event: cpu-clock
-    Avg: 14.65
-    Min: 13.27
-    Max: 15.99
-    Median: 14.69
-    Std Dev: 1.36
+    Avg: 3.67
+    Min: 3.67
+    Max: 3.67
+    Median: 3.67
+    Std Dev: 0.00
   Event: branches
-    Avg: 29.55
-    Min: 27.97
-    Max: 31.96
-    Median: 28.73
-    Std Dev: 2.12
+    Avg: 16.89
+    Min: 16.89
+    Max: 16.89
+    Median: 16.89
+    Std Dev: 0.00
 
 Function: mutex_unlock
   Event: cycles
-    Avg: 11.34
-    Min: 8.57
-    Max: 13.03
-    Median: 12.42
-    Std Dev: 2.42
+    Avg: 5.17
+    Min: 5.17
+    Max: 5.17
+    Median: 5.17
+    Std Dev: 0.00
   Event: instructions
-    Avg: 6.32
-    Min: 5.64
-    Max: 6.98
-    Median: 6.35
-    Std Dev: 0.67
+    Avg: 4.62
+    Min: 4.62
+    Max: 4.62
+    Median: 4.62
+    Std Dev: 0.00
   Event: cache-misses
-    Avg: 0.96
-    Min: 0.34
-    Max: 1.58
-    Median: 0.95
-    Std Dev: 0.62
+    Avg: 0.18
+    Min: 0.18
+    Max: 0.18
+    Median: 0.18
+    Std Dev: 0.00
   Event: branch-misses
-    Avg: 2.61
-    Min: 1.82
-    Max: 4.02
-    Median: 2.00
-    Std Dev: 1.22
+    Avg: 0.32
+    Min: 0.32
+    Max: 0.32
+    Median: 0.32
+    Std Dev: 0.00
   Event: cpu-clock
-    Avg: 10.10
-    Min: 8.16
-    Max: 11.81
-    Median: 10.34
-    Std Dev: 1.84
+    Avg: 3.34
+    Min: 3.34
+    Max: 3.34
+    Median: 3.34
+    Std Dev: 0.00
   Event: branches
-    Avg: 8.47
-    Min: 7.77
-    Max: 8.85
-    Median: 8.80
-    Std Dev: 0.61
+    Avg: 7.59
+    Min: 7.59
+    Max: 7.59
+    Median: 7.59
+    Std Dev: 0.00
 

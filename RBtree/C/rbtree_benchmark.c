@@ -15,8 +15,8 @@ MODULE_DESCRIPTION("RBTree Benchmark Module");
 //#define NUM_ELEMENTS 10
 //#define NUM_EXECUTION 2
 
-#define SEED 12347
-#define I 3
+#define SEED 13344
+#define I 1000
 
 struct rbtest_node {
     struct rb_node node;

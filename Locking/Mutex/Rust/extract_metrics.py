@@ -15,7 +15,7 @@ EVENT_CATEGORIES = [
     "branches"
 ]
 
-FUNCTIONS = ["mutex_lock", "mutex_unlock"]
+FUNCTIONS = ["take_and_release","mutex_lock", "mutex_unlock"]
 TMP_FILE = "tmp_report.txt"
 OUTPUT_CSV = "./results/metrics.csv"
 

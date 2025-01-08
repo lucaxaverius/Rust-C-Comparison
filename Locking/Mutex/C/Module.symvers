@@ -1,0 +1,2 @@
+0x00000000	mutex_benchmark_test	mutex_benchmark	EXPORT_SYMBOL	
+0x00000000	take_and_release	mutex_benchmark	EXPORT_SYMBOL	

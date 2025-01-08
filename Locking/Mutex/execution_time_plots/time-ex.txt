@@ -1,0 +1,16 @@
+Operation Statistics:
+--------------------------------------------------
+Operation: c_take_and_release
+  Mean: 781.18 ms
+  Min: 719 ms
+  Max: 840 ms
+  Median: 783.0 ms
+  Std Dev: 19.74 ms
+--------------------------------------------------
+Operation: rust_take_and_release
+  Mean: 1325.21 ms
+  Min: 1203 ms
+  Max: 2043 ms
+  Median: 1306.0 ms
+  Std Dev: 91.63 ms
+--------------------------------------------------

@@ -10,10 +10,13 @@ MODULE_DESCRIPTION("Mutex Lock/Unlock Performance Test");
 
 #define NUM_ITERATIONS 20000000
 #define NUM_EXECUTION 30
-#define COUNT 5
+#define COUNT 1
 
 int mutex_benchmark_test(int count);
 EXPORT_SYMBOL(mutex_benchmark_test);
+void take_and_release(void);
+EXPORT_SYMBOL(take_and_release);
+
 
 static struct mutex test_mutex;
 
@@ -37,6 +40,12 @@ static int mutex_test_init(void)
     return ret;
 }
 
+void take_and_release(void){
+    mutex_lock(&test_mutex);
+    mutex_unlock(&test_mutex);
+
+}
+
 int mutex_benchmark_test(int count){
     ktime_t start, end, lock_start, lock_end;
     s64 total_time_ms = 0, lock_time_ns = 0;
@@ -50,10 +59,8 @@ int mutex_benchmark_test(int count){
     for (i = 0; i < NUM_ITERATIONS; i++) {
         // Measure the time for lock/unlock cycle
         lock_start = ktime_get();
-        mutex_lock(&test_mutex);
-        mutex_unlock(&test_mutex);
+        take_and_release();
         lock_end = ktime_get();
-
         elapsed_ns = ktime_to_ns(ktime_sub(lock_end, lock_start));
         lock_time_ns += elapsed_ns;
 

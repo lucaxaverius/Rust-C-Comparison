@@ -63,7 +63,7 @@ for ((run=1; run<=N_RUNS; run++)); do
     ((I++))
 
     # Rebuild the module
-    make || { echo "Build failed!\n"; exit 1; }
+    make perf || { echo "Build failed!\n"; exit 1; }
 
     # Start perf recording
     PERF_OUTPUT="$PERF_OUTPUT_DIR/rust-perf-mutex-$run.data"
@@ -92,6 +92,9 @@ for ((run=1; run<=N_RUNS; run++)); do
     sudo rmmod "$MODULE_FILE_NAME"
 
     rm "$PERF_OUTPUT"
+    
+    # Remove debug information
+    rm -rf /home/rustxave/.debug
     
     # Clear dmesg to avoid mixing logs between iterations
     dmesg -C

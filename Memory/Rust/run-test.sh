@@ -93,6 +93,9 @@ for ((run=1; run<=N_RUNS; run++)); do
     sudo rmmod "$MODULE_FILE_NAME"
 
     rm "$PERF_OUTPUT"
+
+    # Remove debug information
+    rm -rf /home/rustxave/.debug
     
     # Clear dmesg to avoid mixing logs between iterations
     dmesg -C

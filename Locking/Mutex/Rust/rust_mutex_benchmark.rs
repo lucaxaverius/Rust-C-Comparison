@@ -29,11 +29,21 @@ impl Example {
     }
 }
 
+/// Locks the mutex and returns the guard.
+#[no_mangle]
+#[inline(never)]
+pub(crate) fn take_and_release(mutex: &Pin<Box<Example, Kmalloc>>){
+    let guard = mutex.m.lock(); // Lock and unlock the mutex
+    drop(guard);
+}
+
+
+
 struct MutexTestModule;
 
 const NUM_ITERATIONS: usize = 20_000_000;
 //const NUM_EXECUTION: usize = 30;
-const ITERATION: i32 = 3;
+const ITERATION: i32 = 1;
 
 impl kernel::Module for MutexTestModule {
     #[no_mangle]
@@ -67,9 +77,7 @@ impl MutexTestModule{
      {
            let lock_start = Ktime::ktime_get();
  
-            {
-                let _guard = mutex.m.lock(); // Lock and unlock the mutex
-            }
+            take_and_release(&mutex);
 
             let lock_end = Ktime::ktime_get();
             let elapsed = ktime_ns_delta(lock_end,lock_start);
