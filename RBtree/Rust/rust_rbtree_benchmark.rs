@@ -20,6 +20,8 @@ module! {
 struct RBTreeBenchmarkModule;
 
 const NUM_ELEMENTS: usize = 1_000_000;
+//const NUM_ELEMENTS: usize = 10;
+
 //const NUM_EXECUTION: usize = 50;
 
 const SEED: u32 = 13344;
@@ -87,10 +89,20 @@ impl RBTreeBenchmarkModule{
         pr_info!("Time to lookup all the elements: {} ms\n", Ktime::from_raw(total_find_time).to_ms() );
         */ 
 
+        // print the first 10 elements
+        /*
+        Self::print_nodes(&mut tree);
+
+        keys.sort_unstable();
+
+        pr_info!("the keys are {:#?}",keys);
+        */
+        
         // remove all the nodes
-        Self::remove_all(&mut tree, &keys);
+        Self::remove_all(&mut tree);
 
     }
+
     #[no_mangle]
     #[inline(never)]
     /// Function to increment values of all nodes in the RBTree
@@ -121,6 +133,7 @@ impl RBTreeBenchmarkModule{
         pr_info!("Time to insert {} elements: {} ms\n", NUM_ELEMENTS, insert_time_ms);
     }
 
+    /*
     #[no_mangle]
     #[inline(never)]
     /// Remove from the tree al the values
@@ -133,6 +146,36 @@ impl RBTreeBenchmarkModule{
         let end = Ktime::ktime_get();
         let remove_time_ms = (end - start).to_ms();
         pr_info!("Time to remove all elements: {} ms\n", remove_time_ms);
+    }
+    */
+    #[no_mangle]
+    #[inline(never)]
+    fn remove_all(tree: &mut RBTree<u32, u32>) {
+        // Start with a cursor pointing to the front of the tree, if it exists
+        let mut cursor = tree.cursor_front();
+        let start = Ktime::ktime_get();
+        // Loop while there is a cursor pointing to a node
+        while let Some(c) = cursor {
+            // Call `remove_current` and update the cursor to the returned next/previous node
+            cursor = c.remove_current().0;
+        }
+        let end = Ktime::ktime_get();
+        let remove_time_ms = (end - start).to_ms();
+        pr_info!("Time to remove all elements: {} ms\n", remove_time_ms);
+    }
+
+
+    #[no_mangle]
+    fn print_nodes(tree: &mut RBTree<u32,u32>){
+        let mut cursor = tree.cursor_front().unwrap();
+        let mut current = cursor.current();
+        for _ in 1..NUM_ELEMENTS {
+            pr_info!("Current element is: {:#?}",current);
+            cursor = cursor.move_next().unwrap();
+            current = cursor.current();
+        }
+        pr_info!("Current element is: {:#?}",current);
+
     }
 }
 

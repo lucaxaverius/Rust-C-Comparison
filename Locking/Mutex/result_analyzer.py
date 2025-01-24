@@ -299,6 +299,94 @@ def plot_function_metrics(c_metrics, rust_metrics, output_dir):
             plt.savefig(os.path.join(rust_output_dir, f"{func}_rust_metrics.png"))
             plt.close()
 
+def plot_comparison_metrics(c_metrics, rust_metrics, output_dir):
+    """
+    Plots comparison metrics for each operation and metric, showing results for both
+    the C and Rust implementations.
+
+    Args:
+        c_metrics (dict): Metrics for C implementation.
+        rust_metrics (dict): Metrics for Rust implementation.
+        output_dir (str): Directory where plots will be saved.
+    """
+    import matplotlib.pyplot as plt
+    import os
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Iterate over operations
+    for operation in OPERATIONS:
+        if operation not in c_metrics and operation not in rust_metrics:
+            continue  # Skip if the operation is not present in either implementation
+
+        metrics_to_plot = set()
+        if operation in c_metrics:
+            metrics_to_plot.update(c_metrics[operation].keys())
+        if operation in rust_metrics:
+            metrics_to_plot.update(rust_metrics[operation].keys())
+
+        # Iterate over metrics for the current operation
+        for metric in sorted(metrics_to_plot):
+            plt.figure(figsize=(6, 4))  # Keep compact size for plots
+
+            # Collect data for C implementation
+            c_data = []
+            if operation in c_metrics and metric in c_metrics[operation]:
+                c_data = [
+                    c_metrics[operation][metric].get("Min", float("inf")),
+                    c_metrics[operation][metric].get("Median", float("nan")),
+                    c_metrics[operation][metric].get("Max", float("-inf"))
+                ]
+
+            # Collect data for Rust implementation
+            rust_data = []
+            if operation in rust_metrics and metric in rust_metrics[operation]:
+                rust_data = [
+                    rust_metrics[operation][metric].get("Min", float("inf")),
+                    rust_metrics[operation][metric].get("Median", float("nan")),
+                    rust_metrics[operation][metric].get("Max", float("-inf"))
+                ]
+
+            # Combine data and labels for the plot
+            data = [c_data, rust_data]
+            labels = ["C", "Rust"]
+
+            # Create boxplot
+            box = plt.boxplot(
+                data,
+                patch_artist=True,
+                widths=0.3,  # Narrower boxplots
+                tick_labels=labels
+            )
+
+            # Customize colors
+            colors = ["lightgrey", "lightblue"]
+            for patch, color in zip(box['boxes'], colors):
+                patch.set(facecolor=color)
+            for median_line in box['medians']:
+                median_line.set(color="black", linewidth=2)  # Median line black
+
+            # Add labels and title with larger font sizes
+            plt.title(
+                f"Comparison of {metric} for {operation.replace('_', ' ').title()}",
+                fontsize=14
+            )
+            plt.ylabel("Values (%)", fontsize=12)
+            plt.xlabel("Implementation", fontsize=12)
+
+            # Customize tick fonts
+            plt.xticks(fontsize=12)
+            plt.yticks(fontsize=12)
+
+            # Add grid for better readability
+            plt.grid(axis="y", linestyle="--", alpha=0.7)
+
+            # Save plot
+            plot_filename = f"{operation}_{metric}_comparison.png"
+            plt.tight_layout()
+            plt.savefig(os.path.join(output_dir, plot_filename), dpi=300)  # High DPI for clarity
+            plt.close()
+
 if __name__ == "__main__":
     # Create output directories
     os.makedirs("./execution_time_plots", exist_ok=True)
@@ -322,3 +410,4 @@ if __name__ == "__main__":
 
     # Plot perf metrics box plots
     plot_function_metrics(c_metrics, rust_metrics, "./perf_metrics_plots")
+    plot_comparison_metrics(c_metrics, rust_metrics, "./perf_metrics_plots2")

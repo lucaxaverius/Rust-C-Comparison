@@ -22,23 +22,23 @@ Operation: c_remove
   Std Dev: 8.86 ms
 --------------------------------------------------
 Operation: rust_insert
-  Mean: 838.03 ms
-  Min: 779 ms
-  Max: 1047 ms
-  Median: 823.5 ms
-  Std Dev: 45.33 ms
+  Mean: 718.27 ms
+  Min: 673 ms
+  Max: 1317 ms
+  Median: 713.0 ms
+  Std Dev: 38.53 ms
 --------------------------------------------------
 Operation: rust_iterate
-  Mean: 180.62 ms
-  Min: 165 ms
-  Max: 211 ms
-  Median: 179.0 ms
-  Std Dev: 6.67 ms
+  Mean: 159.63 ms
+  Min: 145 ms
+  Max: 240 ms
+  Median: 159.0 ms
+  Std Dev: 4.27 ms
 --------------------------------------------------
 Operation: rust_remove
-  Mean: 1094.89 ms
-  Min: 1022 ms
-  Max: 1364 ms
-  Median: 1078.5 ms
-  Std Dev: 53.06 ms
+  Mean: 148.91 ms
+  Min: 137 ms
+  Max: 315 ms
+  Median: 148.0 ms
+  Std Dev: 6.39 ms
 --------------------------------------------------
