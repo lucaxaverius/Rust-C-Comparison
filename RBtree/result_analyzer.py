@@ -25,7 +25,6 @@ patterns = {
     "rust_insert": r"Rust_RBTree_Benchmark: Time to insert \d+ elements: (\d+) ms",
     "rust_iterate": r"Rust_RBTree_Benchmark: Time to iterate over the rbtree: (\d+) ms",
     "rust_remove": r"Rust_RBTree_Benchmark: Time to remove all elements: (\d+) ms",
-
 }
 
 # Extract metrics from logs
@@ -38,7 +37,6 @@ def extract_execution_times(log_file, patterns):
                 if match:
                     results[key].append(int(match.group(1)))
     return results
-
 
 
 # Plot execution time violin plots
