@@ -1,114 +1,114 @@
 Function: write_page
   Event: cycles
-    Avg: 25.41
-    Min: 22.48
-    Max: 28.30
-    Median: 25.41
-    Std Dev: 0.81
+    Avg: 3294811851.00
+    Min: 3179762094.00
+    Max: 3409861608.00
+    Median: 3294811851.00
+    Std Dev: 162704926.70
   Event: instructions
-    Avg: 32.25
-    Min: 29.79
-    Max: 34.96
-    Median: 32.27
-    Std Dev: 0.86
+    Avg: 6721582620.00
+    Min: 6301198203.00
+    Max: 7141967037.00
+    Median: 6721582620.00
+    Std Dev: 594513343.93
   Event: cache-misses
-    Avg: 1.57
-    Min: 0.21
-    Max: 7.37
-    Median: 1.31
-    Std Dev: 0.95
+    Avg: 554.00
+    Min: 464.00
+    Max: 644.00
+    Median: 554.00
+    Std Dev: 127.28
   Event: branch-misses
-    Avg: 1.43
-    Min: 0.11
-    Max: 6.66
-    Median: 1.12
-    Std Dev: 0.97
+    Avg: 3376238.50
+    Min: 3294112.00
+    Max: 3458365.00
+    Median: 3376238.50
+    Std Dev: 116144.41
   Event: cpu-clock
-    Avg: 22.59
-    Min: 19.47
-    Max: 25.89
-    Median: 22.59
-    Std Dev: 0.87
+    Avg: 3303933263.00
+    Min: 3148206452.00
+    Max: 3459660074.00
+    Median: 3303933263.00
+    Std Dev: 220230968.14
   Event: branches
-    Avg: 24.49
-    Min: 21.91
-    Max: 26.57
-    Median: 24.45
-    Std Dev: 0.79
+    Avg: 623539961.50
+    Min: 591223184.00
+    Max: 655856739.00
+    Median: 623539961.50
+    Std Dev: 45702825.03
 
 Function: read_page
   Event: cycles
-    Avg: 25.63
-    Min: 23.05
-    Max: 28.54
-    Median: 25.64
-    Std Dev: 0.82
+    Avg: 3168750298.50
+    Min: 2961794531.00
+    Max: 3375706066.00
+    Median: 3168750298.50
+    Std Dev: 292679653.21
   Event: instructions
-    Avg: 32.31
-    Min: 29.27
-    Max: 35.17
-    Median: 32.32
-    Std Dev: 0.87
+    Avg: 6506188007.50
+    Min: 6198141223.00
+    Max: 6814234792.00
+    Median: 6506188007.50
+    Std Dev: 435643940.49
   Event: cache-misses
-    Avg: 1.70
-    Min: 0.12
-    Max: 8.44
-    Median: 1.46
-    Std Dev: 1.01
+    Avg: 558.00
+    Min: 445.00
+    Max: 671.00
+    Median: 558.00
+    Std Dev: 159.81
   Event: branch-misses
-    Avg: 16.53
-    Min: 0.14
-    Max: 39.03
-    Median: 2.73
-    Std Dev: 17.17
+    Avg: 3872126.00
+    Min: 3262590.00
+    Max: 4481662.00
+    Median: 3872126.00
+    Std Dev: 862014.08
   Event: cpu-clock
-    Avg: 23.33
-    Min: 19.80
-    Max: 26.50
-    Median: 23.31
-    Std Dev: 1.15
+    Avg: 3290252476.50
+    Min: 3068472465.00
+    Max: 3512032488.00
+    Median: 3290252476.50
+    Std Dev: 313644300.13
   Event: branches
-    Avg: 24.72
-    Min: 21.24
-    Max: 27.49
-    Median: 24.73
-    Std Dev: 0.84
+    Avg: 617117837.50
+    Min: 587056706.00
+    Max: 647178969.00
+    Median: 617117837.50
+    Std Dev: 42512859.87
 
 Function: allocate_page
   Event: cycles
-    Avg: 19.36
-    Min: 16.74
-    Max: 22.68
-    Median: 19.34
-    Std Dev: 0.81
+    Avg: 2594673990.00
+    Min: 2454058326.00
+    Max: 2735289654.00
+    Median: 2594673990.00
+    Std Dev: 198860579.11
   Event: instructions
-    Avg: 14.87
-    Min: 13.08
-    Max: 17.16
-    Median: 14.88
-    Std Dev: 0.65
+    Avg: 3094709126.50
+    Min: 2912095805.00
+    Max: 3277322448.00
+    Median: 3094709126.50
+    Std Dev: 258254235.94
   Event: cache-misses
-    Avg: 1.93
-    Min: 0.16
-    Max: 7.60
-    Median: 1.63
-    Std Dev: 1.13
+    Avg: 701.00
+    Min: 602.00
+    Max: 800.00
+    Median: 701.00
+    Std Dev: 140.01
   Event: branch-misses
-    Avg: 0.65
-    Min: 0.04
-    Max: 1.40
-    Median: 0.63
-    Std Dev: 0.22
+    Avg: 414139.00
+    Min: 406642.00
+    Max: 421636.00
+    Median: 414139.00
+    Std Dev: 10602.36
   Event: cpu-clock
-    Avg: 16.85
-    Min: 14.30
-    Max: 19.33
-    Median: 16.84
-    Std Dev: 0.76
+    Avg: 2242705191.00
+    Min: 2134813199.00
+    Max: 2350597183.00
+    Median: 2242705191.00
+    Std Dev: 152582318.36
   Event: branches
-    Avg: 19.08
-    Min: 16.61
-    Max: 21.38
-    Median: 19.07
-    Std Dev: 0.71
+    Avg: 474730140.00
+    Min: 447063056.00
+    Max: 502397224.00
+    Median: 474730140.00
+    Std Dev: 39127165.42
 

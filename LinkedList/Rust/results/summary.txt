@@ -1,152 +1,152 @@
 Function: remove_all
   Event: cycles
-    Avg: 47.82
-    Min: 18.28
-    Max: 50.54
-    Median: 48.00
-    Std Dev: 1.84
+    Avg: 5169876173.00
+    Min: 5152065325.00
+    Max: 5187687021.00
+    Median: 5169876173.00
+    Std Dev: 25188342.80
   Event: instructions
-    Avg: 45.89
-    Min: 24.54
-    Max: 47.07
-    Median: 45.99
-    Std Dev: 1.22
+    Avg: 7633801113.00
+    Min: 7600829606.00
+    Max: 7666772620.00
+    Median: 7633801113.00
+    Std Dev: 46628752.37
   Event: cache-misses
-    Avg: 40.81
-    Min: 8.39
-    Max: 41.95
-    Median: 41.11
-    Std Dev: 2.03
+    Avg: 1587.00
+    Min: 952.00
+    Max: 2222.00
+    Median: 1587.00
+    Std Dev: 898.03
   Event: branch-misses
-    Avg: 41.33
-    Min: 2.59
-    Max: 49.75
-    Median: 41.70
-    Std Dev: 4.54
+    Avg: 1415079.50
+    Min: 1412325.00
+    Max: 1417834.00
+    Median: 1415079.50
+    Std Dev: 3895.45
   Event: cpu-clock
-    Avg: 36.33
-    Min: 14.04
-    Max: 39.74
-    Median: 36.48
-    Std Dev: 1.74
+    Avg: 3669242200.00
+    Min: 3651947000.00
+    Max: 3686537400.00
+    Median: 3669242200.00
+    Std Dev: 24459106.40
   Event: branches
-    Avg: 41.72
-    Min: 26.57
-    Max: 42.63
-    Median: 41.81
-    Std Dev: 0.98
+    Avg: 1179849877.50
+    Min: 1178702506.00
+    Max: 1180997249.00
+    Median: 1179849877.50
+    Std Dev: 1622628.34
 
 Function: insert_back
   Event: cycles
-    Avg: 23.57
-    Min: 9.36
-    Max: 24.32
-    Median: 23.67
-    Std Dev: 0.89
+    Avg: 2979252376.00
+    Min: 2954592939.00
+    Max: 3003911813.00
+    Median: 2979252376.00
+    Std Dev: 34873710.25
   Event: instructions
-    Avg: 33.36
-    Min: 17.88
-    Max: 34.14
-    Median: 33.45
-    Std Dev: 0.99
+    Avg: 5476683708.00
+    Min: 5465518938.00
+    Max: 5487848478.00
+    Median: 5476683708.00
+    Std Dev: 15789369.15
   Event: cache-misses
-    Avg: 14.60
-    Min: 3.27
-    Max: 15.02
-    Median: 14.71
-    Std Dev: 0.74
+    Avg: 676.00
+    Min: 401.00
+    Max: 951.00
+    Median: 676.00
+    Std Dev: 388.91
   Event: branch-misses
-    Avg: 22.22
-    Min: 1.30
-    Max: 29.69
-    Median: 22.21
-    Std Dev: 2.77
+    Avg: 688726.50
+    Min: 684794.00
+    Max: 692659.00
+    Median: 688726.50
+    Std Dev: 5561.39
   Event: cpu-clock
-    Avg: 19.46
-    Min: 8.04
-    Max: 21.57
-    Median: 19.62
-    Std Dev: 1.00
+    Avg: 2109016450.00
+    Min: 2090930400.00
+    Max: 2127102500.00
+    Median: 2109016450.00
+    Std Dev: 25577537.20
   Event: branches
-    Avg: 35.53
-    Min: 19.33
-    Max: 36.53
-    Median: 35.65
-    Std Dev: 1.00
+    Avg: 1005134105.50
+    Min: 1003833163.00
+    Max: 1006435048.00
+    Median: 1005134105.50
+    Std Dev: 1839810.53
 
 Function: insert_front
   Event: cycles
-    Avg: 13.09
-    Min: 3.81
-    Max: 14.09
-    Median: 13.11
-    Std Dev: 0.57
+    Avg: 1612530298.00
+    Min: 1596117164.00
+    Max: 1628943432.00
+    Median: 1612530298.00
+    Std Dev: 23211676.70
   Event: instructions
-    Avg: 17.77
-    Min: 6.41
-    Max: 18.99
-    Median: 17.77
-    Std Dev: 0.65
+    Avg: 2842054397.50
+    Min: 2802197792.00
+    Max: 2881911003.00
+    Median: 2842054397.50
+    Std Dev: 56365752.05
   Event: cache-misses
-    Avg: 8.12
-    Min: 1.51
-    Max: 8.77
-    Median: 8.15
-    Std Dev: 0.44
+    Avg: 361.00
+    Min: 215.00
+    Max: 507.00
+    Median: 361.00
+    Std Dev: 206.48
   Event: branch-misses
-    Avg: 12.84
-    Min: 0.88
-    Max: 20.65
-    Median: 12.88
-    Std Dev: 1.82
+    Avg: 386348.00
+    Min: 377592.00
+    Max: 395104.00
+    Median: 386348.00
+    Std Dev: 12382.85
   Event: cpu-clock
-    Avg: 10.99
-    Min: 3.52
-    Max: 12.43
-    Median: 11.04
-    Std Dev: 0.62
+    Avg: 1206665900.00
+    Min: 1181532300.00
+    Max: 1231799500.00
+    Median: 1206665900.00
+    Std Dev: 35544277.99
   Event: branches
-    Avg: 19.03
-    Min: 7.84
-    Max: 20.23
-    Median: 19.04
-    Std Dev: 0.66
+    Avg: 522243307.50
+    Min: 515544588.00
+    Max: 528942027.00
+    Median: 522243307.50
+    Std Dev: 9473419.97
 
 Function: iterate_all
   Event: cycles
-    Avg: 12.53
-    Min: 5.18
-    Max: 13.38
-    Median: 12.56
-    Std Dev: 0.45
+    Avg: 1423593096.50
+    Min: 1422173467.00
+    Max: 1425012726.00
+    Median: 1423593096.50
+    Std Dev: 2007659.29
   Event: instructions
-    Avg: 1.13
-    Min: 0.60
-    Max: 1.18
-    Median: 1.13
-    Std Dev: 0.03
+    Avg: 190654535.00
+    Min: 190442072.00
+    Max: 190866998.00
+    Median: 190654535.00
+    Std Dev: 300468.06
   Event: cache-misses
-    Avg: 32.45
-    Min: 6.46
-    Max: 33.26
-    Median: 32.72
-    Std Dev: 1.62
+    Avg: 1107.00
+    Min: 659.00
+    Max: 1555.00
+    Median: 1107.00
+    Std Dev: 633.57
   Event: branch-misses
-    Avg: 2.98
-    Min: 0.14
-    Max: 4.97
-    Median: 2.99
-    Std Dev: 0.33
+    Avg: 97907.00
+    Min: 97038.00
+    Max: 98776.00
+    Median: 97907.00
+    Std Dev: 1228.95
   Event: cpu-clock
-    Avg: 19.81
-    Min: 6.24
-    Max: 22.13
-    Median: 19.90
-    Std Dev: 1.19
+    Avg: 951896300.00
+    Min: 938765100.00
+    Max: 965027500.00
+    Median: 951896300.00
+    Std Dev: 18570321.13
   Event: branches
-    Avg: 2.17
-    Min: 1.38
-    Max: 2.24
-    Median: 2.17
-    Std Dev: 0.05
+    Avg: 62097192.50
+    Min: 62050923.00
+    Max: 62143462.00
+    Median: 62097192.50
+    Std Dev: 65434.95
 

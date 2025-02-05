@@ -27,10 +27,12 @@ OUTPUT_CSV = "./results/metrics.csv"
 METRIC_PATTERN = re.compile(
     rf"^\s*([\d.]+)%.*\[k\]\s+({'|'.join(FUNCTIONS + list(AUXILIARY_FUNCTIONS.values()))})"
 )
+EVENT_COUNT_PATTERN = re.compile(r"# Event count \(approx.\):\s+(\d+)")
 
-# Parse the temporary txt file for metrics
+# Parse the temporary txt file for metrics and event counts
 def parse_tmp_file(tmp_file):
-    metrics = defaultdict(lambda: defaultdict(float))
+    metrics = defaultdict(lambda: defaultdict(list))
+    event_counts = {}  # Stores total event count per category
     current_event = None
 
     with open(tmp_file, "r") as file:
@@ -41,25 +43,23 @@ def parse_tmp_file(tmp_file):
                     current_event = event
                     break
 
-            # Parse function metrics
+            # Extract total event count
+            if current_event:
+                count_match = EVENT_COUNT_PATTERN.search(line)
+                if count_match:
+                    event_counts[current_event] = int(count_match.group(1))
+
+            # Parse function metrics (percentages)
             if current_event:
                 match = METRIC_PATTERN.match(line)
                 if match:
-                    value, func_name = float(match.group(1)), match.group(2)
-                    metrics[func_name][current_event] += value
+                    percentage, func_name = float(match.group(1)), match.group(2)
+                    metrics[func_name][current_event].append(percentage)
 
-    # Merge auxiliary functions into their parent functions
-    for parent_func, aux_func in AUXILIARY_FUNCTIONS.items():
-        if aux_func in metrics:
-            for event, aux_value in metrics[aux_func].items():
-                metrics[parent_func][event] += aux_value
-            del metrics[aux_func]  # Remove auxiliary function after merging
+    return metrics, event_counts
 
-    return metrics
-
-# Append parsed metrics to the CSV file
-def append_to_csv(metrics, output_csv):
-    # Check if the file exists and load existing data
+# Append computed absolute values to the CSV file
+def append_to_csv(metrics, event_counts, output_csv):
     existing_data = {}
     header_exists = os.path.isfile(output_csv) and os.path.getsize(output_csv) > 0
 
@@ -70,36 +70,36 @@ def append_to_csv(metrics, output_csv):
             for row in reader:
                 key = (row[0], row[1])  # (function, event)
                 num_values = int(row[2])  # Number of captured values
-                values = list(map(float, row[3:]))  # Extract values
+                # Convert values back to integers if they don't have decimals
+                values = [int(float(v)) if float(v).is_integer() else float(v) for v in row[3:]]
                 existing_data[key] = (num_values, values)
 
-    # Update the data with the new metrics
+    # Update the data with the new absolute metrics
     for func, events in metrics.items():
-        for event, value in events.items():
+        for event, percentages in events.items():
+            total_count = event_counts.get(event, 0)
+            absolute_values = [int(round((p / 100) * total_count)) for p in percentages]  # Force integer conversion
+
             key = (func, event)
-            truncated_value = round(value, 2)  # Truncate to two decimal places
             if key in existing_data:
                 current_num, current_values = existing_data[key]
-                new_values = current_values + [truncated_value]
+                new_values = current_values + absolute_values
                 existing_data[key] = (len(new_values), new_values)
             else:
-                existing_data[key] = (1, [truncated_value])
-
+                existing_data[key] = (len(absolute_values), absolute_values)
+        
     # Write back the updated data to the CSV
     with open(output_csv, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
-        # Write header
         writer.writerow(["function", "event", "num_values", "values"])
         
-        # Write rows
         for (func, event), (num_values, values) in existing_data.items():
             writer.writerow([func, event, num_values] + values)
 
 # Main function to process a .data file
 def process_perf_data(data_file, csv_file):
-    # Convert .data file to temporary .txt file
     cmd = f"sudo perf report --stdio --kallsyms=/proc/kallsyms -i {data_file} -c insmod -n > {TMP_FILE}"
-    print(f"Running command: {cmd}")  # Debug
+    print(f"Running command: {cmd}")
 
     try:
         subprocess.run(cmd, shell=True, check=True)
@@ -107,11 +107,9 @@ def process_perf_data(data_file, csv_file):
         print(f"Error processing {data_file}: {e}")
         sys.exit(1)
 
-    # Parse the temporary file and append metrics to CSV
-    metrics = parse_tmp_file(TMP_FILE)
-    append_to_csv(metrics, csv_file)
+    metrics, event_counts = parse_tmp_file(TMP_FILE)
+    append_to_csv(metrics, event_counts, csv_file)
 
-    # Clean up temporary file
     if os.path.exists(TMP_FILE):
         os.remove(TMP_FILE)
 

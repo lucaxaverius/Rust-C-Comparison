@@ -1,115 +1,114 @@
 Function: take_and_release
   Event: cycles
-    Avg: 25.50
-    Min: 20.55
-    Max: 32.33
-    Median: 25.53
-    Std Dev: 0.90
+    Avg: 862768615.00
+    Min: 827166779.00
+    Max: 898370451.00
+    Median: 862768615.00
+    Std Dev: 50348599.32
   Event: instructions
-    Avg: 35.95
-    Min: 30.04
-    Max: 38.00
-    Median: 36.01
-    Std Dev: 0.86
+    Avg: 1390011823.00
+    Min: 1356239747.00
+    Max: 1423783899.00
+    Median: 1390011823.00
+    Std Dev: 47760927.91
   Event: cache-misses
-    Avg: 1.40
-    Min: 0.49
-    Max: 3.29
-    Median: 1.36
-    Std Dev: 0.34
+    Avg: 200.50
+    Min: 173.00
+    Max: 228.00
+    Median: 200.50
+    Std Dev: 38.89
   Event: branch-misses
-    Avg: 16.87
-    Min: 11.41
-    Max: 22.70
-    Median: 16.93
-    Std Dev: 1.46
+    Avg: 99097.00
+    Min: 93333.00
+    Max: 104861.00
+    Median: 99097.00
+    Std Dev: 8151.53
   Event: cpu-clock
-    Avg: 24.32
-    Min: 17.06
-    Max: 29.32
-    Median: 24.39
-    Std Dev: 1.37
+    Avg: 673305393.50
+    Min: 647399353.00
+    Max: 699211434.00
+    Median: 673305393.50
+    Std Dev: 36636673.82
   Event: branches
-    Avg: 39.87
-    Min: 32.01
-    Max: 44.18
-    Median: 39.94
-    Std Dev: 1.08
-
-
-Function: mutex_unlock
-  Event: cycles
-    Avg: 5.86
-    Min: 3.08
-    Max: 10.00
-    Median: 6.00
-    Std Dev: 0.75
-  Event: instructions
-    Avg: 5.40
-    Min: 2.28
-    Max: 6.59
-    Median: 5.53
-    Std Dev: 0.61
-  Event: cache-misses
-    Avg: 0.15
-    Min: 0.10
-    Max: 0.22
-    Median: 0.15
-    Std Dev: 0.02
-  Event: branch-misses
-    Avg: 0.82
-    Min: 0.26
-    Max: 1.36
-    Median: 0.88
-    Std Dev: 0.20
-  Event: cpu-clock
-    Avg: 4.23
-    Min: 2.91
-    Max: 6.36
-    Median: 4.27
-    Std Dev: 0.43
-  Event: branches
-    Avg: 6.61
-    Min: 2.66
-    Max: 7.88
-    Median: 6.77
-    Std Dev: 0.75
+    Avg: 268859442.50
+    Min: 259094762.00
+    Max: 278624123.00
+    Median: 268859442.50
+    Std Dev: 13809343.60
 
 Function: mutex_lock
   Event: cycles
-    Avg: 7.06
-    Min: 4.30
-    Max: 10.71
-    Median: 7.23
-    Std Dev: 0.77
+    Avg: 436862233.50
+    Min: 424539241.00
+    Max: 449185226.00
+    Median: 436862233.50
+    Std Dev: 17427343.12
   Event: instructions
-    Avg: 16.49
-    Min: 6.54
-    Max: 19.19
-    Median: 17.02
-    Std Dev: 1.78
+    Avg: 952517607.00
+    Min: 915376638.00
+    Max: 989658576.00
+    Median: 952517607.00
+    Std Dev: 52525262.08
   Event: cache-misses
-    Avg: 0.31
-    Min: 0.19
-    Max: 0.43
-    Median: 0.31
-    Std Dev: 0.03
+    Avg: 113.00
+    Min: 105.00
+    Max: 121.00
+    Median: 113.00
+    Std Dev: 11.31
   Event: branch-misses
-    Avg: 1.76
-    Min: 0.61
-    Max: 2.79
-    Median: 1.89
-    Std Dev: 0.43
+    Avg: 55479.50
+    Min: 50425.00
+    Max: 60534.00
+    Median: 55479.50
+    Std Dev: 7148.14
   Event: cpu-clock
-    Avg: 7.05
-    Min: 4.93
-    Max: 9.50
-    Median: 7.12
-    Std Dev: 0.65
+    Avg: 373571493.00
+    Min: 352559647.00
+    Max: 394583339.00
+    Median: 373571493.00
+    Std Dev: 29715237.58
   Event: branches
-    Avg: 20.55
-    Min: 7.93
-    Max: 23.90
-    Median: 21.26
-    Std Dev: 2.22
+    Avg: 187903608.50
+    Min: 178345498.00
+    Max: 197461719.00
+    Median: 187903608.50
+    Std Dev: 13517209.50
+
+Function: mutex_unlock
+  Event: cycles
+    Avg: 357182639.00
+    Min: 328675541.00
+    Max: 385689737.00
+    Median: 357182639.00
+    Std Dev: 40315124.62
+  Event: instructions
+    Avg: 328380260.00
+    Min: 316910293.00
+    Max: 339850227.00
+    Median: 328380260.00
+    Std Dev: 16220982.89
+  Event: cache-misses
+    Avg: 63.50
+    Min: 54.00
+    Max: 73.00
+    Median: 63.50
+    Std Dev: 13.44
+  Event: branch-misses
+    Avg: 30770.50
+    Min: 27410.00
+    Max: 34131.00
+    Median: 30770.50
+    Std Dev: 4752.46
+  Event: cpu-clock
+    Avg: 244681488.50
+    Min: 239927760.00
+    Max: 249435217.00
+    Median: 244681488.50
+    Std Dev: 6722787.32
+  Event: branches
+    Avg: 66121652.00
+    Min: 65872056.00
+    Max: 66371248.00
+    Median: 66121652.00
+    Std Dev: 352982.05
 
