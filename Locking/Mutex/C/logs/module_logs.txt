@@ -1,22 +1,2761 @@
 Logs for iteration 1
-[ 6025.959008] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
-[ 6025.959013] C-Mutex-Benchmark: Number of iterations: 1
-[ 6028.679274] C-Mutex-Benchmark: Mutex Test 1 Completed
-[ 6028.679336] C-Mutex-Benchmark: Total time: 2720 ms
-[ 6028.679388] C-Mutex-Benchmark: Total lock/unlock time: 1681 ms
-[ 6028.679390] C-Mutex-Benchmark: Average time per lock/unlock: 84 ns
-[ 6028.679391] C-Mutex-Benchmark: Minimum time per lock/unlock: 48 ns
-[ 6028.679392] C-Mutex-Benchmark: Maximum time per lock/unlock: 2749220 ns
-[ 6028.679393] C-Mutex-Benchmark: Iteration 1-th ended
-[ 6028.679394] C-Mutex-Benchmark: Test module completed.
+[  639.769660] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  639.769663] C-Mutex-Benchmark: Number of iterations: 4
+[  641.211162] C-Mutex-Benchmark: Mutex Test 4 Completed
+[  641.211175] C-Mutex-Benchmark: Total time: 1441 ms
+[  641.211177] C-Mutex-Benchmark: Total lock/unlock time: 911 ms
+[  641.211177] C-Mutex-Benchmark: Average time per lock/unlock: 45 ns
+[  641.211178] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[  641.211179] C-Mutex-Benchmark: Maximum time per lock/unlock: 4076475 ns
+[  641.211180] C-Mutex-Benchmark: Iteration 4-th ended
+[  641.211181] C-Mutex-Benchmark: Test module completed.
+[  666.303026] C-Mutex-Benchmark: Exiting Mutex Lock/Unlock Performance Test.
+[  669.053008] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  669.053011] C-Mutex-Benchmark: Number of iterations: 1
+[  670.416583] C-Mutex-Benchmark: Mutex Test 1 Completed
+[  670.416621] C-Mutex-Benchmark: Total time: 1362 ms
+[  670.416650] C-Mutex-Benchmark: Total lock/unlock time: 878 ms
+[  670.416651] C-Mutex-Benchmark: Average time per lock/unlock: 43 ns
+[  670.416652] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[  670.416652] C-Mutex-Benchmark: Maximum time per lock/unlock: 4846923 ns
+[  670.416653] C-Mutex-Benchmark: Iteration 1-th ended
+[  670.416654] C-Mutex-Benchmark: Test module completed.
 Logs for iteration 2
-[ 6037.093817] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
-[ 6037.093824] C-Mutex-Benchmark: Number of iterations: 2
-[ 6039.744540] C-Mutex-Benchmark: Mutex Test 2 Completed
-[ 6039.744617] C-Mutex-Benchmark: Total time: 2650 ms
-[ 6039.744620] C-Mutex-Benchmark: Total lock/unlock time: 1638 ms
-[ 6039.744622] C-Mutex-Benchmark: Average time per lock/unlock: 81 ns
-[ 6039.744693] C-Mutex-Benchmark: Minimum time per lock/unlock: 48 ns
-[ 6039.744695] C-Mutex-Benchmark: Maximum time per lock/unlock: 5557494 ns
-[ 6039.744697] C-Mutex-Benchmark: Iteration 2-th ended
-[ 6039.744699] C-Mutex-Benchmark: Test module completed.
+[  675.112006] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  675.112010] C-Mutex-Benchmark: Number of iterations: 2
+[  676.430614] C-Mutex-Benchmark: Mutex Test 2 Completed
+[  676.430688] C-Mutex-Benchmark: Total time: 1317 ms
+[  676.430690] C-Mutex-Benchmark: Total lock/unlock time: 837 ms
+[  676.430691] C-Mutex-Benchmark: Average time per lock/unlock: 41 ns
+[  676.430691] C-Mutex-Benchmark: Minimum time per lock/unlock: 28 ns
+[  676.430692] C-Mutex-Benchmark: Maximum time per lock/unlock: 3530250 ns
+[  676.430693] C-Mutex-Benchmark: Iteration 2-th ended
+[  676.430694] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 3
+[  680.675982] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  680.675986] C-Mutex-Benchmark: Number of iterations: 3
+[  681.991074] C-Mutex-Benchmark: Mutex Test 3 Completed
+[  681.991111] C-Mutex-Benchmark: Total time: 1314 ms
+[  681.991143] C-Mutex-Benchmark: Total lock/unlock time: 829 ms
+[  681.991143] C-Mutex-Benchmark: Average time per lock/unlock: 41 ns
+[  681.991144] C-Mutex-Benchmark: Minimum time per lock/unlock: 28 ns
+[  681.991145] C-Mutex-Benchmark: Maximum time per lock/unlock: 609143 ns
+[  681.991146] C-Mutex-Benchmark: Iteration 3-th ended
+[  681.991179] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 4
+[  686.029508] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  686.029512] C-Mutex-Benchmark: Number of iterations: 4
+[  687.356625] C-Mutex-Benchmark: Mutex Test 4 Completed
+[  687.356668] C-Mutex-Benchmark: Total time: 1326 ms
+[  687.356670] C-Mutex-Benchmark: Total lock/unlock time: 836 ms
+[  687.356702] C-Mutex-Benchmark: Average time per lock/unlock: 41 ns
+[  687.356703] C-Mutex-Benchmark: Minimum time per lock/unlock: 28 ns
+[  687.356704] C-Mutex-Benchmark: Maximum time per lock/unlock: 2106713 ns
+[  687.356705] C-Mutex-Benchmark: Iteration 4-th ended
+[  687.356706] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 5
+[  691.659174] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  691.659178] C-Mutex-Benchmark: Number of iterations: 5
+[  692.944438] C-Mutex-Benchmark: Mutex Test 5 Completed
+[  692.944511] C-Mutex-Benchmark: Total time: 1284 ms
+[  692.944513] C-Mutex-Benchmark: Total lock/unlock time: 812 ms
+[  692.944570] C-Mutex-Benchmark: Average time per lock/unlock: 40 ns
+[  692.944582] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[  692.944583] C-Mutex-Benchmark: Maximum time per lock/unlock: 2953958 ns
+[  692.944584] C-Mutex-Benchmark: Iteration 5-th ended
+[  692.944695] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 6
+[  697.111936] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  697.111939] C-Mutex-Benchmark: Number of iterations: 6
+[  698.393484] C-Mutex-Benchmark: Mutex Test 6 Completed
+[  698.393492] C-Mutex-Benchmark: Total time: 1281 ms
+[  698.393505] C-Mutex-Benchmark: Total lock/unlock time: 816 ms
+[  698.393507] C-Mutex-Benchmark: Average time per lock/unlock: 40 ns
+[  698.393508] C-Mutex-Benchmark: Minimum time per lock/unlock: 28 ns
+[  698.393509] C-Mutex-Benchmark: Maximum time per lock/unlock: 3994829 ns
+[  698.393510] C-Mutex-Benchmark: Iteration 6-th ended
+[  698.393511] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 7
+[  702.515589] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  702.515593] C-Mutex-Benchmark: Number of iterations: 7
+[  703.821330] C-Mutex-Benchmark: Mutex Test 7 Completed
+[  703.821341] C-Mutex-Benchmark: Total time: 1305 ms
+[  703.821416] C-Mutex-Benchmark: Total lock/unlock time: 831 ms
+[  703.821418] C-Mutex-Benchmark: Average time per lock/unlock: 41 ns
+[  703.821419] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[  703.821420] C-Mutex-Benchmark: Maximum time per lock/unlock: 3271851 ns
+[  703.821421] C-Mutex-Benchmark: Iteration 7-th ended
+[  703.821423] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 8
+[  707.979307] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  707.979310] C-Mutex-Benchmark: Number of iterations: 8
+[  709.252413] C-Mutex-Benchmark: Mutex Test 8 Completed
+[  709.252422] C-Mutex-Benchmark: Total time: 1272 ms
+[  709.252424] C-Mutex-Benchmark: Total lock/unlock time: 803 ms
+[  709.252425] C-Mutex-Benchmark: Average time per lock/unlock: 40 ns
+[  709.252426] C-Mutex-Benchmark: Minimum time per lock/unlock: 28 ns
+[  709.252427] C-Mutex-Benchmark: Maximum time per lock/unlock: 1089846 ns
+[  709.252427] C-Mutex-Benchmark: Iteration 8-th ended
+[  709.252428] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 9
+[  713.422621] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  713.422625] C-Mutex-Benchmark: Number of iterations: 9
+[  714.765261] C-Mutex-Benchmark: Mutex Test 9 Completed
+[  714.765340] C-Mutex-Benchmark: Total time: 1342 ms
+[  714.765399] C-Mutex-Benchmark: Total lock/unlock time: 846 ms
+[  714.765400] C-Mutex-Benchmark: Average time per lock/unlock: 42 ns
+[  714.765401] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[  714.765401] C-Mutex-Benchmark: Maximum time per lock/unlock: 897738 ns
+[  714.765402] C-Mutex-Benchmark: Iteration 9-th ended
+[  714.765411] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 10
+[  718.876282] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  718.876286] C-Mutex-Benchmark: Number of iterations: 10
+[  720.169733] C-Mutex-Benchmark: Mutex Test 10 Completed
+[  720.169838] C-Mutex-Benchmark: Total time: 1293 ms
+[  720.169840] C-Mutex-Benchmark: Total lock/unlock time: 822 ms
+[  720.169841] C-Mutex-Benchmark: Average time per lock/unlock: 41 ns
+[  720.169843] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[  720.169843] C-Mutex-Benchmark: Maximum time per lock/unlock: 5072355 ns
+[  720.169923] C-Mutex-Benchmark: Iteration 10-th ended
+[  720.169963] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 11
+[  724.328630] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  724.328635] C-Mutex-Benchmark: Number of iterations: 11
+[  725.682301] C-Mutex-Benchmark: Mutex Test 11 Completed
+[  725.682336] C-Mutex-Benchmark: Total time: 1353 ms
+[  725.682337] C-Mutex-Benchmark: Total lock/unlock time: 853 ms
+[  725.682338] C-Mutex-Benchmark: Average time per lock/unlock: 42 ns
+[  725.682338] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[  725.682339] C-Mutex-Benchmark: Maximum time per lock/unlock: 1280799 ns
+[  725.682384] C-Mutex-Benchmark: Iteration 11-th ended
+[  725.682385] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 12
+[  730.214149] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  730.214153] C-Mutex-Benchmark: Number of iterations: 12
+[  731.514012] C-Mutex-Benchmark: Mutex Test 12 Completed
+[  731.514067] C-Mutex-Benchmark: Total time: 1299 ms
+[  731.514069] C-Mutex-Benchmark: Total lock/unlock time: 824 ms
+[  731.514070] C-Mutex-Benchmark: Average time per lock/unlock: 41 ns
+[  731.514071] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[  731.514071] C-Mutex-Benchmark: Maximum time per lock/unlock: 1405411 ns
+[  731.514072] C-Mutex-Benchmark: Iteration 12-th ended
+[  731.514073] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 13
+[  736.019114] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  736.019119] C-Mutex-Benchmark: Number of iterations: 13
+[  737.378595] C-Mutex-Benchmark: Mutex Test 13 Completed
+[  737.378602] C-Mutex-Benchmark: Total time: 1359 ms
+[  737.378603] C-Mutex-Benchmark: Total lock/unlock time: 855 ms
+[  737.378603] C-Mutex-Benchmark: Average time per lock/unlock: 42 ns
+[  737.378604] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[  737.378605] C-Mutex-Benchmark: Maximum time per lock/unlock: 3189147 ns
+[  737.378605] C-Mutex-Benchmark: Iteration 13-th ended
+[  737.378606] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 14
+[  741.799446] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  741.799449] C-Mutex-Benchmark: Number of iterations: 14
+[  743.264573] C-Mutex-Benchmark: Mutex Test 14 Completed
+[  743.264661] C-Mutex-Benchmark: Total time: 1464 ms
+[  743.264662] C-Mutex-Benchmark: Total lock/unlock time: 928 ms
+[  743.264663] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[  743.264664] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[  743.264700] C-Mutex-Benchmark: Maximum time per lock/unlock: 16911958 ns
+[  743.264701] C-Mutex-Benchmark: Iteration 14-th ended
+[  743.264702] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 15
+[  747.604108] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  747.604112] C-Mutex-Benchmark: Number of iterations: 15
+[  749.052864] C-Mutex-Benchmark: Mutex Test 15 Completed
+[  749.052976] C-Mutex-Benchmark: Total time: 1448 ms
+[  749.053015] C-Mutex-Benchmark: Total lock/unlock time: 916 ms
+[  749.053024] C-Mutex-Benchmark: Average time per lock/unlock: 45 ns
+[  749.053025] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[  749.053026] C-Mutex-Benchmark: Maximum time per lock/unlock: 4004242 ns
+[  749.053027] C-Mutex-Benchmark: Iteration 15-th ended
+[  749.053028] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 16
+[  753.494694] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  753.494698] C-Mutex-Benchmark: Number of iterations: 16
+[  755.170133] C-Mutex-Benchmark: Mutex Test 16 Completed
+[  755.170245] C-Mutex-Benchmark: Total time: 1675 ms
+[  755.170297] C-Mutex-Benchmark: Total lock/unlock time: 1056 ms
+[  755.170298] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[  755.170300] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[  755.170301] C-Mutex-Benchmark: Maximum time per lock/unlock: 1340402 ns
+[  755.170302] C-Mutex-Benchmark: Iteration 16-th ended
+[  755.170303] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 17
+[  759.801372] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  759.801375] C-Mutex-Benchmark: Number of iterations: 17
+[  761.299056] C-Mutex-Benchmark: Mutex Test 17 Completed
+[  761.299176] C-Mutex-Benchmark: Total time: 1497 ms
+[  761.299212] C-Mutex-Benchmark: Total lock/unlock time: 947 ms
+[  761.299213] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[  761.299214] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  761.299215] C-Mutex-Benchmark: Maximum time per lock/unlock: 3586886 ns
+[  761.299216] C-Mutex-Benchmark: Iteration 17-th ended
+[  761.299217] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 18
+[  765.988524] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  765.988528] C-Mutex-Benchmark: Number of iterations: 18
+[  767.631471] C-Mutex-Benchmark: Mutex Test 18 Completed
+[  767.631570] C-Mutex-Benchmark: Total time: 1642 ms
+[  767.631629] C-Mutex-Benchmark: Total lock/unlock time: 1035 ms
+[  767.631690] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[  767.631691] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  767.631692] C-Mutex-Benchmark: Maximum time per lock/unlock: 1596085 ns
+[  767.631694] C-Mutex-Benchmark: Iteration 18-th ended
+[  767.631695] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 19
+[  771.880849] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  771.880853] C-Mutex-Benchmark: Number of iterations: 19
+[  773.338155] C-Mutex-Benchmark: Mutex Test 19 Completed
+[  773.338243] C-Mutex-Benchmark: Total time: 1457 ms
+[  773.338283] C-Mutex-Benchmark: Total lock/unlock time: 926 ms
+[  773.338284] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[  773.338284] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  773.338285] C-Mutex-Benchmark: Maximum time per lock/unlock: 1010589 ns
+[  773.338286] C-Mutex-Benchmark: Iteration 19-th ended
+[  773.338287] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 20
+[  777.762960] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  777.762965] C-Mutex-Benchmark: Number of iterations: 20
+[  779.320762] C-Mutex-Benchmark: Mutex Test 20 Completed
+[  779.320827] C-Mutex-Benchmark: Total time: 1557 ms
+[  779.320892] C-Mutex-Benchmark: Total lock/unlock time: 979 ms
+[  779.320893] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  779.320895] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  779.320896] C-Mutex-Benchmark: Maximum time per lock/unlock: 1366666 ns
+[  779.320898] C-Mutex-Benchmark: Iteration 20-th ended
+[  779.320976] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 21
+[  784.297117] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  784.297128] C-Mutex-Benchmark: Number of iterations: 21
+[  785.843903] C-Mutex-Benchmark: Mutex Test 21 Completed
+[  785.844017] C-Mutex-Benchmark: Total time: 1546 ms
+[  785.844019] C-Mutex-Benchmark: Total lock/unlock time: 969 ms
+[  785.844058] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  785.844059] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  785.844060] C-Mutex-Benchmark: Maximum time per lock/unlock: 1061817 ns
+[  785.844061] C-Mutex-Benchmark: Iteration 21-th ended
+[  785.844062] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 22
+[  790.224820] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  790.224824] C-Mutex-Benchmark: Number of iterations: 22
+[  791.691229] C-Mutex-Benchmark: Mutex Test 22 Completed
+[  791.691235] C-Mutex-Benchmark: Total time: 1466 ms
+[  791.691236] C-Mutex-Benchmark: Total lock/unlock time: 927 ms
+[  791.691246] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[  791.691247] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  791.691248] C-Mutex-Benchmark: Maximum time per lock/unlock: 1603923 ns
+[  791.691249] C-Mutex-Benchmark: Iteration 22-th ended
+[  791.691250] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 23
+[  796.081984] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  796.081987] C-Mutex-Benchmark: Number of iterations: 23
+[  797.612126] C-Mutex-Benchmark: Mutex Test 23 Completed
+[  797.612205] C-Mutex-Benchmark: Total time: 1529 ms
+[  797.612244] C-Mutex-Benchmark: Total lock/unlock time: 964 ms
+[  797.612245] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  797.612246] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  797.612247] C-Mutex-Benchmark: Maximum time per lock/unlock: 1037336 ns
+[  797.612248] C-Mutex-Benchmark: Iteration 23-th ended
+[  797.612249] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 24
+[  802.281355] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  802.281359] C-Mutex-Benchmark: Number of iterations: 24
+[  803.780185] C-Mutex-Benchmark: Mutex Test 24 Completed
+[  803.780266] C-Mutex-Benchmark: Total time: 1498 ms
+[  803.780304] C-Mutex-Benchmark: Total lock/unlock time: 947 ms
+[  803.780305] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[  803.780306] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  803.780307] C-Mutex-Benchmark: Maximum time per lock/unlock: 4049289 ns
+[  803.780308] C-Mutex-Benchmark: Iteration 24-th ended
+[  803.780309] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 25
+[  808.285780] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  808.285785] C-Mutex-Benchmark: Number of iterations: 25
+[  809.843774] C-Mutex-Benchmark: Mutex Test 25 Completed
+[  809.843835] C-Mutex-Benchmark: Total time: 1557 ms
+[  809.843837] C-Mutex-Benchmark: Total lock/unlock time: 977 ms
+[  809.843838] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  809.843840] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[  809.843841] C-Mutex-Benchmark: Maximum time per lock/unlock: 1618657 ns
+[  809.843842] C-Mutex-Benchmark: Iteration 25-th ended
+[  809.843843] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 26
+[  814.375379] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  814.375385] C-Mutex-Benchmark: Number of iterations: 26
+[  815.938097] C-Mutex-Benchmark: Mutex Test 26 Completed
+[  815.938229] C-Mutex-Benchmark: Total time: 1562 ms
+[  815.938231] C-Mutex-Benchmark: Total lock/unlock time: 982 ms
+[  815.938278] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[  815.938279] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  815.938280] C-Mutex-Benchmark: Maximum time per lock/unlock: 989786 ns
+[  815.938297] C-Mutex-Benchmark: Iteration 26-th ended
+[  815.938298] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 27
+[  820.300722] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  820.300728] C-Mutex-Benchmark: Number of iterations: 27
+[  821.916439] C-Mutex-Benchmark: Mutex Test 27 Completed
+[  821.916574] C-Mutex-Benchmark: Total time: 1615 ms
+[  821.916615] C-Mutex-Benchmark: Total lock/unlock time: 1019 ms
+[  821.916616] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[  821.916617] C-Mutex-Benchmark: Minimum time per lock/unlock: 34 ns
+[  821.916618] C-Mutex-Benchmark: Maximum time per lock/unlock: 2555757 ns
+[  821.916619] C-Mutex-Benchmark: Iteration 27-th ended
+[  821.916620] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 28
+[  826.376882] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  826.376886] C-Mutex-Benchmark: Number of iterations: 28
+[  827.927564] C-Mutex-Benchmark: Mutex Test 28 Completed
+[  827.927691] C-Mutex-Benchmark: Total time: 1550 ms
+[  827.927694] C-Mutex-Benchmark: Total lock/unlock time: 980 ms
+[  827.927695] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[  827.927753] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  827.927755] C-Mutex-Benchmark: Maximum time per lock/unlock: 1363425 ns
+[  827.927756] C-Mutex-Benchmark: Iteration 28-th ended
+[  827.927757] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 29
+[  832.354729] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  832.354737] C-Mutex-Benchmark: Number of iterations: 29
+[  833.878087] C-Mutex-Benchmark: Mutex Test 29 Completed
+[  833.878134] C-Mutex-Benchmark: Total time: 1523 ms
+[  833.878173] C-Mutex-Benchmark: Total lock/unlock time: 968 ms
+[  833.878175] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  833.878175] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  833.878176] C-Mutex-Benchmark: Maximum time per lock/unlock: 14165318 ns
+[  833.878177] C-Mutex-Benchmark: Iteration 29-th ended
+[  833.878178] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 30
+[  838.233052] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  838.233056] C-Mutex-Benchmark: Number of iterations: 30
+[  839.760360] C-Mutex-Benchmark: Mutex Test 30 Completed
+[  839.760483] C-Mutex-Benchmark: Total time: 1527 ms
+[  839.760485] C-Mutex-Benchmark: Total lock/unlock time: 966 ms
+[  839.760523] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  839.760524] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  839.760525] C-Mutex-Benchmark: Maximum time per lock/unlock: 2910593 ns
+[  839.760526] C-Mutex-Benchmark: Iteration 30-th ended
+[  839.760527] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 31
+[  844.140339] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  844.140343] C-Mutex-Benchmark: Number of iterations: 31
+[  845.776374] C-Mutex-Benchmark: Mutex Test 31 Completed
+[  845.776489] C-Mutex-Benchmark: Total time: 1635 ms
+[  845.776491] C-Mutex-Benchmark: Total lock/unlock time: 1024 ms
+[  845.776493] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[  845.776494] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  845.776495] C-Mutex-Benchmark: Maximum time per lock/unlock: 3998456 ns
+[  845.776496] C-Mutex-Benchmark: Iteration 31-th ended
+[  845.776498] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 32
+[  849.965950] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  849.965954] C-Mutex-Benchmark: Number of iterations: 32
+[  851.457525] C-Mutex-Benchmark: Mutex Test 32 Completed
+[  851.457571] C-Mutex-Benchmark: Total time: 1491 ms
+[  851.457620] C-Mutex-Benchmark: Total lock/unlock time: 944 ms
+[  851.457621] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[  851.457622] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  851.457623] C-Mutex-Benchmark: Maximum time per lock/unlock: 691509 ns
+[  851.457624] C-Mutex-Benchmark: Iteration 32-th ended
+[  851.457625] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 33
+[  855.981190] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  855.981195] C-Mutex-Benchmark: Number of iterations: 33
+[  857.591006] C-Mutex-Benchmark: Mutex Test 33 Completed
+[  857.591093] C-Mutex-Benchmark: Total time: 1609 ms
+[  857.591094] C-Mutex-Benchmark: Total lock/unlock time: 1008 ms
+[  857.591095] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[  857.591134] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  857.591135] C-Mutex-Benchmark: Maximum time per lock/unlock: 689551 ns
+[  857.591136] C-Mutex-Benchmark: Iteration 33-th ended
+[  857.591137] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 34
+[  861.865796] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  861.865799] C-Mutex-Benchmark: Number of iterations: 34
+[  863.401452] C-Mutex-Benchmark: Mutex Test 34 Completed
+[  863.401498] C-Mutex-Benchmark: Total time: 1535 ms
+[  863.401500] C-Mutex-Benchmark: Total lock/unlock time: 967 ms
+[  863.401537] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  863.401538] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  863.401539] C-Mutex-Benchmark: Maximum time per lock/unlock: 1154364 ns
+[  863.401540] C-Mutex-Benchmark: Iteration 34-th ended
+[  863.401541] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 35
+[  868.039995] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  868.039999] C-Mutex-Benchmark: Number of iterations: 35
+[  869.601102] C-Mutex-Benchmark: Mutex Test 35 Completed
+[  869.601223] C-Mutex-Benchmark: Total time: 1561 ms
+[  869.601225] C-Mutex-Benchmark: Total lock/unlock time: 993 ms
+[  869.601226] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[  869.601227] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  869.601228] C-Mutex-Benchmark: Maximum time per lock/unlock: 4059178 ns
+[  869.601229] C-Mutex-Benchmark: Iteration 35-th ended
+[  869.601230] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 36
+[  874.113885] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  874.113889] C-Mutex-Benchmark: Number of iterations: 36
+[  875.647667] C-Mutex-Benchmark: Mutex Test 36 Completed
+[  875.647746] C-Mutex-Benchmark: Total time: 1533 ms
+[  875.647783] C-Mutex-Benchmark: Total lock/unlock time: 964 ms
+[  875.647784] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  875.647785] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  875.647786] C-Mutex-Benchmark: Maximum time per lock/unlock: 1061245 ns
+[  875.647787] C-Mutex-Benchmark: Iteration 36-th ended
+[  875.647827] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 37
+[  880.430022] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  880.430026] C-Mutex-Benchmark: Number of iterations: 37
+[  881.966919] C-Mutex-Benchmark: Mutex Test 37 Completed
+[  881.967014] C-Mutex-Benchmark: Total time: 1536 ms
+[  881.967061] C-Mutex-Benchmark: Total lock/unlock time: 967 ms
+[  881.967063] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  881.967064] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  881.967065] C-Mutex-Benchmark: Maximum time per lock/unlock: 1871667 ns
+[  881.967066] C-Mutex-Benchmark: Iteration 37-th ended
+[  881.967067] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 38
+[  886.467604] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  886.467607] C-Mutex-Benchmark: Number of iterations: 38
+[  887.952141] C-Mutex-Benchmark: Mutex Test 38 Completed
+[  887.952225] C-Mutex-Benchmark: Total time: 1484 ms
+[  887.952267] C-Mutex-Benchmark: Total lock/unlock time: 939 ms
+[  887.952268] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[  887.952269] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  887.952270] C-Mutex-Benchmark: Maximum time per lock/unlock: 1849483 ns
+[  887.952271] C-Mutex-Benchmark: Iteration 38-th ended
+[  887.952272] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 39
+[  892.372090] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  892.372095] C-Mutex-Benchmark: Number of iterations: 39
+[  893.918778] C-Mutex-Benchmark: Mutex Test 39 Completed
+[  893.918860] C-Mutex-Benchmark: Total time: 1546 ms
+[  893.918912] C-Mutex-Benchmark: Total lock/unlock time: 968 ms
+[  893.918914] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  893.918914] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  893.918915] C-Mutex-Benchmark: Maximum time per lock/unlock: 1008253 ns
+[  893.918916] C-Mutex-Benchmark: Iteration 39-th ended
+[  893.918917] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 40
+[  898.295590] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  898.295594] C-Mutex-Benchmark: Number of iterations: 40
+[  899.790276] C-Mutex-Benchmark: Mutex Test 40 Completed
+[  899.790315] C-Mutex-Benchmark: Total time: 1494 ms
+[  899.790316] C-Mutex-Benchmark: Total lock/unlock time: 949 ms
+[  899.790354] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[  899.790355] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  899.790356] C-Mutex-Benchmark: Maximum time per lock/unlock: 14642540 ns
+[  899.790357] C-Mutex-Benchmark: Iteration 40-th ended
+[  899.790358] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 41
+[  904.316615] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  904.316620] C-Mutex-Benchmark: Number of iterations: 41
+[  905.874191] C-Mutex-Benchmark: Mutex Test 41 Completed
+[  905.874311] C-Mutex-Benchmark: Total time: 1556 ms
+[  905.874313] C-Mutex-Benchmark: Total lock/unlock time: 972 ms
+[  905.874314] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  905.874315] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  905.874315] C-Mutex-Benchmark: Maximum time per lock/unlock: 2334861 ns
+[  905.874316] C-Mutex-Benchmark: Iteration 41-th ended
+[  905.874317] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 42
+[  910.320369] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  910.320375] C-Mutex-Benchmark: Number of iterations: 42
+[  911.899546] C-Mutex-Benchmark: Mutex Test 42 Completed
+[  911.899594] C-Mutex-Benchmark: Total time: 1578 ms
+[  911.899595] C-Mutex-Benchmark: Total lock/unlock time: 990 ms
+[  911.899596] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[  911.899597] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  911.899598] C-Mutex-Benchmark: Maximum time per lock/unlock: 1001012 ns
+[  911.899599] C-Mutex-Benchmark: Iteration 42-th ended
+[  911.899642] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 43
+[  916.680211] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  916.680215] C-Mutex-Benchmark: Number of iterations: 43
+[  918.243588] C-Mutex-Benchmark: Mutex Test 43 Completed
+[  918.243707] C-Mutex-Benchmark: Total time: 1562 ms
+[  918.243745] C-Mutex-Benchmark: Total lock/unlock time: 980 ms
+[  918.243746] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[  918.243747] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[  918.243758] C-Mutex-Benchmark: Maximum time per lock/unlock: 4082259 ns
+[  918.243759] C-Mutex-Benchmark: Iteration 43-th ended
+[  918.243760] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 44
+[  922.694580] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  922.694585] C-Mutex-Benchmark: Number of iterations: 44
+[  924.328224] C-Mutex-Benchmark: Mutex Test 44 Completed
+[  924.328314] C-Mutex-Benchmark: Total time: 1633 ms
+[  924.328315] C-Mutex-Benchmark: Total lock/unlock time: 1035 ms
+[  924.328316] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[  924.328317] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  924.328318] C-Mutex-Benchmark: Maximum time per lock/unlock: 5660930 ns
+[  924.328319] C-Mutex-Benchmark: Iteration 44-th ended
+[  924.328320] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 45
+[  928.770986] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  928.770989] C-Mutex-Benchmark: Number of iterations: 45
+[  930.265814] C-Mutex-Benchmark: Mutex Test 45 Completed
+[  930.265820] C-Mutex-Benchmark: Total time: 1494 ms
+[  930.265822] C-Mutex-Benchmark: Total lock/unlock time: 945 ms
+[  930.265823] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[  930.265824] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  930.265824] C-Mutex-Benchmark: Maximum time per lock/unlock: 1089466 ns
+[  930.265825] C-Mutex-Benchmark: Iteration 45-th ended
+[  930.265870] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 46
+[  934.830566] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  934.830570] C-Mutex-Benchmark: Number of iterations: 46
+[  936.455033] C-Mutex-Benchmark: Mutex Test 46 Completed
+[  936.455153] C-Mutex-Benchmark: Total time: 1623 ms
+[  936.455211] C-Mutex-Benchmark: Total lock/unlock time: 1022 ms
+[  936.455212] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[  936.455214] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  936.455215] C-Mutex-Benchmark: Maximum time per lock/unlock: 5660073 ns
+[  936.455274] C-Mutex-Benchmark: Iteration 46-th ended
+[  936.455275] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 47
+[  940.824868] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  940.824872] C-Mutex-Benchmark: Number of iterations: 47
+[  942.462278] C-Mutex-Benchmark: Mutex Test 47 Completed
+[  942.462388] C-Mutex-Benchmark: Total time: 1636 ms
+[  942.462445] C-Mutex-Benchmark: Total lock/unlock time: 1041 ms
+[  942.462447] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[  942.462448] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  942.462449] C-Mutex-Benchmark: Maximum time per lock/unlock: 25042036 ns
+[  942.462451] C-Mutex-Benchmark: Iteration 47-th ended
+[  942.462462] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 48
+[  947.090564] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  947.090568] C-Mutex-Benchmark: Number of iterations: 48
+[  948.614251] C-Mutex-Benchmark: Mutex Test 48 Completed
+[  948.614376] C-Mutex-Benchmark: Total time: 1523 ms
+[  948.614416] C-Mutex-Benchmark: Total lock/unlock time: 958 ms
+[  948.614417] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[  948.614418] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  948.614419] C-Mutex-Benchmark: Maximum time per lock/unlock: 1345704 ns
+[  948.614420] C-Mutex-Benchmark: Iteration 48-th ended
+[  948.614421] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 49
+[  953.032690] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  953.032694] C-Mutex-Benchmark: Number of iterations: 49
+[  954.620518] C-Mutex-Benchmark: Mutex Test 49 Completed
+[  954.620562] C-Mutex-Benchmark: Total time: 1587 ms
+[  954.620604] C-Mutex-Benchmark: Total lock/unlock time: 1001 ms
+[  954.620605] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[  954.620606] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  954.620606] C-Mutex-Benchmark: Maximum time per lock/unlock: 3465493 ns
+[  954.620607] C-Mutex-Benchmark: Iteration 49-th ended
+[  954.620608] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 50
+[  959.013028] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  959.013032] C-Mutex-Benchmark: Number of iterations: 50
+[  960.512667] C-Mutex-Benchmark: Mutex Test 50 Completed
+[  960.512710] C-Mutex-Benchmark: Total time: 1499 ms
+[  960.512749] C-Mutex-Benchmark: Total lock/unlock time: 947 ms
+[  960.512750] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[  960.512751] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  960.512752] C-Mutex-Benchmark: Maximum time per lock/unlock: 1064476 ns
+[  960.512753] C-Mutex-Benchmark: Iteration 50-th ended
+[  960.512754] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 51
+[  964.945757] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  964.945760] C-Mutex-Benchmark: Number of iterations: 51
+[  966.463645] C-Mutex-Benchmark: Mutex Test 51 Completed
+[  966.463728] C-Mutex-Benchmark: Total time: 1517 ms
+[  966.463771] C-Mutex-Benchmark: Total lock/unlock time: 964 ms
+[  966.463772] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  966.463773] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  966.463774] C-Mutex-Benchmark: Maximum time per lock/unlock: 4122954 ns
+[  966.463775] C-Mutex-Benchmark: Iteration 51-th ended
+[  966.463776] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 52
+[  970.847032] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  970.847042] C-Mutex-Benchmark: Number of iterations: 52
+[  972.336698] C-Mutex-Benchmark: Mutex Test 52 Completed
+[  972.336776] C-Mutex-Benchmark: Total time: 1489 ms
+[  972.336813] C-Mutex-Benchmark: Total lock/unlock time: 937 ms
+[  972.336814] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[  972.336815] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[  972.336816] C-Mutex-Benchmark: Maximum time per lock/unlock: 953650 ns
+[  972.336817] C-Mutex-Benchmark: Iteration 52-th ended
+[  972.336818] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 53
+[  976.784068] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  976.784072] C-Mutex-Benchmark: Number of iterations: 53
+[  978.385043] C-Mutex-Benchmark: Mutex Test 53 Completed
+[  978.385087] C-Mutex-Benchmark: Total time: 1600 ms
+[  978.385089] C-Mutex-Benchmark: Total lock/unlock time: 1000 ms
+[  978.385090] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[  978.385090] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  978.385091] C-Mutex-Benchmark: Maximum time per lock/unlock: 1001658 ns
+[  978.385092] C-Mutex-Benchmark: Iteration 53-th ended
+[  978.385093] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 54
+[  982.674773] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  982.674778] C-Mutex-Benchmark: Number of iterations: 54
+[  984.224110] C-Mutex-Benchmark: Mutex Test 54 Completed
+[  984.224239] C-Mutex-Benchmark: Total time: 1548 ms
+[  984.224240] C-Mutex-Benchmark: Total lock/unlock time: 961 ms
+[  984.224241] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[  984.224242] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  984.224243] C-Mutex-Benchmark: Maximum time per lock/unlock: 1054159 ns
+[  984.224244] C-Mutex-Benchmark: Iteration 54-th ended
+[  984.224299] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 55
+[  988.751293] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  988.751296] C-Mutex-Benchmark: Number of iterations: 55
+[  990.231951] C-Mutex-Benchmark: Mutex Test 55 Completed
+[  990.231992] C-Mutex-Benchmark: Total time: 1480 ms
+[  990.231993] C-Mutex-Benchmark: Total lock/unlock time: 923 ms
+[  990.232028] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[  990.232028] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[  990.232029] C-Mutex-Benchmark: Maximum time per lock/unlock: 6128969 ns
+[  990.232030] C-Mutex-Benchmark: Iteration 55-th ended
+[  990.232031] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 56
+[  995.185424] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[  995.185427] C-Mutex-Benchmark: Number of iterations: 56
+[  996.836554] C-Mutex-Benchmark: Mutex Test 56 Completed
+[  996.836632] C-Mutex-Benchmark: Total time: 1650 ms
+[  996.836640] C-Mutex-Benchmark: Total lock/unlock time: 1037 ms
+[  996.836641] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[  996.836642] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[  996.836643] C-Mutex-Benchmark: Maximum time per lock/unlock: 1289108 ns
+[  996.836644] C-Mutex-Benchmark: Iteration 56-th ended
+[  996.836645] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 57
+[ 1000.942076] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1000.942079] C-Mutex-Benchmark: Number of iterations: 57
+[ 1002.512488] C-Mutex-Benchmark: Mutex Test 57 Completed
+[ 1002.512535] C-Mutex-Benchmark: Total time: 1570 ms
+[ 1002.512536] C-Mutex-Benchmark: Total lock/unlock time: 992 ms
+[ 1002.512537] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1002.512538] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1002.512539] C-Mutex-Benchmark: Maximum time per lock/unlock: 6475009 ns
+[ 1002.512540] C-Mutex-Benchmark: Iteration 57-th ended
+[ 1002.512541] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 58
+[ 1007.045093] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1007.045097] C-Mutex-Benchmark: Number of iterations: 58
+[ 1008.647309] C-Mutex-Benchmark: Mutex Test 58 Completed
+[ 1008.647353] C-Mutex-Benchmark: Total time: 1601 ms
+[ 1008.647392] C-Mutex-Benchmark: Total lock/unlock time: 1025 ms
+[ 1008.647393] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1008.647394] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1008.647395] C-Mutex-Benchmark: Maximum time per lock/unlock: 5389821 ns
+[ 1008.647396] C-Mutex-Benchmark: Iteration 58-th ended
+[ 1008.647397] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 59
+[ 1013.086087] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1013.086091] C-Mutex-Benchmark: Number of iterations: 59
+[ 1014.663887] C-Mutex-Benchmark: Mutex Test 59 Completed
+[ 1014.664019] C-Mutex-Benchmark: Total time: 1577 ms
+[ 1014.664065] C-Mutex-Benchmark: Total lock/unlock time: 1003 ms
+[ 1014.664066] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1014.664067] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1014.664068] C-Mutex-Benchmark: Maximum time per lock/unlock: 4581941 ns
+[ 1014.664069] C-Mutex-Benchmark: Iteration 59-th ended
+[ 1014.664070] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 60
+[ 1019.154940] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1019.154943] C-Mutex-Benchmark: Number of iterations: 60
+[ 1020.705969] C-Mutex-Benchmark: Mutex Test 60 Completed
+[ 1020.706131] C-Mutex-Benchmark: Total time: 1550 ms
+[ 1020.706133] C-Mutex-Benchmark: Total lock/unlock time: 976 ms
+[ 1020.706143] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1020.706182] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1020.706182] C-Mutex-Benchmark: Maximum time per lock/unlock: 1646894 ns
+[ 1020.706184] C-Mutex-Benchmark: Iteration 60-th ended
+[ 1020.706184] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 61
+[ 1025.522283] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1025.522288] C-Mutex-Benchmark: Number of iterations: 61
+[ 1027.030079] C-Mutex-Benchmark: Mutex Test 61 Completed
+[ 1027.030084] C-Mutex-Benchmark: Total time: 1507 ms
+[ 1027.030085] C-Mutex-Benchmark: Total lock/unlock time: 940 ms
+[ 1027.030086] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1027.030087] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1027.030087] C-Mutex-Benchmark: Maximum time per lock/unlock: 3428669 ns
+[ 1027.030088] C-Mutex-Benchmark: Iteration 61-th ended
+[ 1027.030125] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 62
+[ 1031.530508] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1031.530513] C-Mutex-Benchmark: Number of iterations: 62
+[ 1033.075515] C-Mutex-Benchmark: Mutex Test 62 Completed
+[ 1033.075557] C-Mutex-Benchmark: Total time: 1544 ms
+[ 1033.075558] C-Mutex-Benchmark: Total lock/unlock time: 973 ms
+[ 1033.075559] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1033.075598] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1033.075599] C-Mutex-Benchmark: Maximum time per lock/unlock: 3274111 ns
+[ 1033.075600] C-Mutex-Benchmark: Iteration 62-th ended
+[ 1033.075601] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 63
+[ 1037.695425] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1037.695431] C-Mutex-Benchmark: Number of iterations: 63
+[ 1039.230862] C-Mutex-Benchmark: Mutex Test 63 Completed
+[ 1039.230925] C-Mutex-Benchmark: Total time: 1535 ms
+[ 1039.230979] C-Mutex-Benchmark: Total lock/unlock time: 973 ms
+[ 1039.230981] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1039.230982] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1039.230983] C-Mutex-Benchmark: Maximum time per lock/unlock: 2764026 ns
+[ 1039.230984] C-Mutex-Benchmark: Iteration 63-th ended
+[ 1039.230984] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 64
+[ 1043.530360] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1043.530364] C-Mutex-Benchmark: Number of iterations: 64
+[ 1045.062414] C-Mutex-Benchmark: Mutex Test 64 Completed
+[ 1045.062476] C-Mutex-Benchmark: Total time: 1531 ms
+[ 1045.062532] C-Mutex-Benchmark: Total lock/unlock time: 966 ms
+[ 1045.062534] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1045.062535] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1045.062536] C-Mutex-Benchmark: Maximum time per lock/unlock: 1178274 ns
+[ 1045.062538] C-Mutex-Benchmark: Iteration 64-th ended
+[ 1045.062550] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 65
+[ 1049.500452] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1049.500455] C-Mutex-Benchmark: Number of iterations: 65
+[ 1051.027375] C-Mutex-Benchmark: Mutex Test 65 Completed
+[ 1051.027537] C-Mutex-Benchmark: Total time: 1526 ms
+[ 1051.027539] C-Mutex-Benchmark: Total lock/unlock time: 968 ms
+[ 1051.027540] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1051.027541] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1051.027542] C-Mutex-Benchmark: Maximum time per lock/unlock: 14221143 ns
+[ 1051.027543] C-Mutex-Benchmark: Iteration 65-th ended
+[ 1051.027544] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 66
+[ 1055.988887] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1055.988898] C-Mutex-Benchmark: Number of iterations: 66
+[ 1057.659943] C-Mutex-Benchmark: Mutex Test 66 Completed
+[ 1057.660015] C-Mutex-Benchmark: Total time: 1670 ms
+[ 1057.660017] C-Mutex-Benchmark: Total lock/unlock time: 1054 ms
+[ 1057.660018] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 1057.660020] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1057.660021] C-Mutex-Benchmark: Maximum time per lock/unlock: 1272839 ns
+[ 1057.660023] C-Mutex-Benchmark: Iteration 66-th ended
+[ 1057.660024] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 67
+[ 1062.039036] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1062.039041] C-Mutex-Benchmark: Number of iterations: 67
+[ 1063.521498] C-Mutex-Benchmark: Mutex Test 67 Completed
+[ 1063.521667] C-Mutex-Benchmark: Total time: 1482 ms
+[ 1063.521669] C-Mutex-Benchmark: Total lock/unlock time: 943 ms
+[ 1063.521722] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1063.521723] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1063.521724] C-Mutex-Benchmark: Maximum time per lock/unlock: 15159163 ns
+[ 1063.521725] C-Mutex-Benchmark: Iteration 67-th ended
+[ 1063.521726] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 68
+[ 1067.952263] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1067.952268] C-Mutex-Benchmark: Number of iterations: 68
+[ 1069.531210] C-Mutex-Benchmark: Mutex Test 68 Completed
+[ 1069.531327] C-Mutex-Benchmark: Total time: 1578 ms
+[ 1069.531361] C-Mutex-Benchmark: Total lock/unlock time: 986 ms
+[ 1069.531370] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1069.531371] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1069.531372] C-Mutex-Benchmark: Maximum time per lock/unlock: 1334888 ns
+[ 1069.531373] C-Mutex-Benchmark: Iteration 68-th ended
+[ 1069.531374] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 69
+[ 1073.918348] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1073.918352] C-Mutex-Benchmark: Number of iterations: 69
+[ 1075.417921] C-Mutex-Benchmark: Mutex Test 69 Completed
+[ 1075.418026] C-Mutex-Benchmark: Total time: 1499 ms
+[ 1075.418028] C-Mutex-Benchmark: Total lock/unlock time: 945 ms
+[ 1075.418029] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1075.418030] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1075.418031] C-Mutex-Benchmark: Maximum time per lock/unlock: 2426350 ns
+[ 1075.418032] C-Mutex-Benchmark: Iteration 69-th ended
+[ 1075.418033] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 70
+[ 1079.911299] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1079.911302] C-Mutex-Benchmark: Number of iterations: 70
+[ 1081.415001] C-Mutex-Benchmark: Mutex Test 70 Completed
+[ 1081.415082] C-Mutex-Benchmark: Total time: 1503 ms
+[ 1081.415123] C-Mutex-Benchmark: Total lock/unlock time: 954 ms
+[ 1081.415124] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1081.415125] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1081.415125] C-Mutex-Benchmark: Maximum time per lock/unlock: 1159298 ns
+[ 1081.415126] C-Mutex-Benchmark: Iteration 70-th ended
+[ 1081.415127] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 71
+[ 1085.878014] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1085.878017] C-Mutex-Benchmark: Number of iterations: 71
+[ 1087.387408] C-Mutex-Benchmark: Mutex Test 71 Completed
+[ 1087.387534] C-Mutex-Benchmark: Total time: 1509 ms
+[ 1087.387599] C-Mutex-Benchmark: Total lock/unlock time: 947 ms
+[ 1087.387601] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1087.387602] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1087.387603] C-Mutex-Benchmark: Maximum time per lock/unlock: 3241345 ns
+[ 1087.387619] C-Mutex-Benchmark: Iteration 71-th ended
+[ 1087.387620] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 72
+[ 1091.833941] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1091.833944] C-Mutex-Benchmark: Number of iterations: 72
+[ 1093.341721] C-Mutex-Benchmark: Mutex Test 72 Completed
+[ 1093.341773] C-Mutex-Benchmark: Total time: 1507 ms
+[ 1093.341775] C-Mutex-Benchmark: Total lock/unlock time: 964 ms
+[ 1093.341776] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1093.341777] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1093.341778] C-Mutex-Benchmark: Maximum time per lock/unlock: 16301590 ns
+[ 1093.341779] C-Mutex-Benchmark: Iteration 72-th ended
+[ 1093.341780] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 73
+[ 1098.352325] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1098.352329] C-Mutex-Benchmark: Number of iterations: 73
+[ 1099.994258] C-Mutex-Benchmark: Mutex Test 73 Completed
+[ 1099.994308] C-Mutex-Benchmark: Total time: 1641 ms
+[ 1099.994309] C-Mutex-Benchmark: Total lock/unlock time: 1037 ms
+[ 1099.994399] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1099.994400] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1099.994401] C-Mutex-Benchmark: Maximum time per lock/unlock: 7765281 ns
+[ 1099.994402] C-Mutex-Benchmark: Iteration 73-th ended
+[ 1099.994403] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 74
+[ 1104.318775] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1104.318779] C-Mutex-Benchmark: Number of iterations: 74
+[ 1105.787019] C-Mutex-Benchmark: Mutex Test 74 Completed
+[ 1105.787063] C-Mutex-Benchmark: Total time: 1468 ms
+[ 1105.787064] C-Mutex-Benchmark: Total lock/unlock time: 931 ms
+[ 1105.787065] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[ 1105.787066] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1105.787067] C-Mutex-Benchmark: Maximum time per lock/unlock: 1976288 ns
+[ 1105.787068] C-Mutex-Benchmark: Iteration 74-th ended
+[ 1105.787069] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 75
+[ 1110.644938] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1110.644943] C-Mutex-Benchmark: Number of iterations: 75
+[ 1112.216843] C-Mutex-Benchmark: Mutex Test 75 Completed
+[ 1112.216850] C-Mutex-Benchmark: Total time: 1571 ms
+[ 1112.216851] C-Mutex-Benchmark: Total lock/unlock time: 992 ms
+[ 1112.216852] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1112.216853] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1112.216854] C-Mutex-Benchmark: Maximum time per lock/unlock: 1072940 ns
+[ 1112.216855] C-Mutex-Benchmark: Iteration 75-th ended
+[ 1112.216856] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 76
+[ 1116.733177] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1116.733181] C-Mutex-Benchmark: Number of iterations: 76
+[ 1118.329505] C-Mutex-Benchmark: Mutex Test 76 Completed
+[ 1118.329731] C-Mutex-Benchmark: Total time: 1596 ms
+[ 1118.329734] C-Mutex-Benchmark: Total lock/unlock time: 1011 ms
+[ 1118.329735] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1118.329736] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1118.329737] C-Mutex-Benchmark: Maximum time per lock/unlock: 14833240 ns
+[ 1118.329739] C-Mutex-Benchmark: Iteration 76-th ended
+[ 1118.329791] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 77
+[ 1122.724273] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1122.724278] C-Mutex-Benchmark: Number of iterations: 77
+[ 1124.284576] C-Mutex-Benchmark: Mutex Test 77 Completed
+[ 1124.284660] C-Mutex-Benchmark: Total time: 1560 ms
+[ 1124.284734] C-Mutex-Benchmark: Total lock/unlock time: 979 ms
+[ 1124.284741] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1124.284743] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1124.284744] C-Mutex-Benchmark: Maximum time per lock/unlock: 1590718 ns
+[ 1124.284745] C-Mutex-Benchmark: Iteration 77-th ended
+[ 1124.284746] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 78
+[ 1128.785550] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1128.785555] C-Mutex-Benchmark: Number of iterations: 78
+[ 1130.285462] C-Mutex-Benchmark: Mutex Test 78 Completed
+[ 1130.285540] C-Mutex-Benchmark: Total time: 1499 ms
+[ 1130.285542] C-Mutex-Benchmark: Total lock/unlock time: 948 ms
+[ 1130.285542] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1130.285580] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1130.285581] C-Mutex-Benchmark: Maximum time per lock/unlock: 4201238 ns
+[ 1130.285582] C-Mutex-Benchmark: Iteration 78-th ended
+[ 1130.285583] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 79
+[ 1134.755712] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1134.755717] C-Mutex-Benchmark: Number of iterations: 79
+[ 1136.252731] C-Mutex-Benchmark: Mutex Test 79 Completed
+[ 1136.252776] C-Mutex-Benchmark: Total time: 1496 ms
+[ 1136.252822] C-Mutex-Benchmark: Total lock/unlock time: 951 ms
+[ 1136.252823] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1136.252824] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1136.252825] C-Mutex-Benchmark: Maximum time per lock/unlock: 3295285 ns
+[ 1136.252826] C-Mutex-Benchmark: Iteration 79-th ended
+[ 1136.252864] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 80
+[ 1140.802716] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1140.802720] C-Mutex-Benchmark: Number of iterations: 80
+[ 1142.328534] C-Mutex-Benchmark: Mutex Test 80 Completed
+[ 1142.328645] C-Mutex-Benchmark: Total time: 1525 ms
+[ 1142.328690] C-Mutex-Benchmark: Total lock/unlock time: 958 ms
+[ 1142.328691] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1142.328692] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1142.328693] C-Mutex-Benchmark: Maximum time per lock/unlock: 6038431 ns
+[ 1142.328694] C-Mutex-Benchmark: Iteration 80-th ended
+[ 1142.328695] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 81
+[ 1146.681297] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1146.681302] C-Mutex-Benchmark: Number of iterations: 81
+[ 1148.237493] C-Mutex-Benchmark: Mutex Test 81 Completed
+[ 1148.237576] C-Mutex-Benchmark: Total time: 1555 ms
+[ 1148.237617] C-Mutex-Benchmark: Total lock/unlock time: 978 ms
+[ 1148.237618] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1148.237618] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1148.237696] C-Mutex-Benchmark: Maximum time per lock/unlock: 1045854 ns
+[ 1148.237705] C-Mutex-Benchmark: Iteration 81-th ended
+[ 1148.237706] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 82
+[ 1152.495296] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1152.495299] C-Mutex-Benchmark: Number of iterations: 82
+[ 1154.208333] C-Mutex-Benchmark: Mutex Test 82 Completed
+[ 1154.208375] C-Mutex-Benchmark: Total time: 1712 ms
+[ 1154.208417] C-Mutex-Benchmark: Total lock/unlock time: 1091 ms
+[ 1154.208418] C-Mutex-Benchmark: Average time per lock/unlock: 54 ns
+[ 1154.208495] C-Mutex-Benchmark: Minimum time per lock/unlock: 34 ns
+[ 1154.208496] C-Mutex-Benchmark: Maximum time per lock/unlock: 8003144 ns
+[ 1154.208497] C-Mutex-Benchmark: Iteration 82-th ended
+[ 1154.208498] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 83
+[ 1158.619722] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1158.619726] C-Mutex-Benchmark: Number of iterations: 83
+[ 1160.198198] C-Mutex-Benchmark: Mutex Test 83 Completed
+[ 1160.198243] C-Mutex-Benchmark: Total time: 1578 ms
+[ 1160.198245] C-Mutex-Benchmark: Total lock/unlock time: 1003 ms
+[ 1160.198246] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1160.198247] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1160.198248] C-Mutex-Benchmark: Maximum time per lock/unlock: 21935070 ns
+[ 1160.198288] C-Mutex-Benchmark: Iteration 83-th ended
+[ 1160.198289] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 84
+[ 1164.722195] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1164.722199] C-Mutex-Benchmark: Number of iterations: 84
+[ 1166.356429] C-Mutex-Benchmark: Mutex Test 84 Completed
+[ 1166.356551] C-Mutex-Benchmark: Total time: 1633 ms
+[ 1166.356553] C-Mutex-Benchmark: Total lock/unlock time: 1033 ms
+[ 1166.356554] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1166.356555] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1166.356556] C-Mutex-Benchmark: Maximum time per lock/unlock: 17790057 ns
+[ 1166.356557] C-Mutex-Benchmark: Iteration 84-th ended
+[ 1166.356558] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 85
+[ 1170.781833] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1170.781837] C-Mutex-Benchmark: Number of iterations: 85
+[ 1172.370505] C-Mutex-Benchmark: Mutex Test 85 Completed
+[ 1172.370591] C-Mutex-Benchmark: Total time: 1588 ms
+[ 1172.370593] C-Mutex-Benchmark: Total lock/unlock time: 1000 ms
+[ 1172.370633] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1172.370635] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1172.370635] C-Mutex-Benchmark: Maximum time per lock/unlock: 1898910 ns
+[ 1172.370675] C-Mutex-Benchmark: Iteration 85-th ended
+[ 1172.370677] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 86
+[ 1176.833661] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1176.833665] C-Mutex-Benchmark: Number of iterations: 86
+[ 1178.307982] C-Mutex-Benchmark: Mutex Test 86 Completed
+[ 1178.308025] C-Mutex-Benchmark: Total time: 1474 ms
+[ 1178.308026] C-Mutex-Benchmark: Total lock/unlock time: 935 ms
+[ 1178.308027] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[ 1178.308028] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1178.308066] C-Mutex-Benchmark: Maximum time per lock/unlock: 1544092 ns
+[ 1178.308067] C-Mutex-Benchmark: Iteration 86-th ended
+[ 1178.308068] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 87
+[ 1182.851043] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1182.851048] C-Mutex-Benchmark: Number of iterations: 87
+[ 1184.486138] C-Mutex-Benchmark: Mutex Test 87 Completed
+[ 1184.486181] C-Mutex-Benchmark: Total time: 1634 ms
+[ 1184.486270] C-Mutex-Benchmark: Total lock/unlock time: 1035 ms
+[ 1184.486272] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1184.486273] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1184.486275] C-Mutex-Benchmark: Maximum time per lock/unlock: 4809210 ns
+[ 1184.486327] C-Mutex-Benchmark: Iteration 87-th ended
+[ 1184.486328] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 88
+[ 1188.773808] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1188.773812] C-Mutex-Benchmark: Number of iterations: 88
+[ 1190.332713] C-Mutex-Benchmark: Mutex Test 88 Completed
+[ 1190.332837] C-Mutex-Benchmark: Total time: 1558 ms
+[ 1190.332838] C-Mutex-Benchmark: Total lock/unlock time: 990 ms
+[ 1190.332888] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1190.332889] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1190.332902] C-Mutex-Benchmark: Maximum time per lock/unlock: 8836217 ns
+[ 1190.332903] C-Mutex-Benchmark: Iteration 88-th ended
+[ 1190.332904] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 89
+[ 1195.082489] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1195.082492] C-Mutex-Benchmark: Number of iterations: 89
+[ 1196.652565] C-Mutex-Benchmark: Mutex Test 89 Completed
+[ 1196.652571] C-Mutex-Benchmark: Total time: 1569 ms
+[ 1196.652573] C-Mutex-Benchmark: Total lock/unlock time: 994 ms
+[ 1196.652573] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1196.652574] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1196.652575] C-Mutex-Benchmark: Maximum time per lock/unlock: 1876869 ns
+[ 1196.652576] C-Mutex-Benchmark: Iteration 89-th ended
+[ 1196.652577] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 90
+[ 1201.108526] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1201.108531] C-Mutex-Benchmark: Number of iterations: 90
+[ 1202.593530] C-Mutex-Benchmark: Mutex Test 90 Completed
+[ 1202.593649] C-Mutex-Benchmark: Total time: 1484 ms
+[ 1202.593651] C-Mutex-Benchmark: Total lock/unlock time: 936 ms
+[ 1202.593652] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[ 1202.593653] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1202.593654] C-Mutex-Benchmark: Maximum time per lock/unlock: 930403 ns
+[ 1202.593655] C-Mutex-Benchmark: Iteration 90-th ended
+[ 1202.593655] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 91
+[ 1207.088039] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1207.088043] C-Mutex-Benchmark: Number of iterations: 91
+[ 1208.630803] C-Mutex-Benchmark: Mutex Test 91 Completed
+[ 1208.630913] C-Mutex-Benchmark: Total time: 1542 ms
+[ 1208.630915] C-Mutex-Benchmark: Total lock/unlock time: 966 ms
+[ 1208.630916] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1208.630954] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1208.630955] C-Mutex-Benchmark: Maximum time per lock/unlock: 1839445 ns
+[ 1208.630956] C-Mutex-Benchmark: Iteration 91-th ended
+[ 1208.630956] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 92
+[ 1213.078313] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1213.078317] C-Mutex-Benchmark: Number of iterations: 92
+[ 1214.659898] C-Mutex-Benchmark: Mutex Test 92 Completed
+[ 1214.659950] C-Mutex-Benchmark: Total time: 1581 ms
+[ 1214.659951] C-Mutex-Benchmark: Total lock/unlock time: 998 ms
+[ 1214.659952] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1214.659953] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1214.659954] C-Mutex-Benchmark: Maximum time per lock/unlock: 3589165 ns
+[ 1214.659955] C-Mutex-Benchmark: Iteration 92-th ended
+[ 1214.659956] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 93
+[ 1218.975470] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1218.975473] C-Mutex-Benchmark: Number of iterations: 93
+[ 1220.451416] C-Mutex-Benchmark: Mutex Test 93 Completed
+[ 1220.451422] C-Mutex-Benchmark: Total time: 1475 ms
+[ 1220.451423] C-Mutex-Benchmark: Total lock/unlock time: 936 ms
+[ 1220.451424] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[ 1220.451425] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1220.451426] C-Mutex-Benchmark: Maximum time per lock/unlock: 2396360 ns
+[ 1220.451427] C-Mutex-Benchmark: Iteration 93-th ended
+[ 1220.451428] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 94
+[ 1224.943855] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1224.943858] C-Mutex-Benchmark: Number of iterations: 94
+[ 1226.506991] C-Mutex-Benchmark: Mutex Test 94 Completed
+[ 1226.507086] C-Mutex-Benchmark: Total time: 1562 ms
+[ 1226.507095] C-Mutex-Benchmark: Total lock/unlock time: 985 ms
+[ 1226.507096] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1226.507097] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1226.507098] C-Mutex-Benchmark: Maximum time per lock/unlock: 1242014 ns
+[ 1226.507099] C-Mutex-Benchmark: Iteration 94-th ended
+[ 1226.507100] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 95
+[ 1230.890240] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1230.890244] C-Mutex-Benchmark: Number of iterations: 95
+[ 1232.474664] C-Mutex-Benchmark: Mutex Test 95 Completed
+[ 1232.474744] C-Mutex-Benchmark: Total time: 1584 ms
+[ 1232.474745] C-Mutex-Benchmark: Total lock/unlock time: 1001 ms
+[ 1232.474746] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1232.474747] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1232.474748] C-Mutex-Benchmark: Maximum time per lock/unlock: 9463279 ns
+[ 1232.474787] C-Mutex-Benchmark: Iteration 95-th ended
+[ 1232.474788] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 96
+[ 1236.902554] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1236.902558] C-Mutex-Benchmark: Number of iterations: 96
+[ 1238.486387] C-Mutex-Benchmark: Mutex Test 96 Completed
+[ 1238.486572] C-Mutex-Benchmark: Total time: 1583 ms
+[ 1238.486575] C-Mutex-Benchmark: Total lock/unlock time: 997 ms
+[ 1238.486576] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1238.486577] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1238.486579] C-Mutex-Benchmark: Maximum time per lock/unlock: 1715708 ns
+[ 1238.486581] C-Mutex-Benchmark: Iteration 96-th ended
+[ 1238.486659] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 97
+[ 1242.873941] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1242.873945] C-Mutex-Benchmark: Number of iterations: 97
+[ 1244.444323] C-Mutex-Benchmark: Mutex Test 97 Completed
+[ 1244.444413] C-Mutex-Benchmark: Total time: 1570 ms
+[ 1244.444414] C-Mutex-Benchmark: Total lock/unlock time: 990 ms
+[ 1244.444415] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1244.444416] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1244.444417] C-Mutex-Benchmark: Maximum time per lock/unlock: 3472153 ns
+[ 1244.444418] C-Mutex-Benchmark: Iteration 97-th ended
+[ 1244.444419] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 98
+[ 1249.321222] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1249.321227] C-Mutex-Benchmark: Number of iterations: 98
+[ 1250.986315] C-Mutex-Benchmark: Mutex Test 98 Completed
+[ 1250.986395] C-Mutex-Benchmark: Total time: 1664 ms
+[ 1250.986396] C-Mutex-Benchmark: Total lock/unlock time: 1054 ms
+[ 1250.986397] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 1250.986398] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1250.986406] C-Mutex-Benchmark: Maximum time per lock/unlock: 4113680 ns
+[ 1250.986407] C-Mutex-Benchmark: Iteration 98-th ended
+[ 1250.986408] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 99
+[ 1255.422999] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1255.423002] C-Mutex-Benchmark: Number of iterations: 99
+[ 1256.983344] C-Mutex-Benchmark: Mutex Test 99 Completed
+[ 1256.983437] C-Mutex-Benchmark: Total time: 1560 ms
+[ 1256.983477] C-Mutex-Benchmark: Total lock/unlock time: 992 ms
+[ 1256.983485] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1256.983486] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1256.983487] C-Mutex-Benchmark: Maximum time per lock/unlock: 15562389 ns
+[ 1256.983488] C-Mutex-Benchmark: Iteration 99-th ended
+[ 1256.983489] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 100
+[ 1261.532963] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1261.532967] C-Mutex-Benchmark: Number of iterations: 100
+[ 1263.087911] C-Mutex-Benchmark: Mutex Test 100 Completed
+[ 1263.087956] C-Mutex-Benchmark: Total time: 1554 ms
+[ 1263.087996] C-Mutex-Benchmark: Total lock/unlock time: 968 ms
+[ 1263.087997] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1263.087998] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1263.088035] C-Mutex-Benchmark: Maximum time per lock/unlock: 945886 ns
+[ 1263.088075] C-Mutex-Benchmark: Iteration 100-th ended
+[ 1263.088076] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 101
+[ 1267.642799] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1267.642803] C-Mutex-Benchmark: Number of iterations: 101
+[ 1269.215911] C-Mutex-Benchmark: Mutex Test 101 Completed
+[ 1269.215978] C-Mutex-Benchmark: Total time: 1572 ms
+[ 1269.216032] C-Mutex-Benchmark: Total lock/unlock time: 986 ms
+[ 1269.216034] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1269.216035] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1269.216035] C-Mutex-Benchmark: Maximum time per lock/unlock: 4078562 ns
+[ 1269.216037] C-Mutex-Benchmark: Iteration 101-th ended
+[ 1269.216081] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 102
+[ 1273.772175] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1273.772179] C-Mutex-Benchmark: Number of iterations: 102
+[ 1275.290683] C-Mutex-Benchmark: Mutex Test 102 Completed
+[ 1275.290807] C-Mutex-Benchmark: Total time: 1518 ms
+[ 1275.290848] C-Mutex-Benchmark: Total lock/unlock time: 959 ms
+[ 1275.290849] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1275.290850] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1275.290851] C-Mutex-Benchmark: Maximum time per lock/unlock: 1482893 ns
+[ 1275.290852] C-Mutex-Benchmark: Iteration 102-th ended
+[ 1275.290853] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 103
+[ 1279.814066] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1279.814071] C-Mutex-Benchmark: Number of iterations: 103
+[ 1281.399303] C-Mutex-Benchmark: Mutex Test 103 Completed
+[ 1281.399392] C-Mutex-Benchmark: Total time: 1585 ms
+[ 1281.399445] C-Mutex-Benchmark: Total lock/unlock time: 997 ms
+[ 1281.399447] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1281.399448] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1281.399449] C-Mutex-Benchmark: Maximum time per lock/unlock: 2352828 ns
+[ 1281.399450] C-Mutex-Benchmark: Iteration 103-th ended
+[ 1281.399500] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 104
+[ 1285.892542] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1285.892545] C-Mutex-Benchmark: Number of iterations: 104
+[ 1287.412698] C-Mutex-Benchmark: Mutex Test 104 Completed
+[ 1287.412712] C-Mutex-Benchmark: Total time: 1520 ms
+[ 1287.412713] C-Mutex-Benchmark: Total lock/unlock time: 956 ms
+[ 1287.412714] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1287.412715] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1287.412716] C-Mutex-Benchmark: Maximum time per lock/unlock: 4256137 ns
+[ 1287.412996] C-Mutex-Benchmark: Iteration 104-th ended
+[ 1287.413001] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 105
+[ 1291.970390] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1291.970398] C-Mutex-Benchmark: Number of iterations: 105
+[ 1293.619190] C-Mutex-Benchmark: Mutex Test 105 Completed
+[ 1293.619456] C-Mutex-Benchmark: Total time: 1648 ms
+[ 1293.619458] C-Mutex-Benchmark: Total lock/unlock time: 1038 ms
+[ 1293.619497] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1293.619509] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1293.619510] C-Mutex-Benchmark: Maximum time per lock/unlock: 2373996 ns
+[ 1293.619511] C-Mutex-Benchmark: Iteration 105-th ended
+[ 1293.619512] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 106
+[ 1298.107505] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1298.107512] C-Mutex-Benchmark: Number of iterations: 106
+[ 1299.636754] C-Mutex-Benchmark: Mutex Test 106 Completed
+[ 1299.636834] C-Mutex-Benchmark: Total time: 1529 ms
+[ 1299.636835] C-Mutex-Benchmark: Total lock/unlock time: 975 ms
+[ 1299.636836] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1299.636873] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1299.636874] C-Mutex-Benchmark: Maximum time per lock/unlock: 4048215 ns
+[ 1299.636875] C-Mutex-Benchmark: Iteration 106-th ended
+[ 1299.636876] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 107
+[ 1304.098284] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1304.098295] C-Mutex-Benchmark: Number of iterations: 107
+[ 1305.672264] C-Mutex-Benchmark: Mutex Test 107 Completed
+[ 1305.672395] C-Mutex-Benchmark: Total time: 1573 ms
+[ 1305.672397] C-Mutex-Benchmark: Total lock/unlock time: 995 ms
+[ 1305.672398] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1305.672400] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1305.672401] C-Mutex-Benchmark: Maximum time per lock/unlock: 2405848 ns
+[ 1305.672402] C-Mutex-Benchmark: Iteration 107-th ended
+[ 1305.672404] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 108
+[ 1310.203829] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1310.203833] C-Mutex-Benchmark: Number of iterations: 108
+[ 1311.884615] C-Mutex-Benchmark: Mutex Test 108 Completed
+[ 1311.884716] C-Mutex-Benchmark: Total time: 1680 ms
+[ 1311.884718] C-Mutex-Benchmark: Total lock/unlock time: 1067 ms
+[ 1311.884719] C-Mutex-Benchmark: Average time per lock/unlock: 53 ns
+[ 1311.884760] C-Mutex-Benchmark: Minimum time per lock/unlock: 34 ns
+[ 1311.884761] C-Mutex-Benchmark: Maximum time per lock/unlock: 20112160 ns
+[ 1311.884762] C-Mutex-Benchmark: Iteration 108-th ended
+[ 1311.884763] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 109
+[ 1316.248024] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1316.248028] C-Mutex-Benchmark: Number of iterations: 109
+[ 1317.993295] C-Mutex-Benchmark: Mutex Test 109 Completed
+[ 1317.993335] C-Mutex-Benchmark: Total time: 1745 ms
+[ 1317.993374] C-Mutex-Benchmark: Total lock/unlock time: 1095 ms
+[ 1317.993375] C-Mutex-Benchmark: Average time per lock/unlock: 54 ns
+[ 1317.993376] C-Mutex-Benchmark: Minimum time per lock/unlock: 34 ns
+[ 1317.993376] C-Mutex-Benchmark: Maximum time per lock/unlock: 3926143 ns
+[ 1317.993377] C-Mutex-Benchmark: Iteration 109-th ended
+[ 1317.993378] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 110
+[ 1322.228673] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1322.228676] C-Mutex-Benchmark: Number of iterations: 110
+[ 1323.777307] C-Mutex-Benchmark: Mutex Test 110 Completed
+[ 1323.777374] C-Mutex-Benchmark: Total time: 1548 ms
+[ 1323.777375] C-Mutex-Benchmark: Total lock/unlock time: 980 ms
+[ 1323.777376] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1323.777377] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1323.777433] C-Mutex-Benchmark: Maximum time per lock/unlock: 4127132 ns
+[ 1323.777434] C-Mutex-Benchmark: Iteration 110-th ended
+[ 1323.777435] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 111
+[ 1328.723536] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1328.723548] C-Mutex-Benchmark: Number of iterations: 111
+[ 1330.290296] C-Mutex-Benchmark: Mutex Test 111 Completed
+[ 1330.290377] C-Mutex-Benchmark: Total time: 1566 ms
+[ 1330.290427] C-Mutex-Benchmark: Total lock/unlock time: 988 ms
+[ 1330.290428] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1330.290429] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1330.290430] C-Mutex-Benchmark: Maximum time per lock/unlock: 4107118 ns
+[ 1330.290431] C-Mutex-Benchmark: Iteration 111-th ended
+[ 1330.290432] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 112
+[ 1335.032260] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1335.032264] C-Mutex-Benchmark: Number of iterations: 112
+[ 1336.613526] C-Mutex-Benchmark: Mutex Test 112 Completed
+[ 1336.613661] C-Mutex-Benchmark: Total time: 1581 ms
+[ 1336.613663] C-Mutex-Benchmark: Total lock/unlock time: 987 ms
+[ 1336.613664] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1336.613665] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1336.613665] C-Mutex-Benchmark: Maximum time per lock/unlock: 1085856 ns
+[ 1336.613705] C-Mutex-Benchmark: Iteration 112-th ended
+[ 1336.613706] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 113
+[ 1341.069755] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1341.069759] C-Mutex-Benchmark: Number of iterations: 113
+[ 1342.585993] C-Mutex-Benchmark: Mutex Test 113 Completed
+[ 1342.586088] C-Mutex-Benchmark: Total time: 1516 ms
+[ 1342.586151] C-Mutex-Benchmark: Total lock/unlock time: 957 ms
+[ 1342.586152] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1342.586153] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1342.586154] C-Mutex-Benchmark: Maximum time per lock/unlock: 1046132 ns
+[ 1342.586156] C-Mutex-Benchmark: Iteration 113-th ended
+[ 1342.586234] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 114
+[ 1347.150536] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1347.150540] C-Mutex-Benchmark: Number of iterations: 114
+[ 1348.731557] C-Mutex-Benchmark: Mutex Test 114 Completed
+[ 1348.731562] C-Mutex-Benchmark: Total time: 1580 ms
+[ 1348.731564] C-Mutex-Benchmark: Total lock/unlock time: 992 ms
+[ 1348.731565] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1348.731566] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1348.731610] C-Mutex-Benchmark: Maximum time per lock/unlock: 2669151 ns
+[ 1348.731612] C-Mutex-Benchmark: Iteration 114-th ended
+[ 1348.731613] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 115
+[ 1353.174584] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1353.174587] C-Mutex-Benchmark: Number of iterations: 115
+[ 1354.779212] C-Mutex-Benchmark: Mutex Test 115 Completed
+[ 1354.779330] C-Mutex-Benchmark: Total time: 1604 ms
+[ 1354.779386] C-Mutex-Benchmark: Total lock/unlock time: 1010 ms
+[ 1354.779387] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1354.779401] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1354.779402] C-Mutex-Benchmark: Maximum time per lock/unlock: 4020966 ns
+[ 1354.779404] C-Mutex-Benchmark: Iteration 115-th ended
+[ 1354.779406] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 116
+[ 1359.616529] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1359.616534] C-Mutex-Benchmark: Number of iterations: 116
+[ 1361.172874] C-Mutex-Benchmark: Mutex Test 116 Completed
+[ 1361.172917] C-Mutex-Benchmark: Total time: 1556 ms
+[ 1361.172956] C-Mutex-Benchmark: Total lock/unlock time: 980 ms
+[ 1361.172957] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1361.172958] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1361.172959] C-Mutex-Benchmark: Maximum time per lock/unlock: 977145 ns
+[ 1361.172968] C-Mutex-Benchmark: Iteration 116-th ended
+[ 1361.172969] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 117
+[ 1365.774783] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1365.774787] C-Mutex-Benchmark: Number of iterations: 117
+[ 1367.270513] C-Mutex-Benchmark: Mutex Test 117 Completed
+[ 1367.270555] C-Mutex-Benchmark: Total time: 1495 ms
+[ 1367.270556] C-Mutex-Benchmark: Total lock/unlock time: 948 ms
+[ 1367.270557] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1367.270558] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1367.270559] C-Mutex-Benchmark: Maximum time per lock/unlock: 1678342 ns
+[ 1367.270560] C-Mutex-Benchmark: Iteration 117-th ended
+[ 1367.270561] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 118
+[ 1371.786183] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1371.786186] C-Mutex-Benchmark: Number of iterations: 118
+[ 1373.340594] C-Mutex-Benchmark: Mutex Test 118 Completed
+[ 1373.340648] C-Mutex-Benchmark: Total time: 1554 ms
+[ 1373.340650] C-Mutex-Benchmark: Total lock/unlock time: 984 ms
+[ 1373.340651] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1373.340652] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1373.340653] C-Mutex-Benchmark: Maximum time per lock/unlock: 1704779 ns
+[ 1373.340654] C-Mutex-Benchmark: Iteration 118-th ended
+[ 1373.340655] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 119
+[ 1377.901462] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1377.901465] C-Mutex-Benchmark: Number of iterations: 119
+[ 1379.366354] C-Mutex-Benchmark: Mutex Test 119 Completed
+[ 1379.366485] C-Mutex-Benchmark: Total time: 1464 ms
+[ 1379.366487] C-Mutex-Benchmark: Total lock/unlock time: 924 ms
+[ 1379.366525] C-Mutex-Benchmark: Average time per lock/unlock: 46 ns
+[ 1379.366526] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1379.366527] C-Mutex-Benchmark: Maximum time per lock/unlock: 937702 ns
+[ 1379.366528] C-Mutex-Benchmark: Iteration 119-th ended
+[ 1379.366539] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 120
+[ 1384.054445] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1384.054449] C-Mutex-Benchmark: Number of iterations: 120
+[ 1385.560999] C-Mutex-Benchmark: Mutex Test 120 Completed
+[ 1385.561181] C-Mutex-Benchmark: Total time: 1506 ms
+[ 1385.561183] C-Mutex-Benchmark: Total lock/unlock time: 951 ms
+[ 1385.561234] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1385.561235] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1385.561236] C-Mutex-Benchmark: Maximum time per lock/unlock: 1193775 ns
+[ 1385.561238] C-Mutex-Benchmark: Iteration 120-th ended
+[ 1385.561239] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 121
+[ 1390.391942] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1390.391946] C-Mutex-Benchmark: Number of iterations: 121
+[ 1391.946635] C-Mutex-Benchmark: Mutex Test 121 Completed
+[ 1391.946682] C-Mutex-Benchmark: Total time: 1554 ms
+[ 1391.946684] C-Mutex-Benchmark: Total lock/unlock time: 978 ms
+[ 1391.946685] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1391.946686] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1391.946687] C-Mutex-Benchmark: Maximum time per lock/unlock: 883744 ns
+[ 1391.946688] C-Mutex-Benchmark: Iteration 121-th ended
+[ 1391.946689] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 122
+[ 1396.459483] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1396.459487] C-Mutex-Benchmark: Number of iterations: 122
+[ 1398.297400] C-Mutex-Benchmark: Mutex Test 122 Completed
+[ 1398.297506] C-Mutex-Benchmark: Total time: 1837 ms
+[ 1398.297519] C-Mutex-Benchmark: Total lock/unlock time: 1151 ms
+[ 1398.297520] C-Mutex-Benchmark: Average time per lock/unlock: 57 ns
+[ 1398.297521] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1398.297522] C-Mutex-Benchmark: Maximum time per lock/unlock: 14380529 ns
+[ 1398.297523] C-Mutex-Benchmark: Iteration 122-th ended
+[ 1398.297524] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 123
+[ 1403.466981] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1403.466985] C-Mutex-Benchmark: Number of iterations: 123
+[ 1405.012601] C-Mutex-Benchmark: Mutex Test 123 Completed
+[ 1405.012657] C-Mutex-Benchmark: Total time: 1545 ms
+[ 1405.012658] C-Mutex-Benchmark: Total lock/unlock time: 972 ms
+[ 1405.012703] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1405.012704] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1405.012705] C-Mutex-Benchmark: Maximum time per lock/unlock: 3000817 ns
+[ 1405.012706] C-Mutex-Benchmark: Iteration 123-th ended
+[ 1405.012707] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 124
+[ 1410.040414] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1410.040422] C-Mutex-Benchmark: Number of iterations: 124
+[ 1411.672531] C-Mutex-Benchmark: Mutex Test 124 Completed
+[ 1411.672705] C-Mutex-Benchmark: Total time: 1632 ms
+[ 1411.672707] C-Mutex-Benchmark: Total lock/unlock time: 1031 ms
+[ 1411.672708] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1411.672709] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1411.672749] C-Mutex-Benchmark: Maximum time per lock/unlock: 3944031 ns
+[ 1411.672750] C-Mutex-Benchmark: Iteration 124-th ended
+[ 1411.672751] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 125
+[ 1416.126129] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1416.126132] C-Mutex-Benchmark: Number of iterations: 125
+[ 1417.765903] C-Mutex-Benchmark: Mutex Test 125 Completed
+[ 1417.765992] C-Mutex-Benchmark: Total time: 1641 ms
+[ 1417.765994] C-Mutex-Benchmark: Total lock/unlock time: 1028 ms
+[ 1417.765995] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1417.766036] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1417.766037] C-Mutex-Benchmark: Maximum time per lock/unlock: 1023651 ns
+[ 1417.766038] C-Mutex-Benchmark: Iteration 125-th ended
+[ 1417.766039] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 126
+[ 1421.909862] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1421.909866] C-Mutex-Benchmark: Number of iterations: 126
+[ 1423.605145] C-Mutex-Benchmark: Mutex Test 126 Completed
+[ 1423.605190] C-Mutex-Benchmark: Total time: 1696 ms
+[ 1423.605192] C-Mutex-Benchmark: Total lock/unlock time: 1087 ms
+[ 1423.605193] C-Mutex-Benchmark: Average time per lock/unlock: 54 ns
+[ 1423.605194] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1423.605195] C-Mutex-Benchmark: Maximum time per lock/unlock: 6306580 ns
+[ 1423.605196] C-Mutex-Benchmark: Iteration 126-th ended
+[ 1423.605197] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 127
+[ 1428.320765] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1428.320769] C-Mutex-Benchmark: Number of iterations: 127
+[ 1429.920842] C-Mutex-Benchmark: Mutex Test 127 Completed
+[ 1429.920943] C-Mutex-Benchmark: Total time: 1601 ms
+[ 1429.920985] C-Mutex-Benchmark: Total lock/unlock time: 1009 ms
+[ 1429.920986] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1429.920987] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1429.920988] C-Mutex-Benchmark: Maximum time per lock/unlock: 1380147 ns
+[ 1429.920989] C-Mutex-Benchmark: Iteration 127-th ended
+[ 1429.920990] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 128
+[ 1434.882611] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1434.882615] C-Mutex-Benchmark: Number of iterations: 128
+[ 1436.451287] C-Mutex-Benchmark: Mutex Test 128 Completed
+[ 1436.451412] C-Mutex-Benchmark: Total time: 1569 ms
+[ 1436.451414] C-Mutex-Benchmark: Total lock/unlock time: 994 ms
+[ 1436.451455] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1436.451456] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1436.451457] C-Mutex-Benchmark: Maximum time per lock/unlock: 1094397 ns
+[ 1436.451494] C-Mutex-Benchmark: Iteration 128-th ended
+[ 1436.451495] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 129
+[ 1441.021522] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1441.021526] C-Mutex-Benchmark: Number of iterations: 129
+[ 1442.654376] C-Mutex-Benchmark: Mutex Test 129 Completed
+[ 1442.654496] C-Mutex-Benchmark: Total time: 1633 ms
+[ 1442.654498] C-Mutex-Benchmark: Total lock/unlock time: 1043 ms
+[ 1442.654499] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 1442.654537] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1442.654538] C-Mutex-Benchmark: Maximum time per lock/unlock: 23468879 ns
+[ 1442.654539] C-Mutex-Benchmark: Iteration 129-th ended
+[ 1442.654540] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 130
+[ 1447.045247] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1447.045252] C-Mutex-Benchmark: Number of iterations: 130
+[ 1448.676240] C-Mutex-Benchmark: Mutex Test 130 Completed
+[ 1448.676365] C-Mutex-Benchmark: Total time: 1632 ms
+[ 1448.676405] C-Mutex-Benchmark: Total lock/unlock time: 1027 ms
+[ 1448.676416] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1448.676417] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1448.676418] C-Mutex-Benchmark: Maximum time per lock/unlock: 3167214 ns
+[ 1448.676419] C-Mutex-Benchmark: Iteration 130-th ended
+[ 1448.676419] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 131
+[ 1453.175382] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1453.175386] C-Mutex-Benchmark: Number of iterations: 131
+[ 1454.774439] C-Mutex-Benchmark: Mutex Test 131 Completed
+[ 1454.774482] C-Mutex-Benchmark: Total time: 1600 ms
+[ 1454.774520] C-Mutex-Benchmark: Total lock/unlock time: 1005 ms
+[ 1454.774521] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1454.774522] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1454.774523] C-Mutex-Benchmark: Maximum time per lock/unlock: 1356914 ns
+[ 1454.774660] C-Mutex-Benchmark: Iteration 131-th ended
+[ 1454.774662] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 132
+[ 1459.431838] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1459.431841] C-Mutex-Benchmark: Number of iterations: 132
+[ 1460.937363] C-Mutex-Benchmark: Mutex Test 132 Completed
+[ 1460.937370] C-Mutex-Benchmark: Total time: 1506 ms
+[ 1460.937371] C-Mutex-Benchmark: Total lock/unlock time: 954 ms
+[ 1460.937382] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1460.937383] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1460.937478] C-Mutex-Benchmark: Maximum time per lock/unlock: 1823354 ns
+[ 1460.937479] C-Mutex-Benchmark: Iteration 132-th ended
+[ 1460.937480] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 133
+[ 1465.429848] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1465.429851] C-Mutex-Benchmark: Number of iterations: 133
+[ 1466.985053] C-Mutex-Benchmark: Mutex Test 133 Completed
+[ 1466.985179] C-Mutex-Benchmark: Total time: 1556 ms
+[ 1466.985221] C-Mutex-Benchmark: Total lock/unlock time: 981 ms
+[ 1466.985222] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1466.985223] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1466.985231] C-Mutex-Benchmark: Maximum time per lock/unlock: 3638486 ns
+[ 1466.985232] C-Mutex-Benchmark: Iteration 133-th ended
+[ 1466.985233] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 134
+[ 1471.477290] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1471.477295] C-Mutex-Benchmark: Number of iterations: 134
+[ 1473.096681] C-Mutex-Benchmark: Mutex Test 134 Completed
+[ 1473.096726] C-Mutex-Benchmark: Total time: 1620 ms
+[ 1473.096769] C-Mutex-Benchmark: Total lock/unlock time: 1013 ms
+[ 1473.096770] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1473.096771] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1473.096772] C-Mutex-Benchmark: Maximum time per lock/unlock: 1002864 ns
+[ 1473.096811] C-Mutex-Benchmark: Iteration 134-th ended
+[ 1473.096812] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 135
+[ 1477.729264] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1477.729269] C-Mutex-Benchmark: Number of iterations: 135
+[ 1479.280765] C-Mutex-Benchmark: Mutex Test 135 Completed
+[ 1479.280843] C-Mutex-Benchmark: Total time: 1552 ms
+[ 1479.280883] C-Mutex-Benchmark: Total lock/unlock time: 980 ms
+[ 1479.280884] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1479.280885] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1479.280886] C-Mutex-Benchmark: Maximum time per lock/unlock: 3636099 ns
+[ 1479.280887] C-Mutex-Benchmark: Iteration 135-th ended
+[ 1479.280887] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 136
+[ 1483.769454] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1483.769457] C-Mutex-Benchmark: Number of iterations: 136
+[ 1485.362809] C-Mutex-Benchmark: Mutex Test 136 Completed
+[ 1485.362927] C-Mutex-Benchmark: Total time: 1594 ms
+[ 1485.362928] C-Mutex-Benchmark: Total lock/unlock time: 1006 ms
+[ 1485.362968] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1485.362969] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1485.362970] C-Mutex-Benchmark: Maximum time per lock/unlock: 1498595 ns
+[ 1485.362978] C-Mutex-Benchmark: Iteration 136-th ended
+[ 1485.362979] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 137
+[ 1490.320889] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1490.320893] C-Mutex-Benchmark: Number of iterations: 137
+[ 1491.885506] C-Mutex-Benchmark: Mutex Test 137 Completed
+[ 1491.885685] C-Mutex-Benchmark: Total time: 1565 ms
+[ 1491.885687] C-Mutex-Benchmark: Total lock/unlock time: 988 ms
+[ 1491.885688] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1491.885689] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1491.885689] C-Mutex-Benchmark: Maximum time per lock/unlock: 1008456 ns
+[ 1491.885690] C-Mutex-Benchmark: Iteration 137-th ended
+[ 1491.885691] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 138
+[ 1496.354388] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1496.354392] C-Mutex-Benchmark: Number of iterations: 138
+[ 1497.832948] C-Mutex-Benchmark: Mutex Test 138 Completed
+[ 1497.833157] C-Mutex-Benchmark: Total time: 1479 ms
+[ 1497.833159] C-Mutex-Benchmark: Total lock/unlock time: 942 ms
+[ 1497.833160] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1497.833161] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1497.833162] C-Mutex-Benchmark: Maximum time per lock/unlock: 13179831 ns
+[ 1497.833163] C-Mutex-Benchmark: Iteration 138-th ended
+[ 1497.833164] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 139
+[ 1502.422240] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1502.422244] C-Mutex-Benchmark: Number of iterations: 139
+[ 1503.966252] C-Mutex-Benchmark: Mutex Test 139 Completed
+[ 1503.966318] C-Mutex-Benchmark: Total time: 1544 ms
+[ 1503.966358] C-Mutex-Benchmark: Total lock/unlock time: 979 ms
+[ 1503.966359] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1503.966360] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1503.966361] C-Mutex-Benchmark: Maximum time per lock/unlock: 1051114 ns
+[ 1503.966362] C-Mutex-Benchmark: Iteration 139-th ended
+[ 1503.966363] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 140
+[ 1508.519023] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1508.519026] C-Mutex-Benchmark: Number of iterations: 140
+[ 1510.091236] C-Mutex-Benchmark: Mutex Test 140 Completed
+[ 1510.091357] C-Mutex-Benchmark: Total time: 1572 ms
+[ 1510.091407] C-Mutex-Benchmark: Total lock/unlock time: 996 ms
+[ 1510.091409] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1510.091410] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1510.091411] C-Mutex-Benchmark: Maximum time per lock/unlock: 1130559 ns
+[ 1510.091412] C-Mutex-Benchmark: Iteration 140-th ended
+[ 1510.091413] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 141
+[ 1514.608225] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1514.608230] C-Mutex-Benchmark: Number of iterations: 141
+[ 1516.139260] C-Mutex-Benchmark: Mutex Test 141 Completed
+[ 1516.139487] C-Mutex-Benchmark: Total time: 1531 ms
+[ 1516.139489] C-Mutex-Benchmark: Total lock/unlock time: 965 ms
+[ 1516.139490] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1516.139491] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1516.139492] C-Mutex-Benchmark: Maximum time per lock/unlock: 4566938 ns
+[ 1516.139494] C-Mutex-Benchmark: Iteration 141-th ended
+[ 1516.139495] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 142
+[ 1520.682042] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1520.682046] C-Mutex-Benchmark: Number of iterations: 142
+[ 1522.243313] C-Mutex-Benchmark: Mutex Test 142 Completed
+[ 1522.243382] C-Mutex-Benchmark: Total time: 1561 ms
+[ 1522.243425] C-Mutex-Benchmark: Total lock/unlock time: 994 ms
+[ 1522.243426] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1522.243427] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1522.243428] C-Mutex-Benchmark: Maximum time per lock/unlock: 23979030 ns
+[ 1522.243468] C-Mutex-Benchmark: Iteration 142-th ended
+[ 1522.243469] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 143
+[ 1526.746050] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1526.746054] C-Mutex-Benchmark: Number of iterations: 143
+[ 1528.284082] C-Mutex-Benchmark: Mutex Test 143 Completed
+[ 1528.284195] C-Mutex-Benchmark: Total time: 1538 ms
+[ 1528.284196] C-Mutex-Benchmark: Total lock/unlock time: 975 ms
+[ 1528.284197] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1528.284198] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1528.284199] C-Mutex-Benchmark: Maximum time per lock/unlock: 5000086 ns
+[ 1528.284200] C-Mutex-Benchmark: Iteration 143-th ended
+[ 1528.284239] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 144
+[ 1532.830768] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1532.830772] C-Mutex-Benchmark: Number of iterations: 144
+[ 1534.426273] C-Mutex-Benchmark: Mutex Test 144 Completed
+[ 1534.426278] C-Mutex-Benchmark: Total time: 1596 ms
+[ 1534.426279] C-Mutex-Benchmark: Total lock/unlock time: 998 ms
+[ 1534.426280] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1534.426281] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1534.426282] C-Mutex-Benchmark: Maximum time per lock/unlock: 2442584 ns
+[ 1534.426283] C-Mutex-Benchmark: Iteration 144-th ended
+[ 1534.426284] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 145
+[ 1539.082554] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1539.082558] C-Mutex-Benchmark: Number of iterations: 145
+[ 1540.725423] C-Mutex-Benchmark: Mutex Test 145 Completed
+[ 1540.725571] C-Mutex-Benchmark: Total time: 1643 ms
+[ 1540.725573] C-Mutex-Benchmark: Total lock/unlock time: 1026 ms
+[ 1540.725574] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1540.725575] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1540.725576] C-Mutex-Benchmark: Maximum time per lock/unlock: 928145 ns
+[ 1540.725577] C-Mutex-Benchmark: Iteration 145-th ended
+[ 1540.725578] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 146
+[ 1545.361979] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1545.361983] C-Mutex-Benchmark: Number of iterations: 146
+[ 1547.001290] C-Mutex-Benchmark: Mutex Test 146 Completed
+[ 1547.001333] C-Mutex-Benchmark: Total time: 1639 ms
+[ 1547.001334] C-Mutex-Benchmark: Total lock/unlock time: 1028 ms
+[ 1547.001335] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1547.001336] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1547.001337] C-Mutex-Benchmark: Maximum time per lock/unlock: 4832676 ns
+[ 1547.001338] C-Mutex-Benchmark: Iteration 146-th ended
+[ 1547.001339] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 147
+[ 1551.349652] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1551.349656] C-Mutex-Benchmark: Number of iterations: 147
+[ 1553.028622] C-Mutex-Benchmark: Mutex Test 147 Completed
+[ 1553.028668] C-Mutex-Benchmark: Total time: 1679 ms
+[ 1553.028669] C-Mutex-Benchmark: Total lock/unlock time: 1048 ms
+[ 1553.028670] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 1553.028671] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1553.028672] C-Mutex-Benchmark: Maximum time per lock/unlock: 1447958 ns
+[ 1553.028673] C-Mutex-Benchmark: Iteration 147-th ended
+[ 1553.028715] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 148
+[ 1557.936402] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1557.936405] C-Mutex-Benchmark: Number of iterations: 148
+[ 1559.542003] C-Mutex-Benchmark: Mutex Test 148 Completed
+[ 1559.542047] C-Mutex-Benchmark: Total time: 1606 ms
+[ 1559.542048] C-Mutex-Benchmark: Total lock/unlock time: 1015 ms
+[ 1559.542085] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1559.542086] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1559.542087] C-Mutex-Benchmark: Maximum time per lock/unlock: 968447 ns
+[ 1559.542088] C-Mutex-Benchmark: Iteration 148-th ended
+[ 1559.542089] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 149
+[ 1564.077805] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1564.077813] C-Mutex-Benchmark: Number of iterations: 149
+[ 1565.668941] C-Mutex-Benchmark: Mutex Test 149 Completed
+[ 1565.669099] C-Mutex-Benchmark: Total time: 1591 ms
+[ 1565.669150] C-Mutex-Benchmark: Total lock/unlock time: 1009 ms
+[ 1565.669159] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1565.669160] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1565.669161] C-Mutex-Benchmark: Maximum time per lock/unlock: 1141541 ns
+[ 1565.669162] C-Mutex-Benchmark: Iteration 149-th ended
+[ 1565.669163] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 150
+[ 1570.585824] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1570.585827] C-Mutex-Benchmark: Number of iterations: 150
+[ 1572.217182] C-Mutex-Benchmark: Mutex Test 150 Completed
+[ 1572.217373] C-Mutex-Benchmark: Total time: 1631 ms
+[ 1572.217374] C-Mutex-Benchmark: Total lock/unlock time: 1027 ms
+[ 1572.217375] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1572.217388] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1572.217388] C-Mutex-Benchmark: Maximum time per lock/unlock: 6347884 ns
+[ 1572.217389] C-Mutex-Benchmark: Iteration 150-th ended
+[ 1572.217390] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 151
+[ 1576.617091] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1576.617094] C-Mutex-Benchmark: Number of iterations: 151
+[ 1578.218356] C-Mutex-Benchmark: Mutex Test 151 Completed
+[ 1578.218418] C-Mutex-Benchmark: Total time: 1601 ms
+[ 1578.218420] C-Mutex-Benchmark: Total lock/unlock time: 1008 ms
+[ 1578.218461] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1578.218463] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1578.218463] C-Mutex-Benchmark: Maximum time per lock/unlock: 2959282 ns
+[ 1578.218464] C-Mutex-Benchmark: Iteration 151-th ended
+[ 1578.218465] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 152
+[ 1582.757081] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1582.757086] C-Mutex-Benchmark: Number of iterations: 152
+[ 1584.397721] C-Mutex-Benchmark: Mutex Test 152 Completed
+[ 1584.397780] C-Mutex-Benchmark: Total time: 1641 ms
+[ 1584.397828] C-Mutex-Benchmark: Total lock/unlock time: 1036 ms
+[ 1584.397830] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1584.397831] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1584.397832] C-Mutex-Benchmark: Maximum time per lock/unlock: 740953 ns
+[ 1584.397888] C-Mutex-Benchmark: Iteration 152-th ended
+[ 1584.397890] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 153
+[ 1588.884472] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1588.884476] C-Mutex-Benchmark: Number of iterations: 153
+[ 1590.435487] C-Mutex-Benchmark: Mutex Test 153 Completed
+[ 1590.435572] C-Mutex-Benchmark: Total time: 1551 ms
+[ 1590.435573] C-Mutex-Benchmark: Total lock/unlock time: 981 ms
+[ 1590.435574] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1590.435575] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1590.435624] C-Mutex-Benchmark: Maximum time per lock/unlock: 2542862 ns
+[ 1590.435625] C-Mutex-Benchmark: Iteration 153-th ended
+[ 1590.435626] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 154
+[ 1595.056838] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1595.056841] C-Mutex-Benchmark: Number of iterations: 154
+[ 1596.664767] C-Mutex-Benchmark: Mutex Test 154 Completed
+[ 1596.664884] C-Mutex-Benchmark: Total time: 1608 ms
+[ 1596.664925] C-Mutex-Benchmark: Total lock/unlock time: 1013 ms
+[ 1596.664926] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1596.664927] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1596.664928] C-Mutex-Benchmark: Maximum time per lock/unlock: 1237783 ns
+[ 1596.664929] C-Mutex-Benchmark: Iteration 154-th ended
+[ 1596.664930] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 155
+[ 1601.168693] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1601.168696] C-Mutex-Benchmark: Number of iterations: 155
+[ 1602.752608] C-Mutex-Benchmark: Mutex Test 155 Completed
+[ 1602.752721] C-Mutex-Benchmark: Total time: 1584 ms
+[ 1602.752723] C-Mutex-Benchmark: Total lock/unlock time: 997 ms
+[ 1602.752724] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1602.752725] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1602.752726] C-Mutex-Benchmark: Maximum time per lock/unlock: 2841309 ns
+[ 1602.752727] C-Mutex-Benchmark: Iteration 155-th ended
+[ 1602.752728] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 156
+[ 1607.222739] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1607.222750] C-Mutex-Benchmark: Number of iterations: 156
+[ 1608.864838] C-Mutex-Benchmark: Mutex Test 156 Completed
+[ 1608.864933] C-Mutex-Benchmark: Total time: 1642 ms
+[ 1608.865012] C-Mutex-Benchmark: Total lock/unlock time: 1033 ms
+[ 1608.865013] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1608.865014] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1608.865015] C-Mutex-Benchmark: Maximum time per lock/unlock: 1123435 ns
+[ 1608.865016] C-Mutex-Benchmark: Iteration 156-th ended
+[ 1608.865017] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 157
+[ 1613.428425] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1613.428429] C-Mutex-Benchmark: Number of iterations: 157
+[ 1615.005139] C-Mutex-Benchmark: Mutex Test 157 Completed
+[ 1615.005267] C-Mutex-Benchmark: Total time: 1577 ms
+[ 1615.005306] C-Mutex-Benchmark: Total lock/unlock time: 991 ms
+[ 1615.005307] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1615.005308] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1615.005308] C-Mutex-Benchmark: Maximum time per lock/unlock: 1070110 ns
+[ 1615.005309] C-Mutex-Benchmark: Iteration 157-th ended
+[ 1615.005310] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 158
+[ 1619.565119] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1619.565123] C-Mutex-Benchmark: Number of iterations: 158
+[ 1621.128662] C-Mutex-Benchmark: Mutex Test 158 Completed
+[ 1621.128736] C-Mutex-Benchmark: Total time: 1563 ms
+[ 1621.128798] C-Mutex-Benchmark: Total lock/unlock time: 992 ms
+[ 1621.128800] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1621.128801] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1621.128802] C-Mutex-Benchmark: Maximum time per lock/unlock: 3416374 ns
+[ 1621.128869] C-Mutex-Benchmark: Iteration 158-th ended
+[ 1621.128871] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 159
+[ 1625.921727] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1625.921732] C-Mutex-Benchmark: Number of iterations: 159
+[ 1627.546381] C-Mutex-Benchmark: Mutex Test 159 Completed
+[ 1627.546430] C-Mutex-Benchmark: Total time: 1624 ms
+[ 1627.546431] C-Mutex-Benchmark: Total lock/unlock time: 1019 ms
+[ 1627.546432] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1627.546484] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1627.546485] C-Mutex-Benchmark: Maximum time per lock/unlock: 1051008 ns
+[ 1627.546486] C-Mutex-Benchmark: Iteration 159-th ended
+[ 1627.546487] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 160
+[ 1632.004837] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1632.004841] C-Mutex-Benchmark: Number of iterations: 160
+[ 1633.543561] C-Mutex-Benchmark: Mutex Test 160 Completed
+[ 1633.543640] C-Mutex-Benchmark: Total time: 1538 ms
+[ 1633.543677] C-Mutex-Benchmark: Total lock/unlock time: 970 ms
+[ 1633.543678] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1633.543679] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1633.543680] C-Mutex-Benchmark: Maximum time per lock/unlock: 5091823 ns
+[ 1633.543681] C-Mutex-Benchmark: Iteration 160-th ended
+[ 1633.543682] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 161
+[ 1638.053031] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1638.053035] C-Mutex-Benchmark: Number of iterations: 161
+[ 1639.669855] C-Mutex-Benchmark: Mutex Test 161 Completed
+[ 1639.669938] C-Mutex-Benchmark: Total time: 1617 ms
+[ 1639.670017] C-Mutex-Benchmark: Total lock/unlock time: 1021 ms
+[ 1639.670018] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1639.670027] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1639.670028] C-Mutex-Benchmark: Maximum time per lock/unlock: 3521631 ns
+[ 1639.670031] C-Mutex-Benchmark: Iteration 161-th ended
+[ 1639.670032] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 162
+[ 1644.602272] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1644.602283] C-Mutex-Benchmark: Number of iterations: 162
+[ 1646.187523] C-Mutex-Benchmark: Mutex Test 162 Completed
+[ 1646.187588] C-Mutex-Benchmark: Total time: 1585 ms
+[ 1646.187590] C-Mutex-Benchmark: Total lock/unlock time: 1005 ms
+[ 1646.187591] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1646.187593] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1646.187593] C-Mutex-Benchmark: Maximum time per lock/unlock: 7554873 ns
+[ 1646.187594] C-Mutex-Benchmark: Iteration 162-th ended
+[ 1646.187595] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 163
+[ 1650.700941] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1650.700945] C-Mutex-Benchmark: Number of iterations: 163
+[ 1652.255538] C-Mutex-Benchmark: Mutex Test 163 Completed
+[ 1652.255665] C-Mutex-Benchmark: Total time: 1554 ms
+[ 1652.255666] C-Mutex-Benchmark: Total lock/unlock time: 983 ms
+[ 1652.255667] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1652.255668] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1652.255669] C-Mutex-Benchmark: Maximum time per lock/unlock: 4391965 ns
+[ 1652.255709] C-Mutex-Benchmark: Iteration 163-th ended
+[ 1652.255710] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 164
+[ 1657.300475] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1657.300478] C-Mutex-Benchmark: Number of iterations: 164
+[ 1658.848756] C-Mutex-Benchmark: Mutex Test 164 Completed
+[ 1658.848841] C-Mutex-Benchmark: Total time: 1548 ms
+[ 1658.848843] C-Mutex-Benchmark: Total lock/unlock time: 983 ms
+[ 1658.848883] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1658.848884] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1658.848885] C-Mutex-Benchmark: Maximum time per lock/unlock: 972323 ns
+[ 1658.848886] C-Mutex-Benchmark: Iteration 164-th ended
+[ 1658.848887] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 165
+[ 1663.436463] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1663.436467] C-Mutex-Benchmark: Number of iterations: 165
+[ 1665.091300] C-Mutex-Benchmark: Mutex Test 165 Completed
+[ 1665.091380] C-Mutex-Benchmark: Total time: 1655 ms
+[ 1665.091417] C-Mutex-Benchmark: Total lock/unlock time: 1027 ms
+[ 1665.091418] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1665.091419] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1665.091420] C-Mutex-Benchmark: Maximum time per lock/unlock: 1525421 ns
+[ 1665.091421] C-Mutex-Benchmark: Iteration 165-th ended
+[ 1665.091462] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 166
+[ 1669.994053] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1669.994058] C-Mutex-Benchmark: Number of iterations: 166
+[ 1671.767005] C-Mutex-Benchmark: Mutex Test 166 Completed
+[ 1671.767092] C-Mutex-Benchmark: Total time: 1773 ms
+[ 1671.767141] C-Mutex-Benchmark: Total lock/unlock time: 1116 ms
+[ 1671.767142] C-Mutex-Benchmark: Average time per lock/unlock: 55 ns
+[ 1671.767143] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1671.767144] C-Mutex-Benchmark: Maximum time per lock/unlock: 7501099 ns
+[ 1671.767145] C-Mutex-Benchmark: Iteration 166-th ended
+[ 1671.767185] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 167
+[ 1676.163190] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1676.163195] C-Mutex-Benchmark: Number of iterations: 167
+[ 1677.741758] C-Mutex-Benchmark: Mutex Test 167 Completed
+[ 1677.741877] C-Mutex-Benchmark: Total time: 1578 ms
+[ 1677.741887] C-Mutex-Benchmark: Total lock/unlock time: 1005 ms
+[ 1677.741927] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1677.741928] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1677.741929] C-Mutex-Benchmark: Maximum time per lock/unlock: 13037163 ns
+[ 1677.741930] C-Mutex-Benchmark: Iteration 167-th ended
+[ 1677.741931] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 168
+[ 1682.296407] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1682.296411] C-Mutex-Benchmark: Number of iterations: 168
+[ 1683.842771] C-Mutex-Benchmark: Mutex Test 168 Completed
+[ 1683.842777] C-Mutex-Benchmark: Total time: 1546 ms
+[ 1683.842778] C-Mutex-Benchmark: Total lock/unlock time: 977 ms
+[ 1683.842779] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1683.842780] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1683.842780] C-Mutex-Benchmark: Maximum time per lock/unlock: 1242662 ns
+[ 1683.842781] C-Mutex-Benchmark: Iteration 168-th ended
+[ 1683.842782] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 169
+[ 1688.416677] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1688.416681] C-Mutex-Benchmark: Number of iterations: 169
+[ 1690.025428] C-Mutex-Benchmark: Mutex Test 169 Completed
+[ 1690.025475] C-Mutex-Benchmark: Total time: 1608 ms
+[ 1690.025477] C-Mutex-Benchmark: Total lock/unlock time: 1019 ms
+[ 1690.025478] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1690.025480] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1690.025481] C-Mutex-Benchmark: Maximum time per lock/unlock: 20486016 ns
+[ 1690.025482] C-Mutex-Benchmark: Iteration 169-th ended
+[ 1690.025538] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 170
+[ 1694.520198] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1694.520202] C-Mutex-Benchmark: Number of iterations: 170
+[ 1696.043777] C-Mutex-Benchmark: Mutex Test 170 Completed
+[ 1696.043783] C-Mutex-Benchmark: Total time: 1523 ms
+[ 1696.043784] C-Mutex-Benchmark: Total lock/unlock time: 964 ms
+[ 1696.043785] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1696.043796] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1696.043797] C-Mutex-Benchmark: Maximum time per lock/unlock: 640099 ns
+[ 1696.043798] C-Mutex-Benchmark: Iteration 170-th ended
+[ 1696.043855] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 171
+[ 1700.734963] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1700.734967] C-Mutex-Benchmark: Number of iterations: 171
+[ 1702.259864] C-Mutex-Benchmark: Mutex Test 171 Completed
+[ 1702.260025] C-Mutex-Benchmark: Total time: 1525 ms
+[ 1702.260027] C-Mutex-Benchmark: Total lock/unlock time: 968 ms
+[ 1702.260081] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1702.260082] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1702.260083] C-Mutex-Benchmark: Maximum time per lock/unlock: 1149812 ns
+[ 1702.260084] C-Mutex-Benchmark: Iteration 171-th ended
+[ 1702.260086] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 172
+[ 1706.863435] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1706.863438] C-Mutex-Benchmark: Number of iterations: 172
+[ 1708.383622] C-Mutex-Benchmark: Mutex Test 172 Completed
+[ 1708.383681] C-Mutex-Benchmark: Total time: 1520 ms
+[ 1708.383684] C-Mutex-Benchmark: Total lock/unlock time: 958 ms
+[ 1708.383685] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1708.383734] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1708.383735] C-Mutex-Benchmark: Maximum time per lock/unlock: 2748742 ns
+[ 1708.383736] C-Mutex-Benchmark: Iteration 172-th ended
+[ 1708.383737] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 173
+[ 1713.500159] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1713.500163] C-Mutex-Benchmark: Number of iterations: 173
+[ 1715.158689] C-Mutex-Benchmark: Mutex Test 173 Completed
+[ 1715.158851] C-Mutex-Benchmark: Total time: 1658 ms
+[ 1715.158853] C-Mutex-Benchmark: Total lock/unlock time: 1039 ms
+[ 1715.158855] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1715.158856] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1715.158858] C-Mutex-Benchmark: Maximum time per lock/unlock: 1739294 ns
+[ 1715.158859] C-Mutex-Benchmark: Iteration 173-th ended
+[ 1715.158861] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 174
+[ 1719.925299] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1719.925303] C-Mutex-Benchmark: Number of iterations: 174
+[ 1721.567956] C-Mutex-Benchmark: Mutex Test 174 Completed
+[ 1721.568022] C-Mutex-Benchmark: Total time: 1642 ms
+[ 1721.568024] C-Mutex-Benchmark: Total lock/unlock time: 1031 ms
+[ 1721.568025] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1721.568168] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1721.568170] C-Mutex-Benchmark: Maximum time per lock/unlock: 3995117 ns
+[ 1721.568171] C-Mutex-Benchmark: Iteration 174-th ended
+[ 1721.568188] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 175
+[ 1726.449794] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1726.449797] C-Mutex-Benchmark: Number of iterations: 175
+[ 1728.029279] C-Mutex-Benchmark: Mutex Test 175 Completed
+[ 1728.029436] C-Mutex-Benchmark: Total time: 1579 ms
+[ 1728.029438] C-Mutex-Benchmark: Total lock/unlock time: 1000 ms
+[ 1728.029439] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1728.029482] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1728.029483] C-Mutex-Benchmark: Maximum time per lock/unlock: 1034024 ns
+[ 1728.029484] C-Mutex-Benchmark: Iteration 175-th ended
+[ 1728.029485] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 176
+[ 1732.417194] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1732.417198] C-Mutex-Benchmark: Number of iterations: 176
+[ 1733.950066] C-Mutex-Benchmark: Mutex Test 176 Completed
+[ 1733.950129] C-Mutex-Benchmark: Total time: 1533 ms
+[ 1733.950130] C-Mutex-Benchmark: Total lock/unlock time: 969 ms
+[ 1733.950131] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1733.950173] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1733.950174] C-Mutex-Benchmark: Maximum time per lock/unlock: 2430509 ns
+[ 1733.950175] C-Mutex-Benchmark: Iteration 176-th ended
+[ 1733.950176] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 177
+[ 1738.574647] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1738.574650] C-Mutex-Benchmark: Number of iterations: 177
+[ 1740.146620] C-Mutex-Benchmark: Mutex Test 177 Completed
+[ 1740.146733] C-Mutex-Benchmark: Total time: 1572 ms
+[ 1740.146735] C-Mutex-Benchmark: Total lock/unlock time: 993 ms
+[ 1740.146736] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1740.146737] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1740.146738] C-Mutex-Benchmark: Maximum time per lock/unlock: 1982035 ns
+[ 1740.146739] C-Mutex-Benchmark: Iteration 177-th ended
+[ 1740.146776] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 178
+[ 1744.681541] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1744.681544] C-Mutex-Benchmark: Number of iterations: 178
+[ 1746.292095] C-Mutex-Benchmark: Mutex Test 178 Completed
+[ 1746.292214] C-Mutex-Benchmark: Total time: 1610 ms
+[ 1746.292216] C-Mutex-Benchmark: Total lock/unlock time: 1019 ms
+[ 1746.292255] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1746.292256] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1746.292265] C-Mutex-Benchmark: Maximum time per lock/unlock: 5455633 ns
+[ 1746.292266] C-Mutex-Benchmark: Iteration 178-th ended
+[ 1746.292267] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 179
+[ 1750.862930] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1750.862934] C-Mutex-Benchmark: Number of iterations: 179
+[ 1752.395596] C-Mutex-Benchmark: Mutex Test 179 Completed
+[ 1752.395682] C-Mutex-Benchmark: Total time: 1532 ms
+[ 1752.395725] C-Mutex-Benchmark: Total lock/unlock time: 971 ms
+[ 1752.395726] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1752.395727] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1752.395728] C-Mutex-Benchmark: Maximum time per lock/unlock: 2511357 ns
+[ 1752.395729] C-Mutex-Benchmark: Iteration 179-th ended
+[ 1752.395730] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 180
+[ 1757.529179] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1757.529182] C-Mutex-Benchmark: Number of iterations: 180
+[ 1759.371267] C-Mutex-Benchmark: Mutex Test 180 Completed
+[ 1759.371276] C-Mutex-Benchmark: Total time: 1842 ms
+[ 1759.371278] C-Mutex-Benchmark: Total lock/unlock time: 1163 ms
+[ 1759.371279] C-Mutex-Benchmark: Average time per lock/unlock: 58 ns
+[ 1759.371280] C-Mutex-Benchmark: Minimum time per lock/unlock: 36 ns
+[ 1759.371305] C-Mutex-Benchmark: Maximum time per lock/unlock: 3994706 ns
+[ 1759.371307] C-Mutex-Benchmark: Iteration 180-th ended
+[ 1759.371308] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 181
+[ 1763.762209] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1763.762229] C-Mutex-Benchmark: Number of iterations: 181
+[ 1765.267728] C-Mutex-Benchmark: Mutex Test 181 Completed
+[ 1765.267803] C-Mutex-Benchmark: Total time: 1505 ms
+[ 1765.267805] C-Mutex-Benchmark: Total lock/unlock time: 957 ms
+[ 1765.267805] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1765.267840] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1765.267840] C-Mutex-Benchmark: Maximum time per lock/unlock: 9041553 ns
+[ 1765.267841] C-Mutex-Benchmark: Iteration 181-th ended
+[ 1765.267842] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 182
+[ 1769.813340] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1769.813344] C-Mutex-Benchmark: Number of iterations: 182
+[ 1771.352155] C-Mutex-Benchmark: Mutex Test 182 Completed
+[ 1771.352369] C-Mutex-Benchmark: Total time: 1538 ms
+[ 1771.352459] C-Mutex-Benchmark: Total lock/unlock time: 979 ms
+[ 1771.352461] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1771.352462] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1771.352463] C-Mutex-Benchmark: Maximum time per lock/unlock: 14031049 ns
+[ 1771.352596] C-Mutex-Benchmark: Iteration 182-th ended
+[ 1771.352598] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 183
+[ 1775.966696] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1775.966699] C-Mutex-Benchmark: Number of iterations: 183
+[ 1777.559294] C-Mutex-Benchmark: Mutex Test 183 Completed
+[ 1777.559468] C-Mutex-Benchmark: Total time: 1592 ms
+[ 1777.559470] C-Mutex-Benchmark: Total lock/unlock time: 1002 ms
+[ 1777.559471] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1777.559473] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1777.559474] C-Mutex-Benchmark: Maximum time per lock/unlock: 1265306 ns
+[ 1777.559525] C-Mutex-Benchmark: Iteration 183-th ended
+[ 1777.559526] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 184
+[ 1782.117932] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1782.117936] C-Mutex-Benchmark: Number of iterations: 184
+[ 1783.649088] C-Mutex-Benchmark: Mutex Test 184 Completed
+[ 1783.649222] C-Mutex-Benchmark: Total time: 1531 ms
+[ 1783.649288] C-Mutex-Benchmark: Total lock/unlock time: 968 ms
+[ 1783.649289] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1783.649295] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1783.649296] C-Mutex-Benchmark: Maximum time per lock/unlock: 2816774 ns
+[ 1783.649297] C-Mutex-Benchmark: Iteration 184-th ended
+[ 1783.649298] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 185
+[ 1788.562770] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1788.562773] C-Mutex-Benchmark: Number of iterations: 185
+[ 1790.145933] C-Mutex-Benchmark: Mutex Test 185 Completed
+[ 1790.145975] C-Mutex-Benchmark: Total time: 1583 ms
+[ 1790.145977] C-Mutex-Benchmark: Total lock/unlock time: 994 ms
+[ 1790.145978] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1790.145979] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1790.145980] C-Mutex-Benchmark: Maximum time per lock/unlock: 1065863 ns
+[ 1790.145981] C-Mutex-Benchmark: Iteration 185-th ended
+[ 1790.145982] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 186
+[ 1794.685351] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1794.685354] C-Mutex-Benchmark: Number of iterations: 186
+[ 1796.384052] C-Mutex-Benchmark: Mutex Test 186 Completed
+[ 1796.384096] C-Mutex-Benchmark: Total time: 1698 ms
+[ 1796.384097] C-Mutex-Benchmark: Total lock/unlock time: 1065 ms
+[ 1796.384098] C-Mutex-Benchmark: Average time per lock/unlock: 53 ns
+[ 1796.384099] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1796.384100] C-Mutex-Benchmark: Maximum time per lock/unlock: 1439683 ns
+[ 1796.384136] C-Mutex-Benchmark: Iteration 186-th ended
+[ 1796.384136] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 187
+[ 1800.933775] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1800.933779] C-Mutex-Benchmark: Number of iterations: 187
+[ 1802.553316] C-Mutex-Benchmark: Mutex Test 187 Completed
+[ 1802.553435] C-Mutex-Benchmark: Total time: 1619 ms
+[ 1802.553438] C-Mutex-Benchmark: Total lock/unlock time: 1015 ms
+[ 1802.553511] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1802.553572] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1802.553574] C-Mutex-Benchmark: Maximum time per lock/unlock: 988798 ns
+[ 1802.553575] C-Mutex-Benchmark: Iteration 187-th ended
+[ 1802.553576] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 188
+[ 1807.189490] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1807.189493] C-Mutex-Benchmark: Number of iterations: 188
+[ 1808.885678] C-Mutex-Benchmark: Mutex Test 188 Completed
+[ 1808.885787] C-Mutex-Benchmark: Total time: 1696 ms
+[ 1808.885832] C-Mutex-Benchmark: Total lock/unlock time: 1059 ms
+[ 1808.885833] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 1808.885834] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1808.885835] C-Mutex-Benchmark: Maximum time per lock/unlock: 1174415 ns
+[ 1808.885836] C-Mutex-Benchmark: Iteration 188-th ended
+[ 1808.885836] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 189
+[ 1813.246455] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1813.246460] C-Mutex-Benchmark: Number of iterations: 189
+[ 1814.861537] C-Mutex-Benchmark: Mutex Test 189 Completed
+[ 1814.861655] C-Mutex-Benchmark: Total time: 1615 ms
+[ 1814.861694] C-Mutex-Benchmark: Total lock/unlock time: 1018 ms
+[ 1814.861696] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1814.861697] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1814.861697] C-Mutex-Benchmark: Maximum time per lock/unlock: 1675737 ns
+[ 1814.861698] C-Mutex-Benchmark: Iteration 189-th ended
+[ 1814.861699] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 190
+[ 1819.339369] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1819.339372] C-Mutex-Benchmark: Number of iterations: 190
+[ 1820.975396] C-Mutex-Benchmark: Mutex Test 190 Completed
+[ 1820.975507] C-Mutex-Benchmark: Total time: 1636 ms
+[ 1820.975509] C-Mutex-Benchmark: Total lock/unlock time: 1046 ms
+[ 1820.975510] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 1820.975512] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1820.975566] C-Mutex-Benchmark: Maximum time per lock/unlock: 28527937 ns
+[ 1820.975568] C-Mutex-Benchmark: Iteration 190-th ended
+[ 1820.975570] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 191
+[ 1825.509468] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1825.509471] C-Mutex-Benchmark: Number of iterations: 191
+[ 1827.066529] C-Mutex-Benchmark: Mutex Test 191 Completed
+[ 1827.066604] C-Mutex-Benchmark: Total time: 1557 ms
+[ 1827.066644] C-Mutex-Benchmark: Total lock/unlock time: 979 ms
+[ 1827.066645] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1827.066646] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1827.066646] C-Mutex-Benchmark: Maximum time per lock/unlock: 989876 ns
+[ 1827.066654] C-Mutex-Benchmark: Iteration 191-th ended
+[ 1827.066655] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 192
+[ 1831.794325] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1831.794329] C-Mutex-Benchmark: Number of iterations: 192
+[ 1833.309120] C-Mutex-Benchmark: Mutex Test 192 Completed
+[ 1833.309192] C-Mutex-Benchmark: Total time: 1514 ms
+[ 1833.309193] C-Mutex-Benchmark: Total lock/unlock time: 958 ms
+[ 1833.309227] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1833.309235] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1833.309235] C-Mutex-Benchmark: Maximum time per lock/unlock: 5910710 ns
+[ 1833.309236] C-Mutex-Benchmark: Iteration 192-th ended
+[ 1833.309237] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 193
+[ 1838.312689] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1838.312693] C-Mutex-Benchmark: Number of iterations: 193
+[ 1839.960112] C-Mutex-Benchmark: Mutex Test 193 Completed
+[ 1839.960229] C-Mutex-Benchmark: Total time: 1647 ms
+[ 1839.960340] C-Mutex-Benchmark: Total lock/unlock time: 1034 ms
+[ 1839.960342] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1839.960344] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1839.960345] C-Mutex-Benchmark: Maximum time per lock/unlock: 1128593 ns
+[ 1839.960347] C-Mutex-Benchmark: Iteration 193-th ended
+[ 1839.960348] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 194
+[ 1844.529426] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1844.529430] C-Mutex-Benchmark: Number of iterations: 194
+[ 1846.153822] C-Mutex-Benchmark: Mutex Test 194 Completed
+[ 1846.153907] C-Mutex-Benchmark: Total time: 1624 ms
+[ 1846.153948] C-Mutex-Benchmark: Total lock/unlock time: 1031 ms
+[ 1846.153949] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1846.153950] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1846.153951] C-Mutex-Benchmark: Maximum time per lock/unlock: 3657942 ns
+[ 1846.153952] C-Mutex-Benchmark: Iteration 194-th ended
+[ 1846.153953] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 195
+[ 1850.966063] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1850.966067] C-Mutex-Benchmark: Number of iterations: 195
+[ 1852.576871] C-Mutex-Benchmark: Mutex Test 195 Completed
+[ 1852.576953] C-Mutex-Benchmark: Total time: 1610 ms
+[ 1852.576994] C-Mutex-Benchmark: Total lock/unlock time: 1020 ms
+[ 1852.576996] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1852.577005] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1852.577006] C-Mutex-Benchmark: Maximum time per lock/unlock: 1328537 ns
+[ 1852.577007] C-Mutex-Benchmark: Iteration 195-th ended
+[ 1852.577059] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 196
+[ 1857.248968] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1857.248972] C-Mutex-Benchmark: Number of iterations: 196
+[ 1858.844849] C-Mutex-Benchmark: Mutex Test 196 Completed
+[ 1858.844925] C-Mutex-Benchmark: Total time: 1595 ms
+[ 1858.844926] C-Mutex-Benchmark: Total lock/unlock time: 1006 ms
+[ 1858.844927] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1858.844963] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1858.844964] C-Mutex-Benchmark: Maximum time per lock/unlock: 1022540 ns
+[ 1858.844965] C-Mutex-Benchmark: Iteration 196-th ended
+[ 1858.844966] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 197
+[ 1863.378018] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1863.378021] C-Mutex-Benchmark: Number of iterations: 197
+[ 1864.979144] C-Mutex-Benchmark: Mutex Test 197 Completed
+[ 1864.979269] C-Mutex-Benchmark: Total time: 1601 ms
+[ 1864.979272] C-Mutex-Benchmark: Total lock/unlock time: 1009 ms
+[ 1864.979273] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1864.979275] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1864.979342] C-Mutex-Benchmark: Maximum time per lock/unlock: 1024368 ns
+[ 1864.979343] C-Mutex-Benchmark: Iteration 197-th ended
+[ 1864.979345] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 198
+[ 1869.569741] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1869.569746] C-Mutex-Benchmark: Number of iterations: 198
+[ 1871.212894] C-Mutex-Benchmark: Mutex Test 198 Completed
+[ 1871.212952] C-Mutex-Benchmark: Total time: 1643 ms
+[ 1871.213006] C-Mutex-Benchmark: Total lock/unlock time: 1037 ms
+[ 1871.213008] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1871.213009] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1871.213011] C-Mutex-Benchmark: Maximum time per lock/unlock: 18817097 ns
+[ 1871.213012] C-Mutex-Benchmark: Iteration 198-th ended
+[ 1871.213115] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 199
+[ 1875.740303] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1875.740306] C-Mutex-Benchmark: Number of iterations: 199
+[ 1877.254861] C-Mutex-Benchmark: Mutex Test 199 Completed
+[ 1877.254940] C-Mutex-Benchmark: Total time: 1514 ms
+[ 1877.254977] C-Mutex-Benchmark: Total lock/unlock time: 951 ms
+[ 1877.254978] C-Mutex-Benchmark: Average time per lock/unlock: 47 ns
+[ 1877.254979] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1877.254979] C-Mutex-Benchmark: Maximum time per lock/unlock: 1311610 ns
+[ 1877.254980] C-Mutex-Benchmark: Iteration 199-th ended
+[ 1877.254981] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 200
+[ 1882.362126] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1882.362129] C-Mutex-Benchmark: Number of iterations: 200
+[ 1883.990896] C-Mutex-Benchmark: Mutex Test 200 Completed
+[ 1883.991012] C-Mutex-Benchmark: Total time: 1628 ms
+[ 1883.991013] C-Mutex-Benchmark: Total lock/unlock time: 1012 ms
+[ 1883.991052] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1883.991053] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1883.991053] C-Mutex-Benchmark: Maximum time per lock/unlock: 3272163 ns
+[ 1883.991055] C-Mutex-Benchmark: Iteration 200-th ended
+[ 1883.991056] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 201
+[ 1888.553169] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1888.553180] C-Mutex-Benchmark: Number of iterations: 201
+[ 1890.132692] C-Mutex-Benchmark: Mutex Test 201 Completed
+[ 1890.132766] C-Mutex-Benchmark: Total time: 1579 ms
+[ 1890.132800] C-Mutex-Benchmark: Total lock/unlock time: 994 ms
+[ 1890.132801] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1890.132802] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1890.132803] C-Mutex-Benchmark: Maximum time per lock/unlock: 635349 ns
+[ 1890.132804] C-Mutex-Benchmark: Iteration 201-th ended
+[ 1890.132805] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 202
+[ 1894.803944] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1894.803947] C-Mutex-Benchmark: Number of iterations: 202
+[ 1896.423821] C-Mutex-Benchmark: Mutex Test 202 Completed
+[ 1896.423901] C-Mutex-Benchmark: Total time: 1619 ms
+[ 1896.423937] C-Mutex-Benchmark: Total lock/unlock time: 1030 ms
+[ 1896.423938] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1896.423939] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[ 1896.423940] C-Mutex-Benchmark: Maximum time per lock/unlock: 13296200 ns
+[ 1896.423941] C-Mutex-Benchmark: Iteration 202-th ended
+[ 1896.423942] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 203
+[ 1901.060514] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1901.060518] C-Mutex-Benchmark: Number of iterations: 203
+[ 1902.663475] C-Mutex-Benchmark: Mutex Test 203 Completed
+[ 1902.663587] C-Mutex-Benchmark: Total time: 1603 ms
+[ 1902.663687] C-Mutex-Benchmark: Total lock/unlock time: 1014 ms
+[ 1902.663688] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1902.663689] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1902.663690] C-Mutex-Benchmark: Maximum time per lock/unlock: 6522877 ns
+[ 1902.663691] C-Mutex-Benchmark: Iteration 203-th ended
+[ 1902.663692] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 204
+[ 1907.193322] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1907.193326] C-Mutex-Benchmark: Number of iterations: 204
+[ 1908.834287] C-Mutex-Benchmark: Mutex Test 204 Completed
+[ 1908.834374] C-Mutex-Benchmark: Total time: 1641 ms
+[ 1908.834375] C-Mutex-Benchmark: Total lock/unlock time: 1035 ms
+[ 1908.834386] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 1908.834387] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1908.834388] C-Mutex-Benchmark: Maximum time per lock/unlock: 2868499 ns
+[ 1908.834389] C-Mutex-Benchmark: Iteration 204-th ended
+[ 1908.834390] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 205
+[ 1913.312366] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1913.312369] C-Mutex-Benchmark: Number of iterations: 205
+[ 1914.993251] C-Mutex-Benchmark: Mutex Test 205 Completed
+[ 1914.993304] C-Mutex-Benchmark: Total time: 1680 ms
+[ 1914.993306] C-Mutex-Benchmark: Total lock/unlock time: 1067 ms
+[ 1914.993348] C-Mutex-Benchmark: Average time per lock/unlock: 53 ns
+[ 1914.993350] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1914.993351] C-Mutex-Benchmark: Maximum time per lock/unlock: 3268116 ns
+[ 1914.993352] C-Mutex-Benchmark: Iteration 205-th ended
+[ 1914.993353] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 206
+[ 1919.903586] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1919.903590] C-Mutex-Benchmark: Number of iterations: 206
+[ 1921.505952] C-Mutex-Benchmark: Mutex Test 206 Completed
+[ 1921.505997] C-Mutex-Benchmark: Total time: 1602 ms
+[ 1921.505998] C-Mutex-Benchmark: Total lock/unlock time: 1011 ms
+[ 1921.506040] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1921.506041] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1921.506042] C-Mutex-Benchmark: Maximum time per lock/unlock: 1524879 ns
+[ 1921.506050] C-Mutex-Benchmark: Iteration 206-th ended
+[ 1921.506051] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 207
+[ 1925.997178] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1925.997182] C-Mutex-Benchmark: Number of iterations: 207
+[ 1927.601453] C-Mutex-Benchmark: Mutex Test 207 Completed
+[ 1927.601510] C-Mutex-Benchmark: Total time: 1604 ms
+[ 1927.601513] C-Mutex-Benchmark: Total lock/unlock time: 1013 ms
+[ 1927.601514] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1927.601516] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1927.601517] C-Mutex-Benchmark: Maximum time per lock/unlock: 4069528 ns
+[ 1927.601518] C-Mutex-Benchmark: Iteration 207-th ended
+[ 1927.601519] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 208
+[ 1932.097437] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1932.097448] C-Mutex-Benchmark: Number of iterations: 208
+[ 1933.742683] C-Mutex-Benchmark: Mutex Test 208 Completed
+[ 1933.742814] C-Mutex-Benchmark: Total time: 1645 ms
+[ 1933.742816] C-Mutex-Benchmark: Total lock/unlock time: 1043 ms
+[ 1933.742858] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 1933.742859] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1933.742869] C-Mutex-Benchmark: Maximum time per lock/unlock: 3995263 ns
+[ 1933.742870] C-Mutex-Benchmark: Iteration 208-th ended
+[ 1933.742871] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 209
+[ 1938.295179] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1938.295183] C-Mutex-Benchmark: Number of iterations: 209
+[ 1939.872190] C-Mutex-Benchmark: Mutex Test 209 Completed
+[ 1939.872306] C-Mutex-Benchmark: Total time: 1577 ms
+[ 1939.872308] C-Mutex-Benchmark: Total lock/unlock time: 991 ms
+[ 1939.872348] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1939.872349] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1939.872350] C-Mutex-Benchmark: Maximum time per lock/unlock: 1061970 ns
+[ 1939.872351] C-Mutex-Benchmark: Iteration 209-th ended
+[ 1939.872352] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 210
+[ 1944.943455] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1944.943459] C-Mutex-Benchmark: Number of iterations: 210
+[ 1946.621341] C-Mutex-Benchmark: Mutex Test 210 Completed
+[ 1946.621468] C-Mutex-Benchmark: Total time: 1677 ms
+[ 1946.621508] C-Mutex-Benchmark: Total lock/unlock time: 1057 ms
+[ 1946.621510] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 1946.621511] C-Mutex-Benchmark: Minimum time per lock/unlock: 35 ns
+[ 1946.621511] C-Mutex-Benchmark: Maximum time per lock/unlock: 1238226 ns
+[ 1946.621512] C-Mutex-Benchmark: Iteration 210-th ended
+[ 1946.621513] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 211
+[ 1951.538171] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1951.538174] C-Mutex-Benchmark: Number of iterations: 211
+[ 1953.088403] C-Mutex-Benchmark: Mutex Test 211 Completed
+[ 1953.088482] C-Mutex-Benchmark: Total time: 1550 ms
+[ 1953.088518] C-Mutex-Benchmark: Total lock/unlock time: 981 ms
+[ 1953.088519] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1953.088520] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 1953.088520] C-Mutex-Benchmark: Maximum time per lock/unlock: 1019802 ns
+[ 1953.088521] C-Mutex-Benchmark: Iteration 211-th ended
+[ 1953.088556] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 212
+[ 1957.668131] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1957.668136] C-Mutex-Benchmark: Number of iterations: 212
+[ 1959.224678] C-Mutex-Benchmark: Mutex Test 212 Completed
+[ 1959.224788] C-Mutex-Benchmark: Total time: 1556 ms
+[ 1959.224834] C-Mutex-Benchmark: Total lock/unlock time: 979 ms
+[ 1959.224835] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1959.224836] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1959.224837] C-Mutex-Benchmark: Maximum time per lock/unlock: 985410 ns
+[ 1959.224838] C-Mutex-Benchmark: Iteration 212-th ended
+[ 1959.224839] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 213
+[ 1963.564521] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1963.564524] C-Mutex-Benchmark: Number of iterations: 213
+[ 1965.096392] C-Mutex-Benchmark: Mutex Test 213 Completed
+[ 1965.096470] C-Mutex-Benchmark: Total time: 1531 ms
+[ 1965.096472] C-Mutex-Benchmark: Total lock/unlock time: 966 ms
+[ 1965.096473] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 1965.096474] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1965.096474] C-Mutex-Benchmark: Maximum time per lock/unlock: 1040351 ns
+[ 1965.096476] C-Mutex-Benchmark: Iteration 213-th ended
+[ 1965.096477] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 214
+[ 1969.721332] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1969.721337] C-Mutex-Benchmark: Number of iterations: 214
+[ 1971.313870] C-Mutex-Benchmark: Mutex Test 214 Completed
+[ 1971.313947] C-Mutex-Benchmark: Total time: 1592 ms
+[ 1971.313949] C-Mutex-Benchmark: Total lock/unlock time: 1001 ms
+[ 1971.313950] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1971.313987] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 1971.313988] C-Mutex-Benchmark: Maximum time per lock/unlock: 2213590 ns
+[ 1971.313989] C-Mutex-Benchmark: Iteration 214-th ended
+[ 1971.313990] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 215
+[ 1975.944169] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1975.944173] C-Mutex-Benchmark: Number of iterations: 215
+[ 1977.524461] C-Mutex-Benchmark: Mutex Test 215 Completed
+[ 1977.524626] C-Mutex-Benchmark: Total time: 1580 ms
+[ 1977.524753] C-Mutex-Benchmark: Total lock/unlock time: 994 ms
+[ 1977.524755] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 1977.524756] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1977.524757] C-Mutex-Benchmark: Maximum time per lock/unlock: 2552707 ns
+[ 1977.524759] C-Mutex-Benchmark: Iteration 215-th ended
+[ 1977.524760] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 216
+[ 1982.221491] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1982.221495] C-Mutex-Benchmark: Number of iterations: 216
+[ 1983.825415] C-Mutex-Benchmark: Mutex Test 216 Completed
+[ 1983.825470] C-Mutex-Benchmark: Total time: 1603 ms
+[ 1983.825472] C-Mutex-Benchmark: Total lock/unlock time: 1015 ms
+[ 1983.825473] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1983.825474] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 1983.825475] C-Mutex-Benchmark: Maximum time per lock/unlock: 14270771 ns
+[ 1983.825476] C-Mutex-Benchmark: Iteration 216-th ended
+[ 1983.825562] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 217
+[ 1988.398561] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1988.398571] C-Mutex-Benchmark: Number of iterations: 217
+[ 1989.997824] C-Mutex-Benchmark: Mutex Test 217 Completed
+[ 1989.997941] C-Mutex-Benchmark: Total time: 1599 ms
+[ 1989.997943] C-Mutex-Benchmark: Total lock/unlock time: 1006 ms
+[ 1989.997944] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 1989.997979] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 1989.997980] C-Mutex-Benchmark: Maximum time per lock/unlock: 1152504 ns
+[ 1989.997981] C-Mutex-Benchmark: Iteration 217-th ended
+[ 1989.997982] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 218
+[ 1994.852786] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 1994.852790] C-Mutex-Benchmark: Number of iterations: 218
+[ 1996.490220] C-Mutex-Benchmark: Mutex Test 218 Completed
+[ 1996.490226] C-Mutex-Benchmark: Total time: 1637 ms
+[ 1996.490227] C-Mutex-Benchmark: Total lock/unlock time: 1041 ms
+[ 1996.490228] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 1996.490229] C-Mutex-Benchmark: Minimum time per lock/unlock: 35 ns
+[ 1996.490230] C-Mutex-Benchmark: Maximum time per lock/unlock: 17847583 ns
+[ 1996.490231] C-Mutex-Benchmark: Iteration 218-th ended
+[ 1996.490232] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 219
+[ 2001.564649] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2001.564653] C-Mutex-Benchmark: Number of iterations: 219
+[ 2003.117809] C-Mutex-Benchmark: Mutex Test 219 Completed
+[ 2003.117851] C-Mutex-Benchmark: Total time: 1553 ms
+[ 2003.117891] C-Mutex-Benchmark: Total lock/unlock time: 980 ms
+[ 2003.117891] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 2003.117892] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 2003.117893] C-Mutex-Benchmark: Maximum time per lock/unlock: 8072471 ns
+[ 2003.117894] C-Mutex-Benchmark: Iteration 219-th ended
+[ 2003.117895] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 220
+[ 2007.597806] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2007.597811] C-Mutex-Benchmark: Number of iterations: 220
+[ 2009.338481] C-Mutex-Benchmark: Mutex Test 220 Completed
+[ 2009.338565] C-Mutex-Benchmark: Total time: 1740 ms
+[ 2009.338566] C-Mutex-Benchmark: Total lock/unlock time: 1097 ms
+[ 2009.338567] C-Mutex-Benchmark: Average time per lock/unlock: 54 ns
+[ 2009.338607] C-Mutex-Benchmark: Minimum time per lock/unlock: 35 ns
+[ 2009.338608] C-Mutex-Benchmark: Maximum time per lock/unlock: 3504966 ns
+[ 2009.338609] C-Mutex-Benchmark: Iteration 220-th ended
+[ 2009.338610] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 221
+[ 2014.102116] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2014.102120] C-Mutex-Benchmark: Number of iterations: 221
+[ 2015.814422] C-Mutex-Benchmark: Mutex Test 221 Completed
+[ 2015.814559] C-Mutex-Benchmark: Total time: 1712 ms
+[ 2015.814606] C-Mutex-Benchmark: Total lock/unlock time: 1077 ms
+[ 2015.814607] C-Mutex-Benchmark: Average time per lock/unlock: 53 ns
+[ 2015.814608] C-Mutex-Benchmark: Minimum time per lock/unlock: 36 ns
+[ 2015.814609] C-Mutex-Benchmark: Maximum time per lock/unlock: 1468469 ns
+[ 2015.814610] C-Mutex-Benchmark: Iteration 221-th ended
+[ 2015.814611] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 222
+[ 2020.585410] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2020.585414] C-Mutex-Benchmark: Number of iterations: 222
+[ 2022.205454] C-Mutex-Benchmark: Mutex Test 222 Completed
+[ 2022.205612] C-Mutex-Benchmark: Total time: 1620 ms
+[ 2022.205615] C-Mutex-Benchmark: Total lock/unlock time: 1014 ms
+[ 2022.205766] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 2022.205768] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 2022.205769] C-Mutex-Benchmark: Maximum time per lock/unlock: 1153484 ns
+[ 2022.205770] C-Mutex-Benchmark: Iteration 222-th ended
+[ 2022.205772] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 223
+[ 2027.029214] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2027.029217] C-Mutex-Benchmark: Number of iterations: 223
+[ 2028.734500] C-Mutex-Benchmark: Mutex Test 223 Completed
+[ 2028.734674] C-Mutex-Benchmark: Total time: 1705 ms
+[ 2028.734676] C-Mutex-Benchmark: Total lock/unlock time: 1077 ms
+[ 2028.734677] C-Mutex-Benchmark: Average time per lock/unlock: 53 ns
+[ 2028.734726] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 2028.734729] C-Mutex-Benchmark: Maximum time per lock/unlock: 2148073 ns
+[ 2028.734730] C-Mutex-Benchmark: Iteration 223-th ended
+[ 2028.734731] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 224
+[ 2033.184788] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2033.184792] C-Mutex-Benchmark: Number of iterations: 224
+[ 2034.874501] C-Mutex-Benchmark: Mutex Test 224 Completed
+[ 2034.874632] C-Mutex-Benchmark: Total time: 1689 ms
+[ 2034.874676] C-Mutex-Benchmark: Total lock/unlock time: 1065 ms
+[ 2034.874678] C-Mutex-Benchmark: Average time per lock/unlock: 53 ns
+[ 2034.874679] C-Mutex-Benchmark: Minimum time per lock/unlock: 35 ns
+[ 2034.874680] C-Mutex-Benchmark: Maximum time per lock/unlock: 9915476 ns
+[ 2034.874681] C-Mutex-Benchmark: Iteration 224-th ended
+[ 2034.874682] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 225
+[ 2039.527611] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2039.527614] C-Mutex-Benchmark: Number of iterations: 225
+[ 2041.093614] C-Mutex-Benchmark: Mutex Test 225 Completed
+[ 2041.093698] C-Mutex-Benchmark: Total time: 1565 ms
+[ 2041.093700] C-Mutex-Benchmark: Total lock/unlock time: 997 ms
+[ 2041.093701] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 2041.093749] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 2041.093750] C-Mutex-Benchmark: Maximum time per lock/unlock: 9263076 ns
+[ 2041.093751] C-Mutex-Benchmark: Iteration 225-th ended
+[ 2041.093752] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 226
+[ 2045.596763] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2045.596767] C-Mutex-Benchmark: Number of iterations: 226
+[ 2047.196529] C-Mutex-Benchmark: Mutex Test 226 Completed
+[ 2047.196574] C-Mutex-Benchmark: Total time: 1599 ms
+[ 2047.196576] C-Mutex-Benchmark: Total lock/unlock time: 996 ms
+[ 2047.196576] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 2047.196577] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 2047.196578] C-Mutex-Benchmark: Maximum time per lock/unlock: 1285104 ns
+[ 2047.196579] C-Mutex-Benchmark: Iteration 226-th ended
+[ 2047.196580] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 227
+[ 2051.830390] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2051.830394] C-Mutex-Benchmark: Number of iterations: 227
+[ 2053.388850] C-Mutex-Benchmark: Mutex Test 227 Completed
+[ 2053.389020] C-Mutex-Benchmark: Total time: 1558 ms
+[ 2053.389021] C-Mutex-Benchmark: Total lock/unlock time: 977 ms
+[ 2053.389022] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 2053.389023] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[ 2053.389024] C-Mutex-Benchmark: Maximum time per lock/unlock: 2284221 ns
+[ 2053.389025] C-Mutex-Benchmark: Iteration 227-th ended
+[ 2053.389026] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 228
+[ 2057.849360] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2057.849363] C-Mutex-Benchmark: Number of iterations: 228
+[ 2059.435034] C-Mutex-Benchmark: Mutex Test 228 Completed
+[ 2059.435152] C-Mutex-Benchmark: Total time: 1585 ms
+[ 2059.435153] C-Mutex-Benchmark: Total lock/unlock time: 997 ms
+[ 2059.435154] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 2059.435192] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 2059.435193] C-Mutex-Benchmark: Maximum time per lock/unlock: 979638 ns
+[ 2059.435194] C-Mutex-Benchmark: Iteration 228-th ended
+[ 2059.435195] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 229
+[ 2064.124740] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2064.124745] C-Mutex-Benchmark: Number of iterations: 229
+[ 2065.661544] C-Mutex-Benchmark: Mutex Test 229 Completed
+[ 2065.661562] C-Mutex-Benchmark: Total time: 1536 ms
+[ 2065.661563] C-Mutex-Benchmark: Total lock/unlock time: 977 ms
+[ 2065.661607] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 2065.661608] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[ 2065.661608] C-Mutex-Benchmark: Maximum time per lock/unlock: 4741652 ns
+[ 2065.661610] C-Mutex-Benchmark: Iteration 229-th ended
+[ 2065.661613] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 230
+[ 2070.297716] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2070.297719] C-Mutex-Benchmark: Number of iterations: 230
+[ 2071.879691] C-Mutex-Benchmark: Mutex Test 230 Completed
+[ 2071.879879] C-Mutex-Benchmark: Total time: 1582 ms
+[ 2071.879881] C-Mutex-Benchmark: Total lock/unlock time: 993 ms
+[ 2071.879930] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 2071.879932] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 2071.879933] C-Mutex-Benchmark: Maximum time per lock/unlock: 939454 ns
+[ 2071.879934] C-Mutex-Benchmark: Iteration 230-th ended
+[ 2071.879935] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 231
+[ 2076.522336] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2076.522341] C-Mutex-Benchmark: Number of iterations: 231
+[ 2078.121897] C-Mutex-Benchmark: Mutex Test 231 Completed
+[ 2078.121969] C-Mutex-Benchmark: Total time: 1599 ms
+[ 2078.121970] C-Mutex-Benchmark: Total lock/unlock time: 1004 ms
+[ 2078.121971] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 2078.122005] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 2078.122005] C-Mutex-Benchmark: Maximum time per lock/unlock: 1043423 ns
+[ 2078.122006] C-Mutex-Benchmark: Iteration 231-th ended
+[ 2078.122007] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 232
+[ 2083.154939] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2083.154944] C-Mutex-Benchmark: Number of iterations: 232
+[ 2084.755089] C-Mutex-Benchmark: Mutex Test 232 Completed
+[ 2084.755238] C-Mutex-Benchmark: Total time: 1600 ms
+[ 2084.755240] C-Mutex-Benchmark: Total lock/unlock time: 1019 ms
+[ 2084.755241] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 2084.755242] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 2084.755243] C-Mutex-Benchmark: Maximum time per lock/unlock: 1568320 ns
+[ 2084.755244] C-Mutex-Benchmark: Iteration 232-th ended
+[ 2084.755245] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 233
+[ 2089.233569] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2089.233572] C-Mutex-Benchmark: Number of iterations: 233
+[ 2090.861318] C-Mutex-Benchmark: Mutex Test 233 Completed
+[ 2090.861414] C-Mutex-Benchmark: Total time: 1627 ms
+[ 2090.861455] C-Mutex-Benchmark: Total lock/unlock time: 1038 ms
+[ 2090.861456] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 2090.861457] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 2090.861457] C-Mutex-Benchmark: Maximum time per lock/unlock: 26143882 ns
+[ 2090.861459] C-Mutex-Benchmark: Iteration 233-th ended
+[ 2090.861459] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 234
+[ 2095.351059] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2095.351063] C-Mutex-Benchmark: Number of iterations: 234
+[ 2097.005088] C-Mutex-Benchmark: Mutex Test 234 Completed
+[ 2097.005198] C-Mutex-Benchmark: Total time: 1654 ms
+[ 2097.005281] C-Mutex-Benchmark: Total lock/unlock time: 1045 ms
+[ 2097.005282] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 2097.005283] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 2097.005284] C-Mutex-Benchmark: Maximum time per lock/unlock: 2459400 ns
+[ 2097.005285] C-Mutex-Benchmark: Iteration 234-th ended
+[ 2097.005286] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 235
+[ 2101.407543] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2101.407548] C-Mutex-Benchmark: Number of iterations: 235
+[ 2102.986207] C-Mutex-Benchmark: Mutex Test 235 Completed
+[ 2102.986257] C-Mutex-Benchmark: Total time: 1578 ms
+[ 2102.986295] C-Mutex-Benchmark: Total lock/unlock time: 993 ms
+[ 2102.986296] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 2102.986297] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[ 2102.986380] C-Mutex-Benchmark: Maximum time per lock/unlock: 4686166 ns
+[ 2102.986381] C-Mutex-Benchmark: Iteration 235-th ended
+[ 2102.986382] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 236
+[ 2107.629725] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2107.629729] C-Mutex-Benchmark: Number of iterations: 236
+[ 2109.139931] C-Mutex-Benchmark: Mutex Test 236 Completed
+[ 2109.139967] C-Mutex-Benchmark: Total time: 1510 ms
+[ 2109.140003] C-Mutex-Benchmark: Total lock/unlock time: 961 ms
+[ 2109.140004] C-Mutex-Benchmark: Average time per lock/unlock: 48 ns
+[ 2109.140004] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 2109.140005] C-Mutex-Benchmark: Maximum time per lock/unlock: 5035411 ns
+[ 2109.140006] C-Mutex-Benchmark: Iteration 236-th ended
+[ 2109.140007] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 237
+[ 2113.743575] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2113.743579] C-Mutex-Benchmark: Number of iterations: 237
+[ 2115.304869] C-Mutex-Benchmark: Mutex Test 237 Completed
+[ 2115.304983] C-Mutex-Benchmark: Total time: 1561 ms
+[ 2115.305018] C-Mutex-Benchmark: Total lock/unlock time: 986 ms
+[ 2115.305019] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 2115.305020] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 2115.305021] C-Mutex-Benchmark: Maximum time per lock/unlock: 1059463 ns
+[ 2115.305022] C-Mutex-Benchmark: Iteration 237-th ended
+[ 2115.305023] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 238
+[ 2120.440947] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2120.440950] C-Mutex-Benchmark: Number of iterations: 238
+[ 2122.093572] C-Mutex-Benchmark: Mutex Test 238 Completed
+[ 2122.093700] C-Mutex-Benchmark: Total time: 1652 ms
+[ 2122.093737] C-Mutex-Benchmark: Total lock/unlock time: 1042 ms
+[ 2122.093738] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 2122.093739] C-Mutex-Benchmark: Minimum time per lock/unlock: 35 ns
+[ 2122.093740] C-Mutex-Benchmark: Maximum time per lock/unlock: 5306611 ns
+[ 2122.093741] C-Mutex-Benchmark: Iteration 238-th ended
+[ 2122.093742] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 239
+[ 2126.797837] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2126.797847] C-Mutex-Benchmark: Number of iterations: 239
+[ 2128.409502] C-Mutex-Benchmark: Mutex Test 239 Completed
+[ 2128.409577] C-Mutex-Benchmark: Total time: 1611 ms
+[ 2128.409578] C-Mutex-Benchmark: Total lock/unlock time: 1013 ms
+[ 2128.409579] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 2128.409580] C-Mutex-Benchmark: Minimum time per lock/unlock: 29 ns
+[ 2128.409581] C-Mutex-Benchmark: Maximum time per lock/unlock: 981642 ns
+[ 2128.409583] C-Mutex-Benchmark: Iteration 239-th ended
+[ 2128.409583] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 240
+[ 2133.495859] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2133.495863] C-Mutex-Benchmark: Number of iterations: 240
+[ 2135.187445] C-Mutex-Benchmark: Mutex Test 240 Completed
+[ 2135.187579] C-Mutex-Benchmark: Total time: 1691 ms
+[ 2135.187617] C-Mutex-Benchmark: Total lock/unlock time: 1071 ms
+[ 2135.187618] C-Mutex-Benchmark: Average time per lock/unlock: 53 ns
+[ 2135.187627] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 2135.187627] C-Mutex-Benchmark: Maximum time per lock/unlock: 17892496 ns
+[ 2135.187628] C-Mutex-Benchmark: Iteration 240-th ended
+[ 2135.187630] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 241
+[ 2139.501042] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2139.501045] C-Mutex-Benchmark: Number of iterations: 241
+[ 2141.120588] C-Mutex-Benchmark: Mutex Test 241 Completed
+[ 2141.120641] C-Mutex-Benchmark: Total time: 1619 ms
+[ 2141.120740] C-Mutex-Benchmark: Total lock/unlock time: 1017 ms
+[ 2141.120741] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 2141.120743] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 2141.120744] C-Mutex-Benchmark: Maximum time per lock/unlock: 5449268 ns
+[ 2141.120745] C-Mutex-Benchmark: Iteration 241-th ended
+[ 2141.120746] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 242
+[ 2145.797116] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2145.797119] C-Mutex-Benchmark: Number of iterations: 242
+[ 2147.387061] C-Mutex-Benchmark: Mutex Test 242 Completed
+[ 2147.387138] C-Mutex-Benchmark: Total time: 1589 ms
+[ 2147.387183] C-Mutex-Benchmark: Total lock/unlock time: 994 ms
+[ 2147.387185] C-Mutex-Benchmark: Average time per lock/unlock: 49 ns
+[ 2147.387195] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 2147.387196] C-Mutex-Benchmark: Maximum time per lock/unlock: 533241 ns
+[ 2147.387198] C-Mutex-Benchmark: Iteration 242-th ended
+[ 2147.387199] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 243
+[ 2152.367039] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2152.367042] C-Mutex-Benchmark: Number of iterations: 243
+[ 2154.035749] C-Mutex-Benchmark: Mutex Test 243 Completed
+[ 2154.035792] C-Mutex-Benchmark: Total time: 1668 ms
+[ 2154.035793] C-Mutex-Benchmark: Total lock/unlock time: 1044 ms
+[ 2154.035834] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 2154.035835] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 2154.035835] C-Mutex-Benchmark: Maximum time per lock/unlock: 823488 ns
+[ 2154.035836] C-Mutex-Benchmark: Iteration 243-th ended
+[ 2154.035837] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 244
+[ 2158.705171] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2158.705176] C-Mutex-Benchmark: Number of iterations: 244
+[ 2160.374847] C-Mutex-Benchmark: Mutex Test 244 Completed
+[ 2160.374892] C-Mutex-Benchmark: Total time: 1669 ms
+[ 2160.374894] C-Mutex-Benchmark: Total lock/unlock time: 1056 ms
+[ 2160.374895] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 2160.374896] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 2160.374896] C-Mutex-Benchmark: Maximum time per lock/unlock: 14153211 ns
+[ 2160.374898] C-Mutex-Benchmark: Iteration 244-th ended
+[ 2160.374899] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 245
+[ 2164.698425] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2164.698429] C-Mutex-Benchmark: Number of iterations: 245
+[ 2166.329941] C-Mutex-Benchmark: Mutex Test 245 Completed
+[ 2166.330173] C-Mutex-Benchmark: Total time: 1631 ms
+[ 2166.330175] C-Mutex-Benchmark: Total lock/unlock time: 1020 ms
+[ 2166.330176] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 2166.330176] C-Mutex-Benchmark: Minimum time per lock/unlock: 31 ns
+[ 2166.330212] C-Mutex-Benchmark: Maximum time per lock/unlock: 1046374 ns
+[ 2166.330214] C-Mutex-Benchmark: Iteration 245-th ended
+[ 2166.330214] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 246
+[ 2170.998288] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2170.998298] C-Mutex-Benchmark: Number of iterations: 246
+[ 2172.594751] C-Mutex-Benchmark: Mutex Test 246 Completed
+[ 2172.594832] C-Mutex-Benchmark: Total time: 1596 ms
+[ 2172.594833] C-Mutex-Benchmark: Total lock/unlock time: 1011 ms
+[ 2172.594870] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 2172.594871] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 2172.594872] C-Mutex-Benchmark: Maximum time per lock/unlock: 19379657 ns
+[ 2172.594880] C-Mutex-Benchmark: Iteration 246-th ended
+[ 2172.594881] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 247
+[ 2177.479820] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2177.479823] C-Mutex-Benchmark: Number of iterations: 247
+[ 2179.099173] C-Mutex-Benchmark: Mutex Test 247 Completed
+[ 2179.099218] C-Mutex-Benchmark: Total time: 1619 ms
+[ 2179.099256] C-Mutex-Benchmark: Total lock/unlock time: 1015 ms
+[ 2179.099257] C-Mutex-Benchmark: Average time per lock/unlock: 50 ns
+[ 2179.099257] C-Mutex-Benchmark: Minimum time per lock/unlock: 32 ns
+[ 2179.099258] C-Mutex-Benchmark: Maximum time per lock/unlock: 3999719 ns
+[ 2179.099259] C-Mutex-Benchmark: Iteration 247-th ended
+[ 2179.099260] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 248
+[ 2183.840255] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2183.840260] C-Mutex-Benchmark: Number of iterations: 248
+[ 2185.499786] C-Mutex-Benchmark: Mutex Test 248 Completed
+[ 2185.499971] C-Mutex-Benchmark: Total time: 1659 ms
+[ 2185.499974] C-Mutex-Benchmark: Total lock/unlock time: 1040 ms
+[ 2185.500027] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 2185.500028] C-Mutex-Benchmark: Minimum time per lock/unlock: 33 ns
+[ 2185.500029] C-Mutex-Benchmark: Maximum time per lock/unlock: 1171938 ns
+[ 2185.500031] C-Mutex-Benchmark: Iteration 248-th ended
+[ 2185.500032] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 249
+[ 2190.361034] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2190.361041] C-Mutex-Benchmark: Number of iterations: 249
+[ 2191.979281] C-Mutex-Benchmark: Mutex Test 249 Completed
+[ 2191.979380] C-Mutex-Benchmark: Total time: 1618 ms
+[ 2191.979424] C-Mutex-Benchmark: Total lock/unlock time: 1025 ms
+[ 2191.979425] C-Mutex-Benchmark: Average time per lock/unlock: 51 ns
+[ 2191.979426] C-Mutex-Benchmark: Minimum time per lock/unlock: 30 ns
+[ 2191.979475] C-Mutex-Benchmark: Maximum time per lock/unlock: 2942866 ns
+[ 2191.979477] C-Mutex-Benchmark: Iteration 249-th ended
+[ 2191.979478] C-Mutex-Benchmark: Test module completed.
+Logs for iteration 250
+[ 2196.376554] C-Mutex-Benchmark: Initializing Mutex Lock/Unlock Performance Test...
+[ 2196.376558] C-Mutex-Benchmark: Number of iterations: 250
+[ 2198.044873] C-Mutex-Benchmark: Mutex Test 250 Completed
+[ 2198.045243] C-Mutex-Benchmark: Total time: 1668 ms
+[ 2198.045252] C-Mutex-Benchmark: Total lock/unlock time: 1056 ms
+[ 2198.045334] C-Mutex-Benchmark: Average time per lock/unlock: 52 ns
+[ 2198.045335] C-Mutex-Benchmark: Minimum time per lock/unlock: 35 ns
+[ 2198.045336] C-Mutex-Benchmark: Maximum time per lock/unlock: 1602011 ns
+[ 2198.045338] C-Mutex-Benchmark: Iteration 250-th ended
+[ 2198.045339] C-Mutex-Benchmark: Test module completed.

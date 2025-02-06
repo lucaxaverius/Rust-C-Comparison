@@ -14,7 +14,7 @@ MODULE_DESCRIPTION("Single Page Allocation Benchmark Module");
 // Define constants for benchmarking
 #define NUM_ITERATIONS 5000000 // Number of iterations for the test
 #define PAGE_SIZE_BYTES 4096   // Size of one page in bytes
-#define COUNT 2
+#define COUNT 250
 
 // Global variables for cumulative timings
 static s64 allocate_time = 0;

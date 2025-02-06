@@ -24,8 +24,8 @@ const NUM_ELEMENTS: usize = 1_000_000;
 
 //const NUM_EXECUTION: usize = 50;
 
-const SEED: u32 = 12346;
-const ITERATION: i32 = 2;
+const SEED: u32 = 12594;
+const ITERATION: i32 = 250;
 
 impl kernel::Module for RBTreeBenchmarkModule {
     #[no_mangle]
@@ -61,7 +61,7 @@ impl RBTreeBenchmarkModule{
             seed_in = next_pseudo_random32(seed_in);
             keys.push(seed_in, GFP_KERNEL).expect("Failed to push to vector");
         }
-        pr_info!("Starting {}-th rbtree test \n",count+1);
+        pr_info!("Starting {}-th rbtree test \n",count);
 
         // Initialize an RBTree
         let mut tree = RBTree::new();

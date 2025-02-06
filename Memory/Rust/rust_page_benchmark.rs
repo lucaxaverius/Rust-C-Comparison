@@ -33,7 +33,7 @@ impl Drop for PageBenchmarkModule {
 
 /// Number of iterations for the test.
 const NUM_ITERATIONS: usize = 5_000_000;
-const ITERATION: i32 = 2;
+const ITERATION: i32 = 250;
 #[no_mangle]
 #[inline(never)]
 /// Function to test page allocation, write, and read.

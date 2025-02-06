@@ -1,16 +1,2000 @@
 Logs for iteration 1
-[ 6361.731832] C-RBTree-Benchmark: RBTree Benchmark Module init
-[ 6361.731839] C-RBTree-Benchmark: Starting 1-th rbtree test 
-[ 6363.977472] C-RBTree-Benchmark: Time to insert 1000000 elements: 2242 ms
-[ 6364.325100] C-RBTree-Benchmark: Time to iterate over the rbtree: 347 ms
-[ 6364.815971] C-RBTree-Benchmark: Time to delete all the elements: 490 ms
-[ 6364.816231] C-RBTree-Benchmark: RBTree Benchmark 1 completed
-[ 6364.816236] C-RBTree-Benchmark: Module initialization complete
+[18206.049467] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18206.049471] C-RBTree-Benchmark: Starting 1-th rbtree test 
+[18206.944548] C-RBTree-Benchmark: Time to insert 1000000 elements: 891 ms
+[18207.150760] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[18207.325997] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18207.326024] C-RBTree-Benchmark: RBTree Benchmark 1 completed
+[18207.326026] C-RBTree-Benchmark: Module initialization complete
 Logs for iteration 2
-[ 6373.804899] C-RBTree-Benchmark: RBTree Benchmark Module init
-[ 6373.804907] C-RBTree-Benchmark: Starting 2-th rbtree test 
-[ 6376.179219] C-RBTree-Benchmark: Time to insert 1000000 elements: 2369 ms
-[ 6376.632302] C-RBTree-Benchmark: Time to iterate over the rbtree: 453 ms
-[ 6377.202847] C-RBTree-Benchmark: Time to delete all the elements: 570 ms
-[ 6377.202902] C-RBTree-Benchmark: RBTree Benchmark 2 completed
-[ 6377.202911] C-RBTree-Benchmark: Module initialization complete
+[18211.052010] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18211.052018] C-RBTree-Benchmark: Starting 2-th rbtree test 
+[18211.994376] C-RBTree-Benchmark: Time to insert 1000000 elements: 938 ms
+[18212.195083] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18212.363968] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18212.364022] C-RBTree-Benchmark: RBTree Benchmark 2 completed
+[18212.364023] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 3
+[18216.044067] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18216.044072] C-RBTree-Benchmark: Starting 3-th rbtree test 
+[18216.919076] C-RBTree-Benchmark: Time to insert 1000000 elements: 872 ms
+[18217.115953] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[18217.286911] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18217.287002] C-RBTree-Benchmark: RBTree Benchmark 3 completed
+[18217.287004] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 4
+[18221.072598] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18221.072601] C-RBTree-Benchmark: Starting 4-th rbtree test 
+[18221.876289] C-RBTree-Benchmark: Time to insert 1000000 elements: 802 ms
+[18222.061527] C-RBTree-Benchmark: Time to iterate over the rbtree: 185 ms
+[18222.215476] C-RBTree-Benchmark: Time to delete all the elements: 153 ms
+[18222.215494] C-RBTree-Benchmark: RBTree Benchmark 4 completed
+[18222.215495] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 5
+[18226.044729] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18226.044741] C-RBTree-Benchmark: Starting 5-th rbtree test 
+[18226.993978] C-RBTree-Benchmark: Time to insert 1000000 elements: 945 ms
+[18227.184253] C-RBTree-Benchmark: Time to iterate over the rbtree: 190 ms
+[18227.347729] C-RBTree-Benchmark: Time to delete all the elements: 163 ms
+[18227.347747] C-RBTree-Benchmark: RBTree Benchmark 5 completed
+[18227.347749] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 6
+[18231.174627] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18231.174635] C-RBTree-Benchmark: Starting 6-th rbtree test 
+[18232.124425] C-RBTree-Benchmark: Time to insert 1000000 elements: 946 ms
+[18232.326579] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[18232.496410] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18232.496503] C-RBTree-Benchmark: RBTree Benchmark 6 completed
+[18232.496505] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 7
+[18236.219449] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18236.219452] C-RBTree-Benchmark: Starting 7-th rbtree test 
+[18237.101738] C-RBTree-Benchmark: Time to insert 1000000 elements: 880 ms
+[18237.286878] C-RBTree-Benchmark: Time to iterate over the rbtree: 185 ms
+[18237.446048] C-RBTree-Benchmark: Time to delete all the elements: 159 ms
+[18237.446066] C-RBTree-Benchmark: RBTree Benchmark 7 completed
+[18237.446067] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 8
+[18241.223532] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18241.223539] C-RBTree-Benchmark: Starting 8-th rbtree test 
+[18242.112989] C-RBTree-Benchmark: Time to insert 1000000 elements: 886 ms
+[18242.307421] C-RBTree-Benchmark: Time to iterate over the rbtree: 194 ms
+[18242.477136] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18242.477196] C-RBTree-Benchmark: RBTree Benchmark 8 completed
+[18242.477197] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 9
+[18246.100390] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18246.100393] C-RBTree-Benchmark: Starting 9-th rbtree test 
+[18246.995326] C-RBTree-Benchmark: Time to insert 1000000 elements: 893 ms
+[18247.184184] C-RBTree-Benchmark: Time to iterate over the rbtree: 188 ms
+[18247.348139] C-RBTree-Benchmark: Time to delete all the elements: 163 ms
+[18247.348158] C-RBTree-Benchmark: RBTree Benchmark 9 completed
+[18247.348160] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 10
+[18251.017287] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18251.017290] C-RBTree-Benchmark: Starting 10-th rbtree test 
+[18251.914715] C-RBTree-Benchmark: Time to insert 1000000 elements: 895 ms
+[18252.114985] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18252.283097] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18252.283155] C-RBTree-Benchmark: RBTree Benchmark 10 completed
+[18252.283157] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 11
+[18255.957809] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18255.957816] C-RBTree-Benchmark: Starting 11-th rbtree test 
+[18256.880441] C-RBTree-Benchmark: Time to insert 1000000 elements: 919 ms
+[18257.076150] C-RBTree-Benchmark: Time to iterate over the rbtree: 195 ms
+[18257.240219] C-RBTree-Benchmark: Time to delete all the elements: 164 ms
+[18257.240238] C-RBTree-Benchmark: RBTree Benchmark 11 completed
+[18257.240239] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 12
+[18261.104017] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18261.104024] C-RBTree-Benchmark: Starting 12-th rbtree test 
+[18262.063647] C-RBTree-Benchmark: Time to insert 1000000 elements: 956 ms
+[18262.272190] C-RBTree-Benchmark: Time to iterate over the rbtree: 208 ms
+[18262.447678] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18262.447697] C-RBTree-Benchmark: RBTree Benchmark 12 completed
+[18262.447699] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 13
+[18266.124491] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18266.124495] C-RBTree-Benchmark: Starting 13-th rbtree test 
+[18267.129325] C-RBTree-Benchmark: Time to insert 1000000 elements: 1002 ms
+[18267.327407] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18267.498568] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18267.498586] C-RBTree-Benchmark: RBTree Benchmark 13 completed
+[18267.498588] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 14
+[18271.049079] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18271.049083] C-RBTree-Benchmark: Starting 14-th rbtree test 
+[18271.954829] C-RBTree-Benchmark: Time to insert 1000000 elements: 904 ms
+[18272.138792] C-RBTree-Benchmark: Time to iterate over the rbtree: 183 ms
+[18272.298224] C-RBTree-Benchmark: Time to delete all the elements: 159 ms
+[18272.298332] C-RBTree-Benchmark: RBTree Benchmark 14 completed
+[18272.298333] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 15
+[18276.016390] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18276.016394] C-RBTree-Benchmark: Starting 15-th rbtree test 
+[18276.978860] C-RBTree-Benchmark: Time to insert 1000000 elements: 960 ms
+[18277.177983] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18277.349320] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18277.349339] C-RBTree-Benchmark: RBTree Benchmark 15 completed
+[18277.349340] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 16
+[18280.925340] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18280.925347] C-RBTree-Benchmark: Starting 16-th rbtree test 
+[18281.924574] C-RBTree-Benchmark: Time to insert 1000000 elements: 996 ms
+[18282.133209] C-RBTree-Benchmark: Time to iterate over the rbtree: 208 ms
+[18282.306292] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[18282.306310] C-RBTree-Benchmark: RBTree Benchmark 16 completed
+[18282.306312] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 17
+[18285.914816] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18285.914820] C-RBTree-Benchmark: Starting 17-th rbtree test 
+[18286.902125] C-RBTree-Benchmark: Time to insert 1000000 elements: 985 ms
+[18287.111181] C-RBTree-Benchmark: Time to iterate over the rbtree: 209 ms
+[18287.286813] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18287.286832] C-RBTree-Benchmark: RBTree Benchmark 17 completed
+[18287.286833] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 18
+[18291.046092] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18291.046098] C-RBTree-Benchmark: Starting 18-th rbtree test 
+[18292.035967] C-RBTree-Benchmark: Time to insert 1000000 elements: 987 ms
+[18292.246094] C-RBTree-Benchmark: Time to iterate over the rbtree: 210 ms
+[18292.419097] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18292.419116] C-RBTree-Benchmark: RBTree Benchmark 18 completed
+[18292.419117] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 19
+[18295.947085] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18295.947092] C-RBTree-Benchmark: Starting 19-th rbtree test 
+[18296.955505] C-RBTree-Benchmark: Time to insert 1000000 elements: 1004 ms
+[18297.166234] C-RBTree-Benchmark: Time to iterate over the rbtree: 210 ms
+[18297.341617] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18297.341636] C-RBTree-Benchmark: RBTree Benchmark 19 completed
+[18297.341637] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 20
+[18301.065344] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18301.065348] C-RBTree-Benchmark: Starting 20-th rbtree test 
+[18302.035444] C-RBTree-Benchmark: Time to insert 1000000 elements: 968 ms
+[18302.243106] C-RBTree-Benchmark: Time to iterate over the rbtree: 207 ms
+[18302.416607] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[18302.416626] C-RBTree-Benchmark: RBTree Benchmark 20 completed
+[18302.416664] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 21
+[18305.986786] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18305.986790] C-RBTree-Benchmark: Starting 21-th rbtree test 
+[18306.966340] C-RBTree-Benchmark: Time to insert 1000000 elements: 977 ms
+[18307.166721] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18307.345263] C-RBTree-Benchmark: Time to delete all the elements: 178 ms
+[18307.345281] C-RBTree-Benchmark: RBTree Benchmark 21 completed
+[18307.345282] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 22
+[18310.935925] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18310.935929] C-RBTree-Benchmark: Starting 22-th rbtree test 
+[18311.875054] C-RBTree-Benchmark: Time to insert 1000000 elements: 937 ms
+[18312.076003] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18312.243429] C-RBTree-Benchmark: Time to delete all the elements: 167 ms
+[18312.243460] C-RBTree-Benchmark: RBTree Benchmark 22 completed
+[18312.243461] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 23
+[18315.873294] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18315.873297] C-RBTree-Benchmark: Starting 23-th rbtree test 
+[18316.803550] C-RBTree-Benchmark: Time to insert 1000000 elements: 928 ms
+[18316.998310] C-RBTree-Benchmark: Time to iterate over the rbtree: 194 ms
+[18317.165867] C-RBTree-Benchmark: Time to delete all the elements: 167 ms
+[18317.165913] C-RBTree-Benchmark: RBTree Benchmark 23 completed
+[18317.165914] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 24
+[18320.757176] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18320.757180] C-RBTree-Benchmark: Starting 24-th rbtree test 
+[18321.722919] C-RBTree-Benchmark: Time to insert 1000000 elements: 964 ms
+[18321.911342] C-RBTree-Benchmark: Time to iterate over the rbtree: 188 ms
+[18322.079429] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18322.079487] C-RBTree-Benchmark: RBTree Benchmark 24 completed
+[18322.079489] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 25
+[18325.643633] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18325.643636] C-RBTree-Benchmark: Starting 25-th rbtree test 
+[18326.549079] C-RBTree-Benchmark: Time to insert 1000000 elements: 903 ms
+[18326.750249] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[18326.920427] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18326.920444] C-RBTree-Benchmark: RBTree Benchmark 25 completed
+[18326.920446] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 26
+[18330.529975] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18330.529979] C-RBTree-Benchmark: Starting 26-th rbtree test 
+[18331.501994] C-RBTree-Benchmark: Time to insert 1000000 elements: 969 ms
+[18331.707494] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[18331.879176] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18331.879195] C-RBTree-Benchmark: RBTree Benchmark 26 completed
+[18331.879196] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 27
+[18335.602731] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18335.602735] C-RBTree-Benchmark: Starting 27-th rbtree test 
+[18336.595262] C-RBTree-Benchmark: Time to insert 1000000 elements: 990 ms
+[18336.804288] C-RBTree-Benchmark: Time to iterate over the rbtree: 209 ms
+[18336.978591] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18336.978645] C-RBTree-Benchmark: RBTree Benchmark 27 completed
+[18336.978647] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 28
+[18340.658880] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18340.658887] C-RBTree-Benchmark: Starting 28-th rbtree test 
+[18341.655435] C-RBTree-Benchmark: Time to insert 1000000 elements: 994 ms
+[18341.863579] C-RBTree-Benchmark: Time to iterate over the rbtree: 208 ms
+[18342.034820] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18342.034886] C-RBTree-Benchmark: RBTree Benchmark 28 completed
+[18342.034888] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 29
+[18345.559903] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18345.559908] C-RBTree-Benchmark: Starting 29-th rbtree test 
+[18346.494994] C-RBTree-Benchmark: Time to insert 1000000 elements: 932 ms
+[18346.693297] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18346.864759] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18346.864817] C-RBTree-Benchmark: RBTree Benchmark 29 completed
+[18346.864819] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 30
+[18350.432416] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18350.432420] C-RBTree-Benchmark: Starting 30-th rbtree test 
+[18351.366496] C-RBTree-Benchmark: Time to insert 1000000 elements: 932 ms
+[18351.561446] C-RBTree-Benchmark: Time to iterate over the rbtree: 194 ms
+[18351.731072] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18351.731091] C-RBTree-Benchmark: RBTree Benchmark 30 completed
+[18351.731092] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 31
+[18355.304265] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18355.304270] C-RBTree-Benchmark: Starting 31-th rbtree test 
+[18356.177824] C-RBTree-Benchmark: Time to insert 1000000 elements: 871 ms
+[18356.366265] C-RBTree-Benchmark: Time to iterate over the rbtree: 188 ms
+[18356.528831] C-RBTree-Benchmark: Time to delete all the elements: 162 ms
+[18356.528848] C-RBTree-Benchmark: RBTree Benchmark 31 completed
+[18356.528850] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 32
+[18360.294531] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18360.294536] C-RBTree-Benchmark: Starting 32-th rbtree test 
+[18361.271799] C-RBTree-Benchmark: Time to insert 1000000 elements: 974 ms
+[18361.480650] C-RBTree-Benchmark: Time to iterate over the rbtree: 208 ms
+[18361.657168] C-RBTree-Benchmark: Time to delete all the elements: 176 ms
+[18361.657225] C-RBTree-Benchmark: RBTree Benchmark 32 completed
+[18361.657227] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 33
+[18365.192692] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18365.192697] C-RBTree-Benchmark: Starting 33-th rbtree test 
+[18366.137486] C-RBTree-Benchmark: Time to insert 1000000 elements: 943 ms
+[18366.336438] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18366.505008] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18366.505026] C-RBTree-Benchmark: RBTree Benchmark 33 completed
+[18366.505027] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 34
+[18370.258847] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18370.258850] C-RBTree-Benchmark: Starting 34-th rbtree test 
+[18371.214118] C-RBTree-Benchmark: Time to insert 1000000 elements: 953 ms
+[18371.430187] C-RBTree-Benchmark: Time to iterate over the rbtree: 216 ms
+[18371.604551] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18371.604618] C-RBTree-Benchmark: RBTree Benchmark 34 completed
+[18371.604619] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 35
+[18375.180002] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18375.180010] C-RBTree-Benchmark: Starting 35-th rbtree test 
+[18376.145345] C-RBTree-Benchmark: Time to insert 1000000 elements: 961 ms
+[18376.350739] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[18376.520744] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18376.520798] C-RBTree-Benchmark: RBTree Benchmark 35 completed
+[18376.520799] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 36
+[18380.215493] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18380.215497] C-RBTree-Benchmark: Starting 36-th rbtree test 
+[18381.069241] C-RBTree-Benchmark: Time to insert 1000000 elements: 852 ms
+[18381.259330] C-RBTree-Benchmark: Time to iterate over the rbtree: 190 ms
+[18381.423703] C-RBTree-Benchmark: Time to delete all the elements: 164 ms
+[18381.423721] C-RBTree-Benchmark: RBTree Benchmark 36 completed
+[18381.423722] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 37
+[18385.069155] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18385.069161] C-RBTree-Benchmark: Starting 37-th rbtree test 
+[18386.082128] C-RBTree-Benchmark: Time to insert 1000000 elements: 1010 ms
+[18386.284151] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[18386.456655] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18386.456674] C-RBTree-Benchmark: RBTree Benchmark 37 completed
+[18386.456675] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 38
+[18390.059443] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18390.059447] C-RBTree-Benchmark: Starting 38-th rbtree test 
+[18391.009995] C-RBTree-Benchmark: Time to insert 1000000 elements: 948 ms
+[18391.214700] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18391.388131] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[18391.388188] C-RBTree-Benchmark: RBTree Benchmark 38 completed
+[18391.388190] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 39
+[18395.190247] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18395.190252] C-RBTree-Benchmark: Starting 39-th rbtree test 
+[18396.140261] C-RBTree-Benchmark: Time to insert 1000000 elements: 947 ms
+[18396.341949] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[18396.514144] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18396.514163] C-RBTree-Benchmark: RBTree Benchmark 39 completed
+[18396.514164] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 40
+[18400.151114] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18400.151118] C-RBTree-Benchmark: Starting 40-th rbtree test 
+[18401.158971] C-RBTree-Benchmark: Time to insert 1000000 elements: 1005 ms
+[18401.365754] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[18401.541703] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18401.541720] C-RBTree-Benchmark: RBTree Benchmark 40 completed
+[18401.541722] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 41
+[18405.169063] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18405.169067] C-RBTree-Benchmark: Starting 41-th rbtree test 
+[18406.107617] C-RBTree-Benchmark: Time to insert 1000000 elements: 936 ms
+[18406.315332] C-RBTree-Benchmark: Time to iterate over the rbtree: 207 ms
+[18406.485966] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18406.486027] C-RBTree-Benchmark: RBTree Benchmark 41 completed
+[18406.486029] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 42
+[18410.206055] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18410.206059] C-RBTree-Benchmark: Starting 42-th rbtree test 
+[18411.164036] C-RBTree-Benchmark: Time to insert 1000000 elements: 956 ms
+[18411.365702] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[18411.536159] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18411.536217] C-RBTree-Benchmark: RBTree Benchmark 42 completed
+[18411.536219] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 43
+[18415.019185] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18415.019189] C-RBTree-Benchmark: Starting 43-th rbtree test 
+[18415.947214] C-RBTree-Benchmark: Time to insert 1000000 elements: 926 ms
+[18416.132489] C-RBTree-Benchmark: Time to iterate over the rbtree: 185 ms
+[18416.299292] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[18416.299310] C-RBTree-Benchmark: RBTree Benchmark 43 completed
+[18416.299312] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 44
+[18419.916406] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18419.916410] C-RBTree-Benchmark: Starting 44-th rbtree test 
+[18420.860979] C-RBTree-Benchmark: Time to insert 1000000 elements: 942 ms
+[18421.059949] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18421.236737] C-RBTree-Benchmark: Time to delete all the elements: 176 ms
+[18421.236807] C-RBTree-Benchmark: RBTree Benchmark 44 completed
+[18421.236808] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 45
+[18424.801421] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18424.801425] C-RBTree-Benchmark: Starting 45-th rbtree test 
+[18425.758165] C-RBTree-Benchmark: Time to insert 1000000 elements: 955 ms
+[18425.954165] C-RBTree-Benchmark: Time to iterate over the rbtree: 195 ms
+[18426.120901] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[18426.120919] C-RBTree-Benchmark: RBTree Benchmark 45 completed
+[18426.120920] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 46
+[18429.828199] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18429.828202] C-RBTree-Benchmark: Starting 46-th rbtree test 
+[18430.704827] C-RBTree-Benchmark: Time to insert 1000000 elements: 875 ms
+[18430.910405] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[18431.081942] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18431.082002] C-RBTree-Benchmark: RBTree Benchmark 46 completed
+[18431.082003] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 47
+[18434.841868] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18434.841871] C-RBTree-Benchmark: Starting 47-th rbtree test 
+[18435.767483] C-RBTree-Benchmark: Time to insert 1000000 elements: 924 ms
+[18435.963563] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[18436.138252] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18436.138270] C-RBTree-Benchmark: RBTree Benchmark 47 completed
+[18436.138272] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 48
+[18439.885662] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18439.885666] C-RBTree-Benchmark: Starting 48-th rbtree test 
+[18440.807152] C-RBTree-Benchmark: Time to insert 1000000 elements: 919 ms
+[18441.005596] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18441.173546] C-RBTree-Benchmark: Time to delete all the elements: 167 ms
+[18441.173571] C-RBTree-Benchmark: RBTree Benchmark 48 completed
+[18441.173573] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 49
+[18444.931559] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18444.931564] C-RBTree-Benchmark: Starting 49-th rbtree test 
+[18445.841111] C-RBTree-Benchmark: Time to insert 1000000 elements: 906 ms
+[18446.042373] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[18446.211653] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18446.211672] C-RBTree-Benchmark: RBTree Benchmark 49 completed
+[18446.211673] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 50
+[18449.923904] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18449.923908] C-RBTree-Benchmark: Starting 50-th rbtree test 
+[18450.834765] C-RBTree-Benchmark: Time to insert 1000000 elements: 908 ms
+[18451.034129] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18451.204610] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18451.204634] C-RBTree-Benchmark: RBTree Benchmark 50 completed
+[18451.204635] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 51
+[18454.923549] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18454.923555] C-RBTree-Benchmark: Starting 51-th rbtree test 
+[18455.901455] C-RBTree-Benchmark: Time to insert 1000000 elements: 975 ms
+[18456.108194] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[18456.280541] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18456.280596] C-RBTree-Benchmark: RBTree Benchmark 51 completed
+[18456.280597] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 52
+[18459.975762] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18459.975766] C-RBTree-Benchmark: Starting 52-th rbtree test 
+[18460.899248] C-RBTree-Benchmark: Time to insert 1000000 elements: 921 ms
+[18461.096787] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18461.266354] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18461.266373] C-RBTree-Benchmark: RBTree Benchmark 52 completed
+[18461.266374] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 53
+[18464.880539] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18464.880543] C-RBTree-Benchmark: Starting 53-th rbtree test 
+[18465.725319] C-RBTree-Benchmark: Time to insert 1000000 elements: 843 ms
+[18465.915180] C-RBTree-Benchmark: Time to iterate over the rbtree: 189 ms
+[18466.077449] C-RBTree-Benchmark: Time to delete all the elements: 162 ms
+[18466.077467] C-RBTree-Benchmark: RBTree Benchmark 53 completed
+[18466.077469] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 54
+[18469.812908] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18469.812913] C-RBTree-Benchmark: Starting 54-th rbtree test 
+[18470.789654] C-RBTree-Benchmark: Time to insert 1000000 elements: 974 ms
+[18470.994179] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18471.164559] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18471.164578] C-RBTree-Benchmark: RBTree Benchmark 54 completed
+[18471.164580] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 55
+[18474.881841] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18474.881845] C-RBTree-Benchmark: Starting 55-th rbtree test 
+[18475.835732] C-RBTree-Benchmark: Time to insert 1000000 elements: 952 ms
+[18476.034846] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18476.206892] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18476.206948] C-RBTree-Benchmark: RBTree Benchmark 55 completed
+[18476.206950] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 56
+[18479.881075] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18479.881081] C-RBTree-Benchmark: Starting 56-th rbtree test 
+[18480.874937] C-RBTree-Benchmark: Time to insert 1000000 elements: 991 ms
+[18481.080420] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[18481.260724] C-RBTree-Benchmark: Time to delete all the elements: 180 ms
+[18481.260750] C-RBTree-Benchmark: RBTree Benchmark 56 completed
+[18481.260790] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 57
+[18484.973421] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18484.973424] C-RBTree-Benchmark: Starting 57-th rbtree test 
+[18485.946754] C-RBTree-Benchmark: Time to insert 1000000 elements: 971 ms
+[18486.151502] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18486.323905] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18486.323923] C-RBTree-Benchmark: RBTree Benchmark 57 completed
+[18486.323924] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 58
+[18489.905856] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18489.905860] C-RBTree-Benchmark: Starting 58-th rbtree test 
+[18490.849537] C-RBTree-Benchmark: Time to insert 1000000 elements: 941 ms
+[18491.049665] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18491.220340] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18491.220358] C-RBTree-Benchmark: RBTree Benchmark 58 completed
+[18491.220397] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 59
+[18494.968604] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18494.968607] C-RBTree-Benchmark: Starting 59-th rbtree test 
+[18495.888035] C-RBTree-Benchmark: Time to insert 1000000 elements: 917 ms
+[18496.088255] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18496.266384] C-RBTree-Benchmark: Time to delete all the elements: 178 ms
+[18496.266443] C-RBTree-Benchmark: RBTree Benchmark 59 completed
+[18496.266445] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 60
+[18499.917364] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18499.917368] C-RBTree-Benchmark: Starting 60-th rbtree test 
+[18500.888106] C-RBTree-Benchmark: Time to insert 1000000 elements: 968 ms
+[18501.098513] C-RBTree-Benchmark: Time to iterate over the rbtree: 210 ms
+[18501.268962] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18501.269022] C-RBTree-Benchmark: RBTree Benchmark 60 completed
+[18501.269024] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 61
+[18504.845564] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18504.845568] C-RBTree-Benchmark: Starting 61-th rbtree test 
+[18505.817091] C-RBTree-Benchmark: Time to insert 1000000 elements: 969 ms
+[18506.020386] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[18506.190210] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18506.190229] C-RBTree-Benchmark: RBTree Benchmark 61 completed
+[18506.190230] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 62
+[18509.735896] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18509.735900] C-RBTree-Benchmark: Starting 62-th rbtree test 
+[18510.703471] C-RBTree-Benchmark: Time to insert 1000000 elements: 965 ms
+[18510.901247] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18511.071063] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18511.071095] C-RBTree-Benchmark: RBTree Benchmark 62 completed
+[18511.071096] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 63
+[18514.603775] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18514.603778] C-RBTree-Benchmark: Starting 63-th rbtree test 
+[18515.592726] C-RBTree-Benchmark: Time to insert 1000000 elements: 987 ms
+[18515.792007] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18515.960795] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18515.960813] C-RBTree-Benchmark: RBTree Benchmark 63 completed
+[18515.960814] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 64
+[18519.522671] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18519.522678] C-RBTree-Benchmark: Starting 64-th rbtree test 
+[18520.492296] C-RBTree-Benchmark: Time to insert 1000000 elements: 966 ms
+[18520.699329] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[18520.874091] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18520.874109] C-RBTree-Benchmark: RBTree Benchmark 64 completed
+[18520.874110] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 65
+[18524.560444] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18524.560452] C-RBTree-Benchmark: Starting 65-th rbtree test 
+[18525.556665] C-RBTree-Benchmark: Time to insert 1000000 elements: 993 ms
+[18525.765615] C-RBTree-Benchmark: Time to iterate over the rbtree: 208 ms
+[18525.937411] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18525.937430] C-RBTree-Benchmark: RBTree Benchmark 65 completed
+[18525.937431] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 66
+[18529.590634] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18529.590641] C-RBTree-Benchmark: Starting 66-th rbtree test 
+[18530.582134] C-RBTree-Benchmark: Time to insert 1000000 elements: 989 ms
+[18530.787909] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[18530.959078] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18530.959133] C-RBTree-Benchmark: RBTree Benchmark 66 completed
+[18530.959135] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 67
+[18534.586683] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18534.586687] C-RBTree-Benchmark: Starting 67-th rbtree test 
+[18535.508082] C-RBTree-Benchmark: Time to insert 1000000 elements: 919 ms
+[18535.710893] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[18535.881039] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18535.881057] C-RBTree-Benchmark: RBTree Benchmark 67 completed
+[18535.881059] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 68
+[18539.520029] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18539.520032] C-RBTree-Benchmark: Starting 68-th rbtree test 
+[18540.400746] C-RBTree-Benchmark: Time to insert 1000000 elements: 879 ms
+[18540.596591] C-RBTree-Benchmark: Time to iterate over the rbtree: 195 ms
+[18540.766813] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18540.766901] C-RBTree-Benchmark: RBTree Benchmark 68 completed
+[18540.766903] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 69
+[18544.468577] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18544.468582] C-RBTree-Benchmark: Starting 69-th rbtree test 
+[18545.432016] C-RBTree-Benchmark: Time to insert 1000000 elements: 960 ms
+[18545.635578] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[18545.805638] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18545.805656] C-RBTree-Benchmark: RBTree Benchmark 69 completed
+[18545.805657] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 70
+[18549.340659] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18549.340662] C-RBTree-Benchmark: Starting 70-th rbtree test 
+[18550.246974] C-RBTree-Benchmark: Time to insert 1000000 elements: 904 ms
+[18550.446740] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18550.619087] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18550.619140] C-RBTree-Benchmark: RBTree Benchmark 70 completed
+[18550.619142] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 71
+[18554.307254] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18554.307258] C-RBTree-Benchmark: Starting 71-th rbtree test 
+[18555.279191] C-RBTree-Benchmark: Time to insert 1000000 elements: 969 ms
+[18555.472826] C-RBTree-Benchmark: Time to iterate over the rbtree: 193 ms
+[18555.643028] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18555.643057] C-RBTree-Benchmark: RBTree Benchmark 71 completed
+[18555.643059] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 72
+[18559.198673] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18559.198678] C-RBTree-Benchmark: Starting 72-th rbtree test 
+[18560.218568] C-RBTree-Benchmark: Time to insert 1000000 elements: 1017 ms
+[18560.416461] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18560.588924] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18560.588942] C-RBTree-Benchmark: RBTree Benchmark 72 completed
+[18560.588944] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 73
+[18564.068930] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18564.068934] C-RBTree-Benchmark: Starting 73-th rbtree test 
+[18564.995260] C-RBTree-Benchmark: Time to insert 1000000 elements: 924 ms
+[18565.187687] C-RBTree-Benchmark: Time to iterate over the rbtree: 192 ms
+[18565.362198] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18565.362259] C-RBTree-Benchmark: RBTree Benchmark 73 completed
+[18565.362261] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 74
+[18568.932887] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18568.932891] C-RBTree-Benchmark: Starting 74-th rbtree test 
+[18569.876847] C-RBTree-Benchmark: Time to insert 1000000 elements: 942 ms
+[18570.081612] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18570.250039] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18570.250094] C-RBTree-Benchmark: RBTree Benchmark 74 completed
+[18570.250096] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 75
+[18573.944962] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18573.944966] C-RBTree-Benchmark: Starting 75-th rbtree test 
+[18574.895804] C-RBTree-Benchmark: Time to insert 1000000 elements: 949 ms
+[18575.099576] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[18575.271288] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18575.271306] C-RBTree-Benchmark: RBTree Benchmark 75 completed
+[18575.271308] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 76
+[18578.893485] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18578.893489] C-RBTree-Benchmark: Starting 76-th rbtree test 
+[18579.802088] C-RBTree-Benchmark: Time to insert 1000000 elements: 907 ms
+[18579.994724] C-RBTree-Benchmark: Time to iterate over the rbtree: 192 ms
+[18580.156589] C-RBTree-Benchmark: Time to delete all the elements: 161 ms
+[18580.156608] C-RBTree-Benchmark: RBTree Benchmark 76 completed
+[18580.156609] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 77
+[18584.033836] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18584.033840] C-RBTree-Benchmark: Starting 77-th rbtree test 
+[18584.964636] C-RBTree-Benchmark: Time to insert 1000000 elements: 928 ms
+[18585.168627] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[18585.338254] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18585.338273] C-RBTree-Benchmark: RBTree Benchmark 77 completed
+[18585.338275] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 78
+[18589.023072] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18589.023080] C-RBTree-Benchmark: Starting 78-th rbtree test 
+[18590.019639] C-RBTree-Benchmark: Time to insert 1000000 elements: 992 ms
+[18590.222143] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[18590.399612] C-RBTree-Benchmark: Time to delete all the elements: 177 ms
+[18590.399670] C-RBTree-Benchmark: RBTree Benchmark 78 completed
+[18590.399671] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 79
+[18594.007024] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18594.007028] C-RBTree-Benchmark: Starting 79-th rbtree test 
+[18594.953672] C-RBTree-Benchmark: Time to insert 1000000 elements: 945 ms
+[18595.150010] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[18595.327500] C-RBTree-Benchmark: Time to delete all the elements: 177 ms
+[18595.327519] C-RBTree-Benchmark: RBTree Benchmark 79 completed
+[18595.327520] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 80
+[18598.867591] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18598.867595] C-RBTree-Benchmark: Starting 80-th rbtree test 
+[18599.886002] C-RBTree-Benchmark: Time to insert 1000000 elements: 1016 ms
+[18600.085901] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18600.254448] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18600.254477] C-RBTree-Benchmark: RBTree Benchmark 80 completed
+[18600.254479] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 81
+[18603.723255] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18603.723258] C-RBTree-Benchmark: Starting 81-th rbtree test 
+[18604.711473] C-RBTree-Benchmark: Time to insert 1000000 elements: 986 ms
+[18604.910331] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18605.076901] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[18605.076919] C-RBTree-Benchmark: RBTree Benchmark 81 completed
+[18605.076921] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 82
+[18608.668558] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18608.668561] C-RBTree-Benchmark: Starting 82-th rbtree test 
+[18609.600988] C-RBTree-Benchmark: Time to insert 1000000 elements: 930 ms
+[18609.796941] C-RBTree-Benchmark: Time to iterate over the rbtree: 195 ms
+[18609.968510] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18609.968528] C-RBTree-Benchmark: RBTree Benchmark 82 completed
+[18609.968530] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 83
+[18613.727908] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18613.727912] C-RBTree-Benchmark: Starting 83-th rbtree test 
+[18614.676304] C-RBTree-Benchmark: Time to insert 1000000 elements: 946 ms
+[18614.879242] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[18615.050225] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18615.050360] C-RBTree-Benchmark: RBTree Benchmark 83 completed
+[18615.050362] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 84
+[18618.795487] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18618.795495] C-RBTree-Benchmark: Starting 84-th rbtree test 
+[18619.760739] C-RBTree-Benchmark: Time to insert 1000000 elements: 962 ms
+[18619.961466] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18620.133278] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18620.133297] C-RBTree-Benchmark: RBTree Benchmark 84 completed
+[18620.133298] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 85
+[18623.940189] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18623.940193] C-RBTree-Benchmark: Starting 85-th rbtree test 
+[18624.927145] C-RBTree-Benchmark: Time to insert 1000000 elements: 984 ms
+[18625.128513] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[18625.304712] C-RBTree-Benchmark: Time to delete all the elements: 176 ms
+[18625.304767] C-RBTree-Benchmark: RBTree Benchmark 85 completed
+[18625.304769] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 86
+[18628.843651] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18628.843658] C-RBTree-Benchmark: Starting 86-th rbtree test 
+[18629.835302] C-RBTree-Benchmark: Time to insert 1000000 elements: 988 ms
+[18630.039322] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18630.210359] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18630.210460] C-RBTree-Benchmark: RBTree Benchmark 86 completed
+[18630.210463] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 87
+[18634.051423] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18634.051429] C-RBTree-Benchmark: Starting 87-th rbtree test 
+[18635.034024] C-RBTree-Benchmark: Time to insert 1000000 elements: 979 ms
+[18635.237768] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[18635.411869] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18635.411887] C-RBTree-Benchmark: RBTree Benchmark 87 completed
+[18635.411888] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 88
+[18638.980145] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18638.980152] C-RBTree-Benchmark: Starting 88-th rbtree test 
+[18639.941420] C-RBTree-Benchmark: Time to insert 1000000 elements: 958 ms
+[18640.140229] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18640.315283] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18640.315381] C-RBTree-Benchmark: RBTree Benchmark 88 completed
+[18640.315383] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 89
+[18643.916135] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18643.916139] C-RBTree-Benchmark: Starting 89-th rbtree test 
+[18644.830279] C-RBTree-Benchmark: Time to insert 1000000 elements: 912 ms
+[18645.018714] C-RBTree-Benchmark: Time to iterate over the rbtree: 188 ms
+[18645.184966] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[18645.185082] C-RBTree-Benchmark: RBTree Benchmark 89 completed
+[18645.185084] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 90
+[18648.799320] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18648.799330] C-RBTree-Benchmark: Starting 90-th rbtree test 
+[18649.794197] C-RBTree-Benchmark: Time to insert 1000000 elements: 991 ms
+[18649.998246] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18650.168151] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18650.168169] C-RBTree-Benchmark: RBTree Benchmark 90 completed
+[18650.168170] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 91
+[18653.838312] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18653.838318] C-RBTree-Benchmark: Starting 91-th rbtree test 
+[18654.807689] C-RBTree-Benchmark: Time to insert 1000000 elements: 967 ms
+[18655.011259] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[18655.179400] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18655.179419] C-RBTree-Benchmark: RBTree Benchmark 91 completed
+[18655.179420] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 92
+[18658.864008] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18658.864012] C-RBTree-Benchmark: Starting 92-th rbtree test 
+[18659.710687] C-RBTree-Benchmark: Time to insert 1000000 elements: 845 ms
+[18659.903473] C-RBTree-Benchmark: Time to iterate over the rbtree: 192 ms
+[18660.064304] C-RBTree-Benchmark: Time to delete all the elements: 160 ms
+[18660.064322] C-RBTree-Benchmark: RBTree Benchmark 92 completed
+[18660.064324] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 93
+[18663.735074] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18663.735078] C-RBTree-Benchmark: Starting 93-th rbtree test 
+[18664.642507] C-RBTree-Benchmark: Time to insert 1000000 elements: 905 ms
+[18664.840255] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18665.006898] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[18665.006964] C-RBTree-Benchmark: RBTree Benchmark 93 completed
+[18665.007002] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 94
+[18668.672953] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18668.672963] C-RBTree-Benchmark: Starting 94-th rbtree test 
+[18669.605096] C-RBTree-Benchmark: Time to insert 1000000 elements: 928 ms
+[18669.804753] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18669.974801] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18669.974819] C-RBTree-Benchmark: RBTree Benchmark 94 completed
+[18669.974820] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 95
+[18673.614224] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18673.614228] C-RBTree-Benchmark: Starting 95-th rbtree test 
+[18674.526658] C-RBTree-Benchmark: Time to insert 1000000 elements: 910 ms
+[18674.733210] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[18674.905817] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18674.905871] C-RBTree-Benchmark: RBTree Benchmark 95 completed
+[18674.905873] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 96
+[18678.484766] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18678.484769] C-RBTree-Benchmark: Starting 96-th rbtree test 
+[18679.433124] C-RBTree-Benchmark: Time to insert 1000000 elements: 946 ms
+[18679.620129] C-RBTree-Benchmark: Time to iterate over the rbtree: 186 ms
+[18679.786060] C-RBTree-Benchmark: Time to delete all the elements: 165 ms
+[18679.786078] C-RBTree-Benchmark: RBTree Benchmark 96 completed
+[18679.786080] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 97
+[18683.591478] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18683.591483] C-RBTree-Benchmark: Starting 97-th rbtree test 
+[18684.539258] C-RBTree-Benchmark: Time to insert 1000000 elements: 945 ms
+[18684.741993] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[18684.916839] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18684.916858] C-RBTree-Benchmark: RBTree Benchmark 97 completed
+[18684.916859] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 98
+[18688.700309] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18688.700318] C-RBTree-Benchmark: Starting 98-th rbtree test 
+[18689.667094] C-RBTree-Benchmark: Time to insert 1000000 elements: 963 ms
+[18689.871592] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18690.045956] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18690.045974] C-RBTree-Benchmark: RBTree Benchmark 98 completed
+[18690.045975] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 99
+[18693.758564] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18693.758569] C-RBTree-Benchmark: Starting 99-th rbtree test 
+[18694.635120] C-RBTree-Benchmark: Time to insert 1000000 elements: 874 ms
+[18694.840665] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[18695.012669] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18695.012687] C-RBTree-Benchmark: RBTree Benchmark 99 completed
+[18695.012688] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 100
+[18698.703068] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18698.703072] C-RBTree-Benchmark: Starting 100-th rbtree test 
+[18699.664352] C-RBTree-Benchmark: Time to insert 1000000 elements: 959 ms
+[18699.865472] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[18700.036617] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18700.036664] C-RBTree-Benchmark: RBTree Benchmark 100 completed
+[18700.036666] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 101
+[18703.636120] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18703.636136] C-RBTree-Benchmark: Starting 101-th rbtree test 
+[18704.559393] C-RBTree-Benchmark: Time to insert 1000000 elements: 921 ms
+[18704.759334] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18704.929930] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18704.929949] C-RBTree-Benchmark: RBTree Benchmark 101 completed
+[18704.929950] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 102
+[18708.641140] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18708.641144] C-RBTree-Benchmark: Starting 102-th rbtree test 
+[18709.505892] C-RBTree-Benchmark: Time to insert 1000000 elements: 863 ms
+[18709.697409] C-RBTree-Benchmark: Time to iterate over the rbtree: 191 ms
+[18709.860834] C-RBTree-Benchmark: Time to delete all the elements: 163 ms
+[18709.860892] C-RBTree-Benchmark: RBTree Benchmark 102 completed
+[18709.860893] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 103
+[18713.647403] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18713.647406] C-RBTree-Benchmark: Starting 103-th rbtree test 
+[18714.544065] C-RBTree-Benchmark: Time to insert 1000000 elements: 895 ms
+[18714.735762] C-RBTree-Benchmark: Time to iterate over the rbtree: 191 ms
+[18714.905039] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18714.905070] C-RBTree-Benchmark: RBTree Benchmark 103 completed
+[18714.905072] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 104
+[18718.742023] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18718.742028] C-RBTree-Benchmark: Starting 104-th rbtree test 
+[18719.756879] C-RBTree-Benchmark: Time to insert 1000000 elements: 1012 ms
+[18719.964518] C-RBTree-Benchmark: Time to iterate over the rbtree: 207 ms
+[18720.141431] C-RBTree-Benchmark: Time to delete all the elements: 176 ms
+[18720.141450] C-RBTree-Benchmark: RBTree Benchmark 104 completed
+[18720.141451] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 105
+[18723.794855] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18723.794858] C-RBTree-Benchmark: Starting 105-th rbtree test 
+[18724.718139] C-RBTree-Benchmark: Time to insert 1000000 elements: 921 ms
+[18724.914098] C-RBTree-Benchmark: Time to iterate over the rbtree: 195 ms
+[18725.079962] C-RBTree-Benchmark: Time to delete all the elements: 165 ms
+[18725.079980] C-RBTree-Benchmark: RBTree Benchmark 105 completed
+[18725.079981] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 106
+[18728.846389] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18728.846395] C-RBTree-Benchmark: Starting 106-th rbtree test 
+[18729.811910] C-RBTree-Benchmark: Time to insert 1000000 elements: 963 ms
+[18730.018195] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[18730.193457] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18730.193513] C-RBTree-Benchmark: RBTree Benchmark 106 completed
+[18730.193515] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 107
+[18733.696401] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18733.696405] C-RBTree-Benchmark: Starting 107-th rbtree test 
+[18734.597006] C-RBTree-Benchmark: Time to insert 1000000 elements: 898 ms
+[18734.795306] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18734.963055] C-RBTree-Benchmark: Time to delete all the elements: 167 ms
+[18734.963073] C-RBTree-Benchmark: RBTree Benchmark 107 completed
+[18734.963074] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 108
+[18738.746061] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18738.746065] C-RBTree-Benchmark: Starting 108-th rbtree test 
+[18739.674583] C-RBTree-Benchmark: Time to insert 1000000 elements: 926 ms
+[18739.872441] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18740.042502] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18740.042554] C-RBTree-Benchmark: RBTree Benchmark 108 completed
+[18740.042556] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 109
+[18743.625501] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18743.625505] C-RBTree-Benchmark: Starting 109-th rbtree test 
+[18744.549635] C-RBTree-Benchmark: Time to insert 1000000 elements: 922 ms
+[18744.743932] C-RBTree-Benchmark: Time to iterate over the rbtree: 194 ms
+[18744.912738] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18744.912756] C-RBTree-Benchmark: RBTree Benchmark 109 completed
+[18744.912758] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 110
+[18748.614482] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18748.614486] C-RBTree-Benchmark: Starting 110-th rbtree test 
+[18749.553486] C-RBTree-Benchmark: Time to insert 1000000 elements: 937 ms
+[18749.750660] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18749.924232] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[18749.924251] C-RBTree-Benchmark: RBTree Benchmark 110 completed
+[18749.924252] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 111
+[18753.612172] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18753.612178] C-RBTree-Benchmark: Starting 111-th rbtree test 
+[18754.469433] C-RBTree-Benchmark: Time to insert 1000000 elements: 855 ms
+[18754.662250] C-RBTree-Benchmark: Time to iterate over the rbtree: 192 ms
+[18754.824460] C-RBTree-Benchmark: Time to delete all the elements: 162 ms
+[18754.824478] C-RBTree-Benchmark: RBTree Benchmark 111 completed
+[18754.824479] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 112
+[18758.589460] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18758.589463] C-RBTree-Benchmark: Starting 112-th rbtree test 
+[18759.543233] C-RBTree-Benchmark: Time to insert 1000000 elements: 952 ms
+[18759.748534] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[18759.922287] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[18759.922305] C-RBTree-Benchmark: RBTree Benchmark 112 completed
+[18759.922307] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 113
+[18763.630197] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18763.630201] C-RBTree-Benchmark: Starting 113-th rbtree test 
+[18764.563464] C-RBTree-Benchmark: Time to insert 1000000 elements: 931 ms
+[18764.765294] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[18764.940039] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18764.940058] C-RBTree-Benchmark: RBTree Benchmark 113 completed
+[18764.940059] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 114
+[18768.589179] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18768.589182] C-RBTree-Benchmark: Starting 114-th rbtree test 
+[18769.522454] C-RBTree-Benchmark: Time to insert 1000000 elements: 931 ms
+[18769.727409] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18769.904574] C-RBTree-Benchmark: Time to delete all the elements: 177 ms
+[18769.904592] C-RBTree-Benchmark: RBTree Benchmark 114 completed
+[18769.904594] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 115
+[18773.478759] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18773.478765] C-RBTree-Benchmark: Starting 115-th rbtree test 
+[18774.469010] C-RBTree-Benchmark: Time to insert 1000000 elements: 988 ms
+[18774.673270] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18774.846752] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[18774.846805] C-RBTree-Benchmark: RBTree Benchmark 115 completed
+[18774.846806] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 116
+[18778.548324] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18778.548331] C-RBTree-Benchmark: Starting 116-th rbtree test 
+[18779.421734] C-RBTree-Benchmark: Time to insert 1000000 elements: 870 ms
+[18779.617865] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[18779.785764] C-RBTree-Benchmark: Time to delete all the elements: 167 ms
+[18779.785783] C-RBTree-Benchmark: RBTree Benchmark 116 completed
+[18779.785785] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 117
+[18783.667860] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18783.667864] C-RBTree-Benchmark: Starting 117-th rbtree test 
+[18784.682686] C-RBTree-Benchmark: Time to insert 1000000 elements: 1012 ms
+[18784.886752] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18785.060940] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18785.060957] C-RBTree-Benchmark: RBTree Benchmark 117 completed
+[18785.060959] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 118
+[18788.683778] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18788.683785] C-RBTree-Benchmark: Starting 118-th rbtree test 
+[18789.695761] C-RBTree-Benchmark: Time to insert 1000000 elements: 1008 ms
+[18789.893068] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18790.062961] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18790.062979] C-RBTree-Benchmark: RBTree Benchmark 118 completed
+[18790.062981] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 119
+[18793.824005] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18793.824015] C-RBTree-Benchmark: Starting 119-th rbtree test 
+[18794.717729] C-RBTree-Benchmark: Time to insert 1000000 elements: 890 ms
+[18794.909334] C-RBTree-Benchmark: Time to iterate over the rbtree: 191 ms
+[18795.073537] C-RBTree-Benchmark: Time to delete all the elements: 164 ms
+[18795.073555] C-RBTree-Benchmark: RBTree Benchmark 119 completed
+[18795.073556] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 120
+[18798.821214] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18798.821217] C-RBTree-Benchmark: Starting 120-th rbtree test 
+[18799.731257] C-RBTree-Benchmark: Time to insert 1000000 elements: 908 ms
+[18799.929050] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18800.098851] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18800.098869] C-RBTree-Benchmark: RBTree Benchmark 120 completed
+[18800.098870] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 121
+[18803.787785] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18803.787788] C-RBTree-Benchmark: Starting 121-th rbtree test 
+[18804.729935] C-RBTree-Benchmark: Time to insert 1000000 elements: 940 ms
+[18804.927792] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18805.100602] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18805.100625] C-RBTree-Benchmark: RBTree Benchmark 121 completed
+[18805.100627] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 122
+[18808.769051] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18808.769054] C-RBTree-Benchmark: Starting 122-th rbtree test 
+[18809.722721] C-RBTree-Benchmark: Time to insert 1000000 elements: 952 ms
+[18809.923524] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18810.098080] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18810.098098] C-RBTree-Benchmark: RBTree Benchmark 122 completed
+[18810.098099] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 123
+[18813.698410] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18813.698416] C-RBTree-Benchmark: Starting 123-th rbtree test 
+[18814.699051] C-RBTree-Benchmark: Time to insert 1000000 elements: 997 ms
+[18814.896325] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18815.067287] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18815.067305] C-RBTree-Benchmark: RBTree Benchmark 123 completed
+[18815.067306] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 124
+[18818.718274] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18818.718285] C-RBTree-Benchmark: Starting 124-th rbtree test 
+[18819.701632] C-RBTree-Benchmark: Time to insert 1000000 elements: 978 ms
+[18819.908830] C-RBTree-Benchmark: Time to iterate over the rbtree: 207 ms
+[18820.085957] C-RBTree-Benchmark: Time to delete all the elements: 177 ms
+[18820.086084] C-RBTree-Benchmark: RBTree Benchmark 124 completed
+[18820.086085] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 125
+[18823.801811] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18823.801816] C-RBTree-Benchmark: Starting 125-th rbtree test 
+[18824.776453] C-RBTree-Benchmark: Time to insert 1000000 elements: 971 ms
+[18824.976504] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18825.148304] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18825.148333] C-RBTree-Benchmark: RBTree Benchmark 125 completed
+[18825.148335] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 126
+[18828.787197] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18828.787201] C-RBTree-Benchmark: Starting 126-th rbtree test 
+[18829.713800] C-RBTree-Benchmark: Time to insert 1000000 elements: 924 ms
+[18829.909900] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[18830.108195] C-RBTree-Benchmark: Time to delete all the elements: 198 ms
+[18830.108214] C-RBTree-Benchmark: RBTree Benchmark 126 completed
+[18830.108215] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 127
+[18833.831739] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18833.831748] C-RBTree-Benchmark: Starting 127-th rbtree test 
+[18834.814777] C-RBTree-Benchmark: Time to insert 1000000 elements: 980 ms
+[18835.023816] C-RBTree-Benchmark: Time to iterate over the rbtree: 209 ms
+[18835.200639] C-RBTree-Benchmark: Time to delete all the elements: 176 ms
+[18835.200657] C-RBTree-Benchmark: RBTree Benchmark 127 completed
+[18835.200658] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 128
+[18839.017020] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18839.017025] C-RBTree-Benchmark: Starting 128-th rbtree test 
+[18839.947552] C-RBTree-Benchmark: Time to insert 1000000 elements: 928 ms
+[18840.145351] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18840.317444] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18840.317498] C-RBTree-Benchmark: RBTree Benchmark 128 completed
+[18840.317500] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 129
+[18843.988350] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18843.988363] C-RBTree-Benchmark: Starting 129-th rbtree test 
+[18844.989870] C-RBTree-Benchmark: Time to insert 1000000 elements: 997 ms
+[18845.187490] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18845.362452] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18845.362471] C-RBTree-Benchmark: RBTree Benchmark 129 completed
+[18845.362472] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 130
+[18848.877237] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18848.877242] C-RBTree-Benchmark: Starting 130-th rbtree test 
+[18849.841719] C-RBTree-Benchmark: Time to insert 1000000 elements: 962 ms
+[18850.039270] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18850.210751] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18850.210807] C-RBTree-Benchmark: RBTree Benchmark 130 completed
+[18850.210808] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 131
+[18853.795739] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18853.795743] C-RBTree-Benchmark: Starting 131-th rbtree test 
+[18854.728968] C-RBTree-Benchmark: Time to insert 1000000 elements: 931 ms
+[18854.921772] C-RBTree-Benchmark: Time to iterate over the rbtree: 192 ms
+[18855.094297] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18855.094314] C-RBTree-Benchmark: RBTree Benchmark 131 completed
+[18855.094315] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 132
+[18858.764450] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18858.764453] C-RBTree-Benchmark: Starting 132-th rbtree test 
+[18859.705102] C-RBTree-Benchmark: Time to insert 1000000 elements: 939 ms
+[18859.902974] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18860.071949] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[18860.071966] C-RBTree-Benchmark: RBTree Benchmark 132 completed
+[18860.071968] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 133
+[18863.737634] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18863.737640] C-RBTree-Benchmark: Starting 133-th rbtree test 
+[18864.724936] C-RBTree-Benchmark: Time to insert 1000000 elements: 984 ms
+[18864.928657] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[18865.098900] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18865.098917] C-RBTree-Benchmark: RBTree Benchmark 133 completed
+[18865.098919] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 134
+[18868.795042] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18868.795046] C-RBTree-Benchmark: Starting 134-th rbtree test 
+[18869.760541] C-RBTree-Benchmark: Time to insert 1000000 elements: 963 ms
+[18869.966899] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[18870.144591] C-RBTree-Benchmark: Time to delete all the elements: 177 ms
+[18870.144610] C-RBTree-Benchmark: RBTree Benchmark 134 completed
+[18870.144611] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 135
+[18873.680459] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18873.680464] C-RBTree-Benchmark: Starting 135-th rbtree test 
+[18874.711991] C-RBTree-Benchmark: Time to insert 1000000 elements: 1029 ms
+[18874.915289] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[18875.087975] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18875.087993] C-RBTree-Benchmark: RBTree Benchmark 135 completed
+[18875.087994] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 136
+[18878.760655] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18878.760658] C-RBTree-Benchmark: Starting 136-th rbtree test 
+[18879.677672] C-RBTree-Benchmark: Time to insert 1000000 elements: 915 ms
+[18879.877526] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18880.046608] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18880.046626] C-RBTree-Benchmark: RBTree Benchmark 136 completed
+[18880.046627] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 137
+[18883.665708] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18883.665717] C-RBTree-Benchmark: Starting 137-th rbtree test 
+[18884.616408] C-RBTree-Benchmark: Time to insert 1000000 elements: 947 ms
+[18884.819654] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[18884.994249] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18884.994267] C-RBTree-Benchmark: RBTree Benchmark 137 completed
+[18884.994268] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 138
+[18888.588350] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18888.588354] C-RBTree-Benchmark: Starting 138-th rbtree test 
+[18889.504658] C-RBTree-Benchmark: Time to insert 1000000 elements: 914 ms
+[18889.701517] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[18889.872221] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18889.872253] C-RBTree-Benchmark: RBTree Benchmark 138 completed
+[18889.872255] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 139
+[18893.624317] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18893.624323] C-RBTree-Benchmark: Starting 139-th rbtree test 
+[18894.603139] C-RBTree-Benchmark: Time to insert 1000000 elements: 976 ms
+[18894.809695] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[18894.983574] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[18894.983592] C-RBTree-Benchmark: RBTree Benchmark 139 completed
+[18894.983593] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 140
+[18898.721221] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18898.721225] C-RBTree-Benchmark: Starting 140-th rbtree test 
+[18899.617678] C-RBTree-Benchmark: Time to insert 1000000 elements: 894 ms
+[18899.815681] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18899.985762] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18899.985780] C-RBTree-Benchmark: RBTree Benchmark 140 completed
+[18899.985781] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 141
+[18903.661085] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18903.661088] C-RBTree-Benchmark: Starting 141-th rbtree test 
+[18904.634337] C-RBTree-Benchmark: Time to insert 1000000 elements: 971 ms
+[18904.834324] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[18905.004117] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18905.004135] C-RBTree-Benchmark: RBTree Benchmark 141 completed
+[18905.004137] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 142
+[18908.630697] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18908.630703] C-RBTree-Benchmark: Starting 142-th rbtree test 
+[18909.586304] C-RBTree-Benchmark: Time to insert 1000000 elements: 953 ms
+[18909.792179] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[18909.967065] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18909.967084] C-RBTree-Benchmark: RBTree Benchmark 142 completed
+[18909.967085] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 143
+[18913.620769] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18913.620775] C-RBTree-Benchmark: Starting 143-th rbtree test 
+[18914.614438] C-RBTree-Benchmark: Time to insert 1000000 elements: 991 ms
+[18914.827699] C-RBTree-Benchmark: Time to iterate over the rbtree: 213 ms
+[18915.004400] C-RBTree-Benchmark: Time to delete all the elements: 176 ms
+[18915.004459] C-RBTree-Benchmark: RBTree Benchmark 143 completed
+[18915.004461] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 144
+[18918.686772] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18918.686776] C-RBTree-Benchmark: Starting 144-th rbtree test 
+[18919.631311] C-RBTree-Benchmark: Time to insert 1000000 elements: 942 ms
+[18919.833355] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[18920.006094] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[18920.006158] C-RBTree-Benchmark: RBTree Benchmark 144 completed
+[18920.006159] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 145
+[18923.573647] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18923.573653] C-RBTree-Benchmark: Starting 145-th rbtree test 
+[18924.568834] C-RBTree-Benchmark: Time to insert 1000000 elements: 993 ms
+[18924.766491] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[18924.936490] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18924.936508] C-RBTree-Benchmark: RBTree Benchmark 145 completed
+[18924.936509] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 146
+[18928.713873] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18928.713877] C-RBTree-Benchmark: Starting 146-th rbtree test 
+[18929.615193] C-RBTree-Benchmark: Time to insert 1000000 elements: 899 ms
+[18929.816600] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[18929.987402] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18929.987459] C-RBTree-Benchmark: RBTree Benchmark 146 completed
+[18929.987461] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 147
+[18933.621137] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18933.621141] C-RBTree-Benchmark: Starting 147-th rbtree test 
+[18934.549386] C-RBTree-Benchmark: Time to insert 1000000 elements: 926 ms
+[18934.742965] C-RBTree-Benchmark: Time to iterate over the rbtree: 193 ms
+[18934.908253] C-RBTree-Benchmark: Time to delete all the elements: 165 ms
+[18934.908271] C-RBTree-Benchmark: RBTree Benchmark 147 completed
+[18934.908272] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 148
+[18938.594881] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18938.594889] C-RBTree-Benchmark: Starting 148-th rbtree test 
+[18939.584002] C-RBTree-Benchmark: Time to insert 1000000 elements: 986 ms
+[18939.784354] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[18939.955920] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18939.955972] C-RBTree-Benchmark: RBTree Benchmark 148 completed
+[18939.955974] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 149
+[18943.560579] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18943.560585] C-RBTree-Benchmark: Starting 149-th rbtree test 
+[18944.586613] C-RBTree-Benchmark: Time to insert 1000000 elements: 1023 ms
+[18944.783180] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[18944.953226] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18944.953284] C-RBTree-Benchmark: RBTree Benchmark 149 completed
+[18944.953285] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 150
+[18948.659446] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18948.659451] C-RBTree-Benchmark: Starting 150-th rbtree test 
+[18949.626039] C-RBTree-Benchmark: Time to insert 1000000 elements: 964 ms
+[18949.830414] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18950.004537] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[18950.004594] C-RBTree-Benchmark: RBTree Benchmark 150 completed
+[18950.004595] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 151
+[18953.724773] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18953.724779] C-RBTree-Benchmark: Starting 151-th rbtree test 
+[18954.709033] C-RBTree-Benchmark: Time to insert 1000000 elements: 982 ms
+[18954.913062] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[18955.084065] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18955.084151] C-RBTree-Benchmark: RBTree Benchmark 151 completed
+[18955.084153] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 152
+[18958.694869] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18958.694874] C-RBTree-Benchmark: Starting 152-th rbtree test 
+[18959.683604] C-RBTree-Benchmark: Time to insert 1000000 elements: 986 ms
+[18959.892681] C-RBTree-Benchmark: Time to iterate over the rbtree: 209 ms
+[18960.068615] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18960.068634] C-RBTree-Benchmark: RBTree Benchmark 152 completed
+[18960.068635] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 153
+[18963.727730] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18963.727736] C-RBTree-Benchmark: Starting 153-th rbtree test 
+[18964.633464] C-RBTree-Benchmark: Time to insert 1000000 elements: 903 ms
+[18964.839899] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[18965.015947] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18965.016004] C-RBTree-Benchmark: RBTree Benchmark 153 completed
+[18965.016006] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 154
+[18968.698308] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18968.698312] C-RBTree-Benchmark: Starting 154-th rbtree test 
+[18969.640060] C-RBTree-Benchmark: Time to insert 1000000 elements: 940 ms
+[18969.832948] C-RBTree-Benchmark: Time to iterate over the rbtree: 192 ms
+[18970.003179] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[18970.003197] C-RBTree-Benchmark: RBTree Benchmark 154 completed
+[18970.003199] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 155
+[18973.687841] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18973.687847] C-RBTree-Benchmark: Starting 155-th rbtree test 
+[18974.691524] C-RBTree-Benchmark: Time to insert 1000000 elements: 1000 ms
+[18974.890374] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18975.061430] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[18975.061520] C-RBTree-Benchmark: RBTree Benchmark 155 completed
+[18975.061522] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 156
+[18978.714862] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18978.714867] C-RBTree-Benchmark: Starting 156-th rbtree test 
+[18979.721725] C-RBTree-Benchmark: Time to insert 1000000 elements: 1004 ms
+[18979.937062] C-RBTree-Benchmark: Time to iterate over the rbtree: 215 ms
+[18980.134901] C-RBTree-Benchmark: Time to delete all the elements: 197 ms
+[18980.134948] C-RBTree-Benchmark: RBTree Benchmark 156 completed
+[18980.134950] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 157
+[18983.789830] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18983.789834] C-RBTree-Benchmark: Starting 157-th rbtree test 
+[18984.729138] C-RBTree-Benchmark: Time to insert 1000000 elements: 937 ms
+[18984.927602] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[18985.096616] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[18985.096635] C-RBTree-Benchmark: RBTree Benchmark 157 completed
+[18985.096636] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 158
+[18988.984821] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18988.984825] C-RBTree-Benchmark: Starting 158-th rbtree test 
+[18989.964783] C-RBTree-Benchmark: Time to insert 1000000 elements: 978 ms
+[18990.176897] C-RBTree-Benchmark: Time to iterate over the rbtree: 212 ms
+[18990.352718] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[18990.352736] C-RBTree-Benchmark: RBTree Benchmark 158 completed
+[18990.352738] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 159
+[18994.046411] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18994.046415] C-RBTree-Benchmark: Starting 159-th rbtree test 
+[18994.969168] C-RBTree-Benchmark: Time to insert 1000000 elements: 921 ms
+[18995.182173] C-RBTree-Benchmark: Time to iterate over the rbtree: 212 ms
+[18995.358554] C-RBTree-Benchmark: Time to delete all the elements: 176 ms
+[18995.358572] C-RBTree-Benchmark: RBTree Benchmark 159 completed
+[18995.358573] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 160
+[18999.005277] C-RBTree-Benchmark: RBTree Benchmark Module init
+[18999.005280] C-RBTree-Benchmark: Starting 160-th rbtree test 
+[18999.964249] C-RBTree-Benchmark: Time to insert 1000000 elements: 957 ms
+[19000.163532] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[19000.334667] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19000.334712] C-RBTree-Benchmark: RBTree Benchmark 160 completed
+[19000.334714] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 161
+[19004.072545] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19004.072548] C-RBTree-Benchmark: Starting 161-th rbtree test 
+[19005.037018] C-RBTree-Benchmark: Time to insert 1000000 elements: 962 ms
+[19005.238810] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[19005.410376] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19005.410394] C-RBTree-Benchmark: RBTree Benchmark 161 completed
+[19005.410396] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 162
+[19008.993494] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19008.993502] C-RBTree-Benchmark: Starting 162-th rbtree test 
+[19009.961686] C-RBTree-Benchmark: Time to insert 1000000 elements: 965 ms
+[19010.161202] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[19010.327572] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[19010.327589] C-RBTree-Benchmark: RBTree Benchmark 162 completed
+[19010.327591] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 163
+[19013.980654] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19013.980657] C-RBTree-Benchmark: Starting 163-th rbtree test 
+[19014.937212] C-RBTree-Benchmark: Time to insert 1000000 elements: 955 ms
+[19015.141902] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[19015.316538] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[19015.316557] C-RBTree-Benchmark: RBTree Benchmark 163 completed
+[19015.316558] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 164
+[19018.918944] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19018.918951] C-RBTree-Benchmark: Starting 164-th rbtree test 
+[19019.909743] C-RBTree-Benchmark: Time to insert 1000000 elements: 988 ms
+[19020.110515] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[19020.281869] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19020.281888] C-RBTree-Benchmark: RBTree Benchmark 164 completed
+[19020.281890] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 165
+[19023.794954] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19023.794959] C-RBTree-Benchmark: Starting 165-th rbtree test 
+[19024.713425] C-RBTree-Benchmark: Time to insert 1000000 elements: 916 ms
+[19024.904829] C-RBTree-Benchmark: Time to iterate over the rbtree: 191 ms
+[19025.071463] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[19025.071480] C-RBTree-Benchmark: RBTree Benchmark 165 completed
+[19025.071482] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 166
+[19028.796241] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19028.796245] C-RBTree-Benchmark: Starting 166-th rbtree test 
+[19029.718309] C-RBTree-Benchmark: Time to insert 1000000 elements: 920 ms
+[19029.911599] C-RBTree-Benchmark: Time to iterate over the rbtree: 193 ms
+[19030.082372] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19030.082389] C-RBTree-Benchmark: RBTree Benchmark 166 completed
+[19030.082391] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 167
+[19033.829834] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19033.829840] C-RBTree-Benchmark: Starting 167-th rbtree test 
+[19034.821041] C-RBTree-Benchmark: Time to insert 1000000 elements: 989 ms
+[19035.022891] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[19035.193966] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19035.194015] C-RBTree-Benchmark: RBTree Benchmark 167 completed
+[19035.194016] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 168
+[19038.769696] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19038.769701] C-RBTree-Benchmark: Starting 168-th rbtree test 
+[19039.713027] C-RBTree-Benchmark: Time to insert 1000000 elements: 941 ms
+[19039.908005] C-RBTree-Benchmark: Time to iterate over the rbtree: 194 ms
+[19040.076733] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[19040.076785] C-RBTree-Benchmark: RBTree Benchmark 168 completed
+[19040.076787] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 169
+[19043.635724] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19043.635727] C-RBTree-Benchmark: Starting 169-th rbtree test 
+[19044.590909] C-RBTree-Benchmark: Time to insert 1000000 elements: 953 ms
+[19044.788550] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[19044.953999] C-RBTree-Benchmark: Time to delete all the elements: 165 ms
+[19044.954017] C-RBTree-Benchmark: RBTree Benchmark 169 completed
+[19044.954018] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 170
+[19048.700394] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19048.700402] C-RBTree-Benchmark: Starting 170-th rbtree test 
+[19049.665524] C-RBTree-Benchmark: Time to insert 1000000 elements: 962 ms
+[19049.855488] C-RBTree-Benchmark: Time to iterate over the rbtree: 189 ms
+[19050.022201] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[19050.022220] C-RBTree-Benchmark: RBTree Benchmark 170 completed
+[19050.022221] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 171
+[19053.576644] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19053.576647] C-RBTree-Benchmark: Starting 171-th rbtree test 
+[19054.482295] C-RBTree-Benchmark: Time to insert 1000000 elements: 904 ms
+[19054.677123] C-RBTree-Benchmark: Time to iterate over the rbtree: 194 ms
+[19054.839032] C-RBTree-Benchmark: Time to delete all the elements: 161 ms
+[19054.839090] C-RBTree-Benchmark: RBTree Benchmark 171 completed
+[19054.839092] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 172
+[19058.490742] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19058.490745] C-RBTree-Benchmark: Starting 172-th rbtree test 
+[19059.315047] C-RBTree-Benchmark: Time to insert 1000000 elements: 822 ms
+[19059.505694] C-RBTree-Benchmark: Time to iterate over the rbtree: 190 ms
+[19059.665559] C-RBTree-Benchmark: Time to delete all the elements: 159 ms
+[19059.665577] C-RBTree-Benchmark: RBTree Benchmark 172 completed
+[19059.665578] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 173
+[19063.405601] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19063.405608] C-RBTree-Benchmark: Starting 173-th rbtree test 
+[19064.367484] C-RBTree-Benchmark: Time to insert 1000000 elements: 959 ms
+[19064.574760] C-RBTree-Benchmark: Time to iterate over the rbtree: 207 ms
+[19064.750281] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[19064.750348] C-RBTree-Benchmark: RBTree Benchmark 173 completed
+[19064.750350] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 174
+[19068.359745] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19068.359749] C-RBTree-Benchmark: Starting 174-th rbtree test 
+[19069.248148] C-RBTree-Benchmark: Time to insert 1000000 elements: 886 ms
+[19069.436423] C-RBTree-Benchmark: Time to iterate over the rbtree: 188 ms
+[19069.608392] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19069.608411] C-RBTree-Benchmark: RBTree Benchmark 174 completed
+[19069.608412] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 175
+[19073.371622] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19073.371625] C-RBTree-Benchmark: Starting 175-th rbtree test 
+[19074.267672] C-RBTree-Benchmark: Time to insert 1000000 elements: 894 ms
+[19074.461128] C-RBTree-Benchmark: Time to iterate over the rbtree: 193 ms
+[19074.631176] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19074.631194] C-RBTree-Benchmark: RBTree Benchmark 175 completed
+[19074.631196] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 176
+[19078.223844] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19078.223849] C-RBTree-Benchmark: Starting 176-th rbtree test 
+[19079.203504] C-RBTree-Benchmark: Time to insert 1000000 elements: 977 ms
+[19079.399985] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[19079.568757] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[19079.568775] C-RBTree-Benchmark: RBTree Benchmark 176 completed
+[19079.568777] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 177
+[19083.044203] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19083.044206] C-RBTree-Benchmark: Starting 177-th rbtree test 
+[19083.960458] C-RBTree-Benchmark: Time to insert 1000000 elements: 914 ms
+[19084.150249] C-RBTree-Benchmark: Time to iterate over the rbtree: 189 ms
+[19084.316299] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[19084.316317] C-RBTree-Benchmark: RBTree Benchmark 177 completed
+[19084.316319] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 178
+[19087.906205] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19087.906209] C-RBTree-Benchmark: Starting 178-th rbtree test 
+[19088.892372] C-RBTree-Benchmark: Time to insert 1000000 elements: 984 ms
+[19089.091822] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[19089.260865] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[19089.260883] C-RBTree-Benchmark: RBTree Benchmark 178 completed
+[19089.260884] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 179
+[19092.920967] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19092.920971] C-RBTree-Benchmark: Starting 179-th rbtree test 
+[19093.848260] C-RBTree-Benchmark: Time to insert 1000000 elements: 925 ms
+[19094.043403] C-RBTree-Benchmark: Time to iterate over the rbtree: 195 ms
+[19094.211005] C-RBTree-Benchmark: Time to delete all the elements: 167 ms
+[19094.211023] C-RBTree-Benchmark: RBTree Benchmark 179 completed
+[19094.211025] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 180
+[19097.969678] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19097.969683] C-RBTree-Benchmark: Starting 180-th rbtree test 
+[19098.954635] C-RBTree-Benchmark: Time to insert 1000000 elements: 982 ms
+[19099.154575] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[19099.325247] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19099.325267] C-RBTree-Benchmark: RBTree Benchmark 180 completed
+[19099.325268] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 181
+[19102.850120] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19102.850124] C-RBTree-Benchmark: Starting 181-th rbtree test 
+[19103.778702] C-RBTree-Benchmark: Time to insert 1000000 elements: 926 ms
+[19103.972437] C-RBTree-Benchmark: Time to iterate over the rbtree: 193 ms
+[19104.136501] C-RBTree-Benchmark: Time to delete all the elements: 164 ms
+[19104.136519] C-RBTree-Benchmark: RBTree Benchmark 181 completed
+[19104.136520] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 182
+[19107.839820] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19107.839826] C-RBTree-Benchmark: Starting 182-th rbtree test 
+[19108.822033] C-RBTree-Benchmark: Time to insert 1000000 elements: 979 ms
+[19109.022818] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[19109.197014] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[19109.197032] C-RBTree-Benchmark: RBTree Benchmark 182 completed
+[19109.197034] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 183
+[19112.951214] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19112.951220] C-RBTree-Benchmark: Starting 183-th rbtree test 
+[19113.892041] C-RBTree-Benchmark: Time to insert 1000000 elements: 938 ms
+[19114.085847] C-RBTree-Benchmark: Time to iterate over the rbtree: 193 ms
+[19114.252818] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[19114.252837] C-RBTree-Benchmark: RBTree Benchmark 183 completed
+[19114.252839] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 184
+[19117.905422] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19117.905426] C-RBTree-Benchmark: Starting 184-th rbtree test 
+[19118.833673] C-RBTree-Benchmark: Time to insert 1000000 elements: 926 ms
+[19119.022431] C-RBTree-Benchmark: Time to iterate over the rbtree: 188 ms
+[19119.191930] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[19119.191949] C-RBTree-Benchmark: RBTree Benchmark 184 completed
+[19119.191950] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 185
+[19122.983464] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19122.983468] C-RBTree-Benchmark: Starting 185-th rbtree test 
+[19123.942878] C-RBTree-Benchmark: Time to insert 1000000 elements: 957 ms
+[19124.142539] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[19124.317360] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[19124.317419] C-RBTree-Benchmark: RBTree Benchmark 185 completed
+[19124.317421] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 186
+[19128.014854] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19128.014857] C-RBTree-Benchmark: Starting 186-th rbtree test 
+[19128.955295] C-RBTree-Benchmark: Time to insert 1000000 elements: 938 ms
+[19129.144110] C-RBTree-Benchmark: Time to iterate over the rbtree: 188 ms
+[19129.314441] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19129.314459] C-RBTree-Benchmark: RBTree Benchmark 186 completed
+[19129.314460] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 187
+[19133.001382] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19133.001386] C-RBTree-Benchmark: Starting 187-th rbtree test 
+[19133.832516] C-RBTree-Benchmark: Time to insert 1000000 elements: 829 ms
+[19134.026067] C-RBTree-Benchmark: Time to iterate over the rbtree: 193 ms
+[19134.191877] C-RBTree-Benchmark: Time to delete all the elements: 165 ms
+[19134.191896] C-RBTree-Benchmark: RBTree Benchmark 187 completed
+[19134.191897] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 188
+[19137.819629] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19137.819633] C-RBTree-Benchmark: Starting 188-th rbtree test 
+[19138.766138] C-RBTree-Benchmark: Time to insert 1000000 elements: 944 ms
+[19138.952762] C-RBTree-Benchmark: Time to iterate over the rbtree: 186 ms
+[19139.116968] C-RBTree-Benchmark: Time to delete all the elements: 164 ms
+[19139.117021] C-RBTree-Benchmark: RBTree Benchmark 188 completed
+[19139.117023] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 189
+[19142.779825] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19142.779829] C-RBTree-Benchmark: Starting 189-th rbtree test 
+[19143.710789] C-RBTree-Benchmark: Time to insert 1000000 elements: 928 ms
+[19143.923620] C-RBTree-Benchmark: Time to iterate over the rbtree: 212 ms
+[19144.098921] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[19144.098939] C-RBTree-Benchmark: RBTree Benchmark 189 completed
+[19144.098941] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 190
+[19147.760979] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19147.760984] C-RBTree-Benchmark: Starting 190-th rbtree test 
+[19148.694643] C-RBTree-Benchmark: Time to insert 1000000 elements: 932 ms
+[19148.901929] C-RBTree-Benchmark: Time to iterate over the rbtree: 207 ms
+[19149.075586] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[19149.075604] C-RBTree-Benchmark: RBTree Benchmark 190 completed
+[19149.075605] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 191
+[19152.614281] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19152.614284] C-RBTree-Benchmark: Starting 191-th rbtree test 
+[19153.506275] C-RBTree-Benchmark: Time to insert 1000000 elements: 890 ms
+[19153.699313] C-RBTree-Benchmark: Time to iterate over the rbtree: 192 ms
+[19153.863193] C-RBTree-Benchmark: Time to delete all the elements: 163 ms
+[19153.863251] C-RBTree-Benchmark: RBTree Benchmark 191 completed
+[19153.863253] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 192
+[19157.603361] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19157.603364] C-RBTree-Benchmark: Starting 192-th rbtree test 
+[19158.532448] C-RBTree-Benchmark: Time to insert 1000000 elements: 927 ms
+[19158.732206] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[19158.904952] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[19158.905008] C-RBTree-Benchmark: RBTree Benchmark 192 completed
+[19158.905009] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 193
+[19162.490397] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19162.490401] C-RBTree-Benchmark: Starting 193-th rbtree test 
+[19163.460398] C-RBTree-Benchmark: Time to insert 1000000 elements: 968 ms
+[19163.657554] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[19163.832272] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[19163.832327] C-RBTree-Benchmark: RBTree Benchmark 193 completed
+[19163.832329] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 194
+[19167.582253] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19167.582260] C-RBTree-Benchmark: Starting 194-th rbtree test 
+[19168.577547] C-RBTree-Benchmark: Time to insert 1000000 elements: 991 ms
+[19168.778968] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[19168.950361] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19168.950379] C-RBTree-Benchmark: RBTree Benchmark 194 completed
+[19168.950380] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 195
+[19172.636102] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19172.636106] C-RBTree-Benchmark: Starting 195-th rbtree test 
+[19173.621809] C-RBTree-Benchmark: Time to insert 1000000 elements: 983 ms
+[19173.824257] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[19173.997826] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[19173.997845] C-RBTree-Benchmark: RBTree Benchmark 195 completed
+[19173.997847] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 196
+[19177.599750] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19177.599758] C-RBTree-Benchmark: Starting 196-th rbtree test 
+[19178.594436] C-RBTree-Benchmark: Time to insert 1000000 elements: 991 ms
+[19178.790774] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[19178.961847] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19178.961865] C-RBTree-Benchmark: RBTree Benchmark 196 completed
+[19178.961867] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 197
+[19182.662818] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19182.662829] C-RBTree-Benchmark: Starting 197-th rbtree test 
+[19183.628573] C-RBTree-Benchmark: Time to insert 1000000 elements: 961 ms
+[19183.829466] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[19184.005132] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[19184.005222] C-RBTree-Benchmark: RBTree Benchmark 197 completed
+[19184.005224] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 198
+[19187.682537] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19187.682544] C-RBTree-Benchmark: Starting 198-th rbtree test 
+[19188.700600] C-RBTree-Benchmark: Time to insert 1000000 elements: 1015 ms
+[19188.916004] C-RBTree-Benchmark: Time to iterate over the rbtree: 215 ms
+[19189.093264] C-RBTree-Benchmark: Time to delete all the elements: 177 ms
+[19189.093282] C-RBTree-Benchmark: RBTree Benchmark 198 completed
+[19189.093284] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 199
+[19192.691308] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19192.691313] C-RBTree-Benchmark: Starting 199-th rbtree test 
+[19193.642291] C-RBTree-Benchmark: Time to insert 1000000 elements: 948 ms
+[19193.848324] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[19194.023084] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[19194.023103] C-RBTree-Benchmark: RBTree Benchmark 199 completed
+[19194.023104] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 200
+[19197.801440] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19197.801445] C-RBTree-Benchmark: Starting 200-th rbtree test 
+[19198.798715] C-RBTree-Benchmark: Time to insert 1000000 elements: 995 ms
+[19199.006089] C-RBTree-Benchmark: Time to iterate over the rbtree: 207 ms
+[19199.180147] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[19199.180165] C-RBTree-Benchmark: RBTree Benchmark 200 completed
+[19199.180166] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 201
+[19202.807386] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19202.807395] C-RBTree-Benchmark: Starting 201-th rbtree test 
+[19203.814412] C-RBTree-Benchmark: Time to insert 1000000 elements: 1003 ms
+[19204.019702] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[19204.188755] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[19204.188811] C-RBTree-Benchmark: RBTree Benchmark 201 completed
+[19204.188813] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 202
+[19207.867419] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19207.867424] C-RBTree-Benchmark: Starting 202-th rbtree test 
+[19208.789755] C-RBTree-Benchmark: Time to insert 1000000 elements: 919 ms
+[19208.988192] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[19209.157281] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[19209.157354] C-RBTree-Benchmark: RBTree Benchmark 202 completed
+[19209.157356] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 203
+[19212.835565] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19212.835568] C-RBTree-Benchmark: Starting 203-th rbtree test 
+[19213.765170] C-RBTree-Benchmark: Time to insert 1000000 elements: 927 ms
+[19213.964020] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[19214.130206] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[19214.130224] C-RBTree-Benchmark: RBTree Benchmark 203 completed
+[19214.130225] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 204
+[19217.718788] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19217.718792] C-RBTree-Benchmark: Starting 204-th rbtree test 
+[19218.656363] C-RBTree-Benchmark: Time to insert 1000000 elements: 936 ms
+[19218.851816] C-RBTree-Benchmark: Time to iterate over the rbtree: 195 ms
+[19219.019923] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[19219.019988] C-RBTree-Benchmark: RBTree Benchmark 204 completed
+[19219.019990] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 205
+[19222.627752] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19222.627755] C-RBTree-Benchmark: Starting 205-th rbtree test 
+[19223.557623] C-RBTree-Benchmark: Time to insert 1000000 elements: 928 ms
+[19223.746638] C-RBTree-Benchmark: Time to iterate over the rbtree: 189 ms
+[19223.915344] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[19223.915408] C-RBTree-Benchmark: RBTree Benchmark 205 completed
+[19223.915409] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 206
+[19227.556896] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19227.556900] C-RBTree-Benchmark: Starting 206-th rbtree test 
+[19228.489264] C-RBTree-Benchmark: Time to insert 1000000 elements: 930 ms
+[19228.691384] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[19228.862277] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19228.862427] C-RBTree-Benchmark: RBTree Benchmark 206 completed
+[19228.862429] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 207
+[19232.657602] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19232.657605] C-RBTree-Benchmark: Starting 207-th rbtree test 
+[19233.583015] C-RBTree-Benchmark: Time to insert 1000000 elements: 923 ms
+[19233.778170] C-RBTree-Benchmark: Time to iterate over the rbtree: 195 ms
+[19233.948882] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19233.948939] C-RBTree-Benchmark: RBTree Benchmark 207 completed
+[19233.948941] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 208
+[19237.551808] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19237.551812] C-RBTree-Benchmark: Starting 208-th rbtree test 
+[19238.491799] C-RBTree-Benchmark: Time to insert 1000000 elements: 938 ms
+[19238.698975] C-RBTree-Benchmark: Time to iterate over the rbtree: 207 ms
+[19238.869556] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19238.869575] C-RBTree-Benchmark: RBTree Benchmark 208 completed
+[19238.869576] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 209
+[19242.556582] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19242.556590] C-RBTree-Benchmark: Starting 209-th rbtree test 
+[19243.494209] C-RBTree-Benchmark: Time to insert 1000000 elements: 934 ms
+[19243.700981] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[19243.874138] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[19243.874193] C-RBTree-Benchmark: RBTree Benchmark 209 completed
+[19243.874194] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 210
+[19247.595894] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19247.595903] C-RBTree-Benchmark: Starting 210-th rbtree test 
+[19248.561645] C-RBTree-Benchmark: Time to insert 1000000 elements: 963 ms
+[19248.768348] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[19248.937965] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[19248.937982] C-RBTree-Benchmark: RBTree Benchmark 210 completed
+[19248.937983] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 211
+[19252.760632] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19252.760638] C-RBTree-Benchmark: Starting 211-th rbtree test 
+[19253.674723] C-RBTree-Benchmark: Time to insert 1000000 elements: 911 ms
+[19253.868911] C-RBTree-Benchmark: Time to iterate over the rbtree: 194 ms
+[19254.037120] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[19254.037137] C-RBTree-Benchmark: RBTree Benchmark 211 completed
+[19254.037139] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 212
+[19257.762479] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19257.762483] C-RBTree-Benchmark: Starting 212-th rbtree test 
+[19258.768324] C-RBTree-Benchmark: Time to insert 1000000 elements: 1004 ms
+[19258.970010] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[19259.142361] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[19259.142391] C-RBTree-Benchmark: RBTree Benchmark 212 completed
+[19259.142393] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 213
+[19262.797445] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19262.797455] C-RBTree-Benchmark: Starting 213-th rbtree test 
+[19263.773197] C-RBTree-Benchmark: Time to insert 1000000 elements: 971 ms
+[19263.970798] C-RBTree-Benchmark: Time to iterate over the rbtree: 197 ms
+[19264.140057] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[19264.140075] C-RBTree-Benchmark: RBTree Benchmark 213 completed
+[19264.140076] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 214
+[19267.733721] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19267.733727] C-RBTree-Benchmark: Starting 214-th rbtree test 
+[19268.684716] C-RBTree-Benchmark: Time to insert 1000000 elements: 947 ms
+[19268.881634] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[19269.053357] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19269.053375] C-RBTree-Benchmark: RBTree Benchmark 214 completed
+[19269.053377] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 215
+[19272.803158] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19272.803163] C-RBTree-Benchmark: Starting 215-th rbtree test 
+[19273.800161] C-RBTree-Benchmark: Time to insert 1000000 elements: 994 ms
+[19274.002893] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[19274.173369] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19274.173389] C-RBTree-Benchmark: RBTree Benchmark 215 completed
+[19274.173390] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 216
+[19277.943608] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19277.943613] C-RBTree-Benchmark: Starting 216-th rbtree test 
+[19278.899629] C-RBTree-Benchmark: Time to insert 1000000 elements: 953 ms
+[19279.104624] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[19279.281428] C-RBTree-Benchmark: Time to delete all the elements: 176 ms
+[19279.281446] C-RBTree-Benchmark: RBTree Benchmark 216 completed
+[19279.281448] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 217
+[19282.944482] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19282.944487] C-RBTree-Benchmark: Starting 217-th rbtree test 
+[19283.946793] C-RBTree-Benchmark: Time to insert 1000000 elements: 999 ms
+[19284.155124] C-RBTree-Benchmark: Time to iterate over the rbtree: 208 ms
+[19284.336785] C-RBTree-Benchmark: Time to delete all the elements: 181 ms
+[19284.336842] C-RBTree-Benchmark: RBTree Benchmark 217 completed
+[19284.336844] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 218
+[19288.015929] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19288.015935] C-RBTree-Benchmark: Starting 218-th rbtree test 
+[19289.006360] C-RBTree-Benchmark: Time to insert 1000000 elements: 988 ms
+[19289.213854] C-RBTree-Benchmark: Time to iterate over the rbtree: 207 ms
+[19289.389547] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[19289.389632] C-RBTree-Benchmark: RBTree Benchmark 218 completed
+[19289.389634] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 219
+[19293.074080] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19293.074085] C-RBTree-Benchmark: Starting 219-th rbtree test 
+[19294.032418] C-RBTree-Benchmark: Time to insert 1000000 elements: 956 ms
+[19294.233408] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[19294.405880] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[19294.405898] C-RBTree-Benchmark: RBTree Benchmark 219 completed
+[19294.405899] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 220
+[19297.875592] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19297.875596] C-RBTree-Benchmark: Starting 220-th rbtree test 
+[19298.756180] C-RBTree-Benchmark: Time to insert 1000000 elements: 879 ms
+[19298.947064] C-RBTree-Benchmark: Time to iterate over the rbtree: 190 ms
+[19299.113719] C-RBTree-Benchmark: Time to delete all the elements: 166 ms
+[19299.113736] C-RBTree-Benchmark: RBTree Benchmark 220 completed
+[19299.113737] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 221
+[19302.772762] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19302.772767] C-RBTree-Benchmark: Starting 221-th rbtree test 
+[19303.754809] C-RBTree-Benchmark: Time to insert 1000000 elements: 979 ms
+[19303.957149] C-RBTree-Benchmark: Time to iterate over the rbtree: 202 ms
+[19304.125347] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[19304.125367] C-RBTree-Benchmark: RBTree Benchmark 221 completed
+[19304.125368] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 222
+[19307.801090] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19307.801094] C-RBTree-Benchmark: Starting 222-th rbtree test 
+[19308.741057] C-RBTree-Benchmark: Time to insert 1000000 elements: 938 ms
+[19308.934175] C-RBTree-Benchmark: Time to iterate over the rbtree: 193 ms
+[19309.101280] C-RBTree-Benchmark: Time to delete all the elements: 167 ms
+[19309.101299] C-RBTree-Benchmark: RBTree Benchmark 222 completed
+[19309.101300] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 223
+[19312.957918] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19312.957925] C-RBTree-Benchmark: Starting 223-th rbtree test 
+[19313.958344] C-RBTree-Benchmark: Time to insert 1000000 elements: 997 ms
+[19314.176357] C-RBTree-Benchmark: Time to iterate over the rbtree: 218 ms
+[19314.356253] C-RBTree-Benchmark: Time to delete all the elements: 179 ms
+[19314.356312] C-RBTree-Benchmark: RBTree Benchmark 223 completed
+[19314.356313] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 224
+[19317.872730] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19317.872738] C-RBTree-Benchmark: Starting 224-th rbtree test 
+[19318.859611] C-RBTree-Benchmark: Time to insert 1000000 elements: 983 ms
+[19319.064082] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[19319.234971] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19319.235027] C-RBTree-Benchmark: RBTree Benchmark 224 completed
+[19319.235029] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 225
+[19322.947503] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19322.947507] C-RBTree-Benchmark: Starting 225-th rbtree test 
+[19323.878556] C-RBTree-Benchmark: Time to insert 1000000 elements: 929 ms
+[19324.068130] C-RBTree-Benchmark: Time to iterate over the rbtree: 189 ms
+[19324.233133] C-RBTree-Benchmark: Time to delete all the elements: 164 ms
+[19324.233152] C-RBTree-Benchmark: RBTree Benchmark 225 completed
+[19324.233153] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 226
+[19327.816353] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19327.816356] C-RBTree-Benchmark: Starting 226-th rbtree test 
+[19328.756389] C-RBTree-Benchmark: Time to insert 1000000 elements: 938 ms
+[19328.953161] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[19329.123655] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19329.123711] C-RBTree-Benchmark: RBTree Benchmark 226 completed
+[19329.123713] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 227
+[19332.851999] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19332.852008] C-RBTree-Benchmark: Starting 227-th rbtree test 
+[19333.819476] C-RBTree-Benchmark: Time to insert 1000000 elements: 965 ms
+[19334.015993] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[19334.187318] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19334.187375] C-RBTree-Benchmark: RBTree Benchmark 227 completed
+[19334.187377] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 228
+[19337.869122] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19337.869126] C-RBTree-Benchmark: Starting 228-th rbtree test 
+[19338.799607] C-RBTree-Benchmark: Time to insert 1000000 elements: 928 ms
+[19338.995022] C-RBTree-Benchmark: Time to iterate over the rbtree: 195 ms
+[19339.165187] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19339.165206] C-RBTree-Benchmark: RBTree Benchmark 228 completed
+[19339.165207] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 229
+[19342.857774] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19342.857778] C-RBTree-Benchmark: Starting 229-th rbtree test 
+[19343.827195] C-RBTree-Benchmark: Time to insert 1000000 elements: 967 ms
+[19344.026571] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[19344.198011] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19344.198030] C-RBTree-Benchmark: RBTree Benchmark 229 completed
+[19344.198031] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 230
+[19347.859446] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19347.859449] C-RBTree-Benchmark: Starting 230-th rbtree test 
+[19348.776342] C-RBTree-Benchmark: Time to insert 1000000 elements: 915 ms
+[19348.970334] C-RBTree-Benchmark: Time to iterate over the rbtree: 193 ms
+[19349.142069] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19349.142088] C-RBTree-Benchmark: RBTree Benchmark 230 completed
+[19349.142089] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 231
+[19352.826276] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19352.826281] C-RBTree-Benchmark: Starting 231-th rbtree test 
+[19353.790210] C-RBTree-Benchmark: Time to insert 1000000 elements: 961 ms
+[19353.990232] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[19354.161757] C-RBTree-Benchmark: Time to delete all the elements: 171 ms
+[19354.161823] C-RBTree-Benchmark: RBTree Benchmark 231 completed
+[19354.161825] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 232
+[19357.824778] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19357.824784] C-RBTree-Benchmark: Starting 232-th rbtree test 
+[19358.739310] C-RBTree-Benchmark: Time to insert 1000000 elements: 912 ms
+[19358.934010] C-RBTree-Benchmark: Time to iterate over the rbtree: 194 ms
+[19359.097264] C-RBTree-Benchmark: Time to delete all the elements: 163 ms
+[19359.097282] C-RBTree-Benchmark: RBTree Benchmark 232 completed
+[19359.097367] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 233
+[19362.861229] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19362.861233] C-RBTree-Benchmark: Starting 233-th rbtree test 
+[19363.791082] C-RBTree-Benchmark: Time to insert 1000000 elements: 927 ms
+[19363.992361] C-RBTree-Benchmark: Time to iterate over the rbtree: 201 ms
+[19364.161109] C-RBTree-Benchmark: Time to delete all the elements: 168 ms
+[19364.161157] C-RBTree-Benchmark: RBTree Benchmark 233 completed
+[19364.161159] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 234
+[19367.810757] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19367.810763] C-RBTree-Benchmark: Starting 234-th rbtree test 
+[19368.817453] C-RBTree-Benchmark: Time to insert 1000000 elements: 1004 ms
+[19369.020842] C-RBTree-Benchmark: Time to iterate over the rbtree: 203 ms
+[19369.186725] C-RBTree-Benchmark: Time to delete all the elements: 165 ms
+[19369.186780] C-RBTree-Benchmark: RBTree Benchmark 234 completed
+[19369.186781] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 235
+[19372.692077] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19372.692081] C-RBTree-Benchmark: Starting 235-th rbtree test 
+[19373.620854] C-RBTree-Benchmark: Time to insert 1000000 elements: 926 ms
+[19373.819152] C-RBTree-Benchmark: Time to iterate over the rbtree: 198 ms
+[19373.989061] C-RBTree-Benchmark: Time to delete all the elements: 169 ms
+[19373.989079] C-RBTree-Benchmark: RBTree Benchmark 235 completed
+[19373.989081] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 236
+[19377.691232] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19377.691237] C-RBTree-Benchmark: Starting 236-th rbtree test 
+[19378.638890] C-RBTree-Benchmark: Time to insert 1000000 elements: 945 ms
+[19378.843903] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[19379.014203] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19379.014221] C-RBTree-Benchmark: RBTree Benchmark 236 completed
+[19379.014261] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 237
+[19382.719676] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19382.719684] C-RBTree-Benchmark: Starting 237-th rbtree test 
+[19383.699960] C-RBTree-Benchmark: Time to insert 1000000 elements: 976 ms
+[19383.906062] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[19384.080053] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[19384.080071] C-RBTree-Benchmark: RBTree Benchmark 237 completed
+[19384.080073] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 238
+[19387.703982] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19387.703986] C-RBTree-Benchmark: Starting 238-th rbtree test 
+[19388.679471] C-RBTree-Benchmark: Time to insert 1000000 elements: 973 ms
+[19388.885909] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[19389.060063] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[19389.060082] C-RBTree-Benchmark: RBTree Benchmark 238 completed
+[19389.060083] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 239
+[19392.741848] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19392.741853] C-RBTree-Benchmark: Starting 239-th rbtree test 
+[19393.687711] C-RBTree-Benchmark: Time to insert 1000000 elements: 943 ms
+[19393.886978] C-RBTree-Benchmark: Time to iterate over the rbtree: 199 ms
+[19394.057142] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19394.057237] C-RBTree-Benchmark: RBTree Benchmark 239 completed
+[19394.057239] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 240
+[19397.701852] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19397.701863] C-RBTree-Benchmark: Starting 240-th rbtree test 
+[19398.641362] C-RBTree-Benchmark: Time to insert 1000000 elements: 936 ms
+[19398.847842] C-RBTree-Benchmark: Time to iterate over the rbtree: 206 ms
+[19399.021679] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[19399.021698] C-RBTree-Benchmark: RBTree Benchmark 240 completed
+[19399.021699] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 241
+[19402.696103] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19402.696106] C-RBTree-Benchmark: Starting 241-th rbtree test 
+[19403.622913] C-RBTree-Benchmark: Time to insert 1000000 elements: 925 ms
+[19403.827683] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[19403.998494] C-RBTree-Benchmark: Time to delete all the elements: 170 ms
+[19403.998550] C-RBTree-Benchmark: RBTree Benchmark 241 completed
+[19403.998552] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 242
+[19407.633880] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19407.633883] C-RBTree-Benchmark: Starting 242-th rbtree test 
+[19408.569669] C-RBTree-Benchmark: Time to insert 1000000 elements: 934 ms
+[19408.770515] C-RBTree-Benchmark: Time to iterate over the rbtree: 200 ms
+[19408.943484] C-RBTree-Benchmark: Time to delete all the elements: 172 ms
+[19408.943540] C-RBTree-Benchmark: RBTree Benchmark 242 completed
+[19408.943542] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 243
+[19412.675978] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19412.675981] C-RBTree-Benchmark: Starting 243-th rbtree test 
+[19413.484264] C-RBTree-Benchmark: Time to insert 1000000 elements: 806 ms
+[19413.675606] C-RBTree-Benchmark: Time to iterate over the rbtree: 191 ms
+[19413.839349] C-RBTree-Benchmark: Time to delete all the elements: 163 ms
+[19413.839367] C-RBTree-Benchmark: RBTree Benchmark 243 completed
+[19413.839368] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 244
+[19417.504324] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19417.504331] C-RBTree-Benchmark: Starting 244-th rbtree test 
+[19418.572202] C-RBTree-Benchmark: Time to insert 1000000 elements: 1064 ms
+[19418.777809] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[19418.952516] C-RBTree-Benchmark: Time to delete all the elements: 174 ms
+[19418.952534] C-RBTree-Benchmark: RBTree Benchmark 244 completed
+[19418.952536] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 245
+[19422.435847] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19422.435852] C-RBTree-Benchmark: Starting 245-th rbtree test 
+[19423.289581] C-RBTree-Benchmark: Time to insert 1000000 elements: 851 ms
+[19423.478218] C-RBTree-Benchmark: Time to iterate over the rbtree: 188 ms
+[19423.640516] C-RBTree-Benchmark: Time to delete all the elements: 162 ms
+[19423.640561] C-RBTree-Benchmark: RBTree Benchmark 245 completed
+[19423.640562] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 246
+[19427.442837] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19427.442840] C-RBTree-Benchmark: Starting 246-th rbtree test 
+[19428.308173] C-RBTree-Benchmark: Time to insert 1000000 elements: 863 ms
+[19428.504720] C-RBTree-Benchmark: Time to iterate over the rbtree: 196 ms
+[19428.669796] C-RBTree-Benchmark: Time to delete all the elements: 165 ms
+[19428.669826] C-RBTree-Benchmark: RBTree Benchmark 246 completed
+[19428.669827] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 247
+[19432.377228] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19432.377234] C-RBTree-Benchmark: Starting 247-th rbtree test 
+[19433.403367] C-RBTree-Benchmark: Time to insert 1000000 elements: 1024 ms
+[19433.608529] C-RBTree-Benchmark: Time to iterate over the rbtree: 205 ms
+[19433.782055] C-RBTree-Benchmark: Time to delete all the elements: 173 ms
+[19433.782112] C-RBTree-Benchmark: RBTree Benchmark 247 completed
+[19433.782113] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 248
+[19437.282517] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19437.282525] C-RBTree-Benchmark: Starting 248-th rbtree test 
+[19438.250112] C-RBTree-Benchmark: Time to insert 1000000 elements: 964 ms
+[19438.458949] C-RBTree-Benchmark: Time to iterate over the rbtree: 208 ms
+[19438.634289] C-RBTree-Benchmark: Time to delete all the elements: 175 ms
+[19438.634308] C-RBTree-Benchmark: RBTree Benchmark 248 completed
+[19438.634309] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 249
+[19442.213196] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19442.213200] C-RBTree-Benchmark: Starting 249-th rbtree test 
+[19443.158686] C-RBTree-Benchmark: Time to insert 1000000 elements: 943 ms
+[19443.363083] C-RBTree-Benchmark: Time to iterate over the rbtree: 204 ms
+[19443.539442] C-RBTree-Benchmark: Time to delete all the elements: 176 ms
+[19443.539459] C-RBTree-Benchmark: RBTree Benchmark 249 completed
+[19443.539461] C-RBTree-Benchmark: Module initialization complete
+Logs for iteration 250
+[19447.155382] C-RBTree-Benchmark: RBTree Benchmark Module init
+[19447.155385] C-RBTree-Benchmark: Starting 250-th rbtree test 
+[19448.071687] C-RBTree-Benchmark: Time to insert 1000000 elements: 914 ms
+[19448.255933] C-RBTree-Benchmark: Time to iterate over the rbtree: 184 ms
+[19448.418873] C-RBTree-Benchmark: Time to delete all the elements: 162 ms
+[19448.418924] C-RBTree-Benchmark: RBTree Benchmark 250 completed
+[19448.418925] C-RBTree-Benchmark: Module initialization complete

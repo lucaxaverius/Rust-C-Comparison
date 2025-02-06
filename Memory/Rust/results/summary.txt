@@ -1,114 +1,114 @@
-Function: write_page
-  Event: cycles
-    Avg: 3294811851.00
-    Min: 3179762094.00
-    Max: 3409861608.00
-    Median: 3294811851.00
-    Std Dev: 162704926.70
-  Event: instructions
-    Avg: 6721582620.00
-    Min: 6301198203.00
-    Max: 7141967037.00
-    Median: 6721582620.00
-    Std Dev: 594513343.93
-  Event: cache-misses
-    Avg: 554.00
-    Min: 464.00
-    Max: 644.00
-    Median: 554.00
-    Std Dev: 127.28
-  Event: branch-misses
-    Avg: 3376238.50
-    Min: 3294112.00
-    Max: 3458365.00
-    Median: 3376238.50
-    Std Dev: 116144.41
-  Event: cpu-clock
-    Avg: 3303933263.00
-    Min: 3148206452.00
-    Max: 3459660074.00
-    Median: 3303933263.00
-    Std Dev: 220230968.14
-  Event: branches
-    Avg: 623539961.50
-    Min: 591223184.00
-    Max: 655856739.00
-    Median: 623539961.50
-    Std Dev: 45702825.03
-
 Function: read_page
   Event: cycles
-    Avg: 3168750298.50
-    Min: 2961794531.00
-    Max: 3375706066.00
-    Median: 3168750298.50
-    Std Dev: 292679653.21
+    Avg: 2425625450.28
+    Min: 2175333719.00
+    Max: 2641103593.00
+    Median: 2426202095.50
+    Std Dev: 68693844.55
   Event: instructions
-    Avg: 6506188007.50
-    Min: 6198141223.00
-    Max: 6814234792.00
-    Median: 6506188007.50
-    Std Dev: 435643940.49
+    Avg: 7320152405.96
+    Min: 6842657443.00
+    Max: 7786871048.00
+    Median: 7345127702.00
+    Std Dev: 172042681.58
   Event: cache-misses
-    Avg: 558.00
-    Min: 445.00
-    Max: 671.00
-    Median: 558.00
-    Std Dev: 159.81
+    Avg: 32.78
+    Min: 5.00
+    Max: 422.00
+    Median: 23.00
+    Std Dev: 38.58
   Event: branch-misses
-    Avg: 3872126.00
-    Min: 3262590.00
-    Max: 4481662.00
-    Median: 3872126.00
-    Std Dev: 862014.08
+    Avg: 1732659.88
+    Min: 54083.00
+    Max: 3765517.00
+    Median: 209609.50
+    Std Dev: 1661159.81
   Event: cpu-clock
-    Avg: 3290252476.50
-    Min: 3068472465.00
-    Max: 3512032488.00
-    Median: 3290252476.50
-    Std Dev: 313644300.13
+    Avg: 789862360.53
+    Min: 712021021.00
+    Max: 932576667.00
+    Median: 787310779.50
+    Std Dev: 41293216.44
   Event: branches
-    Avg: 617117837.50
-    Min: 587056706.00
-    Max: 647178969.00
-    Median: 617117837.50
-    Std Dev: 42512859.87
+    Avg: 666175864.06
+    Min: 613161105.00
+    Max: 718251062.00
+    Median: 666835423.00
+    Std Dev: 19507318.17
+
+Function: write_page
+  Event: cycles
+    Avg: 2404243611.38
+    Min: 2228212259.00
+    Max: 2613012582.00
+    Median: 2403255450.50
+    Std Dev: 64120955.80
+  Event: instructions
+    Avg: 7278211300.06
+    Min: 6614392157.00
+    Max: 7748957151.00
+    Median: 7271185517.50
+    Std Dev: 170051594.19
+  Event: cache-misses
+    Avg: 31.35
+    Min: 3.00
+    Max: 299.00
+    Median: 22.00
+    Std Dev: 34.00
+  Event: branch-misses
+    Avg: 132741.61
+    Min: 43401.00
+    Max: 317639.00
+    Median: 127182.50
+    Std Dev: 42527.94
+  Event: cpu-clock
+    Avg: 761972186.29
+    Min: 698490102.00
+    Max: 880873052.00
+    Median: 761928404.50
+    Std Dev: 29149760.20
+  Event: branches
+    Avg: 656628442.06
+    Min: 606069068.00
+    Max: 698684087.00
+    Median: 655664921.50
+    Std Dev: 17683872.80
 
 Function: allocate_page
   Event: cycles
-    Avg: 2594673990.00
-    Min: 2454058326.00
-    Max: 2735289654.00
-    Median: 2594673990.00
-    Std Dev: 198860579.11
+    Avg: 1820281302.84
+    Min: 1670712421.00
+    Max: 2050861731.00
+    Median: 1819562141.50
+    Std Dev: 60948531.96
   Event: instructions
-    Avg: 3094709126.50
-    Min: 2912095805.00
-    Max: 3277322448.00
-    Median: 3094709126.50
-    Std Dev: 258254235.94
+    Avg: 3351538474.69
+    Min: 3023339762.00
+    Max: 3659648947.00
+    Median: 3343682604.50
+    Std Dev: 123418376.91
   Event: cache-misses
-    Avg: 701.00
-    Min: 602.00
-    Max: 800.00
-    Median: 701.00
-    Std Dev: 140.01
+    Avg: 38.19
+    Min: 7.00
+    Max: 466.00
+    Median: 25.00
+    Std Dev: 45.43
   Event: branch-misses
-    Avg: 414139.00
-    Min: 406642.00
-    Max: 421636.00
-    Median: 414139.00
-    Std Dev: 10602.36
+    Avg: 77861.25
+    Min: 35702.00
+    Max: 145073.00
+    Median: 76652.00
+    Std Dev: 19571.54
   Event: cpu-clock
-    Avg: 2242705191.00
-    Min: 2134813199.00
-    Max: 2350597183.00
-    Median: 2242705191.00
-    Std Dev: 152582318.36
+    Avg: 567225038.91
+    Min: 519193881.00
+    Max: 693320107.00
+    Median: 564786935.00
+    Std Dev: 23030362.23
   Event: branches
-    Avg: 474730140.00
-    Min: 447063056.00
-    Max: 502397224.00
-    Median: 474730140.00
-    Std Dev: 39127165.42
+    Avg: 513130796.10
+    Min: 465536705.00
+    Max: 564376053.00
+    Median: 511539321.00
+    Std Dev: 15848473.31
 

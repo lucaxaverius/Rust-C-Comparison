@@ -15,6 +15,10 @@ N_RUNS=250  # Number of iterations
 SUMMARY_FILE="./results/summary.txt"
 CSV_FILE="./results/metrics.csv"
 
+# Path to the kernel perf event max sample rate file
+PERF_RATE_FILE="/proc/sys/kernel/perf_event_max_sample_rate"
+MIN_RATE=1500  # Minimum allowed sample rate
+
 # Ensure directories exist
 mkdir -p "$LOG_DIR"
 mkdir -p "$PERF_OUTPUT_DIR"
@@ -67,7 +71,18 @@ for ((run=1; run<=N_RUNS; run++)); do
 
     # Start perf recording
     PERF_OUTPUT="$PERF_OUTPUT_DIR/c-perf-mutex-$run.data"
-    /usr/bin/perf record -e "$PERF_EVENTS" -g -a --freq=1000 --kernel-callchains -o "$PERF_OUTPUT" &
+    # Read the current value
+    CURRENT_RATE=$(cat "$PERF_RATE_FILE")
+
+    # Check if the current rate is below the minimum
+    if [ "$CURRENT_RATE" -ne "$MIN_RATE" ]; then
+        echo "Current perf sample rate ($CURRENT_RATE). Resetting to $MIN_RATE..."
+        echo $MIN_RATE | sudo tee "$PERF_RATE_FILE"
+    else
+        echo "Current perf sample rate ($CURRENT_RATE) is OK."
+    fi
+
+    /usr/bin/perf record -F max -e "$PERF_EVENTS" -g -a  --kernel-callchains -o "$PERF_OUTPUT" &
 
     PERF_PID=$!
 

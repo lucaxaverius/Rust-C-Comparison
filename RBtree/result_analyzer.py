@@ -374,7 +374,7 @@ def plot_comparison_metrics(c_metrics, rust_metrics, output_dir):
                 f"Comparison of {metric} for {operation.replace('_', ' ').title()}",
                 fontsize=14
             )
-            plt.ylabel("Values (%)", fontsize=12)
+            plt.ylabel("Values", fontsize=12)
             plt.xlabel("Implementation", fontsize=12)
 
             # Customize tick fonts

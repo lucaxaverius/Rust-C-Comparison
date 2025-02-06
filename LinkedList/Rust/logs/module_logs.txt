@@ -1,16 +1,2000 @@
 Logs for iteration 1
-[ 3872.708342] Rust_List_Benchmark: Starting 1-th list_head benchmark module...
-[ 3874.860481] Rust_List_Benchmark: Time to insert 15000000 elements at front: 2112 ms
-[ 3877.020689] Rust_List_Benchmark: Time to insert 15000000 elements at back: 2160 ms
-[ 3877.985461] Rust_List_Benchmark: Time to iterate 15000000 elements: 964 ms
-[ 3881.681892] Rust_List_Benchmark: Time to remove all elements: 3696 ms
-[ 3881.681956] Rust_List_Benchmark: Benchmark 1-th completed.
-[ 3881.687028] Rust_List_Benchmark: Module initialization complete
+[ 8920.992172] Rust_List_Benchmark: Starting 1-th list_head benchmark module...
+[ 8921.920253] Rust_List_Benchmark: Time to insert 15000000 elements at front: 902 ms
+[ 8922.796247] Rust_List_Benchmark: Time to insert 15000000 elements at back: 875 ms
+[ 8923.582553] Rust_List_Benchmark: Time to iterate 15000000 elements: 786 ms
+[ 8925.116790] Rust_List_Benchmark: Time to remove all elements: 1534 ms
+[ 8925.116795] Rust_List_Benchmark: Benchmark 1-th completed.
+[ 8925.118746] Rust_List_Benchmark: Module initialization complete
 Logs for iteration 2
-[ 3891.725030] Rust_List_Benchmark: Starting 2-th list_head benchmark module...
-[ 3893.796301] Rust_List_Benchmark: Time to insert 15000000 elements at front: 2034 ms
-[ 3895.932527] Rust_List_Benchmark: Time to insert 15000000 elements at back: 2136 ms
-[ 3896.871945] Rust_List_Benchmark: Time to iterate 15000000 elements: 939 ms
-[ 3900.601937] Rust_List_Benchmark: Time to remove all elements: 3729 ms
-[ 3900.602137] Rust_List_Benchmark: Benchmark 2-th completed.
-[ 3900.605022] Rust_List_Benchmark: Module initialization complete
+[ 8929.859163] Rust_List_Benchmark: Starting 2-th list_head benchmark module...
+[ 8930.750621] Rust_List_Benchmark: Time to insert 15000000 elements at front: 871 ms
+[ 8931.687712] Rust_List_Benchmark: Time to insert 15000000 elements at back: 937 ms
+[ 8932.522830] Rust_List_Benchmark: Time to iterate 15000000 elements: 835 ms
+[ 8934.010906] Rust_List_Benchmark: Time to remove all elements: 1488 ms
+[ 8934.010911] Rust_List_Benchmark: Benchmark 2-th completed.
+[ 8934.012752] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 3
+[ 8938.419535] Rust_List_Benchmark: Starting 3-th list_head benchmark module...
+[ 8939.289273] Rust_List_Benchmark: Time to insert 15000000 elements at front: 850 ms
+[ 8940.221937] Rust_List_Benchmark: Time to insert 15000000 elements at back: 932 ms
+[ 8941.041924] Rust_List_Benchmark: Time to iterate 15000000 elements: 819 ms
+[ 8942.527460] Rust_List_Benchmark: Time to remove all elements: 1485 ms
+[ 8942.527465] Rust_List_Benchmark: Benchmark 3-th completed.
+[ 8942.529450] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 4
+[ 8947.473389] Rust_List_Benchmark: Starting 4-th list_head benchmark module...
+[ 8948.257586] Rust_List_Benchmark: Time to insert 15000000 elements at front: 755 ms
+[ 8949.198373] Rust_List_Benchmark: Time to insert 15000000 elements at back: 940 ms
+[ 8950.001125] Rust_List_Benchmark: Time to iterate 15000000 elements: 802 ms
+[ 8951.507535] Rust_List_Benchmark: Time to remove all elements: 1506 ms
+[ 8951.507540] Rust_List_Benchmark: Benchmark 4-th completed.
+[ 8951.509447] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 5
+[ 8956.130080] Rust_List_Benchmark: Starting 5-th list_head benchmark module...
+[ 8957.018271] Rust_List_Benchmark: Time to insert 15000000 elements at front: 868 ms
+[ 8958.048481] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1030 ms
+[ 8958.808379] Rust_List_Benchmark: Time to iterate 15000000 elements: 759 ms
+[ 8960.327933] Rust_List_Benchmark: Time to remove all elements: 1519 ms
+[ 8960.327968] Rust_List_Benchmark: Benchmark 5-th completed.
+[ 8960.329574] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 6
+[ 8964.865691] Rust_List_Benchmark: Starting 6-th list_head benchmark module...
+[ 8965.735690] Rust_List_Benchmark: Time to insert 15000000 elements at front: 849 ms
+[ 8966.625803] Rust_List_Benchmark: Time to insert 15000000 elements at back: 890 ms
+[ 8967.466017] Rust_List_Benchmark: Time to iterate 15000000 elements: 840 ms
+[ 8968.978672] Rust_List_Benchmark: Time to remove all elements: 1512 ms
+[ 8968.978678] Rust_List_Benchmark: Benchmark 6-th completed.
+[ 8968.980483] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 7
+[ 8973.563376] Rust_List_Benchmark: Starting 7-th list_head benchmark module...
+[ 8974.458887] Rust_List_Benchmark: Time to insert 15000000 elements at front: 871 ms
+[ 8975.357581] Rust_List_Benchmark: Time to insert 15000000 elements at back: 898 ms
+[ 8976.157246] Rust_List_Benchmark: Time to iterate 15000000 elements: 799 ms
+[ 8977.648771] Rust_List_Benchmark: Time to remove all elements: 1491 ms
+[ 8977.648775] Rust_List_Benchmark: Benchmark 7-th completed.
+[ 8977.650687] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 8
+[ 8982.325166] Rust_List_Benchmark: Starting 8-th list_head benchmark module...
+[ 8983.192177] Rust_List_Benchmark: Time to insert 15000000 elements at front: 847 ms
+[ 8984.117410] Rust_List_Benchmark: Time to insert 15000000 elements at back: 925 ms
+[ 8984.946386] Rust_List_Benchmark: Time to iterate 15000000 elements: 828 ms
+[ 8986.435965] Rust_List_Benchmark: Time to remove all elements: 1489 ms
+[ 8986.435970] Rust_List_Benchmark: Benchmark 8-th completed.
+[ 8986.437854] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 9
+[ 8991.080544] Rust_List_Benchmark: Starting 9-th list_head benchmark module...
+[ 8991.950519] Rust_List_Benchmark: Time to insert 15000000 elements at front: 850 ms
+[ 8992.863909] Rust_List_Benchmark: Time to insert 15000000 elements at back: 913 ms
+[ 8993.649690] Rust_List_Benchmark: Time to iterate 15000000 elements: 785 ms
+[ 8995.148949] Rust_List_Benchmark: Time to remove all elements: 1499 ms
+[ 8995.148982] Rust_List_Benchmark: Benchmark 9-th completed.
+[ 8995.150773] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 10
+[ 8999.681470] Rust_List_Benchmark: Starting 10-th list_head benchmark module...
+[ 9000.485635] Rust_List_Benchmark: Time to insert 15000000 elements at front: 783 ms
+[ 9001.482938] Rust_List_Benchmark: Time to insert 15000000 elements at back: 997 ms
+[ 9002.312972] Rust_List_Benchmark: Time to iterate 15000000 elements: 829 ms
+[ 9003.837935] Rust_List_Benchmark: Time to remove all elements: 1524 ms
+[ 9003.837940] Rust_List_Benchmark: Benchmark 10-th completed.
+[ 9003.839196] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 11
+[ 9008.937791] Rust_List_Benchmark: Starting 11-th list_head benchmark module...
+[ 9009.709561] Rust_List_Benchmark: Time to insert 15000000 elements at front: 751 ms
+[ 9010.654917] Rust_List_Benchmark: Time to insert 15000000 elements at back: 945 ms
+[ 9011.521655] Rust_List_Benchmark: Time to iterate 15000000 elements: 866 ms
+[ 9013.467461] Rust_List_Benchmark: Time to remove all elements: 1945 ms
+[ 9013.467531] Rust_List_Benchmark: Benchmark 11-th completed.
+[ 9013.469767] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 12
+[ 9019.525487] Rust_List_Benchmark: Starting 12-th list_head benchmark module...
+[ 9020.635820] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1078 ms
+[ 9021.577934] Rust_List_Benchmark: Time to insert 15000000 elements at back: 942 ms
+[ 9022.287181] Rust_List_Benchmark: Time to iterate 15000000 elements: 709 ms
+[ 9023.873434] Rust_List_Benchmark: Time to remove all elements: 1586 ms
+[ 9023.873439] Rust_List_Benchmark: Benchmark 12-th completed.
+[ 9023.875405] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 13
+[ 9028.462172] Rust_List_Benchmark: Starting 13-th list_head benchmark module...
+[ 9029.360131] Rust_List_Benchmark: Time to insert 15000000 elements at front: 875 ms
+[ 9030.227529] Rust_List_Benchmark: Time to insert 15000000 elements at back: 867 ms
+[ 9030.986312] Rust_List_Benchmark: Time to iterate 15000000 elements: 758 ms
+[ 9032.688218] Rust_List_Benchmark: Time to remove all elements: 1701 ms
+[ 9032.688225] Rust_List_Benchmark: Benchmark 13-th completed.
+[ 9032.691547] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 14
+[ 9036.979743] Rust_List_Benchmark: Starting 14-th list_head benchmark module...
+[ 9037.794541] Rust_List_Benchmark: Time to insert 15000000 elements at front: 794 ms
+[ 9038.706028] Rust_List_Benchmark: Time to insert 15000000 elements at back: 911 ms
+[ 9039.486134] Rust_List_Benchmark: Time to iterate 15000000 elements: 779 ms
+[ 9041.311607] Rust_List_Benchmark: Time to remove all elements: 1825 ms
+[ 9041.311614] Rust_List_Benchmark: Benchmark 14-th completed.
+[ 9041.313880] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 15
+[ 9045.951781] Rust_List_Benchmark: Starting 15-th list_head benchmark module...
+[ 9046.810648] Rust_List_Benchmark: Time to insert 15000000 elements at front: 838 ms
+[ 9047.721778] Rust_List_Benchmark: Time to insert 15000000 elements at back: 911 ms
+[ 9048.495454] Rust_List_Benchmark: Time to iterate 15000000 elements: 773 ms
+[ 9050.064781] Rust_List_Benchmark: Time to remove all elements: 1569 ms
+[ 9050.064787] Rust_List_Benchmark: Benchmark 15-th completed.
+[ 9050.066606] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 16
+[ 9054.081830] Rust_List_Benchmark: Starting 16-th list_head benchmark module...
+[ 9054.859748] Rust_List_Benchmark: Time to insert 15000000 elements at front: 756 ms
+[ 9055.678511] Rust_List_Benchmark: Time to insert 15000000 elements at back: 818 ms
+[ 9056.479369] Rust_List_Benchmark: Time to iterate 15000000 elements: 800 ms
+[ 9058.002500] Rust_List_Benchmark: Time to remove all elements: 1523 ms
+[ 9058.002534] Rust_List_Benchmark: Benchmark 16-th completed.
+[ 9058.004282] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 17
+[ 9061.942715] Rust_List_Benchmark: Starting 17-th list_head benchmark module...
+[ 9062.713519] Rust_List_Benchmark: Time to insert 15000000 elements at front: 751 ms
+[ 9063.495140] Rust_List_Benchmark: Time to insert 15000000 elements at back: 781 ms
+[ 9064.287332] Rust_List_Benchmark: Time to iterate 15000000 elements: 792 ms
+[ 9065.773941] Rust_List_Benchmark: Time to remove all elements: 1486 ms
+[ 9065.773946] Rust_List_Benchmark: Benchmark 17-th completed.
+[ 9065.775654] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 18
+[ 9068.740831] Rust_List_Benchmark: Starting 18-th list_head benchmark module...
+[ 9069.523792] Rust_List_Benchmark: Time to insert 15000000 elements at front: 763 ms
+[ 9070.319467] Rust_List_Benchmark: Time to insert 15000000 elements at back: 795 ms
+[ 9071.146907] Rust_List_Benchmark: Time to iterate 15000000 elements: 827 ms
+[ 9072.638796] Rust_List_Benchmark: Time to remove all elements: 1491 ms
+[ 9072.638832] Rust_List_Benchmark: Benchmark 18-th completed.
+[ 9072.640756] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 19
+[ 9076.628625] Rust_List_Benchmark: Starting 19-th list_head benchmark module...
+[ 9077.386237] Rust_List_Benchmark: Time to insert 15000000 elements at front: 737 ms
+[ 9078.184015] Rust_List_Benchmark: Time to insert 15000000 elements at back: 797 ms
+[ 9078.965643] Rust_List_Benchmark: Time to iterate 15000000 elements: 781 ms
+[ 9080.467772] Rust_List_Benchmark: Time to remove all elements: 1501 ms
+[ 9080.467777] Rust_List_Benchmark: Benchmark 19-th completed.
+[ 9080.469582] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 20
+[ 9083.495029] Rust_List_Benchmark: Starting 20-th list_head benchmark module...
+[ 9084.245002] Rust_List_Benchmark: Time to insert 15000000 elements at front: 730 ms
+[ 9085.027359] Rust_List_Benchmark: Time to insert 15000000 elements at back: 782 ms
+[ 9085.839529] Rust_List_Benchmark: Time to iterate 15000000 elements: 812 ms
+[ 9087.328323] Rust_List_Benchmark: Time to remove all elements: 1488 ms
+[ 9087.328359] Rust_List_Benchmark: Benchmark 20-th completed.
+[ 9087.330113] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 21
+[ 9090.382873] Rust_List_Benchmark: Starting 21-th list_head benchmark module...
+[ 9091.189308] Rust_List_Benchmark: Time to insert 15000000 elements at front: 787 ms
+[ 9091.996731] Rust_List_Benchmark: Time to insert 15000000 elements at back: 807 ms
+[ 9092.770737] Rust_List_Benchmark: Time to iterate 15000000 elements: 773 ms
+[ 9094.274710] Rust_List_Benchmark: Time to remove all elements: 1503 ms
+[ 9094.274716] Rust_List_Benchmark: Benchmark 21-th completed.
+[ 9094.276469] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 22
+[ 9098.245677] Rust_List_Benchmark: Starting 22-th list_head benchmark module...
+[ 9099.048498] Rust_List_Benchmark: Time to insert 15000000 elements at front: 783 ms
+[ 9099.845456] Rust_List_Benchmark: Time to insert 15000000 elements at back: 796 ms
+[ 9100.640688] Rust_List_Benchmark: Time to iterate 15000000 elements: 795 ms
+[ 9102.154659] Rust_List_Benchmark: Time to remove all elements: 1513 ms
+[ 9102.154695] Rust_List_Benchmark: Benchmark 22-th completed.
+[ 9102.156487] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 23
+[ 9106.117293] Rust_List_Benchmark: Starting 23-th list_head benchmark module...
+[ 9106.864929] Rust_List_Benchmark: Time to insert 15000000 elements at front: 727 ms
+[ 9107.658483] Rust_List_Benchmark: Time to insert 15000000 elements at back: 793 ms
+[ 9108.441291] Rust_List_Benchmark: Time to iterate 15000000 elements: 782 ms
+[ 9109.929430] Rust_List_Benchmark: Time to remove all elements: 1487 ms
+[ 9109.929435] Rust_List_Benchmark: Benchmark 23-th completed.
+[ 9109.931180] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 24
+[ 9112.901499] Rust_List_Benchmark: Starting 24-th list_head benchmark module...
+[ 9113.673646] Rust_List_Benchmark: Time to insert 15000000 elements at front: 752 ms
+[ 9114.477466] Rust_List_Benchmark: Time to insert 15000000 elements at back: 803 ms
+[ 9115.237653] Rust_List_Benchmark: Time to iterate 15000000 elements: 760 ms
+[ 9116.741598] Rust_List_Benchmark: Time to remove all elements: 1503 ms
+[ 9116.741603] Rust_List_Benchmark: Benchmark 24-th completed.
+[ 9116.743354] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 25
+[ 9119.732818] Rust_List_Benchmark: Starting 25-th list_head benchmark module...
+[ 9120.481200] Rust_List_Benchmark: Time to insert 15000000 elements at front: 728 ms
+[ 9121.263415] Rust_List_Benchmark: Time to insert 15000000 elements at back: 782 ms
+[ 9122.056102] Rust_List_Benchmark: Time to iterate 15000000 elements: 792 ms
+[ 9123.625839] Rust_List_Benchmark: Time to remove all elements: 1569 ms
+[ 9123.625873] Rust_List_Benchmark: Benchmark 25-th completed.
+[ 9123.627580] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 26
+[ 9127.536761] Rust_List_Benchmark: Starting 26-th list_head benchmark module...
+[ 9128.268007] Rust_List_Benchmark: Time to insert 15000000 elements at front: 711 ms
+[ 9129.036361] Rust_List_Benchmark: Time to insert 15000000 elements at back: 768 ms
+[ 9129.804343] Rust_List_Benchmark: Time to iterate 15000000 elements: 767 ms
+[ 9131.309201] Rust_List_Benchmark: Time to remove all elements: 1504 ms
+[ 9131.309207] Rust_List_Benchmark: Benchmark 26-th completed.
+[ 9131.311083] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 27
+[ 9134.360925] Rust_List_Benchmark: Starting 27-th list_head benchmark module...
+[ 9135.130871] Rust_List_Benchmark: Time to insert 15000000 elements at front: 750 ms
+[ 9135.919555] Rust_List_Benchmark: Time to insert 15000000 elements at back: 788 ms
+[ 9136.697832] Rust_List_Benchmark: Time to iterate 15000000 elements: 778 ms
+[ 9138.185055] Rust_List_Benchmark: Time to remove all elements: 1487 ms
+[ 9138.185120] Rust_List_Benchmark: Benchmark 27-th completed.
+[ 9138.186888] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 28
+[ 9141.189423] Rust_List_Benchmark: Starting 28-th list_head benchmark module...
+[ 9141.962559] Rust_List_Benchmark: Time to insert 15000000 elements at front: 753 ms
+[ 9142.746450] Rust_List_Benchmark: Time to insert 15000000 elements at back: 783 ms
+[ 9143.528019] Rust_List_Benchmark: Time to iterate 15000000 elements: 781 ms
+[ 9145.011911] Rust_List_Benchmark: Time to remove all elements: 1483 ms
+[ 9145.011917] Rust_List_Benchmark: Benchmark 28-th completed.
+[ 9145.013726] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 29
+[ 9148.028971] Rust_List_Benchmark: Starting 29-th list_head benchmark module...
+[ 9148.788034] Rust_List_Benchmark: Time to insert 15000000 elements at front: 739 ms
+[ 9149.587300] Rust_List_Benchmark: Time to insert 15000000 elements at back: 799 ms
+[ 9150.370113] Rust_List_Benchmark: Time to iterate 15000000 elements: 782 ms
+[ 9151.877036] Rust_List_Benchmark: Time to remove all elements: 1506 ms
+[ 9151.877041] Rust_List_Benchmark: Benchmark 29-th completed.
+[ 9151.878792] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 30
+[ 9154.877742] Rust_List_Benchmark: Starting 30-th list_head benchmark module...
+[ 9155.631372] Rust_List_Benchmark: Time to insert 15000000 elements at front: 732 ms
+[ 9156.423812] Rust_List_Benchmark: Time to insert 15000000 elements at back: 792 ms
+[ 9157.193341] Rust_List_Benchmark: Time to iterate 15000000 elements: 769 ms
+[ 9158.697541] Rust_List_Benchmark: Time to remove all elements: 1504 ms
+[ 9158.697545] Rust_List_Benchmark: Benchmark 30-th completed.
+[ 9158.699331] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 31
+[ 9161.737254] Rust_List_Benchmark: Starting 31-th list_head benchmark module...
+[ 9162.553147] Rust_List_Benchmark: Time to insert 15000000 elements at front: 796 ms
+[ 9163.348172] Rust_List_Benchmark: Time to insert 15000000 elements at back: 794 ms
+[ 9164.132699] Rust_List_Benchmark: Time to iterate 15000000 elements: 784 ms
+[ 9165.625082] Rust_List_Benchmark: Time to remove all elements: 1492 ms
+[ 9165.625117] Rust_List_Benchmark: Benchmark 31-th completed.
+[ 9165.626901] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 32
+[ 9169.558925] Rust_List_Benchmark: Starting 32-th list_head benchmark module...
+[ 9170.341094] Rust_List_Benchmark: Time to insert 15000000 elements at front: 762 ms
+[ 9171.154105] Rust_List_Benchmark: Time to insert 15000000 elements at back: 812 ms
+[ 9171.934280] Rust_List_Benchmark: Time to iterate 15000000 elements: 780 ms
+[ 9173.448897] Rust_List_Benchmark: Time to remove all elements: 1514 ms
+[ 9173.448902] Rust_List_Benchmark: Benchmark 32-th completed.
+[ 9173.450702] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 33
+[ 9177.419794] Rust_List_Benchmark: Starting 33-th list_head benchmark module...
+[ 9178.226075] Rust_List_Benchmark: Time to insert 15000000 elements at front: 786 ms
+[ 9179.014752] Rust_List_Benchmark: Time to insert 15000000 elements at back: 788 ms
+[ 9179.826811] Rust_List_Benchmark: Time to iterate 15000000 elements: 812 ms
+[ 9181.311578] Rust_List_Benchmark: Time to remove all elements: 1484 ms
+[ 9181.311583] Rust_List_Benchmark: Benchmark 33-th completed.
+[ 9181.313279] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 34
+[ 9185.300793] Rust_List_Benchmark: Starting 34-th list_head benchmark module...
+[ 9186.037004] Rust_List_Benchmark: Time to insert 15000000 elements at front: 715 ms
+[ 9186.813849] Rust_List_Benchmark: Time to insert 15000000 elements at back: 776 ms
+[ 9187.594260] Rust_List_Benchmark: Time to iterate 15000000 elements: 780 ms
+[ 9189.080556] Rust_List_Benchmark: Time to remove all elements: 1486 ms
+[ 9189.080562] Rust_List_Benchmark: Benchmark 34-th completed.
+[ 9189.082503] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 35
+[ 9192.136739] Rust_List_Benchmark: Starting 35-th list_head benchmark module...
+[ 9192.899590] Rust_List_Benchmark: Time to insert 15000000 elements at front: 743 ms
+[ 9193.689603] Rust_List_Benchmark: Time to insert 15000000 elements at back: 789 ms
+[ 9194.493191] Rust_List_Benchmark: Time to iterate 15000000 elements: 803 ms
+[ 9195.974760] Rust_List_Benchmark: Time to remove all elements: 1481 ms
+[ 9195.974765] Rust_List_Benchmark: Benchmark 35-th completed.
+[ 9195.976547] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 36
+[ 9200.004659] Rust_List_Benchmark: Starting 36-th list_head benchmark module...
+[ 9200.773574] Rust_List_Benchmark: Time to insert 15000000 elements at front: 749 ms
+[ 9201.549323] Rust_List_Benchmark: Time to insert 15000000 elements at back: 775 ms
+[ 9202.340893] Rust_List_Benchmark: Time to iterate 15000000 elements: 791 ms
+[ 9203.826845] Rust_List_Benchmark: Time to remove all elements: 1485 ms
+[ 9203.826881] Rust_List_Benchmark: Benchmark 36-th completed.
+[ 9203.828723] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 37
+[ 9206.799316] Rust_List_Benchmark: Starting 37-th list_head benchmark module...
+[ 9207.555083] Rust_List_Benchmark: Time to insert 15000000 elements at front: 736 ms
+[ 9208.365262] Rust_List_Benchmark: Time to insert 15000000 elements at back: 810 ms
+[ 9209.118779] Rust_List_Benchmark: Time to iterate 15000000 elements: 753 ms
+[ 9210.704702] Rust_List_Benchmark: Time to remove all elements: 1585 ms
+[ 9210.704707] Rust_List_Benchmark: Benchmark 37-th completed.
+[ 9210.706638] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 38
+[ 9214.672079] Rust_List_Benchmark: Starting 38-th list_head benchmark module...
+[ 9215.465573] Rust_List_Benchmark: Time to insert 15000000 elements at front: 773 ms
+[ 9216.240213] Rust_List_Benchmark: Time to insert 15000000 elements at back: 774 ms
+[ 9217.036271] Rust_List_Benchmark: Time to iterate 15000000 elements: 796 ms
+[ 9218.524437] Rust_List_Benchmark: Time to remove all elements: 1488 ms
+[ 9218.524470] Rust_List_Benchmark: Benchmark 38-th completed.
+[ 9218.526455] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 39
+[ 9221.478423] Rust_List_Benchmark: Starting 39-th list_head benchmark module...
+[ 9222.242267] Rust_List_Benchmark: Time to insert 15000000 elements at front: 744 ms
+[ 9223.024944] Rust_List_Benchmark: Time to insert 15000000 elements at back: 782 ms
+[ 9223.827974] Rust_List_Benchmark: Time to iterate 15000000 elements: 802 ms
+[ 9225.320842] Rust_List_Benchmark: Time to remove all elements: 1492 ms
+[ 9225.320846] Rust_List_Benchmark: Benchmark 39-th completed.
+[ 9225.322713] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 40
+[ 9228.292951] Rust_List_Benchmark: Starting 40-th list_head benchmark module...
+[ 9229.067798] Rust_List_Benchmark: Time to insert 15000000 elements at front: 755 ms
+[ 9229.855054] Rust_List_Benchmark: Time to insert 15000000 elements at back: 787 ms
+[ 9230.656997] Rust_List_Benchmark: Time to iterate 15000000 elements: 801 ms
+[ 9232.143409] Rust_List_Benchmark: Time to remove all elements: 1486 ms
+[ 9232.143444] Rust_List_Benchmark: Benchmark 40-th completed.
+[ 9232.145171] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 41
+[ 9235.088587] Rust_List_Benchmark: Starting 41-th list_head benchmark module...
+[ 9235.878186] Rust_List_Benchmark: Time to insert 15000000 elements at front: 769 ms
+[ 9236.670191] Rust_List_Benchmark: Time to insert 15000000 elements at back: 791 ms
+[ 9237.455633] Rust_List_Benchmark: Time to iterate 15000000 elements: 785 ms
+[ 9238.927352] Rust_List_Benchmark: Time to remove all elements: 1471 ms
+[ 9238.927388] Rust_List_Benchmark: Benchmark 41-th completed.
+[ 9238.929093] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 42
+[ 9241.900950] Rust_List_Benchmark: Starting 42-th list_head benchmark module...
+[ 9242.657978] Rust_List_Benchmark: Time to insert 15000000 elements at front: 737 ms
+[ 9243.444598] Rust_List_Benchmark: Time to insert 15000000 elements at back: 786 ms
+[ 9244.227318] Rust_List_Benchmark: Time to iterate 15000000 elements: 782 ms
+[ 9245.693660] Rust_List_Benchmark: Time to remove all elements: 1466 ms
+[ 9245.693666] Rust_List_Benchmark: Benchmark 42-th completed.
+[ 9245.695535] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 43
+[ 9248.710125] Rust_List_Benchmark: Starting 43-th list_head benchmark module...
+[ 9249.497145] Rust_List_Benchmark: Time to insert 15000000 elements at front: 766 ms
+[ 9250.299855] Rust_List_Benchmark: Time to insert 15000000 elements at back: 802 ms
+[ 9251.083413] Rust_List_Benchmark: Time to iterate 15000000 elements: 783 ms
+[ 9252.578970] Rust_List_Benchmark: Time to remove all elements: 1495 ms
+[ 9252.578976] Rust_List_Benchmark: Benchmark 43-th completed.
+[ 9252.580798] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 44
+[ 9255.530261] Rust_List_Benchmark: Starting 44-th list_head benchmark module...
+[ 9256.297594] Rust_List_Benchmark: Time to insert 15000000 elements at front: 747 ms
+[ 9257.078098] Rust_List_Benchmark: Time to insert 15000000 elements at back: 780 ms
+[ 9257.897954] Rust_List_Benchmark: Time to iterate 15000000 elements: 819 ms
+[ 9259.466269] Rust_List_Benchmark: Time to remove all elements: 1568 ms
+[ 9259.466303] Rust_List_Benchmark: Benchmark 44-th completed.
+[ 9259.468115] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 45
+[ 9263.374418] Rust_List_Benchmark: Starting 45-th list_head benchmark module...
+[ 9264.137696] Rust_List_Benchmark: Time to insert 15000000 elements at front: 743 ms
+[ 9264.913664] Rust_List_Benchmark: Time to insert 15000000 elements at back: 775 ms
+[ 9265.706739] Rust_List_Benchmark: Time to iterate 15000000 elements: 793 ms
+[ 9267.173492] Rust_List_Benchmark: Time to remove all elements: 1466 ms
+[ 9267.173525] Rust_List_Benchmark: Benchmark 45-th completed.
+[ 9267.175379] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 46
+[ 9270.208952] Rust_List_Benchmark: Starting 46-th list_head benchmark module...
+[ 9270.980669] Rust_List_Benchmark: Time to insert 15000000 elements at front: 751 ms
+[ 9271.772926] Rust_List_Benchmark: Time to insert 15000000 elements at back: 792 ms
+[ 9272.592103] Rust_List_Benchmark: Time to iterate 15000000 elements: 819 ms
+[ 9274.076769] Rust_List_Benchmark: Time to remove all elements: 1484 ms
+[ 9274.076774] Rust_List_Benchmark: Benchmark 46-th completed.
+[ 9274.078754] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 47
+[ 9278.101934] Rust_List_Benchmark: Starting 47-th list_head benchmark module...
+[ 9278.881758] Rust_List_Benchmark: Time to insert 15000000 elements at front: 758 ms
+[ 9279.664790] Rust_List_Benchmark: Time to insert 15000000 elements at back: 782 ms
+[ 9280.455435] Rust_List_Benchmark: Time to iterate 15000000 elements: 790 ms
+[ 9281.934830] Rust_List_Benchmark: Time to remove all elements: 1479 ms
+[ 9281.934835] Rust_List_Benchmark: Benchmark 47-th completed.
+[ 9281.936675] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 48
+[ 9284.942677] Rust_List_Benchmark: Starting 48-th list_head benchmark module...
+[ 9285.674699] Rust_List_Benchmark: Time to insert 15000000 elements at front: 712 ms
+[ 9286.467378] Rust_List_Benchmark: Time to insert 15000000 elements at back: 792 ms
+[ 9287.240784] Rust_List_Benchmark: Time to iterate 15000000 elements: 773 ms
+[ 9288.714944] Rust_List_Benchmark: Time to remove all elements: 1474 ms
+[ 9288.714978] Rust_List_Benchmark: Benchmark 48-th completed.
+[ 9288.716741] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 49
+[ 9291.733604] Rust_List_Benchmark: Starting 49-th list_head benchmark module...
+[ 9292.502564] Rust_List_Benchmark: Time to insert 15000000 elements at front: 748 ms
+[ 9293.295952] Rust_List_Benchmark: Time to insert 15000000 elements at back: 793 ms
+[ 9294.062959] Rust_List_Benchmark: Time to iterate 15000000 elements: 766 ms
+[ 9295.551024] Rust_List_Benchmark: Time to remove all elements: 1487 ms
+[ 9295.551029] Rust_List_Benchmark: Benchmark 49-th completed.
+[ 9295.552837] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 50
+[ 9298.644728] Rust_List_Benchmark: Starting 50-th list_head benchmark module...
+[ 9299.368516] Rust_List_Benchmark: Time to insert 15000000 elements at front: 703 ms
+[ 9300.146891] Rust_List_Benchmark: Time to insert 15000000 elements at back: 778 ms
+[ 9300.949550] Rust_List_Benchmark: Time to iterate 15000000 elements: 802 ms
+[ 9302.437202] Rust_List_Benchmark: Time to remove all elements: 1487 ms
+[ 9302.437207] Rust_List_Benchmark: Benchmark 50-th completed.
+[ 9302.438953] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 51
+[ 9305.408156] Rust_List_Benchmark: Starting 51-th list_head benchmark module...
+[ 9306.218386] Rust_List_Benchmark: Time to insert 15000000 elements at front: 790 ms
+[ 9307.007695] Rust_List_Benchmark: Time to insert 15000000 elements at back: 789 ms
+[ 9307.785794] Rust_List_Benchmark: Time to iterate 15000000 elements: 778 ms
+[ 9309.280973] Rust_List_Benchmark: Time to remove all elements: 1495 ms
+[ 9309.281015] Rust_List_Benchmark: Benchmark 51-th completed.
+[ 9309.282805] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 52
+[ 9313.236127] Rust_List_Benchmark: Starting 52-th list_head benchmark module...
+[ 9313.997920] Rust_List_Benchmark: Time to insert 15000000 elements at front: 740 ms
+[ 9314.769581] Rust_List_Benchmark: Time to insert 15000000 elements at back: 771 ms
+[ 9315.579357] Rust_List_Benchmark: Time to iterate 15000000 elements: 809 ms
+[ 9317.093986] Rust_List_Benchmark: Time to remove all elements: 1514 ms
+[ 9317.094021] Rust_List_Benchmark: Benchmark 52-th completed.
+[ 9317.096032] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 53
+[ 9320.050468] Rust_List_Benchmark: Starting 53-th list_head benchmark module...
+[ 9320.801479] Rust_List_Benchmark: Time to insert 15000000 elements at front: 731 ms
+[ 9321.607466] Rust_List_Benchmark: Time to insert 15000000 elements at back: 805 ms
+[ 9322.382769] Rust_List_Benchmark: Time to iterate 15000000 elements: 775 ms
+[ 9323.885002] Rust_List_Benchmark: Time to remove all elements: 1502 ms
+[ 9323.885038] Rust_List_Benchmark: Benchmark 53-th completed.
+[ 9323.886806] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 54
+[ 9326.870611] Rust_List_Benchmark: Starting 54-th list_head benchmark module...
+[ 9327.652880] Rust_List_Benchmark: Time to insert 15000000 elements at front: 762 ms
+[ 9328.452857] Rust_List_Benchmark: Time to insert 15000000 elements at back: 799 ms
+[ 9329.249279] Rust_List_Benchmark: Time to iterate 15000000 elements: 796 ms
+[ 9330.740941] Rust_List_Benchmark: Time to remove all elements: 1491 ms
+[ 9330.740945] Rust_List_Benchmark: Benchmark 54-th completed.
+[ 9330.742788] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 55
+[ 9334.829708] Rust_List_Benchmark: Starting 55-th list_head benchmark module...
+[ 9335.580316] Rust_List_Benchmark: Time to insert 15000000 elements at front: 730 ms
+[ 9336.354728] Rust_List_Benchmark: Time to insert 15000000 elements at back: 774 ms
+[ 9337.150055] Rust_List_Benchmark: Time to iterate 15000000 elements: 795 ms
+[ 9338.608912] Rust_List_Benchmark: Time to remove all elements: 1458 ms
+[ 9338.608917] Rust_List_Benchmark: Benchmark 55-th completed.
+[ 9338.610955] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 56
+[ 9341.656616] Rust_List_Benchmark: Starting 56-th list_head benchmark module...
+[ 9342.399803] Rust_List_Benchmark: Time to insert 15000000 elements at front: 723 ms
+[ 9343.180686] Rust_List_Benchmark: Time to insert 15000000 elements at back: 780 ms
+[ 9343.977997] Rust_List_Benchmark: Time to iterate 15000000 elements: 797 ms
+[ 9345.470956] Rust_List_Benchmark: Time to remove all elements: 1492 ms
+[ 9345.470961] Rust_List_Benchmark: Benchmark 56-th completed.
+[ 9345.472748] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 57
+[ 9348.516406] Rust_List_Benchmark: Starting 57-th list_head benchmark module...
+[ 9349.307633] Rust_List_Benchmark: Time to insert 15000000 elements at front: 771 ms
+[ 9350.099897] Rust_List_Benchmark: Time to insert 15000000 elements at back: 792 ms
+[ 9350.889863] Rust_List_Benchmark: Time to iterate 15000000 elements: 789 ms
+[ 9352.372742] Rust_List_Benchmark: Time to remove all elements: 1482 ms
+[ 9352.372747] Rust_List_Benchmark: Benchmark 57-th completed.
+[ 9352.374416] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 58
+[ 9356.389503] Rust_List_Benchmark: Starting 58-th list_head benchmark module...
+[ 9357.167442] Rust_List_Benchmark: Time to insert 15000000 elements at front: 758 ms
+[ 9357.948867] Rust_List_Benchmark: Time to insert 15000000 elements at back: 781 ms
+[ 9358.719676] Rust_List_Benchmark: Time to iterate 15000000 elements: 770 ms
+[ 9360.222180] Rust_List_Benchmark: Time to remove all elements: 1502 ms
+[ 9360.222215] Rust_List_Benchmark: Benchmark 58-th completed.
+[ 9360.224097] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 59
+[ 9363.181502] Rust_List_Benchmark: Starting 59-th list_head benchmark module...
+[ 9363.924476] Rust_List_Benchmark: Time to insert 15000000 elements at front: 723 ms
+[ 9364.708035] Rust_List_Benchmark: Time to insert 15000000 elements at back: 783 ms
+[ 9365.473538] Rust_List_Benchmark: Time to iterate 15000000 elements: 765 ms
+[ 9366.962465] Rust_List_Benchmark: Time to remove all elements: 1488 ms
+[ 9366.962501] Rust_List_Benchmark: Benchmark 59-th completed.
+[ 9366.964267] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 60
+[ 9369.980608] Rust_List_Benchmark: Starting 60-th list_head benchmark module...
+[ 9370.746850] Rust_List_Benchmark: Time to insert 15000000 elements at front: 746 ms
+[ 9371.536085] Rust_List_Benchmark: Time to insert 15000000 elements at back: 789 ms
+[ 9372.301506] Rust_List_Benchmark: Time to iterate 15000000 elements: 765 ms
+[ 9373.783197] Rust_List_Benchmark: Time to remove all elements: 1481 ms
+[ 9373.783232] Rust_List_Benchmark: Benchmark 60-th completed.
+[ 9373.785145] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 61
+[ 9376.812746] Rust_List_Benchmark: Starting 61-th list_head benchmark module...
+[ 9377.552095] Rust_List_Benchmark: Time to insert 15000000 elements at front: 719 ms
+[ 9378.330618] Rust_List_Benchmark: Time to insert 15000000 elements at back: 778 ms
+[ 9379.123699] Rust_List_Benchmark: Time to iterate 15000000 elements: 793 ms
+[ 9380.626365] Rust_List_Benchmark: Time to remove all elements: 1502 ms
+[ 9380.626388] Rust_List_Benchmark: Benchmark 61-th completed.
+[ 9380.628382] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 62
+[ 9383.611109] Rust_List_Benchmark: Starting 62-th list_head benchmark module...
+[ 9384.389449] Rust_List_Benchmark: Time to insert 15000000 elements at front: 757 ms
+[ 9385.195415] Rust_List_Benchmark: Time to insert 15000000 elements at back: 805 ms
+[ 9385.995187] Rust_List_Benchmark: Time to iterate 15000000 elements: 799 ms
+[ 9387.485728] Rust_List_Benchmark: Time to remove all elements: 1490 ms
+[ 9387.485734] Rust_List_Benchmark: Benchmark 62-th completed.
+[ 9387.487456] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 63
+[ 9391.444291] Rust_List_Benchmark: Starting 63-th list_head benchmark module...
+[ 9392.236780] Rust_List_Benchmark: Time to insert 15000000 elements at front: 772 ms
+[ 9392.986703] Rust_List_Benchmark: Time to insert 15000000 elements at back: 749 ms
+[ 9393.777958] Rust_List_Benchmark: Time to iterate 15000000 elements: 791 ms
+[ 9395.257566] Rust_List_Benchmark: Time to remove all elements: 1479 ms
+[ 9395.257570] Rust_List_Benchmark: Benchmark 63-th completed.
+[ 9395.259273] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 64
+[ 9398.197752] Rust_List_Benchmark: Starting 64-th list_head benchmark module...
+[ 9398.948367] Rust_List_Benchmark: Time to insert 15000000 elements at front: 731 ms
+[ 9399.742688] Rust_List_Benchmark: Time to insert 15000000 elements at back: 794 ms
+[ 9400.515052] Rust_List_Benchmark: Time to iterate 15000000 elements: 772 ms
+[ 9402.003981] Rust_List_Benchmark: Time to remove all elements: 1488 ms
+[ 9402.004016] Rust_List_Benchmark: Benchmark 64-th completed.
+[ 9402.005817] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 65
+[ 9405.010238] Rust_List_Benchmark: Starting 65-th list_head benchmark module...
+[ 9405.765586] Rust_List_Benchmark: Time to insert 15000000 elements at front: 735 ms
+[ 9406.547537] Rust_List_Benchmark: Time to insert 15000000 elements at back: 781 ms
+[ 9407.345892] Rust_List_Benchmark: Time to iterate 15000000 elements: 798 ms
+[ 9408.833413] Rust_List_Benchmark: Time to remove all elements: 1487 ms
+[ 9408.833417] Rust_List_Benchmark: Benchmark 65-th completed.
+[ 9408.835186] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 66
+[ 9411.818195] Rust_List_Benchmark: Starting 66-th list_head benchmark module...
+[ 9412.599992] Rust_List_Benchmark: Time to insert 15000000 elements at front: 761 ms
+[ 9413.395524] Rust_List_Benchmark: Time to insert 15000000 elements at back: 795 ms
+[ 9414.180599] Rust_List_Benchmark: Time to iterate 15000000 elements: 785 ms
+[ 9415.656281] Rust_List_Benchmark: Time to remove all elements: 1475 ms
+[ 9415.656287] Rust_List_Benchmark: Benchmark 66-th completed.
+[ 9415.658080] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 67
+[ 9418.629804] Rust_List_Benchmark: Starting 67-th list_head benchmark module...
+[ 9419.389711] Rust_List_Benchmark: Time to insert 15000000 elements at front: 739 ms
+[ 9420.181613] Rust_List_Benchmark: Time to insert 15000000 elements at back: 791 ms
+[ 9420.956609] Rust_List_Benchmark: Time to iterate 15000000 elements: 774 ms
+[ 9422.454263] Rust_List_Benchmark: Time to remove all elements: 1497 ms
+[ 9422.454268] Rust_List_Benchmark: Benchmark 67-th completed.
+[ 9422.456133] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 68
+[ 9425.430284] Rust_List_Benchmark: Starting 68-th list_head benchmark module...
+[ 9426.196111] Rust_List_Benchmark: Time to insert 15000000 elements at front: 745 ms
+[ 9427.004920] Rust_List_Benchmark: Time to insert 15000000 elements at back: 808 ms
+[ 9427.777205] Rust_List_Benchmark: Time to iterate 15000000 elements: 772 ms
+[ 9429.301916] Rust_List_Benchmark: Time to remove all elements: 1524 ms
+[ 9429.301952] Rust_List_Benchmark: Benchmark 68-th completed.
+[ 9429.303627] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 69
+[ 9433.240315] Rust_List_Benchmark: Starting 69-th list_head benchmark module...
+[ 9434.064221] Rust_List_Benchmark: Time to insert 15000000 elements at front: 804 ms
+[ 9434.862123] Rust_List_Benchmark: Time to insert 15000000 elements at back: 797 ms
+[ 9435.648841] Rust_List_Benchmark: Time to iterate 15000000 elements: 786 ms
+[ 9437.138850] Rust_List_Benchmark: Time to remove all elements: 1489 ms
+[ 9437.138856] Rust_List_Benchmark: Benchmark 69-th completed.
+[ 9437.140655] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 70
+[ 9440.109529] Rust_List_Benchmark: Starting 70-th list_head benchmark module...
+[ 9440.854975] Rust_List_Benchmark: Time to insert 15000000 elements at front: 725 ms
+[ 9441.651433] Rust_List_Benchmark: Time to insert 15000000 elements at back: 796 ms
+[ 9442.415473] Rust_List_Benchmark: Time to iterate 15000000 elements: 763 ms
+[ 9443.921633] Rust_List_Benchmark: Time to remove all elements: 1505 ms
+[ 9443.921638] Rust_List_Benchmark: Benchmark 70-th completed.
+[ 9443.923474] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 71
+[ 9446.949670] Rust_List_Benchmark: Starting 71-th list_head benchmark module...
+[ 9447.702732] Rust_List_Benchmark: Time to insert 15000000 elements at front: 733 ms
+[ 9448.487228] Rust_List_Benchmark: Time to insert 15000000 elements at back: 784 ms
+[ 9449.275309] Rust_List_Benchmark: Time to iterate 15000000 elements: 788 ms
+[ 9450.756975] Rust_List_Benchmark: Time to remove all elements: 1481 ms
+[ 9450.756980] Rust_List_Benchmark: Benchmark 71-th completed.
+[ 9450.758835] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 72
+[ 9453.809941] Rust_List_Benchmark: Starting 72-th list_head benchmark module...
+[ 9454.563991] Rust_List_Benchmark: Time to insert 15000000 elements at front: 734 ms
+[ 9455.348785] Rust_List_Benchmark: Time to insert 15000000 elements at back: 784 ms
+[ 9456.124928] Rust_List_Benchmark: Time to iterate 15000000 elements: 776 ms
+[ 9457.627936] Rust_List_Benchmark: Time to remove all elements: 1502 ms
+[ 9457.627973] Rust_List_Benchmark: Benchmark 72-th completed.
+[ 9457.629908] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 73
+[ 9460.588308] Rust_List_Benchmark: Starting 73-th list_head benchmark module...
+[ 9461.354509] Rust_List_Benchmark: Time to insert 15000000 elements at front: 744 ms
+[ 9462.140988] Rust_List_Benchmark: Time to insert 15000000 elements at back: 786 ms
+[ 9462.934469] Rust_List_Benchmark: Time to iterate 15000000 elements: 793 ms
+[ 9464.429647] Rust_List_Benchmark: Time to remove all elements: 1495 ms
+[ 9464.429653] Rust_List_Benchmark: Benchmark 73-th completed.
+[ 9464.431453] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 74
+[ 9467.449183] Rust_List_Benchmark: Starting 74-th list_head benchmark module...
+[ 9468.240704] Rust_List_Benchmark: Time to insert 15000000 elements at front: 772 ms
+[ 9469.019602] Rust_List_Benchmark: Time to insert 15000000 elements at back: 778 ms
+[ 9469.810395] Rust_List_Benchmark: Time to iterate 15000000 elements: 790 ms
+[ 9471.337712] Rust_List_Benchmark: Time to remove all elements: 1527 ms
+[ 9471.337717] Rust_List_Benchmark: Benchmark 74-th completed.
+[ 9471.339437] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 75
+[ 9475.299596] Rust_List_Benchmark: Starting 75-th list_head benchmark module...
+[ 9476.074209] Rust_List_Benchmark: Time to insert 15000000 elements at front: 754 ms
+[ 9476.882306] Rust_List_Benchmark: Time to insert 15000000 elements at back: 808 ms
+[ 9477.650100] Rust_List_Benchmark: Time to iterate 15000000 elements: 767 ms
+[ 9479.163052] Rust_List_Benchmark: Time to remove all elements: 1512 ms
+[ 9479.163089] Rust_List_Benchmark: Benchmark 75-th completed.
+[ 9479.164936] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 76
+[ 9483.275962] Rust_List_Benchmark: Starting 76-th list_head benchmark module...
+[ 9484.061981] Rust_List_Benchmark: Time to insert 15000000 elements at front: 765 ms
+[ 9484.850342] Rust_List_Benchmark: Time to insert 15000000 elements at back: 788 ms
+[ 9485.674098] Rust_List_Benchmark: Time to iterate 15000000 elements: 823 ms
+[ 9487.148071] Rust_List_Benchmark: Time to remove all elements: 1473 ms
+[ 9487.148076] Rust_List_Benchmark: Benchmark 76-th completed.
+[ 9487.150055] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 77
+[ 9491.159684] Rust_List_Benchmark: Starting 77-th list_head benchmark module...
+[ 9491.916907] Rust_List_Benchmark: Time to insert 15000000 elements at front: 737 ms
+[ 9492.704991] Rust_List_Benchmark: Time to insert 15000000 elements at back: 788 ms
+[ 9493.474667] Rust_List_Benchmark: Time to iterate 15000000 elements: 769 ms
+[ 9494.988614] Rust_List_Benchmark: Time to remove all elements: 1513 ms
+[ 9494.988619] Rust_List_Benchmark: Benchmark 77-th completed.
+[ 9494.990351] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 78
+[ 9497.934103] Rust_List_Benchmark: Starting 78-th list_head benchmark module...
+[ 9498.671837] Rust_List_Benchmark: Time to insert 15000000 elements at front: 717 ms
+[ 9499.453197] Rust_List_Benchmark: Time to insert 15000000 elements at back: 781 ms
+[ 9500.238620] Rust_List_Benchmark: Time to iterate 15000000 elements: 785 ms
+[ 9501.727571] Rust_List_Benchmark: Time to remove all elements: 1488 ms
+[ 9501.727607] Rust_List_Benchmark: Benchmark 78-th completed.
+[ 9501.729433] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 79
+[ 9504.763449] Rust_List_Benchmark: Starting 79-th list_head benchmark module...
+[ 9505.565276] Rust_List_Benchmark: Time to insert 15000000 elements at front: 781 ms
+[ 9506.348198] Rust_List_Benchmark: Time to insert 15000000 elements at back: 782 ms
+[ 9507.092296] Rust_List_Benchmark: Time to iterate 15000000 elements: 744 ms
+[ 9508.569568] Rust_List_Benchmark: Time to remove all elements: 1477 ms
+[ 9508.569574] Rust_List_Benchmark: Benchmark 79-th completed.
+[ 9508.571473] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 80
+[ 9512.685848] Rust_List_Benchmark: Starting 80-th list_head benchmark module...
+[ 9513.496323] Rust_List_Benchmark: Time to insert 15000000 elements at front: 789 ms
+[ 9514.257283] Rust_List_Benchmark: Time to insert 15000000 elements at back: 760 ms
+[ 9515.028885] Rust_List_Benchmark: Time to iterate 15000000 elements: 771 ms
+[ 9516.811258] Rust_List_Benchmark: Time to remove all elements: 1782 ms
+[ 9516.811264] Rust_List_Benchmark: Benchmark 80-th completed.
+[ 9516.813066] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 81
+[ 9521.890982] Rust_List_Benchmark: Starting 81-th list_head benchmark module...
+[ 9522.850670] Rust_List_Benchmark: Time to insert 15000000 elements at front: 927 ms
+[ 9523.826418] Rust_List_Benchmark: Time to insert 15000000 elements at back: 975 ms
+[ 9524.569987] Rust_List_Benchmark: Time to iterate 15000000 elements: 743 ms
+[ 9526.045902] Rust_List_Benchmark: Time to remove all elements: 1475 ms
+[ 9526.045907] Rust_List_Benchmark: Benchmark 81-th completed.
+[ 9526.047870] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 82
+[ 9531.009870] Rust_List_Benchmark: Starting 82-th list_head benchmark module...
+[ 9531.824871] Rust_List_Benchmark: Time to insert 15000000 elements at front: 794 ms
+[ 9532.689888] Rust_List_Benchmark: Time to insert 15000000 elements at back: 864 ms
+[ 9533.522825] Rust_List_Benchmark: Time to iterate 15000000 elements: 832 ms
+[ 9535.005816] Rust_List_Benchmark: Time to remove all elements: 1482 ms
+[ 9535.005822] Rust_List_Benchmark: Benchmark 82-th completed.
+[ 9535.007695] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 83
+[ 9540.093065] Rust_List_Benchmark: Starting 83-th list_head benchmark module...
+[ 9540.944331] Rust_List_Benchmark: Time to insert 15000000 elements at front: 817 ms
+[ 9541.966207] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1021 ms
+[ 9542.764706] Rust_List_Benchmark: Time to iterate 15000000 elements: 798 ms
+[ 9544.230483] Rust_List_Benchmark: Time to remove all elements: 1465 ms
+[ 9544.230488] Rust_List_Benchmark: Benchmark 83-th completed.
+[ 9544.232143] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 84
+[ 9549.105460] Rust_List_Benchmark: Starting 84-th list_head benchmark module...
+[ 9549.939945] Rust_List_Benchmark: Time to insert 15000000 elements at front: 814 ms
+[ 9550.934387] Rust_List_Benchmark: Time to insert 15000000 elements at back: 994 ms
+[ 9551.771182] Rust_List_Benchmark: Time to iterate 15000000 elements: 836 ms
+[ 9553.269016] Rust_List_Benchmark: Time to remove all elements: 1497 ms
+[ 9553.269052] Rust_List_Benchmark: Benchmark 84-th completed.
+[ 9553.270878] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 85
+[ 9558.056027] Rust_List_Benchmark: Starting 85-th list_head benchmark module...
+[ 9558.870456] Rust_List_Benchmark: Time to insert 15000000 elements at front: 793 ms
+[ 9559.755340] Rust_List_Benchmark: Time to insert 15000000 elements at back: 884 ms
+[ 9560.525240] Rust_List_Benchmark: Time to iterate 15000000 elements: 769 ms
+[ 9562.050115] Rust_List_Benchmark: Time to remove all elements: 1524 ms
+[ 9562.050121] Rust_List_Benchmark: Benchmark 85-th completed.
+[ 9562.051896] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 86
+[ 9567.224489] Rust_List_Benchmark: Starting 86-th list_head benchmark module...
+[ 9568.081137] Rust_List_Benchmark: Time to insert 15000000 elements at front: 819 ms
+[ 9569.024225] Rust_List_Benchmark: Time to insert 15000000 elements at back: 943 ms
+[ 9569.851935] Rust_List_Benchmark: Time to iterate 15000000 elements: 827 ms
+[ 9571.352356] Rust_List_Benchmark: Time to remove all elements: 1500 ms
+[ 9571.352361] Rust_List_Benchmark: Benchmark 86-th completed.
+[ 9571.354293] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 87
+[ 9576.638261] Rust_List_Benchmark: Starting 87-th list_head benchmark module...
+[ 9577.510125] Rust_List_Benchmark: Time to insert 15000000 elements at front: 850 ms
+[ 9578.467747] Rust_List_Benchmark: Time to insert 15000000 elements at back: 957 ms
+[ 9579.246262] Rust_List_Benchmark: Time to iterate 15000000 elements: 778 ms
+[ 9580.753660] Rust_List_Benchmark: Time to remove all elements: 1507 ms
+[ 9580.753665] Rust_List_Benchmark: Benchmark 87-th completed.
+[ 9580.755592] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 88
+[ 9585.829560] Rust_List_Benchmark: Starting 88-th list_head benchmark module...
+[ 9586.788701] Rust_List_Benchmark: Time to insert 15000000 elements at front: 935 ms
+[ 9587.728320] Rust_List_Benchmark: Time to insert 15000000 elements at back: 939 ms
+[ 9588.517297] Rust_List_Benchmark: Time to iterate 15000000 elements: 788 ms
+[ 9590.097228] Rust_List_Benchmark: Time to remove all elements: 1579 ms
+[ 9590.097267] Rust_List_Benchmark: Benchmark 88-th completed.
+[ 9590.099139] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 89
+[ 9595.143329] Rust_List_Benchmark: Starting 89-th list_head benchmark module...
+[ 9596.021521] Rust_List_Benchmark: Time to insert 15000000 elements at front: 846 ms
+[ 9596.940856] Rust_List_Benchmark: Time to insert 15000000 elements at back: 919 ms
+[ 9597.738752] Rust_List_Benchmark: Time to iterate 15000000 elements: 797 ms
+[ 9599.267300] Rust_List_Benchmark: Time to remove all elements: 1528 ms
+[ 9599.267305] Rust_List_Benchmark: Benchmark 89-th completed.
+[ 9599.269014] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 90
+[ 9604.199247] Rust_List_Benchmark: Starting 90-th list_head benchmark module...
+[ 9605.199375] Rust_List_Benchmark: Time to insert 15000000 elements at front: 974 ms
+[ 9606.203112] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1003 ms
+[ 9606.987264] Rust_List_Benchmark: Time to iterate 15000000 elements: 784 ms
+[ 9608.514546] Rust_List_Benchmark: Time to remove all elements: 1527 ms
+[ 9608.514551] Rust_List_Benchmark: Benchmark 90-th completed.
+[ 9608.516283] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 91
+[ 9613.583742] Rust_List_Benchmark: Starting 91-th list_head benchmark module...
+[ 9614.543191] Rust_List_Benchmark: Time to insert 15000000 elements at front: 939 ms
+[ 9615.608473] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1065 ms
+[ 9616.367027] Rust_List_Benchmark: Time to iterate 15000000 elements: 758 ms
+[ 9617.909118] Rust_List_Benchmark: Time to remove all elements: 1541 ms
+[ 9617.909124] Rust_List_Benchmark: Benchmark 91-th completed.
+[ 9617.911092] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 92
+[ 9623.052444] Rust_List_Benchmark: Starting 92-th list_head benchmark module...
+[ 9623.831409] Rust_List_Benchmark: Time to insert 15000000 elements at front: 759 ms
+[ 9624.760620] Rust_List_Benchmark: Time to insert 15000000 elements at back: 929 ms
+[ 9625.577290] Rust_List_Benchmark: Time to iterate 15000000 elements: 816 ms
+[ 9627.146718] Rust_List_Benchmark: Time to remove all elements: 1569 ms
+[ 9627.146756] Rust_List_Benchmark: Benchmark 92-th completed.
+[ 9627.148530] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 93
+[ 9632.136767] Rust_List_Benchmark: Starting 93-th list_head benchmark module...
+[ 9632.947970] Rust_List_Benchmark: Time to insert 15000000 elements at front: 790 ms
+[ 9633.894564] Rust_List_Benchmark: Time to insert 15000000 elements at back: 946 ms
+[ 9634.704079] Rust_List_Benchmark: Time to iterate 15000000 elements: 809 ms
+[ 9636.222301] Rust_List_Benchmark: Time to remove all elements: 1518 ms
+[ 9636.222306] Rust_List_Benchmark: Benchmark 93-th completed.
+[ 9636.224168] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 94
+[ 9641.132840] Rust_List_Benchmark: Starting 94-th list_head benchmark module...
+[ 9642.080644] Rust_List_Benchmark: Time to insert 15000000 elements at front: 927 ms
+[ 9643.088415] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1007 ms
+[ 9643.871208] Rust_List_Benchmark: Time to iterate 15000000 elements: 782 ms
+[ 9645.418227] Rust_List_Benchmark: Time to remove all elements: 1546 ms
+[ 9645.418233] Rust_List_Benchmark: Benchmark 94-th completed.
+[ 9645.420130] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 95
+[ 9650.223556] Rust_List_Benchmark: Starting 95-th list_head benchmark module...
+[ 9651.040379] Rust_List_Benchmark: Time to insert 15000000 elements at front: 796 ms
+[ 9651.945745] Rust_List_Benchmark: Time to insert 15000000 elements at back: 905 ms
+[ 9652.764147] Rust_List_Benchmark: Time to iterate 15000000 elements: 818 ms
+[ 9654.361834] Rust_List_Benchmark: Time to remove all elements: 1597 ms
+[ 9654.361838] Rust_List_Benchmark: Benchmark 95-th completed.
+[ 9654.363637] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 96
+[ 9659.249199] Rust_List_Benchmark: Starting 96-th list_head benchmark module...
+[ 9660.158839] Rust_List_Benchmark: Time to insert 15000000 elements at front: 890 ms
+[ 9661.144404] Rust_List_Benchmark: Time to insert 15000000 elements at back: 985 ms
+[ 9661.944838] Rust_List_Benchmark: Time to iterate 15000000 elements: 800 ms
+[ 9663.443180] Rust_List_Benchmark: Time to remove all elements: 1498 ms
+[ 9663.443218] Rust_List_Benchmark: Benchmark 96-th completed.
+[ 9663.444967] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 97
+[ 9668.429975] Rust_List_Benchmark: Starting 97-th list_head benchmark module...
+[ 9669.369581] Rust_List_Benchmark: Time to insert 15000000 elements at front: 919 ms
+[ 9670.322097] Rust_List_Benchmark: Time to insert 15000000 elements at back: 952 ms
+[ 9671.100736] Rust_List_Benchmark: Time to iterate 15000000 elements: 778 ms
+[ 9672.644364] Rust_List_Benchmark: Time to remove all elements: 1543 ms
+[ 9672.644399] Rust_List_Benchmark: Benchmark 97-th completed.
+[ 9672.646050] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 98
+[ 9677.558451] Rust_List_Benchmark: Starting 98-th list_head benchmark module...
+[ 9678.422976] Rust_List_Benchmark: Time to insert 15000000 elements at front: 844 ms
+[ 9679.522054] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1099 ms
+[ 9680.314941] Rust_List_Benchmark: Time to iterate 15000000 elements: 792 ms
+[ 9681.875599] Rust_List_Benchmark: Time to remove all elements: 1560 ms
+[ 9681.875604] Rust_List_Benchmark: Benchmark 98-th completed.
+[ 9681.877424] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 99
+[ 9686.905138] Rust_List_Benchmark: Starting 99-th list_head benchmark module...
+[ 9687.854253] Rust_List_Benchmark: Time to insert 15000000 elements at front: 927 ms
+[ 9688.888602] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1034 ms
+[ 9689.666037] Rust_List_Benchmark: Time to iterate 15000000 elements: 777 ms
+[ 9691.231950] Rust_List_Benchmark: Time to remove all elements: 1565 ms
+[ 9691.231955] Rust_List_Benchmark: Benchmark 99-th completed.
+[ 9691.233901] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 100
+[ 9696.087041] Rust_List_Benchmark: Starting 100-th list_head benchmark module...
+[ 9697.078260] Rust_List_Benchmark: Time to insert 15000000 elements at front: 957 ms
+[ 9698.106607] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1028 ms
+[ 9698.887756] Rust_List_Benchmark: Time to iterate 15000000 elements: 781 ms
+[ 9700.483731] Rust_List_Benchmark: Time to remove all elements: 1595 ms
+[ 9700.483768] Rust_List_Benchmark: Benchmark 100-th completed.
+[ 9700.485842] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 101
+[ 9705.268936] Rust_List_Benchmark: Starting 101-th list_head benchmark module...
+[ 9706.100767] Rust_List_Benchmark: Time to insert 15000000 elements at front: 812 ms
+[ 9707.056617] Rust_List_Benchmark: Time to insert 15000000 elements at back: 955 ms
+[ 9707.869233] Rust_List_Benchmark: Time to iterate 15000000 elements: 812 ms
+[ 9709.445740] Rust_List_Benchmark: Time to remove all elements: 1576 ms
+[ 9709.445745] Rust_List_Benchmark: Benchmark 101-th completed.
+[ 9709.447699] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 102
+[ 9714.395727] Rust_List_Benchmark: Starting 102-th list_head benchmark module...
+[ 9715.331374] Rust_List_Benchmark: Time to insert 15000000 elements at front: 908 ms
+[ 9716.341151] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1009 ms
+[ 9717.130207] Rust_List_Benchmark: Time to iterate 15000000 elements: 788 ms
+[ 9718.658361] Rust_List_Benchmark: Time to remove all elements: 1527 ms
+[ 9718.658398] Rust_List_Benchmark: Benchmark 102-th completed.
+[ 9718.660112] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 103
+[ 9723.871289] Rust_List_Benchmark: Starting 103-th list_head benchmark module...
+[ 9724.761338] Rust_List_Benchmark: Time to insert 15000000 elements at front: 869 ms
+[ 9725.702530] Rust_List_Benchmark: Time to insert 15000000 elements at back: 941 ms
+[ 9726.484648] Rust_List_Benchmark: Time to iterate 15000000 elements: 782 ms
+[ 9728.016701] Rust_List_Benchmark: Time to remove all elements: 1531 ms
+[ 9728.016706] Rust_List_Benchmark: Benchmark 103-th completed.
+[ 9728.018787] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 104
+[ 9733.132541] Rust_List_Benchmark: Starting 104-th list_head benchmark module...
+[ 9734.131511] Rust_List_Benchmark: Time to insert 15000000 elements at front: 979 ms
+[ 9735.107474] Rust_List_Benchmark: Time to insert 15000000 elements at back: 975 ms
+[ 9735.898005] Rust_List_Benchmark: Time to iterate 15000000 elements: 790 ms
+[ 9737.466056] Rust_List_Benchmark: Time to remove all elements: 1567 ms
+[ 9737.466094] Rust_List_Benchmark: Benchmark 104-th completed.
+[ 9737.468020] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 105
+[ 9742.285083] Rust_List_Benchmark: Starting 105-th list_head benchmark module...
+[ 9743.195270] Rust_List_Benchmark: Time to insert 15000000 elements at front: 878 ms
+[ 9744.174012] Rust_List_Benchmark: Time to insert 15000000 elements at back: 978 ms
+[ 9744.945409] Rust_List_Benchmark: Time to iterate 15000000 elements: 771 ms
+[ 9746.730224] Rust_List_Benchmark: Time to remove all elements: 1784 ms
+[ 9746.730234] Rust_List_Benchmark: Benchmark 105-th completed.
+[ 9746.733038] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 106
+[ 9751.549633] Rust_List_Benchmark: Starting 106-th list_head benchmark module...
+[ 9752.415356] Rust_List_Benchmark: Time to insert 15000000 elements at front: 846 ms
+[ 9753.349360] Rust_List_Benchmark: Time to insert 15000000 elements at back: 933 ms
+[ 9754.160178] Rust_List_Benchmark: Time to iterate 15000000 elements: 810 ms
+[ 9755.731768] Rust_List_Benchmark: Time to remove all elements: 1571 ms
+[ 9755.731773] Rust_List_Benchmark: Benchmark 106-th completed.
+[ 9755.733635] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 107
+[ 9760.770994] Rust_List_Benchmark: Starting 107-th list_head benchmark module...
+[ 9761.705796] Rust_List_Benchmark: Time to insert 15000000 elements at front: 914 ms
+[ 9762.730356] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1024 ms
+[ 9763.515107] Rust_List_Benchmark: Time to iterate 15000000 elements: 784 ms
+[ 9765.080603] Rust_List_Benchmark: Time to remove all elements: 1565 ms
+[ 9765.080609] Rust_List_Benchmark: Benchmark 107-th completed.
+[ 9765.082453] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 108
+[ 9770.076700] Rust_List_Benchmark: Starting 108-th list_head benchmark module...
+[ 9770.974964] Rust_List_Benchmark: Time to insert 15000000 elements at front: 878 ms
+[ 9771.921844] Rust_List_Benchmark: Time to insert 15000000 elements at back: 946 ms
+[ 9772.739766] Rust_List_Benchmark: Time to iterate 15000000 elements: 817 ms
+[ 9774.309659] Rust_List_Benchmark: Time to remove all elements: 1569 ms
+[ 9774.309664] Rust_List_Benchmark: Benchmark 108-th completed.
+[ 9774.311551] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 109
+[ 9779.284130] Rust_List_Benchmark: Starting 109-th list_head benchmark module...
+[ 9780.264250] Rust_List_Benchmark: Time to insert 15000000 elements at front: 960 ms
+[ 9781.268792] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1004 ms
+[ 9782.076646] Rust_List_Benchmark: Time to iterate 15000000 elements: 807 ms
+[ 9783.627608] Rust_List_Benchmark: Time to remove all elements: 1550 ms
+[ 9783.627646] Rust_List_Benchmark: Benchmark 109-th completed.
+[ 9783.629483] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 110
+[ 9788.588888] Rust_List_Benchmark: Starting 110-th list_head benchmark module...
+[ 9789.520463] Rust_List_Benchmark: Time to insert 15000000 elements at front: 896 ms
+[ 9790.615021] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1094 ms
+[ 9791.385449] Rust_List_Benchmark: Time to iterate 15000000 elements: 770 ms
+[ 9792.993206] Rust_List_Benchmark: Time to remove all elements: 1607 ms
+[ 9792.993242] Rust_List_Benchmark: Benchmark 110-th completed.
+[ 9792.995400] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 111
+[ 9797.983114] Rust_List_Benchmark: Starting 111-th list_head benchmark module...
+[ 9798.878907] Rust_List_Benchmark: Time to insert 15000000 elements at front: 875 ms
+[ 9799.874334] Rust_List_Benchmark: Time to insert 15000000 elements at back: 995 ms
+[ 9800.642285] Rust_List_Benchmark: Time to iterate 15000000 elements: 767 ms
+[ 9802.259630] Rust_List_Benchmark: Time to remove all elements: 1617 ms
+[ 9802.259635] Rust_List_Benchmark: Benchmark 111-th completed.
+[ 9802.261585] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 112
+[ 9807.324460] Rust_List_Benchmark: Starting 112-th list_head benchmark module...
+[ 9808.280026] Rust_List_Benchmark: Time to insert 15000000 elements at front: 934 ms
+[ 9809.420034] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1139 ms
+[ 9810.174727] Rust_List_Benchmark: Time to iterate 15000000 elements: 754 ms
+[ 9811.837559] Rust_List_Benchmark: Time to remove all elements: 1662 ms
+[ 9811.837594] Rust_List_Benchmark: Benchmark 112-th completed.
+[ 9811.839415] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 113
+[ 9816.507898] Rust_List_Benchmark: Starting 113-th list_head benchmark module...
+[ 9817.506832] Rust_List_Benchmark: Time to insert 15000000 elements at front: 969 ms
+[ 9818.483950] Rust_List_Benchmark: Time to insert 15000000 elements at back: 977 ms
+[ 9819.246990] Rust_List_Benchmark: Time to iterate 15000000 elements: 762 ms
+[ 9820.824767] Rust_List_Benchmark: Time to remove all elements: 1577 ms
+[ 9820.824773] Rust_List_Benchmark: Benchmark 113-th completed.
+[ 9820.826638] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 114
+[ 9825.858860] Rust_List_Benchmark: Starting 114-th list_head benchmark module...
+[ 9826.749788] Rust_List_Benchmark: Time to insert 15000000 elements at front: 861 ms
+[ 9827.710345] Rust_List_Benchmark: Time to insert 15000000 elements at back: 960 ms
+[ 9828.497448] Rust_List_Benchmark: Time to iterate 15000000 elements: 787 ms
+[ 9830.073255] Rust_List_Benchmark: Time to remove all elements: 1575 ms
+[ 9830.073261] Rust_List_Benchmark: Benchmark 114-th completed.
+[ 9830.075318] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 115
+[ 9835.100851] Rust_List_Benchmark: Starting 115-th list_head benchmark module...
+[ 9836.144961] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1011 ms
+[ 9837.113677] Rust_List_Benchmark: Time to insert 15000000 elements at back: 968 ms
+[ 9837.891048] Rust_List_Benchmark: Time to iterate 15000000 elements: 777 ms
+[ 9839.497078] Rust_List_Benchmark: Time to remove all elements: 1605 ms
+[ 9839.497120] Rust_List_Benchmark: Benchmark 115-th completed.
+[ 9839.499334] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 116
+[ 9844.326061] Rust_List_Benchmark: Starting 116-th list_head benchmark module...
+[ 9845.342125] Rust_List_Benchmark: Time to insert 15000000 elements at front: 993 ms
+[ 9846.393516] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1051 ms
+[ 9847.158993] Rust_List_Benchmark: Time to iterate 15000000 elements: 765 ms
+[ 9848.775689] Rust_List_Benchmark: Time to remove all elements: 1616 ms
+[ 9848.775728] Rust_List_Benchmark: Benchmark 116-th completed.
+[ 9848.777483] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 117
+[ 9853.638959] Rust_List_Benchmark: Starting 117-th list_head benchmark module...
+[ 9854.643976] Rust_List_Benchmark: Time to insert 15000000 elements at front: 975 ms
+[ 9855.691159] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1047 ms
+[ 9856.469210] Rust_List_Benchmark: Time to iterate 15000000 elements: 778 ms
+[ 9858.134515] Rust_List_Benchmark: Time to remove all elements: 1665 ms
+[ 9858.134520] Rust_List_Benchmark: Benchmark 117-th completed.
+[ 9858.136578] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 118
+[ 9862.732621] Rust_List_Benchmark: Starting 118-th list_head benchmark module...
+[ 9863.730622] Rust_List_Benchmark: Time to insert 15000000 elements at front: 977 ms
+[ 9864.758544] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1027 ms
+[ 9865.550350] Rust_List_Benchmark: Time to iterate 15000000 elements: 791 ms
+[ 9867.134310] Rust_List_Benchmark: Time to remove all elements: 1583 ms
+[ 9867.134315] Rust_List_Benchmark: Benchmark 118-th completed.
+[ 9867.136383] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 119
+[ 9872.195835] Rust_List_Benchmark: Starting 119-th list_head benchmark module...
+[ 9873.178991] Rust_List_Benchmark: Time to insert 15000000 elements at front: 946 ms
+[ 9874.141873] Rust_List_Benchmark: Time to insert 15000000 elements at back: 962 ms
+[ 9874.950926] Rust_List_Benchmark: Time to iterate 15000000 elements: 809 ms
+[ 9876.630256] Rust_List_Benchmark: Time to remove all elements: 1679 ms
+[ 9876.630260] Rust_List_Benchmark: Benchmark 119-th completed.
+[ 9876.632269] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 120
+[ 9881.507136] Rust_List_Benchmark: Starting 120-th list_head benchmark module...
+[ 9882.486836] Rust_List_Benchmark: Time to insert 15000000 elements at front: 959 ms
+[ 9883.473419] Rust_List_Benchmark: Time to insert 15000000 elements at back: 986 ms
+[ 9884.279576] Rust_List_Benchmark: Time to iterate 15000000 elements: 806 ms
+[ 9885.897618] Rust_List_Benchmark: Time to remove all elements: 1617 ms
+[ 9885.897625] Rust_List_Benchmark: Benchmark 120-th completed.
+[ 9885.901087] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 121
+[ 9890.742859] Rust_List_Benchmark: Starting 121-th list_head benchmark module...
+[ 9891.742187] Rust_List_Benchmark: Time to insert 15000000 elements at front: 967 ms
+[ 9892.758717] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1016 ms
+[ 9893.523836] Rust_List_Benchmark: Time to iterate 15000000 elements: 765 ms
+[ 9895.146034] Rust_List_Benchmark: Time to remove all elements: 1622 ms
+[ 9895.146039] Rust_List_Benchmark: Benchmark 121-th completed.
+[ 9895.148184] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 122
+[ 9900.159527] Rust_List_Benchmark: Starting 122-th list_head benchmark module...
+[ 9901.171967] Rust_List_Benchmark: Time to insert 15000000 elements at front: 980 ms
+[ 9902.219617] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1047 ms
+[ 9902.990227] Rust_List_Benchmark: Time to iterate 15000000 elements: 770 ms
+[ 9904.623594] Rust_List_Benchmark: Time to remove all elements: 1633 ms
+[ 9904.623633] Rust_List_Benchmark: Benchmark 122-th completed.
+[ 9904.625704] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 123
+[ 9909.520064] Rust_List_Benchmark: Starting 123-th list_head benchmark module...
+[ 9910.524886] Rust_List_Benchmark: Time to insert 15000000 elements at front: 974 ms
+[ 9911.568659] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1043 ms
+[ 9912.317723] Rust_List_Benchmark: Time to iterate 15000000 elements: 749 ms
+[ 9913.940100] Rust_List_Benchmark: Time to remove all elements: 1622 ms
+[ 9913.940106] Rust_List_Benchmark: Benchmark 123-th completed.
+[ 9913.942326] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 124
+[ 9919.031553] Rust_List_Benchmark: Starting 124-th list_head benchmark module...
+[ 9919.992231] Rust_List_Benchmark: Time to insert 15000000 elements at front: 941 ms
+[ 9921.013189] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1020 ms
+[ 9921.763136] Rust_List_Benchmark: Time to iterate 15000000 elements: 749 ms
+[ 9923.403944] Rust_List_Benchmark: Time to remove all elements: 1640 ms
+[ 9923.403984] Rust_List_Benchmark: Benchmark 124-th completed.
+[ 9923.406026] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 125
+[ 9928.441904] Rust_List_Benchmark: Starting 125-th list_head benchmark module...
+[ 9929.471421] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1009 ms
+[ 9930.500067] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1028 ms
+[ 9931.244589] Rust_List_Benchmark: Time to iterate 15000000 elements: 744 ms
+[ 9932.891171] Rust_List_Benchmark: Time to remove all elements: 1646 ms
+[ 9932.891179] Rust_List_Benchmark: Benchmark 125-th completed.
+[ 9932.894175] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 126
+[ 9937.655915] Rust_List_Benchmark: Starting 126-th list_head benchmark module...
+[ 9938.588197] Rust_List_Benchmark: Time to insert 15000000 elements at front: 912 ms
+[ 9939.575084] Rust_List_Benchmark: Time to insert 15000000 elements at back: 986 ms
+[ 9940.363830] Rust_List_Benchmark: Time to iterate 15000000 elements: 788 ms
+[ 9942.038516] Rust_List_Benchmark: Time to remove all elements: 1674 ms
+[ 9942.038521] Rust_List_Benchmark: Benchmark 126-th completed.
+[ 9942.040531] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 127
+[ 9946.899926] Rust_List_Benchmark: Starting 127-th list_head benchmark module...
+[ 9947.811802] Rust_List_Benchmark: Time to insert 15000000 elements at front: 885 ms
+[ 9948.921051] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1109 ms
+[ 9949.714890] Rust_List_Benchmark: Time to iterate 15000000 elements: 793 ms
+[ 9951.341975] Rust_List_Benchmark: Time to remove all elements: 1626 ms
+[ 9951.341980] Rust_List_Benchmark: Benchmark 127-th completed.
+[ 9951.344042] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 128
+[ 9955.943369] Rust_List_Benchmark: Starting 128-th list_head benchmark module...
+[ 9956.916675] Rust_List_Benchmark: Time to insert 15000000 elements at front: 945 ms
+[ 9957.977318] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1060 ms
+[ 9958.741684] Rust_List_Benchmark: Time to iterate 15000000 elements: 764 ms
+[ 9960.370634] Rust_List_Benchmark: Time to remove all elements: 1628 ms
+[ 9960.370639] Rust_List_Benchmark: Benchmark 128-th completed.
+[ 9960.372546] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 129
+[ 9965.268894] Rust_List_Benchmark: Starting 129-th list_head benchmark module...
+[ 9966.245667] Rust_List_Benchmark: Time to insert 15000000 elements at front: 956 ms
+[ 9967.326102] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1080 ms
+[ 9968.090551] Rust_List_Benchmark: Time to iterate 15000000 elements: 764 ms
+[ 9969.722456] Rust_List_Benchmark: Time to remove all elements: 1631 ms
+[ 9969.722495] Rust_List_Benchmark: Benchmark 129-th completed.
+[ 9969.724674] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 130
+[ 9974.275021] Rust_List_Benchmark: Starting 130-th list_head benchmark module...
+[ 9975.194204] Rust_List_Benchmark: Time to insert 15000000 elements at front: 893 ms
+[ 9976.153849] Rust_List_Benchmark: Time to insert 15000000 elements at back: 959 ms
+[ 9976.940172] Rust_List_Benchmark: Time to iterate 15000000 elements: 786 ms
+[ 9978.532233] Rust_List_Benchmark: Time to remove all elements: 1591 ms
+[ 9978.532273] Rust_List_Benchmark: Benchmark 130-th completed.
+[ 9978.533419] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 131
+[ 9983.664074] Rust_List_Benchmark: Starting 131-th list_head benchmark module...
+[ 9984.587450] Rust_List_Benchmark: Time to insert 15000000 elements at front: 902 ms
+[ 9985.571890] Rust_List_Benchmark: Time to insert 15000000 elements at back: 984 ms
+[ 9986.365916] Rust_List_Benchmark: Time to iterate 15000000 elements: 793 ms
+[ 9987.982583] Rust_List_Benchmark: Time to remove all elements: 1616 ms
+[ 9987.982588] Rust_List_Benchmark: Benchmark 131-th completed.
+[ 9987.984733] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 132
+[ 9993.024839] Rust_List_Benchmark: Starting 132-th list_head benchmark module...
+[ 9993.943703] Rust_List_Benchmark: Time to insert 15000000 elements at front: 897 ms
+[ 9994.912788] Rust_List_Benchmark: Time to insert 15000000 elements at back: 969 ms
+[ 9995.707690] Rust_List_Benchmark: Time to iterate 15000000 elements: 794 ms
+[ 9997.308073] Rust_List_Benchmark: Time to remove all elements: 1600 ms
+[ 9997.308115] Rust_List_Benchmark: Benchmark 132-th completed.
+[ 9997.310000] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 133
+[10002.464330] Rust_List_Benchmark: Starting 133-th list_head benchmark module...
+[10003.493513] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1003 ms
+[10004.619167] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1125 ms
+[10005.372272] Rust_List_Benchmark: Time to iterate 15000000 elements: 753 ms
+[10006.996630] Rust_List_Benchmark: Time to remove all elements: 1624 ms
+[10006.996635] Rust_List_Benchmark: Benchmark 133-th completed.
+[10006.998750] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 134
+[10011.944769] Rust_List_Benchmark: Starting 134-th list_head benchmark module...
+[10012.933157] Rust_List_Benchmark: Time to insert 15000000 elements at front: 954 ms
+[10013.948444] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1015 ms
+[10014.724865] Rust_List_Benchmark: Time to iterate 15000000 elements: 776 ms
+[10016.325651] Rust_List_Benchmark: Time to remove all elements: 1600 ms
+[10016.325690] Rust_List_Benchmark: Benchmark 134-th completed.
+[10016.327834] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 135
+[10021.513873] Rust_List_Benchmark: Starting 135-th list_head benchmark module...
+[10022.536108] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1002 ms
+[10023.625149] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1088 ms
+[10024.399709] Rust_List_Benchmark: Time to iterate 15000000 elements: 774 ms
+[10026.012793] Rust_List_Benchmark: Time to remove all elements: 1612 ms
+[10026.012798] Rust_List_Benchmark: Benchmark 135-th completed.
+[10026.014769] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 136
+[10031.001015] Rust_List_Benchmark: Starting 136-th list_head benchmark module...
+[10031.951298] Rust_List_Benchmark: Time to insert 15000000 elements at front: 923 ms
+[10033.010176] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1058 ms
+[10033.769428] Rust_List_Benchmark: Time to iterate 15000000 elements: 759 ms
+[10035.419104] Rust_List_Benchmark: Time to remove all elements: 1649 ms
+[10035.419140] Rust_List_Benchmark: Benchmark 136-th completed.
+[10035.421423] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 137
+[10040.351032] Rust_List_Benchmark: Starting 137-th list_head benchmark module...
+[10041.366262] Rust_List_Benchmark: Time to insert 15000000 elements at front: 985 ms
+[10042.443963] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1077 ms
+[10043.208118] Rust_List_Benchmark: Time to iterate 15000000 elements: 764 ms
+[10044.951156] Rust_List_Benchmark: Time to remove all elements: 1742 ms
+[10044.951215] Rust_List_Benchmark: Benchmark 137-th completed.
+[10044.952815] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 138
+[10049.732944] Rust_List_Benchmark: Starting 138-th list_head benchmark module...
+[10050.801644] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1049 ms
+[10051.902326] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1100 ms
+[10052.689288] Rust_List_Benchmark: Time to iterate 15000000 elements: 786 ms
+[10054.372762] Rust_List_Benchmark: Time to remove all elements: 1683 ms
+[10054.372767] Rust_List_Benchmark: Benchmark 138-th completed.
+[10054.374632] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 139
+[10059.129105] Rust_List_Benchmark: Starting 139-th list_head benchmark module...
+[10060.119519] Rust_List_Benchmark: Time to insert 15000000 elements at front: 968 ms
+[10061.148969] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1029 ms
+[10061.917601] Rust_List_Benchmark: Time to iterate 15000000 elements: 768 ms
+[10063.567863] Rust_List_Benchmark: Time to remove all elements: 1650 ms
+[10063.567868] Rust_List_Benchmark: Benchmark 139-th completed.
+[10063.569952] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 140
+[10068.252402] Rust_List_Benchmark: Starting 140-th list_head benchmark module...
+[10069.300130] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1015 ms
+[10070.446940] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1146 ms
+[10071.196821] Rust_List_Benchmark: Time to iterate 15000000 elements: 749 ms
+[10072.855316] Rust_List_Benchmark: Time to remove all elements: 1658 ms
+[10072.855383] Rust_List_Benchmark: Benchmark 140-th completed.
+[10072.857317] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 141
+[10077.774828] Rust_List_Benchmark: Starting 141-th list_head benchmark module...
+[10078.706458] Rust_List_Benchmark: Time to insert 15000000 elements at front: 909 ms
+[10079.920627] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1214 ms
+[10080.673893] Rust_List_Benchmark: Time to iterate 15000000 elements: 753 ms
+[10082.334302] Rust_List_Benchmark: Time to remove all elements: 1660 ms
+[10082.334340] Rust_List_Benchmark: Benchmark 141-th completed.
+[10082.336385] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 142
+[10087.000410] Rust_List_Benchmark: Starting 142-th list_head benchmark module...
+[10088.040203] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1013 ms
+[10089.148507] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1108 ms
+[10089.928906] Rust_List_Benchmark: Time to iterate 15000000 elements: 780 ms
+[10091.569806] Rust_List_Benchmark: Time to remove all elements: 1640 ms
+[10091.569811] Rust_List_Benchmark: Benchmark 142-th completed.
+[10091.571995] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 143
+[10096.196705] Rust_List_Benchmark: Starting 143-th list_head benchmark module...
+[10097.197962] Rust_List_Benchmark: Time to insert 15000000 elements at front: 973 ms
+[10098.309897] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1111 ms
+[10099.080629] Rust_List_Benchmark: Time to iterate 15000000 elements: 770 ms
+[10100.738365] Rust_List_Benchmark: Time to remove all elements: 1657 ms
+[10100.738409] Rust_List_Benchmark: Benchmark 143-th completed.
+[10100.740545] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 144
+[10105.430013] Rust_List_Benchmark: Starting 144-th list_head benchmark module...
+[10106.377289] Rust_List_Benchmark: Time to insert 15000000 elements at front: 911 ms
+[10107.390059] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1012 ms
+[10108.198705] Rust_List_Benchmark: Time to iterate 15000000 elements: 808 ms
+[10109.831004] Rust_List_Benchmark: Time to remove all elements: 1632 ms
+[10109.831009] Rust_List_Benchmark: Benchmark 144-th completed.
+[10109.833130] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 145
+[10114.820496] Rust_List_Benchmark: Starting 145-th list_head benchmark module...
+[10115.823371] Rust_List_Benchmark: Time to insert 15000000 elements at front: 983 ms
+[10116.974164] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1150 ms
+[10117.740331] Rust_List_Benchmark: Time to iterate 15000000 elements: 766 ms
+[10119.338992] Rust_List_Benchmark: Time to remove all elements: 1598 ms
+[10119.338997] Rust_List_Benchmark: Benchmark 145-th completed.
+[10119.340978] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 146
+[10124.038229] Rust_List_Benchmark: Starting 146-th list_head benchmark module...
+[10124.951944] Rust_List_Benchmark: Time to insert 15000000 elements at front: 892 ms
+[10126.012801] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1060 ms
+[10126.802169] Rust_List_Benchmark: Time to iterate 15000000 elements: 789 ms
+[10128.431800] Rust_List_Benchmark: Time to remove all elements: 1629 ms
+[10128.431806] Rust_List_Benchmark: Benchmark 146-th completed.
+[10128.434049] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 147
+[10133.306305] Rust_List_Benchmark: Starting 147-th list_head benchmark module...
+[10134.371512] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1031 ms
+[10135.545144] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1173 ms
+[10136.322494] Rust_List_Benchmark: Time to iterate 15000000 elements: 777 ms
+[10137.955902] Rust_List_Benchmark: Time to remove all elements: 1633 ms
+[10137.955907] Rust_List_Benchmark: Benchmark 147-th completed.
+[10137.957943] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 148
+[10142.634814] Rust_List_Benchmark: Starting 148-th list_head benchmark module...
+[10143.583469] Rust_List_Benchmark: Time to insert 15000000 elements at front: 918 ms
+[10144.618324] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1034 ms
+[10145.416330] Rust_List_Benchmark: Time to iterate 15000000 elements: 797 ms
+[10147.027841] Rust_List_Benchmark: Time to remove all elements: 1611 ms
+[10147.027846] Rust_List_Benchmark: Benchmark 148-th completed.
+[10147.029814] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 149
+[10151.973266] Rust_List_Benchmark: Starting 149-th list_head benchmark module...
+[10152.949718] Rust_List_Benchmark: Time to insert 15000000 elements at front: 948 ms
+[10154.035605] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1085 ms
+[10154.818036] Rust_List_Benchmark: Time to iterate 15000000 elements: 782 ms
+[10156.411074] Rust_List_Benchmark: Time to remove all elements: 1592 ms
+[10156.411079] Rust_List_Benchmark: Benchmark 149-th completed.
+[10156.413087] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 150
+[10161.260894] Rust_List_Benchmark: Starting 150-th list_head benchmark module...
+[10162.281784] Rust_List_Benchmark: Time to insert 15000000 elements at front: 987 ms
+[10163.332628] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1050 ms
+[10164.125764] Rust_List_Benchmark: Time to iterate 15000000 elements: 793 ms
+[10165.821158] Rust_List_Benchmark: Time to remove all elements: 1695 ms
+[10165.821197] Rust_List_Benchmark: Benchmark 150-th completed.
+[10165.822979] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 151
+[10170.749136] Rust_List_Benchmark: Starting 151-th list_head benchmark module...
+[10171.654828] Rust_List_Benchmark: Time to insert 15000000 elements at front: 885 ms
+[10172.752975] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1098 ms
+[10173.566416] Rust_List_Benchmark: Time to iterate 15000000 elements: 813 ms
+[10175.244441] Rust_List_Benchmark: Time to remove all elements: 1678 ms
+[10175.244447] Rust_List_Benchmark: Benchmark 151-th completed.
+[10175.246370] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 152
+[10180.092138] Rust_List_Benchmark: Starting 152-th list_head benchmark module...
+[10181.070348] Rust_List_Benchmark: Time to insert 15000000 elements at front: 946 ms
+[10182.075269] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1004 ms
+[10182.877468] Rust_List_Benchmark: Time to iterate 15000000 elements: 802 ms
+[10184.576070] Rust_List_Benchmark: Time to remove all elements: 1698 ms
+[10184.576122] Rust_List_Benchmark: Benchmark 152-th completed.
+[10184.578797] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 153
+[10189.400631] Rust_List_Benchmark: Starting 153-th list_head benchmark module...
+[10190.431490] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1001 ms
+[10191.456184] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1024 ms
+[10192.223682] Rust_List_Benchmark: Time to iterate 15000000 elements: 767 ms
+[10193.867801] Rust_List_Benchmark: Time to remove all elements: 1644 ms
+[10193.867806] Rust_List_Benchmark: Benchmark 153-th completed.
+[10193.869882] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 154
+[10198.730481] Rust_List_Benchmark: Starting 154-th list_head benchmark module...
+[10199.714411] Rust_List_Benchmark: Time to insert 15000000 elements at front: 949 ms
+[10200.762456] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1047 ms
+[10201.561289] Rust_List_Benchmark: Time to iterate 15000000 elements: 798 ms
+[10203.231196] Rust_List_Benchmark: Time to remove all elements: 1669 ms
+[10203.231239] Rust_List_Benchmark: Benchmark 154-th completed.
+[10203.233331] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 155
+[10208.069354] Rust_List_Benchmark: Starting 155-th list_head benchmark module...
+[10208.917972] Rust_List_Benchmark: Time to insert 15000000 elements at front: 823 ms
+[10209.970113] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1052 ms
+[10210.761962] Rust_List_Benchmark: Time to iterate 15000000 elements: 791 ms
+[10212.416575] Rust_List_Benchmark: Time to remove all elements: 1654 ms
+[10212.416613] Rust_List_Benchmark: Benchmark 155-th completed.
+[10212.418729] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 156
+[10217.354401] Rust_List_Benchmark: Starting 156-th list_head benchmark module...
+[10218.276970] Rust_List_Benchmark: Time to insert 15000000 elements at front: 902 ms
+[10219.445744] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1168 ms
+[10220.217266] Rust_List_Benchmark: Time to iterate 15000000 elements: 771 ms
+[10221.908289] Rust_List_Benchmark: Time to remove all elements: 1690 ms
+[10221.908294] Rust_List_Benchmark: Benchmark 156-th completed.
+[10221.910514] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 157
+[10226.693139] Rust_List_Benchmark: Starting 157-th list_head benchmark module...
+[10227.689632] Rust_List_Benchmark: Time to insert 15000000 elements at front: 976 ms
+[10228.809026] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1119 ms
+[10229.588259] Rust_List_Benchmark: Time to iterate 15000000 elements: 779 ms
+[10231.276472] Rust_List_Benchmark: Time to remove all elements: 1688 ms
+[10231.276478] Rust_List_Benchmark: Benchmark 157-th completed.
+[10231.278558] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 158
+[10236.089193] Rust_List_Benchmark: Starting 158-th list_head benchmark module...
+[10237.142337] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1022 ms
+[10238.315654] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1173 ms
+[10239.079913] Rust_List_Benchmark: Time to iterate 15000000 elements: 764 ms
+[10240.831995] Rust_List_Benchmark: Time to remove all elements: 1751 ms
+[10240.832000] Rust_List_Benchmark: Benchmark 158-th completed.
+[10240.834098] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 159
+[10245.619442] Rust_List_Benchmark: Starting 159-th list_head benchmark module...
+[10246.579179] Rust_List_Benchmark: Time to insert 15000000 elements at front: 940 ms
+[10247.592444] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1013 ms
+[10248.402255] Rust_List_Benchmark: Time to iterate 15000000 elements: 809 ms
+[10250.071509] Rust_List_Benchmark: Time to remove all elements: 1669 ms
+[10250.071515] Rust_List_Benchmark: Benchmark 159-th completed.
+[10250.073720] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 160
+[10254.868472] Rust_List_Benchmark: Starting 160-th list_head benchmark module...
+[10255.920636] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1025 ms
+[10257.074122] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1153 ms
+[10257.862390] Rust_List_Benchmark: Time to iterate 15000000 elements: 788 ms
+[10259.536131] Rust_List_Benchmark: Time to remove all elements: 1673 ms
+[10259.536200] Rust_List_Benchmark: Benchmark 160-th completed.
+[10259.538092] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 161
+[10264.193519] Rust_List_Benchmark: Starting 161-th list_head benchmark module...
+[10265.196101] Rust_List_Benchmark: Time to insert 15000000 elements at front: 982 ms
+[10266.332443] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1136 ms
+[10266.994979] Rust_List_Benchmark: Time to iterate 15000000 elements: 662 ms
+[10269.166716] Rust_List_Benchmark: Time to remove all elements: 2171 ms
+[10269.166721] Rust_List_Benchmark: Benchmark 161-th completed.
+[10269.169014] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 162
+[10274.932915] Rust_List_Benchmark: Starting 162-th list_head benchmark module...
+[10275.958717] Rust_List_Benchmark: Time to insert 15000000 elements at front: 997 ms
+[10277.035689] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1076 ms
+[10277.799033] Rust_List_Benchmark: Time to iterate 15000000 elements: 763 ms
+[10279.494741] Rust_List_Benchmark: Time to remove all elements: 1695 ms
+[10279.494746] Rust_List_Benchmark: Benchmark 162-th completed.
+[10279.496980] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 163
+[10284.353588] Rust_List_Benchmark: Starting 163-th list_head benchmark module...
+[10285.259205] Rust_List_Benchmark: Time to insert 15000000 elements at front: 871 ms
+[10286.294405] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1035 ms
+[10287.076083] Rust_List_Benchmark: Time to iterate 15000000 elements: 781 ms
+[10288.779373] Rust_List_Benchmark: Time to remove all elements: 1703 ms
+[10288.779411] Rust_List_Benchmark: Benchmark 163-th completed.
+[10288.781405] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 164
+[10293.525454] Rust_List_Benchmark: Starting 164-th list_head benchmark module...
+[10294.421771] Rust_List_Benchmark: Time to insert 15000000 elements at front: 876 ms
+[10295.544074] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1122 ms
+[10296.296348] Rust_List_Benchmark: Time to iterate 15000000 elements: 752 ms
+[10297.971113] Rust_List_Benchmark: Time to remove all elements: 1674 ms
+[10297.971119] Rust_List_Benchmark: Benchmark 164-th completed.
+[10297.973230] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 165
+[10302.955694] Rust_List_Benchmark: Starting 165-th list_head benchmark module...
+[10303.896924] Rust_List_Benchmark: Time to insert 15000000 elements at front: 919 ms
+[10305.005667] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1108 ms
+[10305.791572] Rust_List_Benchmark: Time to iterate 15000000 elements: 785 ms
+[10307.472290] Rust_List_Benchmark: Time to remove all elements: 1680 ms
+[10307.472296] Rust_List_Benchmark: Benchmark 165-th completed.
+[10307.474442] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 166
+[10312.315769] Rust_List_Benchmark: Starting 166-th list_head benchmark module...
+[10313.220111] Rust_List_Benchmark: Time to insert 15000000 elements at front: 884 ms
+[10314.227458] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1007 ms
+[10315.027333] Rust_List_Benchmark: Time to iterate 15000000 elements: 799 ms
+[10316.676770] Rust_List_Benchmark: Time to remove all elements: 1649 ms
+[10316.676776] Rust_List_Benchmark: Benchmark 166-th completed.
+[10316.678761] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 167
+[10321.734219] Rust_List_Benchmark: Starting 167-th list_head benchmark module...
+[10322.617125] Rust_List_Benchmark: Time to insert 15000000 elements at front: 863 ms
+[10323.712201] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1095 ms
+[10324.502879] Rust_List_Benchmark: Time to iterate 15000000 elements: 790 ms
+[10326.155679] Rust_List_Benchmark: Time to remove all elements: 1652 ms
+[10326.155718] Rust_List_Benchmark: Benchmark 167-th completed.
+[10326.157739] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 168
+[10330.927945] Rust_List_Benchmark: Starting 168-th list_head benchmark module...
+[10331.834888] Rust_List_Benchmark: Time to insert 15000000 elements at front: 887 ms
+[10332.977956] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1143 ms
+[10333.733308] Rust_List_Benchmark: Time to iterate 15000000 elements: 755 ms
+[10335.444970] Rust_List_Benchmark: Time to remove all elements: 1711 ms
+[10335.445008] Rust_List_Benchmark: Benchmark 168-th completed.
+[10335.446921] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 169
+[10340.200431] Rust_List_Benchmark: Starting 169-th list_head benchmark module...
+[10341.186897] Rust_List_Benchmark: Time to insert 15000000 elements at front: 966 ms
+[10342.248359] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1061 ms
+[10343.029149] Rust_List_Benchmark: Time to iterate 15000000 elements: 780 ms
+[10344.661101] Rust_List_Benchmark: Time to remove all elements: 1631 ms
+[10344.661106] Rust_List_Benchmark: Benchmark 169-th completed.
+[10344.662990] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 170
+[10349.442440] Rust_List_Benchmark: Starting 170-th list_head benchmark module...
+[10350.483481] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1021 ms
+[10351.630665] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1147 ms
+[10352.409413] Rust_List_Benchmark: Time to iterate 15000000 elements: 778 ms
+[10354.081287] Rust_List_Benchmark: Time to remove all elements: 1671 ms
+[10354.081329] Rust_List_Benchmark: Benchmark 170-th completed.
+[10354.083357] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 171
+[10358.980395] Rust_List_Benchmark: Starting 171-th list_head benchmark module...
+[10360.053471] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1037 ms
+[10361.145576] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1092 ms
+[10361.903195] Rust_List_Benchmark: Time to iterate 15000000 elements: 757 ms
+[10363.605640] Rust_List_Benchmark: Time to remove all elements: 1702 ms
+[10363.605677] Rust_List_Benchmark: Benchmark 171-th completed.
+[10363.607611] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 172
+[10368.323077] Rust_List_Benchmark: Starting 172-th list_head benchmark module...
+[10369.350042] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1006 ms
+[10370.464148] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1114 ms
+[10371.236101] Rust_List_Benchmark: Time to iterate 15000000 elements: 771 ms
+[10372.877878] Rust_List_Benchmark: Time to remove all elements: 1641 ms
+[10372.877883] Rust_List_Benchmark: Benchmark 172-th completed.
+[10372.879978] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 173
+[10377.540285] Rust_List_Benchmark: Starting 173-th list_head benchmark module...
+[10378.550010] Rust_List_Benchmark: Time to insert 15000000 elements at front: 989 ms
+[10379.640996] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1090 ms
+[10380.414556] Rust_List_Benchmark: Time to iterate 15000000 elements: 773 ms
+[10382.054094] Rust_List_Benchmark: Time to remove all elements: 1639 ms
+[10382.054099] Rust_List_Benchmark: Benchmark 173-th completed.
+[10382.056134] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 174
+[10386.814399] Rust_List_Benchmark: Starting 174-th list_head benchmark module...
+[10387.770817] Rust_List_Benchmark: Time to insert 15000000 elements at front: 936 ms
+[10388.843025] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1072 ms
+[10389.622478] Rust_List_Benchmark: Time to iterate 15000000 elements: 779 ms
+[10391.283281] Rust_List_Benchmark: Time to remove all elements: 1660 ms
+[10391.283314] Rust_List_Benchmark: Benchmark 174-th completed.
+[10391.285414] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 175
+[10396.245919] Rust_List_Benchmark: Starting 175-th list_head benchmark module...
+[10397.223870] Rust_List_Benchmark: Time to insert 15000000 elements at front: 958 ms
+[10398.233117] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1009 ms
+[10399.018024] Rust_List_Benchmark: Time to iterate 15000000 elements: 784 ms
+[10400.666871] Rust_List_Benchmark: Time to remove all elements: 1648 ms
+[10400.666876] Rust_List_Benchmark: Benchmark 175-th completed.
+[10400.668760] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 176
+[10405.353011] Rust_List_Benchmark: Starting 176-th list_head benchmark module...
+[10406.272955] Rust_List_Benchmark: Time to insert 15000000 elements at front: 885 ms
+[10407.318829] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1045 ms
+[10408.091430] Rust_List_Benchmark: Time to iterate 15000000 elements: 772 ms
+[10409.726222] Rust_List_Benchmark: Time to remove all elements: 1634 ms
+[10409.726292] Rust_List_Benchmark: Benchmark 176-th completed.
+[10409.728328] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 177
+[10414.748169] Rust_List_Benchmark: Starting 177-th list_head benchmark module...
+[10415.694145] Rust_List_Benchmark: Time to insert 15000000 elements at front: 914 ms
+[10416.803184] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1109 ms
+[10417.560136] Rust_List_Benchmark: Time to iterate 15000000 elements: 756 ms
+[10419.261203] Rust_List_Benchmark: Time to remove all elements: 1700 ms
+[10419.261244] Rust_List_Benchmark: Benchmark 177-th completed.
+[10419.263160] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 178
+[10424.033802] Rust_List_Benchmark: Starting 178-th list_head benchmark module...
+[10424.961326] Rust_List_Benchmark: Time to insert 15000000 elements at front: 893 ms
+[10426.009273] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1047 ms
+[10426.779066] Rust_List_Benchmark: Time to iterate 15000000 elements: 769 ms
+[10428.454397] Rust_List_Benchmark: Time to remove all elements: 1675 ms
+[10428.454436] Rust_List_Benchmark: Benchmark 178-th completed.
+[10428.456759] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 179
+[10433.503726] Rust_List_Benchmark: Starting 179-th list_head benchmark module...
+[10434.422685] Rust_List_Benchmark: Time to insert 15000000 elements at front: 899 ms
+[10435.464237] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1041 ms
+[10436.235004] Rust_List_Benchmark: Time to iterate 15000000 elements: 770 ms
+[10437.894144] Rust_List_Benchmark: Time to remove all elements: 1659 ms
+[10437.894161] Rust_List_Benchmark: Benchmark 179-th completed.
+[10437.895174] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 180
+[10442.625537] Rust_List_Benchmark: Starting 180-th list_head benchmark module...
+[10443.688374] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1040 ms
+[10444.816539] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1128 ms
+[10445.570005] Rust_List_Benchmark: Time to iterate 15000000 elements: 753 ms
+[10447.246566] Rust_List_Benchmark: Time to remove all elements: 1676 ms
+[10447.246635] Rust_List_Benchmark: Benchmark 180-th completed.
+[10447.248658] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 181
+[10452.077440] Rust_List_Benchmark: Starting 181-th list_head benchmark module...
+[10452.967578] Rust_List_Benchmark: Time to insert 15000000 elements at front: 869 ms
+[10454.061821] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1094 ms
+[10454.823983] Rust_List_Benchmark: Time to iterate 15000000 elements: 762 ms
+[10456.468345] Rust_List_Benchmark: Time to remove all elements: 1644 ms
+[10456.468350] Rust_List_Benchmark: Benchmark 181-th completed.
+[10456.470384] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 182
+[10461.328387] Rust_List_Benchmark: Starting 182-th list_head benchmark module...
+[10462.387572] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1025 ms
+[10463.538617] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1150 ms
+[10464.298914] Rust_List_Benchmark: Time to iterate 15000000 elements: 760 ms
+[10466.010663] Rust_List_Benchmark: Time to remove all elements: 1711 ms
+[10466.010703] Rust_List_Benchmark: Benchmark 182-th completed.
+[10466.012653] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 183
+[10470.979073] Rust_List_Benchmark: Starting 183-th list_head benchmark module...
+[10471.947331] Rust_List_Benchmark: Time to insert 15000000 elements at front: 948 ms
+[10473.099355] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1152 ms
+[10473.900720] Rust_List_Benchmark: Time to iterate 15000000 elements: 801 ms
+[10475.600719] Rust_List_Benchmark: Time to remove all elements: 1699 ms
+[10475.600724] Rust_List_Benchmark: Benchmark 183-th completed.
+[10475.602780] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 184
+[10480.560164] Rust_List_Benchmark: Starting 184-th list_head benchmark module...
+[10481.598804] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1018 ms
+[10482.689088] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1090 ms
+[10483.452401] Rust_List_Benchmark: Time to iterate 15000000 elements: 763 ms
+[10485.166741] Rust_List_Benchmark: Time to remove all elements: 1714 ms
+[10485.166746] Rust_List_Benchmark: Benchmark 184-th completed.
+[10485.168778] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 185
+[10490.045234] Rust_List_Benchmark: Starting 185-th list_head benchmark module...
+[10491.033402] Rust_List_Benchmark: Time to insert 15000000 elements at front: 956 ms
+[10492.163542] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1130 ms
+[10492.957901] Rust_List_Benchmark: Time to iterate 15000000 elements: 794 ms
+[10494.637712] Rust_List_Benchmark: Time to remove all elements: 1679 ms
+[10494.637717] Rust_List_Benchmark: Benchmark 185-th completed.
+[10494.639655] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 186
+[10499.523028] Rust_List_Benchmark: Starting 186-th list_head benchmark module...
+[10500.460623] Rust_List_Benchmark: Time to insert 15000000 elements at front: 915 ms
+[10501.546543] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1085 ms
+[10502.360407] Rust_List_Benchmark: Time to iterate 15000000 elements: 813 ms
+[10504.153006] Rust_List_Benchmark: Time to remove all elements: 1792 ms
+[10504.153012] Rust_List_Benchmark: Benchmark 186-th completed.
+[10504.155142] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 187
+[10509.158842] Rust_List_Benchmark: Starting 187-th list_head benchmark module...
+[10510.119328] Rust_List_Benchmark: Time to insert 15000000 elements at front: 928 ms
+[10511.163803] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1044 ms
+[10511.958264] Rust_List_Benchmark: Time to iterate 15000000 elements: 794 ms
+[10513.636094] Rust_List_Benchmark: Time to remove all elements: 1677 ms
+[10513.636100] Rust_List_Benchmark: Benchmark 187-th completed.
+[10513.638152] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 188
+[10518.324616] Rust_List_Benchmark: Starting 188-th list_head benchmark module...
+[10519.459927] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1105 ms
+[10520.606833] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1146 ms
+[10521.388878] Rust_List_Benchmark: Time to iterate 15000000 elements: 782 ms
+[10523.042913] Rust_List_Benchmark: Time to remove all elements: 1654 ms
+[10523.042918] Rust_List_Benchmark: Benchmark 188-th completed.
+[10523.044863] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 189
+[10527.501524] Rust_List_Benchmark: Starting 189-th list_head benchmark module...
+[10528.510377] Rust_List_Benchmark: Time to insert 15000000 elements at front: 982 ms
+[10529.695386] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1185 ms
+[10530.463493] Rust_List_Benchmark: Time to iterate 15000000 elements: 768 ms
+[10532.168218] Rust_List_Benchmark: Time to remove all elements: 1704 ms
+[10532.168223] Rust_List_Benchmark: Benchmark 189-th completed.
+[10532.170353] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 190
+[10537.049456] Rust_List_Benchmark: Starting 190-th list_head benchmark module...
+[10538.013566] Rust_List_Benchmark: Time to insert 15000000 elements at front: 943 ms
+[10539.183989] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1170 ms
+[10539.953363] Rust_List_Benchmark: Time to iterate 15000000 elements: 769 ms
+[10541.621939] Rust_List_Benchmark: Time to remove all elements: 1668 ms
+[10541.621944] Rust_List_Benchmark: Benchmark 190-th completed.
+[10541.623974] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 191
+[10546.616994] Rust_List_Benchmark: Starting 191-th list_head benchmark module...
+[10547.574827] Rust_List_Benchmark: Time to insert 15000000 elements at front: 925 ms
+[10548.693217] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1118 ms
+[10549.484704] Rust_List_Benchmark: Time to iterate 15000000 elements: 791 ms
+[10551.142308] Rust_List_Benchmark: Time to remove all elements: 1657 ms
+[10551.142347] Rust_List_Benchmark: Benchmark 191-th completed.
+[10551.144158] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 192
+[10555.814238] Rust_List_Benchmark: Starting 192-th list_head benchmark module...
+[10556.873015] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1038 ms
+[10557.986798] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1113 ms
+[10558.754817] Rust_List_Benchmark: Time to iterate 15000000 elements: 768 ms
+[10560.440073] Rust_List_Benchmark: Time to remove all elements: 1685 ms
+[10560.440079] Rust_List_Benchmark: Benchmark 192-th completed.
+[10560.442067] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 193
+[10565.240722] Rust_List_Benchmark: Starting 193-th list_head benchmark module...
+[10566.154602] Rust_List_Benchmark: Time to insert 15000000 elements at front: 894 ms
+[10567.209515] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1054 ms
+[10568.009429] Rust_List_Benchmark: Time to iterate 15000000 elements: 799 ms
+[10569.731321] Rust_List_Benchmark: Time to remove all elements: 1721 ms
+[10569.731362] Rust_List_Benchmark: Benchmark 193-th completed.
+[10569.733459] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 194
+[10574.389893] Rust_List_Benchmark: Starting 194-th list_head benchmark module...
+[10575.352115] Rust_List_Benchmark: Time to insert 15000000 elements at front: 933 ms
+[10576.521113] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1169 ms
+[10577.284363] Rust_List_Benchmark: Time to iterate 15000000 elements: 763 ms
+[10578.968217] Rust_List_Benchmark: Time to remove all elements: 1683 ms
+[10578.968222] Rust_List_Benchmark: Benchmark 194-th completed.
+[10578.970335] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 195
+[10583.805404] Rust_List_Benchmark: Starting 195-th list_head benchmark module...
+[10584.766389] Rust_List_Benchmark: Time to insert 15000000 elements at front: 932 ms
+[10585.867419] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1101 ms
+[10586.650877] Rust_List_Benchmark: Time to iterate 15000000 elements: 783 ms
+[10588.326889] Rust_List_Benchmark: Time to remove all elements: 1676 ms
+[10588.326904] Rust_List_Benchmark: Benchmark 195-th completed.
+[10588.328835] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 196
+[10593.167035] Rust_List_Benchmark: Starting 196-th list_head benchmark module...
+[10594.175145] Rust_List_Benchmark: Time to insert 15000000 elements at front: 988 ms
+[10595.271950] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1096 ms
+[10596.043283] Rust_List_Benchmark: Time to iterate 15000000 elements: 771 ms
+[10597.729347] Rust_List_Benchmark: Time to remove all elements: 1686 ms
+[10597.729352] Rust_List_Benchmark: Benchmark 196-th completed.
+[10597.731384] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 197
+[10602.615467] Rust_List_Benchmark: Starting 197-th list_head benchmark module...
+[10603.565248] Rust_List_Benchmark: Time to insert 15000000 elements at front: 929 ms
+[10604.641810] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1076 ms
+[10605.429800] Rust_List_Benchmark: Time to iterate 15000000 elements: 788 ms
+[10607.112669] Rust_List_Benchmark: Time to remove all elements: 1682 ms
+[10607.112674] Rust_List_Benchmark: Benchmark 197-th completed.
+[10607.114597] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 198
+[10611.905335] Rust_List_Benchmark: Starting 198-th list_head benchmark module...
+[10612.878603] Rust_List_Benchmark: Time to insert 15000000 elements at front: 944 ms
+[10614.027958] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1149 ms
+[10614.807386] Rust_List_Benchmark: Time to iterate 15000000 elements: 779 ms
+[10616.517438] Rust_List_Benchmark: Time to remove all elements: 1710 ms
+[10616.517443] Rust_List_Benchmark: Benchmark 198-th completed.
+[10616.519488] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 199
+[10621.388810] Rust_List_Benchmark: Starting 199-th list_head benchmark module...
+[10622.422864] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1003 ms
+[10623.493056] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1070 ms
+[10624.262692] Rust_List_Benchmark: Time to iterate 15000000 elements: 769 ms
+[10625.977198] Rust_List_Benchmark: Time to remove all elements: 1714 ms
+[10625.977204] Rust_List_Benchmark: Benchmark 199-th completed.
+[10625.979762] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 200
+[10630.767852] Rust_List_Benchmark: Starting 200-th list_head benchmark module...
+[10631.650376] Rust_List_Benchmark: Time to insert 15000000 elements at front: 862 ms
+[10632.803774] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1153 ms
+[10633.600045] Rust_List_Benchmark: Time to iterate 15000000 elements: 796 ms
+[10635.316577] Rust_List_Benchmark: Time to remove all elements: 1716 ms
+[10635.316582] Rust_List_Benchmark: Benchmark 200-th completed.
+[10635.318219] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 201
+[10640.098245] Rust_List_Benchmark: Starting 201-th list_head benchmark module...
+[10641.092336] Rust_List_Benchmark: Time to insert 15000000 elements at front: 964 ms
+[10642.174541] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1082 ms
+[10642.912928] Rust_List_Benchmark: Time to iterate 15000000 elements: 738 ms
+[10644.612414] Rust_List_Benchmark: Time to remove all elements: 1699 ms
+[10644.612419] Rust_List_Benchmark: Benchmark 201-th completed.
+[10644.614591] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 202
+[10649.570828] Rust_List_Benchmark: Starting 202-th list_head benchmark module...
+[10650.596860] Rust_List_Benchmark: Time to insert 15000000 elements at front: 992 ms
+[10651.680063] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1083 ms
+[10652.414322] Rust_List_Benchmark: Time to iterate 15000000 elements: 734 ms
+[10654.127094] Rust_List_Benchmark: Time to remove all elements: 1712 ms
+[10654.127100] Rust_List_Benchmark: Benchmark 202-th completed.
+[10654.129255] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 203
+[10659.086829] Rust_List_Benchmark: Starting 203-th list_head benchmark module...
+[10659.996734] Rust_List_Benchmark: Time to insert 15000000 elements at front: 890 ms
+[10661.107799] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1111 ms
+[10661.891317] Rust_List_Benchmark: Time to iterate 15000000 elements: 783 ms
+[10663.579399] Rust_List_Benchmark: Time to remove all elements: 1688 ms
+[10663.579405] Rust_List_Benchmark: Benchmark 203-th completed.
+[10663.581452] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 204
+[10668.211661] Rust_List_Benchmark: Starting 204-th list_head benchmark module...
+[10669.128263] Rust_List_Benchmark: Time to insert 15000000 elements at front: 891 ms
+[10670.246931] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1118 ms
+[10671.002658] Rust_List_Benchmark: Time to iterate 15000000 elements: 755 ms
+[10672.689348] Rust_List_Benchmark: Time to remove all elements: 1686 ms
+[10672.689353] Rust_List_Benchmark: Benchmark 204-th completed.
+[10672.691524] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 205
+[10677.367075] Rust_List_Benchmark: Starting 205-th list_head benchmark module...
+[10678.362528] Rust_List_Benchmark: Time to insert 15000000 elements at front: 967 ms
+[10679.500509] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1138 ms
+[10680.282688] Rust_List_Benchmark: Time to iterate 15000000 elements: 782 ms
+[10681.961417] Rust_List_Benchmark: Time to remove all elements: 1678 ms
+[10681.961422] Rust_List_Benchmark: Benchmark 205-th completed.
+[10681.963169] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 206
+[10686.972709] Rust_List_Benchmark: Starting 206-th list_head benchmark module...
+[10687.995562] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1001 ms
+[10689.156707] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1161 ms
+[10689.902431] Rust_List_Benchmark: Time to iterate 15000000 elements: 745 ms
+[10691.594110] Rust_List_Benchmark: Time to remove all elements: 1691 ms
+[10691.594115] Rust_List_Benchmark: Benchmark 206-th completed.
+[10691.596148] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 207
+[10696.298663] Rust_List_Benchmark: Starting 207-th list_head benchmark module...
+[10697.341051] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1021 ms
+[10698.405527] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1064 ms
+[10699.198219] Rust_List_Benchmark: Time to iterate 15000000 elements: 792 ms
+[10700.857483] Rust_List_Benchmark: Time to remove all elements: 1659 ms
+[10700.857488] Rust_List_Benchmark: Benchmark 207-th completed.
+[10700.859468] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 208
+[10705.787874] Rust_List_Benchmark: Starting 208-th list_head benchmark module...
+[10706.745441] Rust_List_Benchmark: Time to insert 15000000 elements at front: 936 ms
+[10707.835328] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1089 ms
+[10708.619109] Rust_List_Benchmark: Time to iterate 15000000 elements: 783 ms
+[10710.293862] Rust_List_Benchmark: Time to remove all elements: 1674 ms
+[10710.293868] Rust_List_Benchmark: Benchmark 208-th completed.
+[10710.295979] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 209
+[10715.216433] Rust_List_Benchmark: Starting 209-th list_head benchmark module...
+[10716.234222] Rust_List_Benchmark: Time to insert 15000000 elements at front: 992 ms
+[10717.297822] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1063 ms
+[10718.081523] Rust_List_Benchmark: Time to iterate 15000000 elements: 783 ms
+[10719.782138] Rust_List_Benchmark: Time to remove all elements: 1700 ms
+[10719.782144] Rust_List_Benchmark: Benchmark 209-th completed.
+[10719.783698] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 210
+[10724.850444] Rust_List_Benchmark: Starting 210-th list_head benchmark module...
+[10725.907441] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1030 ms
+[10727.077789] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1170 ms
+[10727.865515] Rust_List_Benchmark: Time to iterate 15000000 elements: 787 ms
+[10729.582033] Rust_List_Benchmark: Time to remove all elements: 1716 ms
+[10729.582040] Rust_List_Benchmark: Benchmark 210-th completed.
+[10729.584377] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 211
+[10734.316056] Rust_List_Benchmark: Starting 211-th list_head benchmark module...
+[10735.282303] Rust_List_Benchmark: Time to insert 15000000 elements at front: 946 ms
+[10736.422167] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1139 ms
+[10737.194628] Rust_List_Benchmark: Time to iterate 15000000 elements: 772 ms
+[10738.920279] Rust_List_Benchmark: Time to remove all elements: 1725 ms
+[10738.920285] Rust_List_Benchmark: Benchmark 211-th completed.
+[10738.922609] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 212
+[10743.768934] Rust_List_Benchmark: Starting 212-th list_head benchmark module...
+[10744.760288] Rust_List_Benchmark: Time to insert 15000000 elements at front: 960 ms
+[10745.980056] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1219 ms
+[10746.736800] Rust_List_Benchmark: Time to iterate 15000000 elements: 756 ms
+[10748.439861] Rust_List_Benchmark: Time to remove all elements: 1703 ms
+[10748.439903] Rust_List_Benchmark: Benchmark 212-th completed.
+[10748.441825] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 213
+[10753.276396] Rust_List_Benchmark: Starting 213-th list_head benchmark module...
+[10754.331228] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1027 ms
+[10755.373109] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1041 ms
+[10756.159608] Rust_List_Benchmark: Time to iterate 15000000 elements: 786 ms
+[10757.809733] Rust_List_Benchmark: Time to remove all elements: 1650 ms
+[10757.809739] Rust_List_Benchmark: Benchmark 213-th completed.
+[10757.811850] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 214
+[10762.715171] Rust_List_Benchmark: Starting 214-th list_head benchmark module...
+[10763.630238] Rust_List_Benchmark: Time to insert 15000000 elements at front: 895 ms
+[10764.757120] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1126 ms
+[10765.543276] Rust_List_Benchmark: Time to iterate 15000000 elements: 786 ms
+[10767.209170] Rust_List_Benchmark: Time to remove all elements: 1665 ms
+[10767.209175] Rust_List_Benchmark: Benchmark 214-th completed.
+[10767.210890] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 215
+[10772.293423] Rust_List_Benchmark: Starting 215-th list_head benchmark module...
+[10773.234002] Rust_List_Benchmark: Time to insert 15000000 elements at front: 920 ms
+[10774.316479] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1082 ms
+[10775.064535] Rust_List_Benchmark: Time to iterate 15000000 elements: 748 ms
+[10776.715465] Rust_List_Benchmark: Time to remove all elements: 1650 ms
+[10776.715504] Rust_List_Benchmark: Benchmark 215-th completed.
+[10776.717721] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 216
+[10781.577265] Rust_List_Benchmark: Starting 216-th list_head benchmark module...
+[10782.608430] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1010 ms
+[10783.709776] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1101 ms
+[10784.471205] Rust_List_Benchmark: Time to iterate 15000000 elements: 761 ms
+[10786.210406] Rust_List_Benchmark: Time to remove all elements: 1739 ms
+[10786.210447] Rust_List_Benchmark: Benchmark 216-th completed.
+[10786.212648] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 217
+[10790.974932] Rust_List_Benchmark: Starting 217-th list_head benchmark module...
+[10791.962468] Rust_List_Benchmark: Time to insert 15000000 elements at front: 967 ms
+[10793.162148] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1199 ms
+[10793.923503] Rust_List_Benchmark: Time to iterate 15000000 elements: 761 ms
+[10795.634474] Rust_List_Benchmark: Time to remove all elements: 1710 ms
+[10795.634515] Rust_List_Benchmark: Benchmark 217-th completed.
+[10795.636603] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 218
+[10800.567406] Rust_List_Benchmark: Starting 218-th list_head benchmark module...
+[10801.523780] Rust_List_Benchmark: Time to insert 15000000 elements at front: 936 ms
+[10802.630164] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1106 ms
+[10803.420753] Rust_List_Benchmark: Time to iterate 15000000 elements: 790 ms
+[10805.116916] Rust_List_Benchmark: Time to remove all elements: 1696 ms
+[10805.116922] Rust_List_Benchmark: Benchmark 218-th completed.
+[10805.119014] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 219
+[10809.990945] Rust_List_Benchmark: Starting 219-th list_head benchmark module...
+[10810.978209] Rust_List_Benchmark: Time to insert 15000000 elements at front: 965 ms
+[10812.133700] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1155 ms
+[10812.922167] Rust_List_Benchmark: Time to iterate 15000000 elements: 788 ms
+[10814.658012] Rust_List_Benchmark: Time to remove all elements: 1735 ms
+[10814.658017] Rust_List_Benchmark: Benchmark 219-th completed.
+[10814.660193] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 220
+[10819.350171] Rust_List_Benchmark: Starting 220-th list_head benchmark module...
+[10820.323678] Rust_List_Benchmark: Time to insert 15000000 elements at front: 944 ms
+[10821.382325] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1058 ms
+[10822.160811] Rust_List_Benchmark: Time to iterate 15000000 elements: 778 ms
+[10823.827228] Rust_List_Benchmark: Time to remove all elements: 1666 ms
+[10823.827266] Rust_List_Benchmark: Benchmark 220-th completed.
+[10823.829103] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 221
+[10828.612141] Rust_List_Benchmark: Starting 221-th list_head benchmark module...
+[10829.701280] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1054 ms
+[10830.741915] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1040 ms
+[10831.512914] Rust_List_Benchmark: Time to iterate 15000000 elements: 770 ms
+[10833.210002] Rust_List_Benchmark: Time to remove all elements: 1697 ms
+[10833.210040] Rust_List_Benchmark: Benchmark 221-th completed.
+[10833.212134] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 222
+[10837.883365] Rust_List_Benchmark: Starting 222-th list_head benchmark module...
+[10838.862748] Rust_List_Benchmark: Time to insert 15000000 elements at front: 956 ms
+[10840.003464] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1140 ms
+[10840.771132] Rust_List_Benchmark: Time to iterate 15000000 elements: 767 ms
+[10842.494266] Rust_List_Benchmark: Time to remove all elements: 1723 ms
+[10842.494271] Rust_List_Benchmark: Benchmark 222-th completed.
+[10842.496269] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 223
+[10847.262573] Rust_List_Benchmark: Starting 223-th list_head benchmark module...
+[10848.210719] Rust_List_Benchmark: Time to insert 15000000 elements at front: 925 ms
+[10849.278038] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1067 ms
+[10850.010236] Rust_List_Benchmark: Time to iterate 15000000 elements: 732 ms
+[10851.721898] Rust_List_Benchmark: Time to remove all elements: 1711 ms
+[10851.721937] Rust_List_Benchmark: Benchmark 223-th completed.
+[10851.723975] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 224
+[10856.548502] Rust_List_Benchmark: Starting 224-th list_head benchmark module...
+[10857.525776] Rust_List_Benchmark: Time to insert 15000000 elements at front: 953 ms
+[10858.704464] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1178 ms
+[10859.481445] Rust_List_Benchmark: Time to iterate 15000000 elements: 776 ms
+[10861.202957] Rust_List_Benchmark: Time to remove all elements: 1721 ms
+[10861.202963] Rust_List_Benchmark: Benchmark 224-th completed.
+[10861.205102] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 225
+[10865.852543] Rust_List_Benchmark: Starting 225-th list_head benchmark module...
+[10866.807201] Rust_List_Benchmark: Time to insert 15000000 elements at front: 921 ms
+[10867.992682] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1185 ms
+[10868.738688] Rust_List_Benchmark: Time to iterate 15000000 elements: 745 ms
+[10870.436076] Rust_List_Benchmark: Time to remove all elements: 1697 ms
+[10870.436115] Rust_List_Benchmark: Benchmark 225-th completed.
+[10870.438306] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 226
+[10875.279845] Rust_List_Benchmark: Starting 226-th list_head benchmark module...
+[10876.350562] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1039 ms
+[10877.461060] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1110 ms
+[10878.229105] Rust_List_Benchmark: Time to iterate 15000000 elements: 768 ms
+[10879.989455] Rust_List_Benchmark: Time to remove all elements: 1760 ms
+[10879.989460] Rust_List_Benchmark: Benchmark 226-th completed.
+[10879.991760] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 227
+[10884.834444] Rust_List_Benchmark: Starting 227-th list_head benchmark module...
+[10885.769032] Rust_List_Benchmark: Time to insert 15000000 elements at front: 914 ms
+[10886.815413] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1046 ms
+[10887.580374] Rust_List_Benchmark: Time to iterate 15000000 elements: 764 ms
+[10889.339108] Rust_List_Benchmark: Time to remove all elements: 1758 ms
+[10889.339182] Rust_List_Benchmark: Benchmark 227-th completed.
+[10889.341299] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 228
+[10894.093255] Rust_List_Benchmark: Starting 228-th list_head benchmark module...
+[10895.064587] Rust_List_Benchmark: Time to insert 15000000 elements at front: 948 ms
+[10896.159027] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1094 ms
+[10896.989399] Rust_List_Benchmark: Time to iterate 15000000 elements: 830 ms
+[10898.662481] Rust_List_Benchmark: Time to remove all elements: 1672 ms
+[10898.662487] Rust_List_Benchmark: Benchmark 228-th completed.
+[10898.664389] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 229
+[10903.550622] Rust_List_Benchmark: Starting 229-th list_head benchmark module...
+[10904.673215] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1094 ms
+[10905.732152] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1058 ms
+[10906.503800] Rust_List_Benchmark: Time to iterate 15000000 elements: 771 ms
+[10908.219765] Rust_List_Benchmark: Time to remove all elements: 1715 ms
+[10908.219770] Rust_List_Benchmark: Benchmark 229-th completed.
+[10908.221858] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 230
+[10913.040787] Rust_List_Benchmark: Starting 230-th list_head benchmark module...
+[10914.046202] Rust_List_Benchmark: Time to insert 15000000 elements at front: 973 ms
+[10915.138632] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1092 ms
+[10915.915367] Rust_List_Benchmark: Time to iterate 15000000 elements: 776 ms
+[10917.582034] Rust_List_Benchmark: Time to remove all elements: 1666 ms
+[10917.582040] Rust_List_Benchmark: Benchmark 230-th completed.
+[10917.584159] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 231
+[10922.363835] Rust_List_Benchmark: Starting 231-th list_head benchmark module...
+[10923.347260] Rust_List_Benchmark: Time to insert 15000000 elements at front: 949 ms
+[10924.479304] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1132 ms
+[10925.279041] Rust_List_Benchmark: Time to iterate 15000000 elements: 799 ms
+[10927.012333] Rust_List_Benchmark: Time to remove all elements: 1733 ms
+[10927.012385] Rust_List_Benchmark: Benchmark 231-th completed.
+[10927.014473] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 232
+[10931.721573] Rust_List_Benchmark: Starting 232-th list_head benchmark module...
+[10932.871979] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1114 ms
+[10933.994041] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1122 ms
+[10934.750970] Rust_List_Benchmark: Time to iterate 15000000 elements: 756 ms
+[10936.494645] Rust_List_Benchmark: Time to remove all elements: 1743 ms
+[10936.494651] Rust_List_Benchmark: Benchmark 232-th completed.
+[10936.496799] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 233
+[10941.402250] Rust_List_Benchmark: Starting 233-th list_head benchmark module...
+[10942.551624] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1125 ms
+[10943.645864] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1094 ms
+[10944.430041] Rust_List_Benchmark: Time to iterate 15000000 elements: 784 ms
+[10946.095446] Rust_List_Benchmark: Time to remove all elements: 1665 ms
+[10946.095452] Rust_List_Benchmark: Benchmark 233-th completed.
+[10946.097523] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 234
+[10950.811828] Rust_List_Benchmark: Starting 234-th list_head benchmark module...
+[10951.833609] Rust_List_Benchmark: Time to insert 15000000 elements at front: 993 ms
+[10953.000282] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1166 ms
+[10953.751989] Rust_List_Benchmark: Time to iterate 15000000 elements: 751 ms
+[10955.489425] Rust_List_Benchmark: Time to remove all elements: 1737 ms
+[10955.489430] Rust_List_Benchmark: Benchmark 234-th completed.
+[10955.491479] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 235
+[10960.437302] Rust_List_Benchmark: Starting 235-th list_head benchmark module...
+[10961.416371] Rust_List_Benchmark: Time to insert 15000000 elements at front: 941 ms
+[10962.590542] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1174 ms
+[10963.349566] Rust_List_Benchmark: Time to iterate 15000000 elements: 758 ms
+[10965.078436] Rust_List_Benchmark: Time to remove all elements: 1728 ms
+[10965.078476] Rust_List_Benchmark: Benchmark 235-th completed.
+[10965.080553] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 236
+[10970.072968] Rust_List_Benchmark: Starting 236-th list_head benchmark module...
+[10971.107550] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1001 ms
+[10972.125226] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1017 ms
+[10972.910841] Rust_List_Benchmark: Time to iterate 15000000 elements: 785 ms
+[10974.561893] Rust_List_Benchmark: Time to remove all elements: 1651 ms
+[10974.561898] Rust_List_Benchmark: Benchmark 236-th completed.
+[10974.564102] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 237
+[10979.488242] Rust_List_Benchmark: Starting 237-th list_head benchmark module...
+[10980.549702] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1028 ms
+[10981.748989] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1199 ms
+[10982.512037] Rust_List_Benchmark: Time to iterate 15000000 elements: 763 ms
+[10984.240949] Rust_List_Benchmark: Time to remove all elements: 1728 ms
+[10984.240955] Rust_List_Benchmark: Benchmark 237-th completed.
+[10984.243034] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 238
+[10988.812405] Rust_List_Benchmark: Starting 238-th list_head benchmark module...
+[10989.738408] Rust_List_Benchmark: Time to insert 15000000 elements at front: 906 ms
+[10990.787491] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1049 ms
+[10991.562712] Rust_List_Benchmark: Time to iterate 15000000 elements: 775 ms
+[10993.250457] Rust_List_Benchmark: Time to remove all elements: 1687 ms
+[10993.250463] Rust_List_Benchmark: Benchmark 238-th completed.
+[10993.252584] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 239
+[10998.207629] Rust_List_Benchmark: Starting 239-th list_head benchmark module...
+[10999.146952] Rust_List_Benchmark: Time to insert 15000000 elements at front: 912 ms
+[11000.322259] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1175 ms
+[11001.111465] Rust_List_Benchmark: Time to iterate 15000000 elements: 789 ms
+[11002.950341] Rust_List_Benchmark: Time to remove all elements: 1838 ms
+[11002.950347] Rust_List_Benchmark: Benchmark 239-th completed.
+[11002.952302] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 240
+[11007.865865] Rust_List_Benchmark: Starting 240-th list_head benchmark module...
+[11008.890957] Rust_List_Benchmark: Time to insert 15000000 elements at front: 994 ms
+[11010.071703] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1180 ms
+[11010.811642] Rust_List_Benchmark: Time to iterate 15000000 elements: 739 ms
+[11012.517393] Rust_List_Benchmark: Time to remove all elements: 1705 ms
+[11012.517399] Rust_List_Benchmark: Benchmark 240-th completed.
+[11012.519604] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 241
+[11017.470570] Rust_List_Benchmark: Starting 241-th list_head benchmark module...
+[11018.613826] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1123 ms
+[11019.770824] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1156 ms
+[11020.514285] Rust_List_Benchmark: Time to iterate 15000000 elements: 743 ms
+[11022.226973] Rust_List_Benchmark: Time to remove all elements: 1712 ms
+[11022.227012] Rust_List_Benchmark: Benchmark 241-th completed.
+[11022.229173] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 242
+[11026.937347] Rust_List_Benchmark: Starting 242-th list_head benchmark module...
+[11028.014319] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1056 ms
+[11029.122143] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1107 ms
+[11029.891688] Rust_List_Benchmark: Time to iterate 15000000 elements: 769 ms
+[11031.553085] Rust_List_Benchmark: Time to remove all elements: 1661 ms
+[11031.553090] Rust_List_Benchmark: Benchmark 242-th completed.
+[11031.554936] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 243
+[11036.374123] Rust_List_Benchmark: Starting 243-th list_head benchmark module...
+[11037.342640] Rust_List_Benchmark: Time to insert 15000000 elements at front: 938 ms
+[11038.433542] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1090 ms
+[11039.199310] Rust_List_Benchmark: Time to iterate 15000000 elements: 765 ms
+[11040.930410] Rust_List_Benchmark: Time to remove all elements: 1731 ms
+[11040.930455] Rust_List_Benchmark: Benchmark 243-th completed.
+[11040.932637] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 244
+[11045.821805] Rust_List_Benchmark: Starting 244-th list_head benchmark module...
+[11046.810909] Rust_List_Benchmark: Time to insert 15000000 elements at front: 958 ms
+[11047.949469] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1138 ms
+[11048.707256] Rust_List_Benchmark: Time to iterate 15000000 elements: 757 ms
+[11050.430481] Rust_List_Benchmark: Time to remove all elements: 1723 ms
+[11050.430486] Rust_List_Benchmark: Benchmark 244-th completed.
+[11050.432953] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 245
+[11055.305078] Rust_List_Benchmark: Starting 245-th list_head benchmark module...
+[11056.355772] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1024 ms
+[11057.491599] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1135 ms
+[11058.241304] Rust_List_Benchmark: Time to iterate 15000000 elements: 749 ms
+[11059.971049] Rust_List_Benchmark: Time to remove all elements: 1729 ms
+[11059.971055] Rust_List_Benchmark: Benchmark 245-th completed.
+[11059.973079] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 246
+[11064.865338] Rust_List_Benchmark: Starting 246-th list_head benchmark module...
+[11065.950587] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1050 ms
+[11067.108956] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1158 ms
+[11067.903496] Rust_List_Benchmark: Time to iterate 15000000 elements: 794 ms
+[11069.573652] Rust_List_Benchmark: Time to remove all elements: 1670 ms
+[11069.573692] Rust_List_Benchmark: Benchmark 246-th completed.
+[11069.575970] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 247
+[11074.426401] Rust_List_Benchmark: Starting 247-th list_head benchmark module...
+[11075.529251] Rust_List_Benchmark: Time to insert 15000000 elements at front: 1082 ms
+[11076.559580] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1030 ms
+[11077.371225] Rust_List_Benchmark: Time to iterate 15000000 elements: 811 ms
+[11079.063425] Rust_List_Benchmark: Time to remove all elements: 1692 ms
+[11079.063463] Rust_List_Benchmark: Benchmark 247-th completed.
+[11079.065440] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 248
+[11084.163055] Rust_List_Benchmark: Starting 248-th list_head benchmark module...
+[11085.097845] Rust_List_Benchmark: Time to insert 15000000 elements at front: 913 ms
+[11086.248248] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1150 ms
+[11087.050002] Rust_List_Benchmark: Time to iterate 15000000 elements: 801 ms
+[11088.741668] Rust_List_Benchmark: Time to remove all elements: 1691 ms
+[11088.741706] Rust_List_Benchmark: Benchmark 248-th completed.
+[11088.743724] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 249
+[11093.584304] Rust_List_Benchmark: Starting 249-th list_head benchmark module...
+[11094.484139] Rust_List_Benchmark: Time to insert 15000000 elements at front: 880 ms
+[11095.570144] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1086 ms
+[11096.363546] Rust_List_Benchmark: Time to iterate 15000000 elements: 793 ms
+[11098.154725] Rust_List_Benchmark: Time to remove all elements: 1791 ms
+[11098.154735] Rust_List_Benchmark: Benchmark 249-th completed.
+[11098.156753] Rust_List_Benchmark: Module initialization complete
+Logs for iteration 250
+[11102.841251] Rust_List_Benchmark: Starting 250-th list_head benchmark module...
+[11103.771541] Rust_List_Benchmark: Time to insert 15000000 elements at front: 907 ms
+[11104.920344] Rust_List_Benchmark: Time to insert 15000000 elements at back: 1148 ms
+[11105.713372] Rust_List_Benchmark: Time to iterate 15000000 elements: 793 ms
+[11107.418538] Rust_List_Benchmark: Time to remove all elements: 1705 ms
+[11107.418543] Rust_List_Benchmark: Benchmark 250-th completed.
+[11107.420618] Rust_List_Benchmark: Module initialization complete

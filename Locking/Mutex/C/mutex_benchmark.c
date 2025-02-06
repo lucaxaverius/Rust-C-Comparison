@@ -10,17 +10,19 @@ MODULE_DESCRIPTION("Mutex Lock/Unlock Performance Test");
 
 #define NUM_ITERATIONS 20000000
 #define NUM_EXECUTION 30
-#define COUNT 2
+#define COUNT 250
 
+
+int mutex_test_init(void);
+EXPORT_SYMBOL(mutex_test_init);
 int mutex_benchmark_test(int count);
 EXPORT_SYMBOL(mutex_benchmark_test);
 void take_and_release(void);
 EXPORT_SYMBOL(take_and_release);
 
-
 static struct mutex test_mutex;
 
-static int mutex_test_init(void)
+int mutex_test_init(void)
 {
     int ret;
 

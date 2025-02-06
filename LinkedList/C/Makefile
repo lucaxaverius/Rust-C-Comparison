@@ -3,7 +3,6 @@
 KDIR ?= /lib/modules/$(shell uname -r)/build
 obj-m := list_benchmark.o 
 
-
 # Add custom flags for debugging and preventing inlining
 EXTRA_CFLAGS := -pg -fno-inline
 

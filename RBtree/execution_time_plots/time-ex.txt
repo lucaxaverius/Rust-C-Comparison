@@ -1,44 +1,44 @@
 Operation Statistics:
 --------------------------------------------------
 Operation: c_insert
-  Mean: 873.58 ms
-  Min: 787 ms
-  Max: 1069 ms
-  Median: 860.5 ms
-  Std Dev: 49.19 ms
+  Mean: 1145.59 ms
+  Min: 1081 ms
+  Max: 1247 ms
+  Median: 1140.5 ms
+  Std Dev: 32.81 ms
 --------------------------------------------------
 Operation: c_iterate
-  Mean: 182.92 ms
-  Min: 163 ms
-  Max: 211 ms
-  Median: 181.0 ms
-  Std Dev: 8.92 ms
+  Mean: 293.24 ms
+  Min: 272 ms
+  Max: 502 ms
+  Median: 291.0 ms
+  Std Dev: 15.75 ms
 --------------------------------------------------
 Operation: c_remove
-  Mean: 164.77 ms
-  Min: 150 ms
-  Max: 214 ms
-  Median: 162.0 ms
-  Std Dev: 8.86 ms
+  Mean: 282.11 ms
+  Min: 260 ms
+  Max: 720 ms
+  Median: 278.0 ms
+  Std Dev: 30.50 ms
 --------------------------------------------------
 Operation: rust_insert
-  Mean: 846.75 ms
-  Min: 766 ms
-  Max: 1397 ms
-  Median: 839.0 ms
-  Std Dev: 43.54 ms
+  Mean: 772.24 ms
+  Min: 745 ms
+  Max: 822 ms
+  Median: 770.5 ms
+  Std Dev: 15.02 ms
 --------------------------------------------------
 Operation: rust_iterate
-  Mean: 191.87 ms
+  Mean: 170.02 ms
   Min: 163 ms
-  Max: 224 ms
-  Median: 192.0 ms
-  Std Dev: 6.86 ms
+  Max: 177 ms
+  Median: 170.0 ms
+  Std Dev: 2.55 ms
 --------------------------------------------------
 Operation: rust_remove
-  Mean: 187.03 ms
-  Min: 155 ms
-  Max: 254 ms
-  Median: 188.0 ms
-  Std Dev: 10.69 ms
+  Mean: 159.79 ms
+  Min: 154 ms
+  Max: 176 ms
+  Median: 159.0 ms
+  Std Dev: 3.21 ms
 --------------------------------------------------

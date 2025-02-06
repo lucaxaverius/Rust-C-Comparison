@@ -1,58 +1,58 @@
 Operation Statistics:
 --------------------------------------------------
 Operation: c_insert_front
-  Mean: 1273.00 ms
-  Min: 1196 ms
-  Max: 1350 ms
-  Median: 1273.0 ms
-  Std Dev: 77.00 ms
+  Mean: 447.20 ms
+  Min: 412 ms
+  Max: 727 ms
+  Median: 443.0 ms
+  Std Dev: 22.02 ms
 --------------------------------------------------
 Operation: c_insert_back
-  Mean: 1618.50 ms
-  Min: 1597 ms
-  Max: 1640 ms
-  Median: 1618.5 ms
-  Std Dev: 21.50 ms
+  Mean: 487.03 ms
+  Min: 463 ms
+  Max: 775 ms
+  Median: 486.0 ms
+  Std Dev: 19.62 ms
 --------------------------------------------------
 Operation: c_iterate
-  Mean: 891.50 ms
-  Min: 877 ms
-  Max: 906 ms
-  Median: 891.5 ms
-  Std Dev: 14.50 ms
+  Mean: 567.28 ms
+  Min: 521 ms
+  Max: 634 ms
+  Median: 567.0 ms
+  Std Dev: 11.41 ms
 --------------------------------------------------
 Operation: c_remove
-  Mean: 2711.00 ms
-  Min: 2675 ms
-  Max: 2747 ms
-  Median: 2711.0 ms
-  Std Dev: 36.00 ms
+  Mean: 988.58 ms
+  Min: 969 ms
+  Max: 1146 ms
+  Median: 987.0 ms
+  Std Dev: 14.29 ms
 --------------------------------------------------
 Operation: rust_insert_front
-  Mean: 2073.00 ms
-  Min: 2034 ms
-  Max: 2112 ms
-  Median: 2073.0 ms
-  Std Dev: 39.00 ms
+  Mean: 701.62 ms
+  Min: 670 ms
+  Max: 760 ms
+  Median: 700.0 ms
+  Std Dev: 13.85 ms
 --------------------------------------------------
 Operation: rust_insert_back
-  Mean: 2148.00 ms
-  Min: 2136 ms
-  Max: 2160 ms
-  Median: 2148.0 ms
-  Std Dev: 12.00 ms
+  Mean: 717.19 ms
+  Min: 692 ms
+  Max: 737 ms
+  Median: 717.0 ms
+  Std Dev: 8.09 ms
 --------------------------------------------------
 Operation: rust_iterate
-  Mean: 951.50 ms
-  Min: 939 ms
-  Max: 964 ms
-  Median: 951.5 ms
-  Std Dev: 12.50 ms
+  Mean: 712.89 ms
+  Min: 628 ms
+  Max: 754 ms
+  Median: 712.0 ms
+  Std Dev: 15.98 ms
 --------------------------------------------------
 Operation: rust_remove
-  Mean: 3712.50 ms
-  Min: 3696 ms
-  Max: 3729 ms
-  Median: 3712.5 ms
-  Std Dev: 16.50 ms
+  Mean: 1349.38 ms
+  Min: 1316 ms
+  Max: 1549 ms
+  Median: 1346.0 ms
+  Std Dev: 23.61 ms
 --------------------------------------------------
