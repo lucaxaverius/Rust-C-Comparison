@@ -11,8 +11,8 @@ MODULE_DESCRIPTION("ListHead Benchmark Module");
 
 #define NUM_ELEMENTS 15000000
 #define NUM_EXECUTION 30
-#define SEED 12594
-#define I 250
+#define SEED 13344
+#define I 1000
 
 int list_benchmark_test(int seed, int count);
 int list_benchmark_init(void);

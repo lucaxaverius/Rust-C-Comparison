@@ -43,7 +43,7 @@ struct MutexTestModule;
 
 const NUM_ITERATIONS: usize = 20_000_000;
 //const NUM_EXECUTION: usize = 30;
-const ITERATION: i32 = 250;
+const ITERATION: i32 = 1000;
 
 impl kernel::Module for MutexTestModule {
     #[no_mangle]

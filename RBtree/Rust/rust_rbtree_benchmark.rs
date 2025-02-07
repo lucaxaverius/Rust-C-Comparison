@@ -24,8 +24,8 @@ const NUM_ELEMENTS: usize = 1_000_000;
 
 //const NUM_EXECUTION: usize = 50;
 
-const SEED: u32 = 12594;
-const ITERATION: i32 = 250;
+const SEED: u32 = 13344;
+const ITERATION: i32 = 1000;
 
 impl kernel::Module for RBTreeBenchmarkModule {
     #[no_mangle]

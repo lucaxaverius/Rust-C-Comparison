@@ -10,7 +10,7 @@ LOG_FILE="$LOG_DIR/module_logs.txt"
 
 PERF_EVENTS="cycles,instructions,cache-misses,page-faults,branch-misses,cpu-clock,branches"
 I=1         # Initial I value
-N_RUNS=250  # Number of iterations 
+N_RUNS=1000  # Number of iterations 
 
 SUMMARY_FILE="./results/summary.txt"
 CSV_FILE="./results/metrics.csv"
